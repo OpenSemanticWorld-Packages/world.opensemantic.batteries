@@ -48,8 +48,10 @@
         "en": "Electrochemical Test",
         "de": "Elektrochemischer Test"
     },
-    "description": "",
-    "description*": {},
+    "description": "A test performed on an electrochemical device, usually by applying voltage and current",
+    "description*": {
+        "en": "A test performed on an electrochemical device, usually by applying voltage and current"
+    },
     "required": [
         "type"
     ],
