@@ -1,0 +1,29 @@
+{
+    "@context": [
+        "/wiki/Category:OSW8355078074764a82bfddf43a25428a45?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW8355078074764a82bfddf43a25428a45?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "af33780e-29a8-4867-a679-1555d23e8d5e",
+    "title": "VoetschVt4021S",
+    "title*": {
+        "en": "Vötsch VT 4021-S",
+        "de": "Vötsch VT 4021-S"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSWaf33780e29a84867a6791555d23e8d5e"
+            ]
+        }
+    }
+}

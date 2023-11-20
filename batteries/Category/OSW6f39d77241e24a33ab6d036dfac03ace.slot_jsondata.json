@@ -1,0 +1,20 @@
+{
+    "type": [
+        "Category:Category"
+    ],
+    "subclass_of": [
+        "Category:OSW0e7fab2262fb4427ad0fa454bc868a0d"
+    ],
+    "uuid": "6f39d772-41e2-4a33-ab6d-036dfac03ace",
+    "name": "ElectrochemicalTest",
+    "label": [
+        {
+            "text": "Electrochemical Test",
+            "lang": "en"
+        },
+        {
+            "text": "Elektrochemischer Test",
+            "lang": "de"
+        }
+    ]
+}

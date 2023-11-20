@@ -1,0 +1,820 @@
+{
+    "publisher": "OpenSemanticWorld",
+    "publisherURL": "https://github.com/OpenSemanticWorld-Packages/world.opensemantic.batteries",
+    "author": [
+        "Simon Stier",
+        "Lukas Gold"
+    ],
+    "language": "en",
+    "licenseName": "CC BY-NC 4.0",
+    "packages": {
+        "OSW Batteries": {
+            "globalID": "world.opensemantic.batteries",
+            "label": "OSW Batteries",
+            "description": "Provides battery specific items like ElectrochemicalTest, BatteryCell, etc.",
+            "version": "0.1.0",
+            "baseURL": "https://raw.githubusercontent.com/OpenSemanticWorld-Packages/world.opensemantic.batteries/main/batteries/",
+            "pages": [
+                {
+                    "name": "OSWe427aafafbac4262955b9f690a83405d",
+                    "label": "Tool",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSWe427aafafbac4262955b9f690a83405d.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSWe427aafafbac4262955b9f690a83405d.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSWe427aafafbac4262955b9f690a83405d.slot_header.wikitext"
+                        },
+                        "header_template": {
+                            "urlPath": "Category/OSWe427aafafbac4262955b9f690a83405d.slot_header_template.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSWe427aafafbac4262955b9f690a83405d.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSWe427aafafbac4262955b9f690a83405d.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSWc0888a0e5a2549d9bdb931db166ad112.drawio.svg",
+                    "label": "ToolSchema",
+                    "namespace": "NS_FILE",
+                    "urlPath": "File/OSWc0888a0e5a2549d9bdb931db166ad112.drawio.svg.slot_main.wikitext",
+                    "fileURLPath": "File/OSWc0888a0e5a2549d9bdb931db166ad112.drawio.svg",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "File/OSWc0888a0e5a2549d9bdb931db166ad112.drawio.svg.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "File/OSWc0888a0e5a2549d9bdb931db166ad112.drawio.svg.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "File/OSWc0888a0e5a2549d9bdb931db166ad112.drawio.svg.slot_jsondata.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSWf0fe562f422d49c6877490b3dfee2f3f",
+                    "label": "Device",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSWf0fe562f422d49c6877490b3dfee2f3f.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSWf0fe562f422d49c6877490b3dfee2f3f.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSWf0fe562f422d49c6877490b3dfee2f3f.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSWf0fe562f422d49c6877490b3dfee2f3f.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSWf0fe562f422d49c6877490b3dfee2f3f.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSWd33c9f1b89bf4b51b6fd9c3bcae0bc6b.drawio.svg",
+                    "label": "OnDeviceInstancesTypesClassesAndMetaclasses",
+                    "namespace": "NS_FILE",
+                    "urlPath": "File/OSWd33c9f1b89bf4b51b6fd9c3bcae0bc6b.drawio.svg.slot_main.wikitext",
+                    "fileURLPath": "File/OSWd33c9f1b89bf4b51b6fd9c3bcae0bc6b.drawio.svg",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "File/OSWd33c9f1b89bf4b51b6fd9c3bcae0bc6b.drawio.svg.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "File/OSWd33c9f1b89bf4b51b6fd9c3bcae0bc6b.drawio.svg.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "File/OSWd33c9f1b89bf4b51b6fd9c3bcae0bc6b.drawio.svg.slot_jsondata.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSWe0572f2791844010962886b892970b4d",
+                    "label": "ControlledEnvironment",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSWe0572f2791844010962886b892970b4d.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSWe0572f2791844010962886b892970b4d.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSWe0572f2791844010962886b892970b4d.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSWe0572f2791844010962886b892970b4d.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSWe0572f2791844010962886b892970b4d.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSWb3b9ec5cb50d401c9b996ce3009b5c54",
+                    "label": "EnvironmentalTestChamber",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSWb3b9ec5cb50d401c9b996ce3009b5c54.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSWb3b9ec5cb50d401c9b996ce3009b5c54.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSWb3b9ec5cb50d401c9b996ce3009b5c54.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSWb3b9ec5cb50d401c9b996ce3009b5c54.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSWb3b9ec5cb50d401c9b996ce3009b5c54.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSW43b7a7cf767c4c529ac260b117d19773",
+                    "label": "ClimateTestChamber",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSW43b7a7cf767c4c529ac260b117d19773.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSW43b7a7cf767c4c529ac260b117d19773.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSW43b7a7cf767c4c529ac260b117d19773.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSW43b7a7cf767c4c529ac260b117d19773.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSW43b7a7cf767c4c529ac260b117d19773.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSW4ebd1194039943018ace13cd4c94774a",
+                    "label": "TemperatureTestChamber",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSW4ebd1194039943018ace13cd4c94774a.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSW4ebd1194039943018ace13cd4c94774a.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSW4ebd1194039943018ace13cd4c94774a.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSW4ebd1194039943018ace13cd4c94774a.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSW4ebd1194039943018ace13cd4c94774a.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSW5e3a5c9228ad4aec98830900e247ff39",
+                    "label": "MemmertPeltierCooledIncubator",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSW5e3a5c9228ad4aec98830900e247ff39.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSW5e3a5c9228ad4aec98830900e247ff39.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSW5e3a5c9228ad4aec98830900e247ff39.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSW5e3a5c9228ad4aec98830900e247ff39.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSW5e3a5c9228ad4aec98830900e247ff39.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSWa36c243bd489400fb25857c1d9626383",
+                    "label": "MemmertIpp260plus",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSWa36c243bd489400fb25857c1d9626383.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSWa36c243bd489400fb25857c1d9626383.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSWa36c243bd489400fb25857c1d9626383.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSWa36c243bd489400fb25857c1d9626383.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSWa36c243bd489400fb25857c1d9626383.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSW8355078074764a82bfddf43a25428a45",
+                    "label": "VoetschTemperatureTestChamber",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSW8355078074764a82bfddf43a25428a45.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSW8355078074764a82bfddf43a25428a45.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSW8355078074764a82bfddf43a25428a45.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSW8355078074764a82bfddf43a25428a45.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSW8355078074764a82bfddf43a25428a45.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSWaf33780e29a84867a6791555d23e8d5e",
+                    "label": "VoetschVt4021S",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSWaf33780e29a84867a6791555d23e8d5e.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSWaf33780e29a84867a6791555d23e8d5e.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSWaf33780e29a84867a6791555d23e8d5e.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSWaf33780e29a84867a6791555d23e8d5e.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSWaf33780e29a84867a6791555d23e8d5e.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSWf6f9f6c1c8f943909ffe681bca67252a",
+                    "label": "GloveBox",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSWf6f9f6c1c8f943909ffe681bca67252a.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSWf6f9f6c1c8f943909ffe681bca67252a.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSWf6f9f6c1c8f943909ffe681bca67252a.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSWf6f9f6c1c8f943909ffe681bca67252a.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSWf6f9f6c1c8f943909ffe681bca67252a.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSW1849e7e9b69e445da44f50093a1d585b",
+                    "label": "MbraunGloveBox",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSW1849e7e9b69e445da44f50093a1d585b.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSW1849e7e9b69e445da44f50093a1d585b.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSW1849e7e9b69e445da44f50093a1d585b.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSW1849e7e9b69e445da44f50093a1d585b.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSW1849e7e9b69e445da44f50093a1d585b.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSW85ab3eb019fb434aa7075ae6c008ede2",
+                    "label": "MB200MOD",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSW85ab3eb019fb434aa7075ae6c008ede2.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSW85ab3eb019fb434aa7075ae6c008ede2.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSW85ab3eb019fb434aa7075ae6c008ede2.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSW85ab3eb019fb434aa7075ae6c008ede2.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSW85ab3eb019fb434aa7075ae6c008ede2.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSW69729530f3ca4addaf8dd95ea3781607",
+                    "label": "ElectrochemicalTestingDevice",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSW69729530f3ca4addaf8dd95ea3781607.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSW69729530f3ca4addaf8dd95ea3781607.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSW69729530f3ca4addaf8dd95ea3781607.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSW69729530f3ca4addaf8dd95ea3781607.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSW69729530f3ca4addaf8dd95ea3781607.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSWef181c1daf2343fd8c132c39e7d748bd",
+                    "label": "MaccorBatteryTester",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSWef181c1daf2343fd8c132c39e7d748bd.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSWef181c1daf2343fd8c132c39e7d748bd.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSWef181c1daf2343fd8c132c39e7d748bd.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSWef181c1daf2343fd8c132c39e7d748bd.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSWef181c1daf2343fd8c132c39e7d748bd.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSWd5b87e52a61349dbb6077bf2447a7bf4",
+                    "label": "MaccorSeries4000",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSWd5b87e52a61349dbb6077bf2447a7bf4.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSWd5b87e52a61349dbb6077bf2447a7bf4.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSWd5b87e52a61349dbb6077bf2447a7bf4.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSWd5b87e52a61349dbb6077bf2447a7bf4.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSWd5b87e52a61349dbb6077bf2447a7bf4.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSWe5aa96bffb1c4d95be7fbd46142ad203",
+                    "label": "Process",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSWe5aa96bffb1c4d95be7fbd46142ad203.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSWe5aa96bffb1c4d95be7fbd46142ad203.slot_footer.wikitext"
+                        },
+                        "footer_template": {
+                            "urlPath": "Category/OSWe5aa96bffb1c4d95be7fbd46142ad203.slot_footer_template.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSWe5aa96bffb1c4d95be7fbd46142ad203.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSWe5aa96bffb1c4d95be7fbd46142ad203.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSWe5aa96bffb1c4d95be7fbd46142ad203.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSWfa0d5710bc0f45819b61b65fc4fd9656",
+                    "label": "StrictParticipantsProcess",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSWfa0d5710bc0f45819b61b65fc4fd9656.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSWfa0d5710bc0f45819b61b65fc4fd9656.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSWfa0d5710bc0f45819b61b65fc4fd9656.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSWfa0d5710bc0f45819b61b65fc4fd9656.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSWfa0d5710bc0f45819b61b65fc4fd9656.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSW1a271f289649413488e2841580e43a45",
+                    "label": "AdministrativeProcess",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSW1a271f289649413488e2841580e43a45.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSW1a271f289649413488e2841580e43a45.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSW1a271f289649413488e2841580e43a45.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSW1a271f289649413488e2841580e43a45.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSW1a271f289649413488e2841580e43a45.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSW3886740859ae459588fee73d3bb3c83e",
+                    "label": "RiskAssessmentProcess",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSW3886740859ae459588fee73d3bb3c83e.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSW3886740859ae459588fee73d3bb3c83e.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSW3886740859ae459588fee73d3bb3c83e.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSW3886740859ae459588fee73d3bb3c83e.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSW3886740859ae459588fee73d3bb3c83e.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSW0e7fab2262fb4427ad0fa454bc868a0d",
+                    "label": "ElnEntry",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSW0e7fab2262fb4427ad0fa454bc868a0d.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSW0e7fab2262fb4427ad0fa454bc868a0d.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSW0e7fab2262fb4427ad0fa454bc868a0d.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSW0e7fab2262fb4427ad0fa454bc868a0d.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSW0e7fab2262fb4427ad0fa454bc868a0d.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSW47c67760dd164c82b570f58c8269b373",
+                    "label": "PostMortemExperiment",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSW47c67760dd164c82b570f58c8269b373.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSW47c67760dd164c82b570f58c8269b373.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSW47c67760dd164c82b570f58c8269b373.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSW47c67760dd164c82b570f58c8269b373.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSW47c67760dd164c82b570f58c8269b373.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSWafda1f2328804e3a89bf90f8af9c5527",
+                    "label": "BatteryCellOpening",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSWafda1f2328804e3a89bf90f8af9c5527.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSWafda1f2328804e3a89bf90f8af9c5527.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSWafda1f2328804e3a89bf90f8af9c5527.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSWafda1f2328804e3a89bf90f8af9c5527.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSWafda1f2328804e3a89bf90f8af9c5527.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSW6f39d77241e24a33ab6d036dfac03ace",
+                    "label": "ElectrochemicalTest",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSW6f39d77241e24a33ab6d036dfac03ace.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSW6f39d77241e24a33ab6d036dfac03ace.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSW6f39d77241e24a33ab6d036dfac03ace.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSW6f39d77241e24a33ab6d036dfac03ace.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSW6f39d77241e24a33ab6d036dfac03ace.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSWe21775c8dd604739885dfc24c32cc548",
+                    "label": "Procedure",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSWe21775c8dd604739885dfc24c32cc548.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSWe21775c8dd604739885dfc24c32cc548.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSWe21775c8dd604739885dfc24c32cc548.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSWe21775c8dd604739885dfc24c32cc548.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSWe21775c8dd604739885dfc24c32cc548.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSWdda41d4a4ec0421babe0295c6edcb5df",
+                    "label": "ElectrochemicalTestProcedure",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSWdda41d4a4ec0421babe0295c6edcb5df.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSWdda41d4a4ec0421babe0295c6edcb5df.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSWdda41d4a4ec0421babe0295c6edcb5df.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSWdda41d4a4ec0421babe0295c6edcb5df.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSWdda41d4a4ec0421babe0295c6edcb5df.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSWbdb8b449342e4090b44b4f80c5ae9d92",
+                    "label": "MaccorTestProcedure",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSWbdb8b449342e4090b44b4f80c5ae9d92.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSWbdb8b449342e4090b44b4f80c5ae9d92.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSWbdb8b449342e4090b44b4f80c5ae9d92.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSWbdb8b449342e4090b44b4f80c5ae9d92.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSWbdb8b449342e4090b44b4f80c5ae9d92.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSW18f3251c2562407ea7bd7b19791b76f0",
+                    "label": "BioLogicTestProcedure",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSW18f3251c2562407ea7bd7b19791b76f0.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSW18f3251c2562407ea7bd7b19791b76f0.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSW18f3251c2562407ea7bd7b19791b76f0.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSW18f3251c2562407ea7bd7b19791b76f0.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSW18f3251c2562407ea7bd7b19791b76f0.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSW31ca9a739cb24079b36824045c0832aa",
+                    "label": "Material",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSW31ca9a739cb24079b36824045c0832aa.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSW31ca9a739cb24079b36824045c0832aa.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSW31ca9a739cb24079b36824045c0832aa.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSW31ca9a739cb24079b36824045c0832aa.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSW31ca9a739cb24079b36824045c0832aa.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSW88894b63a51d46b08b5b4b05a6b1b3c3",
+                    "label": "Sample",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSW88894b63a51d46b08b5b4b05a6b1b3c3.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSW88894b63a51d46b08b5b4b05a6b1b3c3.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSW88894b63a51d46b08b5b4b05a6b1b3c3.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSW88894b63a51d46b08b5b4b05a6b1b3c3.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSW88894b63a51d46b08b5b4b05a6b1b3c3.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSW0c3ab986534b44cf806a6f111094d61e",
+                    "label": "BatteryCell",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSW0c3ab986534b44cf806a6f111094d61e.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSW0c3ab986534b44cf806a6f111094d61e.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSW0c3ab986534b44cf806a6f111094d61e.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSW0c3ab986534b44cf806a6f111094d61e.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSW0c3ab986534b44cf806a6f111094d61e.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSW9cf86699d6ba4b8c841a8e77e17a63ed",
+                    "label": "MaterialType",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSW9cf86699d6ba4b8c841a8e77e17a63ed.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSW9cf86699d6ba4b8c841a8e77e17a63ed.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSW9cf86699d6ba4b8c841a8e77e17a63ed.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSW9cf86699d6ba4b8c841a8e77e17a63ed.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSW9cf86699d6ba4b8c841a8e77e17a63ed.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSW0583b134c618484c9911a3dff145c7eb",
+                    "label": "ChemicalCompound",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSW0583b134c618484c9911a3dff145c7eb.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSW0583b134c618484c9911a3dff145c7eb.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSW0583b134c618484c9911a3dff145c7eb.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSW0583b134c618484c9911a3dff145c7eb.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSW0583b134c618484c9911a3dff145c7eb.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSWb85e46ebb9ca4c83aac27e2c01dde369",
+                    "label": "BatteryCellType",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSWb85e46ebb9ca4c83aac27e2c01dde369.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSWb85e46ebb9ca4c83aac27e2c01dde369.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSWb85e46ebb9ca4c83aac27e2c01dde369.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSWb85e46ebb9ca4c83aac27e2c01dde369.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSWb85e46ebb9ca4c83aac27e2c01dde369.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSWa211cf52e86e47929768a769235f7144",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSWa211cf52e86e47929768a769235f7144.slot_main.wikitext",
+                    "slots": {}
+                },
+                {
+                    "name": "OSWf04e73d3c3cb4e4ea7033066e472e9ff",
+                    "label": "BatteryCellFormat",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSWf04e73d3c3cb4e4ea7033066e472e9ff.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSWf04e73d3c3cb4e4ea7033066e472e9ff.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSWf04e73d3c3cb4e4ea7033066e472e9ff.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSWf04e73d3c3cb4e4ea7033066e472e9ff.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSWf04e73d3c3cb4e4ea7033066e472e9ff.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSWd208bb6b47e1481c962cdc67975a2004",
+                    "label": "CoinCell",
+                    "namespace": "NS_ITEM",
+                    "urlPath": "Item/OSWd208bb6b47e1481c962cdc67975a2004.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Item/OSWd208bb6b47e1481c962cdc67975a2004.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Item/OSWd208bb6b47e1481c962cdc67975a2004.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Item/OSWd208bb6b47e1481c962cdc67975a2004.slot_jsondata.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSW8d3a70c2a0c6486d81867be27dcff6db",
+                    "label": "PouchCell",
+                    "namespace": "NS_ITEM",
+                    "urlPath": "Item/OSW8d3a70c2a0c6486d81867be27dcff6db.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Item/OSW8d3a70c2a0c6486d81867be27dcff6db.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Item/OSW8d3a70c2a0c6486d81867be27dcff6db.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Item/OSW8d3a70c2a0c6486d81867be27dcff6db.slot_jsondata.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSW5c944ba0f91e48878ff7df8525751747",
+                    "label": "PrismaticCell",
+                    "namespace": "NS_ITEM",
+                    "urlPath": "Item/OSW5c944ba0f91e48878ff7df8525751747.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Item/OSW5c944ba0f91e48878ff7df8525751747.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Item/OSW5c944ba0f91e48878ff7df8525751747.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Item/OSW5c944ba0f91e48878ff7df8525751747.slot_jsondata.json"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "@context": [
+        "/wiki/Category:Item?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:Item?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "e21775c8-dd60-4739-885d-fc24c32cc548",
+    "title": "Procedure",
+    "title*": {
+        "en": "Procedure",
+        "de": "Prozedure"
+    },
+    "description": "Combination of several instructions or commands into a sequence or program",
+    "description*": {
+        "en": "Combination of several instructions or commands into a sequence or program",
+        "de": "Zusammenstellung mehrerer Anweisungen oder Befehle zu einer Abfolge oder Programm"
+    },
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSWe21775c8dd604739885dfc24c32cc548"
+            ]
+        },
+        "procedure_file": {
+            "title": "Procedure file(s)",
+            "title*": {
+                "de": "Prozedur-Datei(en)"
+            },
+            "description": "File containing the procedure, usually in a vendor specific format",
+            "description*": {
+                "de": "Datei, welche die Prozedur enthält, normalerweise in einem herstellerspezifischen Format"
+            },
+            "type": "array",
+            "items": {
+                "type": "string",
+                "title": "Procedure file",
+                "title*": {
+                    "de": "Prozedur-Datei"
+                },
+                "format": "autocomplete",
+                "options": {
+                    "autocomplete": {
+                        "category": "Category:OSW11a53cdfbdc24524bf8ac435cbf65d9d"
+                    }
+                }
+            },
+            "options": {
+                "conditional_visible": {
+                    "modes": [
+                        "query"
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "@context": [
+        "/wiki/Category:OSWb3b9ec5cb50d401c9b996ce3009b5c54?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSWb3b9ec5cb50d401c9b996ce3009b5c54?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "4ebd1194-0399-4301-8ace-13cd4c94774a",
+    "title": "TemperatureTestChamber",
+    "title*": {
+        "en": "Temperature test chamber",
+        "de": "Temperaturtestkammer"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW4ebd1194039943018ace13cd4c94774a"
+            ]
+        }
+    }
+}

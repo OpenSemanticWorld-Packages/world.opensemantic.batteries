@@ -1,0 +1,119 @@
+{
+    "@context": [
+        "/wiki/Category:OSWfa0d5710bc0f45819b61b65fc4fd9656?action=raw&slot=jsonschema",
+        {
+            "project": {
+                "@id": "Property:HasProject",
+                "@type": "@id"
+            },
+            "keywords": {
+                "@id": "Property:HasKeyword"
+            },
+            "prior_risk_assessment": {
+                "@id": "Property:HasPriorRiskAssessment",
+                "@type": "@id"
+            }
+        }
+    ],
+    "uuid": "0e7fab22-62fb-4427-ad0f-a454bc868a0d",
+    "type": "object",
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSWfa0d5710bc0f45819b61b65fc4fd9656?action=raw&slot=jsonschema"
+        }
+    ],
+    "title": "ElnEntry",
+    "title*": {
+        "de": "Laborbucheintrag",
+        "en": "ELN Entry"
+    },
+    "description": "Contains notes and data about experiments",
+    "description*": {
+        "de": "Enthält Notizen und Daten über Experimente",
+        "en": "Contains notes and data about experiments"
+    },
+    "properties": {
+        "collection": {
+            "type": "boolean",
+            "format": "checkbox",
+            "title": "Experiment-Collection",
+            "title*": {
+                "de": "Experiment/Versuchsreihe"
+            },
+            "description": "",
+            "description*": {
+                "de": "Stellt eine Sammlung von Laborbucheintragen dar."
+            }
+        },
+        "display_id": {
+            "type": "boolean",
+            "format": "checkbox",
+            "title": "Include ID in name",
+            "title*": {
+                "de": "ID im Namen anzeigen"
+            },
+            "description": "Display ID in name. If no name is present, the ID is always displayed",
+            "description*": {
+                "de": "ID hinter dem Namen einblenden. Falls kein Name vorhanden ist wird immer die ID angezeigt."
+            }
+        },
+        "project": {
+            "type": "string",
+            "format": "autocomplete",
+            "title": "Project",
+            "title*": {
+                "de": "Projekt"
+            },
+            "description": "Associated project. Access rights are inherited from this project",
+            "description*": {
+                "de": "Zugeordnetes Projekt. Von diesem werden auch die Zugriffsrechte übernommen"
+            },
+            "options": {
+                "autocomplete": {
+                    "category": "Category:OSWb2d7e6a2eff94c82b7f1f2699d5b0ee3"
+                }
+            }
+        },
+        "keywords": {
+            "type": "array",
+            "title": "Keywords",
+            "title*": {
+                "de": "Schlagwörter"
+            },
+            "items": {
+                "type": "",
+                "format": "",
+                "title": "Keyword",
+                "title*": {
+                    "de": "Schlagwort"
+                }
+            },
+            "description": "",
+            "description*": {
+                "de": ""
+            }
+        },
+        "prior_risk_assessment": {
+            "title": "Prior Risk Assessment",
+            "title*": {
+                "de": "Vorangegangene Gefährdungsbeurteilung"
+            },
+            "type": "string",
+            "format": "autocomplete",
+            "options": {
+                "autocomplete": {
+                    "query": "[[Category:OSW11a53cdfbdc24524bf8ac435cbf65d9d]] [[-HasOutput.HasSchema::Category:OSW3886740859ae459588fee73d3bb3c83e]] |?Display_title_of=label"
+                }
+            },
+            "default": "File:OSW2132a1e88a4242f9b186f0a62e30cfc0.pdf"
+        },
+        "type": {
+            "default": [
+                "Category:OSW0e7fab2262fb4427ad0fa454bc868a0d"
+            ]
+        }
+    },
+    "required": [
+        "type"
+    ]
+}

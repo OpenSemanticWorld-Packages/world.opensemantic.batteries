@@ -1,0 +1,30 @@
+{
+    "subclass_of": [
+        "Category:Item"
+    ],
+    "type": [
+        "Category:Category"
+    ],
+    "uuid": "e21775c8-dd60-4739-885d-fc24c32cc548",
+    "label": [
+        {
+            "text": "Procedure",
+            "lang": "en"
+        },
+        {
+            "text": "Prozedure",
+            "lang": "de"
+        }
+    ],
+    "description": [
+        {
+            "text": "Combination of several instructions or commands into a sequence or program",
+            "lang": "en"
+        },
+        {
+            "text": "Zusammenstellung mehrerer Anweisungen oder Befehle zu einer Abfolge oder Programm",
+            "lang": "de"
+        }
+    ],
+    "name": "Procedure"
+}

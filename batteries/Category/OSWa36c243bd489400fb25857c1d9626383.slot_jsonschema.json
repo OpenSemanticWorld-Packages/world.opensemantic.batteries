@@ -1,0 +1,28 @@
+{
+    "@context": [
+        "/wiki/Category:OSW5e3a5c9228ad4aec98830900e247ff39?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW5e3a5c9228ad4aec98830900e247ff39?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "a36c243b-d489-400f-b258-57c1d9626383",
+    "title": "MemmertIpp260plus",
+    "title*": {
+        "en": "Memmert IPP260plus"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSWa36c243bd489400fb25857c1d9626383"
+            ]
+        }
+    }
+}

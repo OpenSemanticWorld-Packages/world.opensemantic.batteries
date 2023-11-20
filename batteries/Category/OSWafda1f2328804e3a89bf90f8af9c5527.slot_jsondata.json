@@ -1,0 +1,20 @@
+{
+    "type": [
+        "Category:Category"
+    ],
+    "subclass_of": [
+        "Category:OSW47c67760dd164c82b570f58c8269b373"
+    ],
+    "uuid": "afda1f23-2880-4e3a-89bf-90f8af9c5527",
+    "name": "BatteryCellOpening",
+    "label": [
+        {
+            "text": "Battery Cell Opening",
+            "lang": "en"
+        },
+        {
+            "text": "Batteriezellöffnung",
+            "lang": "de"
+        }
+    ]
+}

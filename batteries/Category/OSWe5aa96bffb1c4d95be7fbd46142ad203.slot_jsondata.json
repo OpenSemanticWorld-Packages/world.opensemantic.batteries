@@ -1,0 +1,20 @@
+{
+    "subclass_of": [
+        "Category:Item"
+    ],
+    "uuid": "e5aa96bf-fb1c-4d95-be7f-bd46142ad203",
+    "label": [
+        {
+            "text": "Process",
+            "lang": "en"
+        },
+        {
+            "text": "Prozess",
+            "lang": "de"
+        }
+    ],
+    "name": "Process",
+    "type": [
+        "Category:Category"
+    ]
+}

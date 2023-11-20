@@ -1,0 +1,29 @@
+{
+    "@context": [
+        "/wiki/Category:OSWa211cf52e86e47929768a769235f7144?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSWa211cf52e86e47929768a769235f7144?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "f04e73d3-c3cb-4e4e-a703-3066e472e9ff",
+    "title": "BatteryCellFormat",
+    "title*": {
+        "en": "Battery cell format",
+        "de": "Batteriezellformat"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSWf04e73d3c3cb4e4ea7033066e472e9ff"
+            ]
+        }
+    }
+}

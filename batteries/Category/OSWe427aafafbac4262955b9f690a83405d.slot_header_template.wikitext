@@ -1,0 +1,15 @@
+<table class="info_box">
+<tr>
+<th class="heading" colspan="2">{{{_label_schema|Tool}}}</th>
+</tr>
+<tr>
+<th>{{{_label_purpose|Purpose}}}</th>
+<td>{{#ask:[[{{FULLPAGENAME}}]]|?HasPurpose=|format=plain|mainlabel=-}}</td> 
+</tr>
+
+<tr>
+<th>{{{_label_typical_process|Typical Process}}}</th>
+<td>{{#ask:[[{{FULLPAGENAME}}]]|?HasTypicalProcess=|format=plain|mainlabel=-}}</td> 
+</tr>
+
+</table>

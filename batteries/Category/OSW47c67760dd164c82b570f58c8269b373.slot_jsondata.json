@@ -1,0 +1,30 @@
+{
+    "type": [
+        "Category:Category"
+    ],
+    "subclass_of": [
+        "Category:OSW0e7fab2262fb4427ad0fa454bc868a0d"
+    ],
+    "uuid": "47c67760-dd16-4c82-b570-f58c8269b373",
+    "name": "PostMortemExperiment",
+    "label": [
+        {
+            "text": "Post Mortem Experiment",
+            "lang": "de"
+        },
+        {
+            "text": "Postortem-Experiment",
+            "lang": "en"
+        }
+    ],
+    "description": [
+        {
+            "text": "A destructive experiment performed on an electrochemical battery cell",
+            "lang": "en"
+        },
+        {
+            "text": "Ein zerstörendes Experiment an einer elektrochemischen Batteriezellea",
+            "lang": "de"
+        }
+    ]
+}

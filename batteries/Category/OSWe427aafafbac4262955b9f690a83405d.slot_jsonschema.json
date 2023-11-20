@@ -1,0 +1,52 @@
+{
+    "@context": [
+        {
+            "typical_process": "Property:HasTypicalProcess"
+        },
+        "/wiki/Category:Item?action=raw&slot=jsonschema"
+    ],
+    "title": "Tool",
+    "type": "object",
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:Item?action=raw&slot=jsonschema"
+        }
+    ],
+    "required": [
+        "type"
+    ],
+    "uuid": "e427aafa-fbac-4262-955b-9f690a83405d",
+    "title*": {
+        "en": "Tool",
+        "de": "Werkzeug"
+    },
+    "description": "Item that participates as a utility (almost) unchanged in a process",
+    "description*": {
+        "en": "Item that participates as a utility (almost) unchanged in a process",
+        "de": "Gegenstand der als Hilfsmittel (nahezu) unverändert in einem Prozess teilnimmt"
+    },
+    "properties": {
+        "purpose": {
+            "title": "Purpose",
+            "type": "string"
+        },
+        "typical_process": {
+            "title": "Typical Process(es)",
+            "type": "array",
+            "items": {
+                "type": "string",
+                "format": "autocomplete",
+                "options": {
+                    "autocomplete": {
+                        "category": "Category:OSW1d19e9396a6a455db0fad9fe6ce47f50"
+                    }
+                }
+            }
+        },
+        "type": {
+            "default": [
+                "Category:OSWe427aafafbac4262955b9f690a83405d"
+            ]
+        }
+    }
+}

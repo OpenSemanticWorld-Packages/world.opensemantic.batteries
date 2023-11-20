@@ -1,0 +1,20 @@
+{
+    "type": [
+        "Category:Category"
+    ],
+    "subclass_of": [
+        "Category:OSWa211cf52e86e47929768a769235f7144"
+    ],
+    "uuid": "f04e73d3-c3cb-4e4e-a703-3066e472e9ff",
+    "label": [
+        {
+            "text": "Battery cell format",
+            "lang": "en"
+        },
+        {
+            "text": "Batteriezellformat",
+            "lang": "de"
+        }
+    ],
+    "name": "BatteryCellFormat"
+}

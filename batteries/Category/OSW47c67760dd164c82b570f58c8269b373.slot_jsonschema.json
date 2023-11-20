@@ -1,0 +1,32 @@
+{
+    "@context": [
+        "/wiki/Category:OSW0e7fab2262fb4427ad0fa454bc868a0d?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW0e7fab2262fb4427ad0fa454bc868a0d?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "47c67760-dd16-4c82-b570-f58c8269b373",
+    "title": "PostMortemExperiment",
+    "title*": {
+        "en": "Postortem-Experiment",
+        "de": "Post Mortem Experiment"
+    },
+    "description": "A destructive experiment performed on an electrochemical battery cell",
+    "description*": {
+        "en": "A destructive experiment performed on an electrochemical battery cell",
+        "de": "Ein zerstörendes Experiment an einer elektrochemischen Batteriezellea"
+    },
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW47c67760dd164c82b570f58c8269b373"
+            ]
+        }
+    }
+}

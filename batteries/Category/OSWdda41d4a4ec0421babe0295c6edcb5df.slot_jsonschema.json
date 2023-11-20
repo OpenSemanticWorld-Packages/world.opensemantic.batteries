@@ -1,0 +1,29 @@
+{
+    "@context": [
+        "/wiki/Category:OSWe21775c8dd604739885dfc24c32cc548?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSWe21775c8dd604739885dfc24c32cc548?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "dda41d4a-4ec0-421b-abe0-295c6edcb5df",
+    "title": "ElectrochemicalTestProcedure",
+    "title*": {
+        "en": "Electrochemical test procedure",
+        "de": "Elektrochemische Testprozedur"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSWdda41d4a4ec0421babe0295c6edcb5df"
+            ]
+        }
+    }
+}

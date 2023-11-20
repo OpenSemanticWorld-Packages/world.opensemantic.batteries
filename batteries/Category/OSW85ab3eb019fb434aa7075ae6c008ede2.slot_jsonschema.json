@@ -1,0 +1,28 @@
+{
+    "@context": [
+        "/wiki/Category:OSW1849e7e9b69e445da44f50093a1d585b?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW1849e7e9b69e445da44f50093a1d585b?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "85ab3eb0-19fb-434a-a707-5ae6c008ede2",
+    "title": "MB200MOD",
+    "title*": {
+        "en": "MB200MOD"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW85ab3eb019fb434aa7075ae6c008ede2"
+            ]
+        }
+    }
+}

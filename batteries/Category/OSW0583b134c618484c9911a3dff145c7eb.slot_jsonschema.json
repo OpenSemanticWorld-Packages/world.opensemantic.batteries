@@ -1,0 +1,77 @@
+{
+    "@context": [
+        "/wiki/Category:OSW31ca9a739cb24079b36824045c0832aa?action=raw&slot=jsonschema",
+        {
+            "pubchem_cid": "Property:HasPubchemId"
+        }
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW31ca9a739cb24079b36824045c0832aa?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "0583b134-c618-484c-9911-a3dff145c7eb",
+    "title": "ChemicalCompound",
+    "title*": {
+        "en": "Chemical compound",
+        "de": "Chemische Verbindung"
+    },
+    "data_source_maps": [
+        {
+            "id": "pubchem.ncbi.nlm.nih.gov",
+            "source": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/{{pubchem_cid}}/JSON",
+            "label": "PubChem",
+            "required": [
+                "pubchem_cid"
+            ],
+            "object_map": {
+                "cas_numbers": "$..[?(@.TOCHeading=='CAS')].Information..Value.StringWithMarkup..String"
+            }
+        }
+    ],
+    "properties": {
+        "pubchem_cid": {
+            "title": "PubChem CID",
+            "type": "string",
+            "options": {
+                "conditional_visible": {
+                    "modes": "query"
+                }
+            },
+            "eval_template": [
+                {
+                    "type": "mustache-wikitext",
+                    "mode": "render",
+                    "value": "[https://pubchem.ncbi.nlm.nih.gov/compound/{{pubchem_cid}} {{pubchem_cid}}]"
+                }
+            ]
+        },
+        "cas_numbers": {
+            "type": "array",
+            "title": "CAS Number(s)",
+            "title*": {
+                "de": "CAS Nummer(n)"
+            },
+            "items": {
+                "type": "string",
+                "title": "CAS",
+                "title*": {
+                    "de": "CAS"
+                }
+            }
+        },
+        "type": {
+            "default": [
+                "Category:OSW0583b134c618484c9911a3dff145c7eb"
+            ]
+        }
+    },
+    "description": "Chemical substance composed of many identical molecules",
+    "description*": {
+        "en": "Chemical substance composed of many identical molecules"
+    },
+    "required": [
+        "type"
+    ]
+}

@@ -1,0 +1,182 @@
+{
+    "@context": [
+        "/wiki/Category:OSW0e7fab2262fb4427ad0fa454bc868a0d?action=raw&slot=jsonschema",
+        {
+            "channel": {
+                "@id": "Property:HasChannel",
+                "@type": "@id"
+            },
+            "environmental_test_chamber": {
+                "@id": "Property:HasTool",
+                "@type": "@id"
+            },
+            "test_procedure": {
+                "@id": "Property:HasProcedure",
+                "@type": "@id"
+            },
+            "test_procedure_name": {
+                "@id": "Property:HasProcedure",
+                "@type": "@id"
+            },
+            "tester": {
+                "@id": "Property:HasTool",
+                "@type": "@id"
+            },
+            "tester_name": {
+                "@id": "Property:HasTool",
+                "@type": "@id"
+            },
+            "test_temperature": {
+                "@id": "Property:HasTemperature",
+                "@type": "@id"
+            },
+            "test_humidity": {
+                "@id": "Property:HasHumidity",
+                "@type": "@id"
+            }
+        }
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW0e7fab2262fb4427ad0fa454bc868a0d?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "6f39d772-41e2-4a33-ab6d-036dfac03ace",
+    "title": "ElectrochemicalTest",
+    "title*": {
+        "en": "Electrochemical Test",
+        "de": "Elektrochemischer Test"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW6f39d77241e24a33ab6d036dfac03ace"
+            ]
+        },
+        "tester": {
+            "title": "Electrochemical tester (link)",
+            "title*": {
+                "de": "Elektrochemischer Tester (Link)"
+            },
+            "description": "Device used to perform the test",
+            "description*": {
+                "de": "Gerät, mit dem der Test durchgeführt wurde"
+            },
+            "type": "string",
+            "format": "autocomplete",
+            "options": {
+                "autocomplete": {
+                    "category": "Category:OSW69729530f3ca4addaf8dd95ea3781607"
+                }
+            }
+        },
+        "tester_name": {
+            "title": "Electrochemical tester (name)",
+            "title*": {
+                "de": "Elektrochemischer Tester (Name)"
+            },
+            "description": "Device used to perform the test",
+            "description*": {
+                "de": "Gerät, mit dem der Test durchgeführt wurde"
+            },
+            "type": "string"
+        },
+        "channel": {
+            "title": "Channel",
+            "title*": {
+                "de": "Kanal"
+            },
+            "description": "Channel used to perform the test",
+            "description*": {
+                "de": "Kanal, mit dem der Test durchgeführt wurde"
+            },
+            "type": "integer"
+        },
+        "test_procedure": {
+            "title": "Test procedure (link)",
+            "title*": {
+                "de": "Testprozedur (link)"
+            },
+            "type": "array",
+            "format": "table",
+            "items": {
+                "title": "Test procedure",
+                "title*": {
+                    "de": "Testprozedur"
+                },
+                "type": "string",
+                "format": "autocomplete",
+                "options": {
+                    "autocomplete": {
+                        "category": "Category:OSWdda41d4a4ec0421babe0295c6edcb5df"
+                    }
+                }
+            },
+            "uniqueItems": true,
+            "default": [
+                ""
+            ]
+        },
+        "test_procedure_name": {
+            "title": "Test procedure (name)",
+            "title*": {
+                "de": "Testprozedur (name)"
+            },
+            "type": "array",
+            "format": "table",
+            "items": {
+                "title": "Test procedure",
+                "title*": {
+                    "de": "Testprozedur"
+                },
+                "type": "string"
+            },
+            "uniqueItems": true,
+            "default": [
+                ""
+            ]
+        },
+        "test_temperature": {
+            "title": "Test temperature",
+            "title*": {
+                "de": "Testtemperatur"
+            },
+            "description": "Temperature the battery was tested at",
+            "description*": {
+                "de": "Temperatur bei der die Batterie getestet wurde"
+            },
+            "type": "number"
+        },
+        "test_humidity": {
+            "title": "Test humidity",
+            "title*": {
+                "de": "Testluftfeuchtigkeit"
+            },
+            "description": "Humidity the battery was tested at",
+            "description*": {
+                "de": "Luftfeuchtigkeit bei der die Batterie getestet wurde"
+            },
+            "type": "number"
+        },
+        "environmental_test_chamber": {
+            "title": "Enviromental test chamber",
+            "title*": {
+                "de": "Umwelttestkammer"
+            },
+            "type": "string",
+            "format": "autocomplete",
+            "options": {
+                "autocomplete": {
+                    "query": "[[Category:OSWb3b9ec5cb50d401c9b996ce3009b5c54]] |?Display_title_of=label"
+                }
+            },
+            "default": ""
+        }
+    }
+}

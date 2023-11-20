@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "/wiki/Category:OSW47c67760dd164c82b570f58c8269b373?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW47c67760dd164c82b570f58c8269b373?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "afda1f23-2880-4e3a-89bf-90f8af9c5527",
+    "title": "BatteryCellOpening",
+    "title*": {
+        "en": "Battery Cell Opening",
+        "de": "Batteriezellöffnung"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSWafda1f2328804e3a89bf90f8af9c5527"
+            ]
+        },
+        "prior_risk_assessment": {
+            "title": "Prior Risk Assessment",
+            "title*": {
+                "de": "Vorangegangene Gefährdungsbeurteilung"
+            },
+            "type": "string",
+            "format": "autocomplete",
+            "options": {
+                "autocomplete": {
+                    "query": "[[Category:OSW11a53cdfbdc24524bf8ac435cbf65d9d]] [[-HasOutput.HasSchema::Category:OSW3886740859ae459588fee73d3bb3c83e]] |?Display_title_of=label"
+                }
+            },
+            "default": "File:OSWaa635a571dfb4aa682e43b98937f5dd3.pdf"
+        }
+    }
+}

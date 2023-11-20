@@ -1,0 +1,20 @@
+{
+    "type": [
+        "Category:OSWd845b96813a344458f140e48c4d063fd"
+    ],
+    "subclass_of": [
+        "Category:OSW4ebd1194039943018ace13cd4c94774a"
+    ],
+    "uuid": "5e3a5c92-28ad-4aec-9883-0900e247ff39",
+    "label": [
+        {
+            "text": "Memmert peltier-cooled incubator",
+            "lang": "en"
+        },
+        {
+            "text": "Memmert Peltier-Kühlbrutschrank",
+            "lang": "de"
+        }
+    ],
+    "name": "MemmertPeltierCooledIncubator"
+}

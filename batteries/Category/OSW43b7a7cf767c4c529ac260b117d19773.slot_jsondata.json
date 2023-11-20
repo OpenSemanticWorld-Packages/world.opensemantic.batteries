@@ -1,0 +1,17 @@
+{
+    "type": [
+        "Category:Category"
+    ],
+    "subclass_of": [
+        "Category:OSWb3b9ec5cb50d401c9b996ce3009b5c54"
+    ],
+    "uuid": "43b7a7cf-767c-4c52-9ac2-60b117d19773",
+    "label": [
+        {
+            "text": "Climate test chamber",
+            "lang": "en"
+        }
+    ],
+    "name": "ClimateTestChamber",
+    "description": "A Device that can set the Temperature and/or Humidity inside a chamber"
+}
