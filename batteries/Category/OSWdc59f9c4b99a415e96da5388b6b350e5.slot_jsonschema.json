@@ -1,0 +1,36 @@
+{
+    "@context": [
+        "/wiki/Category:OSW1ee1f5ccdb564f4e829b76b76028aa77?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW1ee1f5ccdb564f4e829b76b76028aa77?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "dc59f9c4-b99a-415e-96da-5388b6b350e5",
+    "title": "GraphiteSiliconMixture",
+    "title*": {
+        "en": "Graphite silicon mixture"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type",
+        "uuid"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSWdc59f9c4b99a415e96da5388b6b350e5"
+            ]
+        },
+        "uuid": {
+            "type": "string",
+            "format": "uuid",
+            "options": {
+                "hidden": true
+            }
+        }
+    }
+}

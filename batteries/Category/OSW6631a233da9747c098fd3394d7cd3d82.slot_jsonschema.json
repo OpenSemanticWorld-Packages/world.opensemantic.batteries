@@ -1,0 +1,36 @@
+{
+    "@context": [
+        "/wiki/Category:OSWd7747cf501984e52bf7aa5e594068ccf?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSWd7747cf501984e52bf7aa5e594068ccf?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "6631a233-da97-47c0-98fd-3394d7cd3d82",
+    "title": "Lp572Vc",
+    "title*": {
+        "en": "LP57 + 2% VC"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type",
+        "uuid"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW6631a233da9747c098fd3394d7cd3d82"
+            ]
+        },
+        "uuid": {
+            "type": "string",
+            "format": "uuid",
+            "options": {
+                "hidden": true
+            }
+        }
+    }
+}

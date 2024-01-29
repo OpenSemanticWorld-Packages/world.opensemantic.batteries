@@ -1,0 +1,128 @@
+{
+    "@context": [
+        {
+            "area": "Property:HasArea",
+            "construction_year": "Property:HasConstructionYear",
+            "footprint": "Property:HasFootprint",
+            "function": "Property:HasBuildingFunction",
+            "height": "Property:HasHeight",
+            "length": "Property:HasLength",
+            "located_in": "Property:IsLocatedIn",
+            "responsible_person": "Property:HasResponsiblePerson",
+            "width": "Property:HasWidth"
+        }
+    ],
+    "properties": {
+        "located_in": {
+            "title": "Site",
+            "title*": {
+                "en": "Site",
+                "de": "Standort"
+            },
+            "type": "array",
+            "format": "table",
+            "items": {
+                "title": "",
+                "type": "string",
+                "format": "autocomplete",
+                "query": "[[HasType::Category:OSW473d7a1ed48544d1be83b258b5810948]] |?Display_title_of=label",
+                "previewWikiTextTemplate": "[[:{{result.fulltext}}]]",
+                "labelTemplate": "{{result.printouts.label.[0]}}"
+            },
+            "default": [
+                ""
+            ]
+        },
+        "construction_year": {
+            "title": "Construction year",
+            "title*": {
+                "de": "Baujahr",
+                "en": "Construction year"
+            },
+            "type": "number",
+            "format": "",
+            "description": "The year in which the construction was completed."
+        },
+        "length": {
+            "title": "Length",
+            "title*": {
+                "de": "L\u00e4nge",
+                "en": "Length"
+            },
+            "type": "number"
+        },
+        "width": {
+            "title": "Width",
+            "type": "number"
+        },
+        "height": {
+            "title": "Height",
+            "type": "number"
+        },
+        "footprint": {
+            "title": "Area at base level",
+            "type": "number"
+        },
+        "area": {
+            "title": "Total floor area",
+            "type": "number"
+        },
+        "function": {
+            "title": "Building function",
+            "title*": {
+                "en": "Building function",
+                "de": "Geb\u00e4udefunktion"
+            },
+            "type": "array",
+            "format": "table",
+            "items": {
+                "title": "",
+                "type": "string",
+                "format": "autocomplete",
+                "query": "[[HasType::Category:OSW07a0faef5be94b788514a2dd5dca20bf]] |?Display_title_of=label"
+            },
+            "default": [
+                ""
+            ]
+        },
+        "responsible_person": {
+            "title": "Responsible person",
+            "title*": {
+                "de": "Verantwortliche Person",
+                "en": "Responsible person"
+            },
+            "type": "array",
+            "format": "table",
+            "items": {
+                "title": "",
+                "type": "string",
+                "format": "autocomplete",
+                "query": "[[HasType::Category:OSWd9aa0bca9b0040d8af6f5c091bf9eec7]] |?Display_title_of=label",
+                "previewWikiTextTemplate": "[[:{{result.fulltext}}]]",
+                "labelTemplate": "{{result.printouts.label.[0]}}"
+            },
+            "default": [
+                ""
+            ]
+        },
+        "type": {
+            "default": [
+                "Category:OSW4bcd4a99a73f482ea40ac4210dfab836"
+            ]
+        }
+    },
+    "title": "Building",
+    "title*": {
+        "en": "Building",
+        "de": "Geb\u00e4ude"
+    },
+    "type": "object",
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW3d238d05316e45a4ac95a11d7b24e36b?action=raw&slot=jsonschema"
+        }
+    ],
+    "required": [
+        "type"
+    ]
+}

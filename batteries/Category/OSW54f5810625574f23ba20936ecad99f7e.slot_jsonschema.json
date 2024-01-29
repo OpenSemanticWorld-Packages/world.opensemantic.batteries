@@ -1,0 +1,36 @@
+{
+    "@context": [
+        "/wiki/Category:OSW6110d42bba33448b9a6348a3cd28b921?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW6110d42bba33448b9a6348a3cd28b921?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "54f58106-2557-4f23-ba20-936ecad99f7e",
+    "title": "LNMO",
+    "title*": {
+        "en": "Lithium nickel manganese oxide"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type",
+        "uuid"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW54f5810625574f23ba20936ecad99f7e"
+            ]
+        },
+        "uuid": {
+            "type": "string",
+            "format": "uuid",
+            "options": {
+                "hidden": true
+            }
+        }
+    }
+}

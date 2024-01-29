@@ -1,0 +1,36 @@
+{
+    "@context": [
+        "/wiki/Category:OSW8b48a5a4229145029265c000dc6ea483?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW8b48a5a4229145029265c000dc6ea483?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "4c3c3e06-0b13-4172-bd8d-1eac99be7a26",
+    "title": "C",
+    "title*": {
+        "en": "Carbon"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type",
+        "uuid"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW4c3c3e060b134172bd8d1eac99be7a26"
+            ]
+        },
+        "uuid": {
+            "type": "string",
+            "format": "uuid",
+            "options": {
+                "hidden": true
+            }
+        }
+    }
+}

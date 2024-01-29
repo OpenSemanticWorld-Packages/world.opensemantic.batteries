@@ -2,6 +2,14 @@
     "@context": [
         "/wiki/Category:OSW0e7fab2262fb4427ad0fa454bc868a0d?action=raw&slot=jsonschema",
         {
+            "battery_cell_dut": {
+                "@id": "Property:HasDut",
+                "@type": "@id"
+            },
+            "device_under_test": {
+                "@id": "Property:HasDut",
+                "@type": "@id"
+            },
             "channel": {
                 "@id": "Property:HasChannel",
                 "@type": "@id"
@@ -50,10 +58,22 @@
     },
     "description": "A test performed on an electrochemical device, usually by applying voltage and current",
     "description*": {
-        "en": "A test performed on an electrochemical device, usually by applying voltage and current"
+        "en": "A test performed on an electrochemical device, usually by applying voltage and current",
+        "de": "Ein Test an einem elektrochemischen Ger\u00e4t, \u00fcblicherweise indem Strom und Spannung angelegt werden."
     },
     "required": [
         "type"
+    ],
+    "defaultProperties": [
+        "battery_cell_dut",
+        "tester",
+        "channel",
+        "test_procedure",
+        "test_temperature",
+        "test_humidity",
+        "environmental_test_chamber",
+        "raw_data_files",
+        "analyzed_data_files"
     ],
     "properties": {
         "type": {
@@ -61,14 +81,44 @@
                 "Category:OSW6f39d77241e24a33ab6d036dfac03ace"
             ]
         },
-        "tester": {
-            "title": "Electrochemical tester (link)",
+        "device_under_test": {
+            "title": "Device under test",
             "title*": {
-                "de": "Elektrochemischer Tester (Link)"
+                "de": "Zu testendes Ger\u00e4t"
+            },
+            "description": "Electrochemical cell that was tested",
+            "description*": {
+                "de": "Elektrochemische Zelle, die getestet wurde"
+            },
+            "type": "string",
+            "format": "autocomplete",
+            "range": "Category:OSW4744375e811943b2a21e922cded383fc"
+        },
+        "battery_cell_dut": {
+            "title": "Battery cell",
+            "title*": {
+                "de": "Batteriezelle"
+            },
+            "description": "Electrochemical cell that was tested",
+            "description*": {
+                "de": "Elektrochemische Zelle, die getestet wurde"
+            },
+            "type": "string",
+            "format": "autocomplete",
+            "options": {
+                "autocomplete": {
+                    "category": "Category:OSW680453b7563749a0a33f6be16036c81d"
+                }
+            }
+        },
+        "tester": {
+            "title": "Electrochemical tester",
+            "title*": {
+                "de": "Elektrochemischer Tester"
             },
             "description": "Device used to perform the test",
             "description*": {
-                "de": "Gerät, mit dem der Test durchgeführt wurde"
+                "de": "Ger\u00e4t, mit dem der Test durchgef\u00fchrt wurde"
             },
             "type": "string",
             "format": "autocomplete",
@@ -85,7 +135,7 @@
             },
             "description": "Device used to perform the test",
             "description*": {
-                "de": "Gerät, mit dem der Test durchgeführt wurde"
+                "de": "Ger\u00e4t, mit dem der Test durchgef\u00fchrt wurde"
             },
             "type": "string"
         },
@@ -96,14 +146,14 @@
             },
             "description": "Channel used to perform the test",
             "description*": {
-                "de": "Kanal, mit dem der Test durchgeführt wurde"
+                "de": "Kanal, mit dem der Test durchgef\u00fchrt wurde"
             },
             "type": "integer"
         },
         "test_procedure": {
-            "title": "Test procedure (link)",
+            "title": "Test procedure",
             "title*": {
-                "de": "Testprozedur (link)"
+                "de": "Testprozedur"
             },
             "type": "array",
             "format": "table",
@@ -112,23 +162,34 @@
                 "title*": {
                     "de": "Testprozedur"
                 },
-                "type": "string",
-                "format": "autocomplete",
-                "options": {
-                    "autocomplete": {
-                        "category": "Category:OSWdda41d4a4ec0421babe0295c6edcb5df"
+                "type": "object",
+                "properties": {
+                    "subcategory_select": {
+                        "title": "Subcategory",
+                        "description": "Select Subcategory first to get more precise results.",
+                        "type": "string",
+                        "format": "autocomplete",
+                        "range": "Category:Category",
+                        "subclassof_range": "Category:OSWdda41d4a4ec0421babe0295c6edcb5df",
+                        "default": "Category:OSWe69626f5804848fa978dbca65e6e084a"
+                    },
+                    "instance_select": {
+                        "title": "Instance",
+                        "description": "Select or create an appropiate test procedure.",
+                        "type": "string",
+                        "format": "autocomplete",
+                        "watch": {
+                            "subcategory_select": "subcategory_select"
+                        },
+                        "range": "$(subcategory_select)"
                     }
                 }
-            },
-            "uniqueItems": true,
-            "default": [
-                ""
-            ]
+            }
         },
         "test_procedure_name": {
-            "title": "Test procedure (name)",
+            "title": "Test procedure",
             "title*": {
-                "de": "Testprozedur (name)"
+                "de": "Testprozedur"
             },
             "type": "array",
             "format": "table",
@@ -145,9 +206,9 @@
             ]
         },
         "test_temperature": {
-            "title": "Test temperature",
+            "title": "Test temperature / \u00b0C",
             "title*": {
-                "de": "Testtemperatur"
+                "de": "Testtemperatur / \u00b0C"
             },
             "description": "Temperature the battery was tested at",
             "description*": {
@@ -173,11 +234,7 @@
             },
             "type": "string",
             "format": "autocomplete",
-            "options": {
-                "autocomplete": {
-                    "query": "[[Category:OSWb3b9ec5cb50d401c9b996ce3009b5c54]] |?Display_title_of=label"
-                }
-            },
+            "range": "Category:OSWb3b9ec5cb50d401c9b996ce3009b5c54",
             "default": ""
         }
     }

@@ -1,0 +1,36 @@
+{
+    "@context": [
+        "/wiki/Category:OSW0e56179ca32e49f4a92ddd71e0034550?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW0e56179ca32e49f4a92ddd71e0034550?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "71ee44ee-8399-4cd8-91b0-a535dac62461",
+    "title": "Co",
+    "title*": {
+        "en": "Cobalt"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type",
+        "uuid"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW71ee44ee83994cd891b0a535dac62461"
+            ]
+        },
+        "uuid": {
+            "type": "string",
+            "format": "uuid",
+            "options": {
+                "hidden": true
+            }
+        }
+    }
+}

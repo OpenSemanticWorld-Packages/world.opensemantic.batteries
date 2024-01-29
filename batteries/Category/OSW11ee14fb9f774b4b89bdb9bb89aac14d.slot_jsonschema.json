@@ -1,0 +1,35 @@
+{
+    "@context": [
+        {}
+    ],
+    "defaultProperties": [],
+    "properties": {
+        "manager": {
+            "title": "Rector / president",
+            "title*": {
+                "en": "Rector / president",
+                "de": "Rektor:in / Pr\u00e4sident:in"
+            },
+            "description": "The rector or president is the head of the university.",
+            "description*": {
+                "en": "The rector or president is the head of the university.",
+                "de": "Der/die Rektor:in oder Pr\u00e4sident:in ist der/die Leiter:in der Universit\u00e4t."
+            }
+        },
+        "type": {
+            "default": [
+                "Category:OSW11ee14fb9f774b4b89bdb9bb89aac14d"
+            ]
+        }
+    },
+    "type": "object",
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW1969007d5acf40539642877659a02c23?action=raw&slot=jsonschema"
+        }
+    ],
+    "title": "University",
+    "required": [
+        "type"
+    ]
+}

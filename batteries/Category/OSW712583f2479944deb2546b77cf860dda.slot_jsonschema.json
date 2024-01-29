@@ -1,0 +1,45 @@
+{
+    "@context": [
+        "/wiki/Category:Item?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:Item?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "712583f2-4799-44de-b254-6b77cf860dda",
+    "title": "CreativeWork",
+    "title*": {
+        "en": "Creative Work",
+        "de": "Produkt kreativer Arbeit"
+    },
+    "description": "The most generic kind of (product of) creative work, including books, movies, photographs, software programs, etc.",
+    "description*": {
+        "en": "The most generic kind of (product of) creative work, including books, movies, photographs, software programs, etc.",
+        "de": "Die allgemeinste Art eines Produktes kreativer Arbeit, einschlie\u00dflich B\u00fccher, Filme, Fotos, Softwareprogramme usw."
+    },
+    "required": [
+        "type",
+        "rdf_type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW712583f2479944deb2546b77cf860dda"
+            ]
+        },
+        "rdf_type": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "default": [
+                "schema:CreativeWork"
+            ],
+            "options": {
+                "hidden": true
+            }
+        }
+    }
+}

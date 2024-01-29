@@ -1,0 +1,21 @@
+{
+    "subclass_of": [
+        "Category:OSW1969007d5acf40539642877659a02c23"
+    ],
+    "uuid": "11ee14fb-9f77-4b4b-89bd-b9bb89aac14d",
+    "name": "University",
+    "label": [
+        {
+            "text": "University",
+            "lang": "en"
+        },
+        {
+            "text": "Hochschule",
+            "lang": "de"
+        },
+        {
+            "text": "Universit\u00e4t",
+            "lang": "de"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "type": [
+        "Category:OSW38ddea7b37fa4712858fe16404993b59"
+    ],
+    "rdf_type": "",
+    "uuid": "f52699c5-3f16-430b-b19a-34f10a0fbc73",
+    "label": [
+        {
+            "text": "GEIS",
+            "lang": "en"
+        },
+        {
+            "text": "Galvanostatic Electrochemical Impedance Spectroscopy",
+            "lang": "en"
+        }
+    ],
+    "description": [
+        {
+            "text": "Galvanostatic Electrochemical Impedance Spectroscopy",
+            "lang": "en"
+        }
+    ],
+    "name": "GEIS"
+}

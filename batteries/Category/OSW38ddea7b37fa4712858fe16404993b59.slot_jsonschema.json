@@ -1,0 +1,28 @@
+{
+    "@context": [
+        "/wiki/Category:OSW8f36767bb491449ebc959802c8d66d23?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW8f36767bb491449ebc959802c8d66d23?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "38ddea7b-37fa-4712-858f-e16404993b59",
+    "title": "EisType",
+    "title*": {
+        "en": "EIS type"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW38ddea7b37fa4712858fe16404993b59"
+            ]
+        }
+    }
+}

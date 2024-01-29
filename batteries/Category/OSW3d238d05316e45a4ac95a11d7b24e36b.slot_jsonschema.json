@@ -1,0 +1,207 @@
+{
+    "@context": [
+        {
+            "city": "Property:HasCity",
+            "country": "Property:HasCountry",
+            "gps_coordinates": "Property:HasGpsCoordinates",
+            "house_no": "Property:HasHouseNo",
+            "latitude": "Property:HasLatitude",
+            "located_in": "Property:IsLocatedIn",
+            "longitude": "Property:HasLongitude",
+            "postal_address": "Property:HasPostalAddress",
+            "postal_code": "Property:HasPostalCode",
+            "post_office_box_no": "Property:HasPoBoxNo",
+            "region": "Property:HasRegion",
+            "state": "Property:HasState",
+            "street_name": "Property:HasStreet"
+        },
+        "/wiki/Category:Item?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:Item?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "title": "Location",
+    "uuid": "3d238d05-316e-45a4-ac95-a11d7b24e36b",
+    "title*": {
+        "en": "Location",
+        "de": "Oertlichkeit"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "defaultProperties": [
+        "uuid",
+        "label",
+        "gps_coordinates",
+        "postal_address"
+    ],
+    "properties": {
+        "postal_address": {
+            "title": "Postal address",
+            "title*": {
+                "en": "Postal address",
+                "de": "Postalische Adresse"
+            },
+            "type": "object",
+            "description": "",
+            "eval_template": {
+                "type": "wikitext",
+                "mode": "render",
+                "value": "{{{street_name|}}} {{{house_no|}}}, {{{postal_code|}}} {{{city|}}}, {{{country|}}}"
+            },
+            "required": [
+                "uuid"
+            ],
+            "defaultProperties": [
+                "uuid",
+                "street_name",
+                "house_no",
+                "postal_code",
+                "city",
+                "country"
+            ],
+            "properties": {
+                "uuid": {
+                    "type": "string",
+                    "format": "uuid",
+                    "options": {
+                        "hidden": true
+                    }
+                },
+                "country": {
+                    "title": "Country",
+                    "title*": {
+                        "en": "Country",
+                        "de": "Land"
+                    },
+                    "type": "string"
+                },
+                "state": {
+                    "title": "State",
+                    "title*": {
+                        "en": "State",
+                        "de": "Bundesland"
+                    },
+                    "type": "string"
+                },
+                "region": {
+                    "title": "Region",
+                    "title*": {
+                        "en": "Region",
+                        "de": "Region"
+                    },
+                    "type": "string"
+                },
+                "post_office_box_no": {
+                    "title": "PO box number",
+                    "title*": {
+                        "en": "PO box number",
+                        "de": "Postfach nummer"
+                    },
+                    "type": "number"
+                },
+                "postal_code": {
+                    "title": "Postal code",
+                    "title*": {
+                        "en": "Postal code",
+                        "de": "Postleitzahl"
+                    },
+                    "type": "string"
+                },
+                "city": {
+                    "title": "City",
+                    "title*": {
+                        "en": "City",
+                        "de": "Stadt"
+                    },
+                    "type": "string"
+                },
+                "street_name": {
+                    "title": "Street",
+                    "title*": {
+                        "en": "Street",
+                        "de": "Stra\u00dfe"
+                    },
+                    "type": "string"
+                },
+                "house_no": {
+                    "title": "House number",
+                    "title*": {
+                        "en": "House number",
+                        "de": "Hausnummer"
+                    },
+                    "type": "string"
+                }
+            }
+        },
+        "gps_coordinates": {
+            "title": "GPS coordinates",
+            "title*": {
+                "en": "GPS coordinates",
+                "de": "GPS Koordinaten"
+            },
+            "type": "object",
+            "eval_template": {
+                "type": "wikitext",
+                "value": "{{{latitude|}}}, {{{longitude|}}}"
+            },
+            "required": [
+                "uuid"
+            ],
+            "defaultProperties": [
+                "uuid",
+                "latitude",
+                "longitude"
+            ],
+            "properties": {
+                "uuid": {
+                    "type": "string",
+                    "format": "uuid",
+                    "options": {
+                        "hidden": true
+                    }
+                },
+                "latitude": {
+                    "title": "Latitude",
+                    "title*": {
+                        "en": "Latitude",
+                        "de": "Breitengrad"
+                    },
+                    "type": "number",
+                    "description": "Angular measurement ranging from 0 degree at the equator to +90 degree at the North Pole and minus 90 degree at the South Pole.",
+                    "description*": {
+                        "de": "Die Winkelmessung reicht von 0 Grad am Aequator bis +90 Grad am Nordpol und minus 90 Grad am Suedpol."
+                    },
+                    "default": null,
+                    "minimum": -90,
+                    "maximum": 90
+                },
+                "longitude": {
+                    "title": "Longitude",
+                    "title*": {
+                        "en": "Longitude",
+                        "de": "Laengengrad"
+                    },
+                    "type": "number",
+                    "description": "Angular measurement ranging from 0 degree at the Prime Meridian to +180 degree eastward and minus 180 degree westward.",
+                    "description*": {
+                        "de": "Die Winkelmessung reicht von 0 Grad am Nullmeridian bis +180 Grad im Osten und minus 180 Grad im Westen."
+                    },
+                    "default": null,
+                    "minimum": -180,
+                    "maximum": 180
+                }
+            }
+        },
+        "type": {
+            "default": [
+                "Category:OSW3d238d05316e45a4ac95a11d7b24e36b"
+            ]
+        }
+    }
+}

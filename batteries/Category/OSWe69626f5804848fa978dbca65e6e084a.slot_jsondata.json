@@ -1,0 +1,24 @@
+{
+    "subclass_of": [
+        "Category:OSWdda41d4a4ec0421babe0295c6edcb5df"
+    ],
+    "type": [
+        "Category:Category"
+    ],
+    "uuid": "e69626f5-8048-48fa-978d-bca65e6e084a",
+    "label": [
+        {
+            "text": "Resting test procedure",
+            "lang": "en"
+        },
+        {
+            "text": "Open circuit voltage test procedure",
+            "lang": "en"
+        },
+        {
+            "text": "OCV test procedure",
+            "lang": "en"
+        }
+    ],
+    "name": "RestingTestProcedure"
+}

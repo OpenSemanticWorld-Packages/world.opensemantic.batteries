@@ -1,0 +1,36 @@
+{
+    "@context": [
+        "/wiki/Category:OSW0583b134c618484c9911a3dff145c7eb?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW0583b134c618484c9911a3dff145c7eb?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "c999a169-d3a9-474a-89bb-d7bcd0f4cc21",
+    "title": "Solvent",
+    "title*": {
+        "en": "Solvent"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type",
+        "uuid"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSWc999a169d3a9474a89bbd7bcd0f4cc21"
+            ]
+        },
+        "uuid": {
+            "type": "string",
+            "format": "uuid",
+            "options": {
+                "hidden": true
+            }
+        }
+    }
+}

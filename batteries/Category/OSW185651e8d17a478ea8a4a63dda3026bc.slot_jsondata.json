@@ -1,0 +1,25 @@
+{
+    "type": [
+        "Category:OSW8c6de716ad66479a9b8bd6f786f6df6e"
+    ],
+    "subclass_of": [
+        "Category:OSW680453b7563749a0a33f6be16036c81d"
+    ],
+    "uuid": "185651e8-d17a-478e-a8a4-a63dda3026bc",
+    "label": [
+        {
+            "text": "LFP battery cell",
+            "lang": "en"
+        }
+    ],
+    "constituents": [
+        {
+            "name": "positive_electrode",
+            "type": "Category:OSW36082c03d48543aca08bfe4ea3afe8cb",
+            "uuid": "b1515bd9-1547-4dad-bc27-db33d0f7318f",
+            "property": "Property:HasPart"
+        }
+    ],
+    "positive_electrode_2": "Category:OSW36082c03d48543aca08bfe4ea3afe8cb",
+    "name": "LfpBatteryCell"
+}

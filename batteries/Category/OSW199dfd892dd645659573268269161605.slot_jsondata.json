@@ -1,0 +1,20 @@
+{
+    "subclass_of": [
+        "Category:OSWdda41d4a4ec0421babe0295c6edcb5df"
+    ],
+    "type": [
+        "Category:Category"
+    ],
+    "uuid": "199dfd89-2dd6-4565-9573-268269161605",
+    "label": [
+        {
+            "text": "PITT test procedure",
+            "lang": "en"
+        },
+        {
+            "text": "Potentiostatic Intermittent Titration Technique test procedure",
+            "lang": "en"
+        }
+    ],
+    "name": "PittTestProcedure"
+}

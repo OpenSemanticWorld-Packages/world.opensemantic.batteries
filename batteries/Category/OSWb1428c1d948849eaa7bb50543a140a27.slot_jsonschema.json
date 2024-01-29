@@ -1,0 +1,36 @@
+{
+    "@context": [
+        "/wiki/Category:OSW670c84f7f7e64533a37081e6349bb008?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW670c84f7f7e64533a37081e6349bb008?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "b1428c1d-9488-49ea-a7bb-50543a140a27",
+    "title": "NMC111",
+    "title*": {
+        "en": "NCM111"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type",
+        "uuid"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSWb1428c1d948849eaa7bb50543a140a27"
+            ]
+        },
+        "uuid": {
+            "type": "string",
+            "format": "uuid",
+            "options": {
+                "hidden": true
+            }
+        }
+    }
+}

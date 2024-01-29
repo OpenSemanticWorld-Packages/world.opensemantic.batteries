@@ -1,0 +1,36 @@
+{
+    "@context": [
+        "/wiki/Category:OSW1a9524bf22384a9ebd7fed4b9b29e116?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW1a9524bf22384a9ebd7fed4b9b29e116?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "fe8c9892-fed6-4355-86d9-030886652151",
+    "title": "CarboxymethylCellulose",
+    "title*": {
+        "en": "CMC"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type",
+        "uuid"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSWfe8c9892fed6435586d9030886652151"
+            ]
+        },
+        "uuid": {
+            "type": "string",
+            "format": "uuid",
+            "options": {
+                "hidden": true
+            }
+        }
+    }
+}

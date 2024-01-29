@@ -1,0 +1,36 @@
+{
+    "@context": [
+        "/wiki/Category:OSW1a9524bf22384a9ebd7fed4b9b29e116?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW1a9524bf22384a9ebd7fed4b9b29e116?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "0d44aad3-c1d3-467e-82b4-83f27d814aad",
+    "title": "PolyvinylideneDifluoride",
+    "title*": {
+        "en": "PVDF"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type",
+        "uuid"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW0d44aad3c1d3467e82b483f27d814aad"
+            ]
+        },
+        "uuid": {
+            "type": "string",
+            "format": "uuid",
+            "options": {
+                "hidden": true
+            }
+        }
+    }
+}

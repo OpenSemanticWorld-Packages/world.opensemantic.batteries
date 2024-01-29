@@ -1,0 +1,24 @@
+{
+    "type": [
+        "Category:ObjectProperty"
+    ],
+    "name": "HasSop",
+    "property_type": "Page",
+    "uuid": "357fa9a8-9cd8-49b1-9e20-d4d8fa016b24",
+    "label": [
+        {
+            "text": "HasDut",
+            "lang": "en"
+        }
+    ],
+    "description": [
+        {
+            "text": "Relation that points to the object of a test or characterization, a device under test (DUT).",
+            "lang": "en"
+        },
+        {
+            "text": "Beziehung, die auf das Objekt einer Pr\u00fcfung oder Charakterisierung, ein zu pr\u00fcfendes Ger\u00e4t (DUT), verweist.",
+            "lang": "de"
+        }
+    ]
+}

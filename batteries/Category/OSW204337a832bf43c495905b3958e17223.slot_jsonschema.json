@@ -1,0 +1,28 @@
+{
+    "@context": [
+        "/wiki/Category:OSWf04e73d3c3cb4e4ea7033066e472e9ff?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSWf04e73d3c3cb4e4ea7033066e472e9ff?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "204337a8-32bf-43c4-9590-5b3958e17223",
+    "title": "PrismaticCellFormat",
+    "title*": {
+        "en": "Prismatic cell format"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW204337a832bf43c495905b3958e17223"
+            ]
+        }
+    }
+}

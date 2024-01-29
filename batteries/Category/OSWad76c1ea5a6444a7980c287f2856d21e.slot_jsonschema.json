@@ -1,0 +1,46 @@
+{
+    "@context": [
+        "/wiki/Category:OSW680453b7563749a0a33f6be16036c81d?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW680453b7563749a0a33f6be16036c81d?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "ad76c1ea-5a64-44a7-980c-287f2856d21e",
+    "title": "NmcBatteryCell",
+    "title*": {
+        "en": "NMC battery cell"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type",
+        "uuid"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSWad76c1ea5a6444a7980c287f2856d21e"
+            ]
+        },
+        "uuid": {
+            "type": "string",
+            "format": "uuid",
+            "options": {
+                "hidden": true
+            }
+        },
+        "positive_electrode": {
+            "title": "positive_electrode",
+            "type": "autocomplete",
+            "range": "Category:OSW670c84f7f7e64533a37081e6349bb008"
+        },
+        "positive_electrode_2": {
+            "title": "positive_electrode_2",
+            "type": "autocomplete",
+            "range": "Category:OSW670c84f7f7e64533a37081e6349bb008"
+        }
+    }
+}

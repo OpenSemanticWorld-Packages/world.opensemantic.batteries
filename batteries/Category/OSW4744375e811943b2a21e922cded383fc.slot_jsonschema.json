@@ -1,0 +1,40 @@
+{
+    "@context": [
+        "/wiki/Category:OSW37a57741ae2e4dd4b29b1172b6848be8?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW37a57741ae2e4dd4b29b1172b6848be8?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "4744375e-8119-43b2-a21e-922cded383fc",
+    "title": "ElectrochemicalCell",
+    "title*": {
+        "en": "Electrochemical cell",
+        "de": "Elektrochemische Zelle"
+    },
+    "description": "An electrochemical cell is a device that generates electrical energy from chemical reactions. Electrical energy can also be applied to these cells to cause chemical reactions to occur.",
+    "description*": {
+        "en": "An electrochemical cell is a device that generates electrical energy from chemical reactions. Electrical energy can also be applied to these cells to cause chemical reactions to occur.",
+        "de": "Eine elektrochemische Zelle ist ein Ger\u00e4t, das aus chemischen Reaktionen elektrische Energie erzeugt. Elektrische Energie kann auch an diese Zellen angelegt werden, um chemische Reaktionen auszul\u00f6sen."
+    },
+    "required": [
+        "type",
+        "uuid"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW4744375e811943b2a21e922cded383fc"
+            ]
+        },
+        "uuid": {
+            "type": "string",
+            "format": "uuid",
+            "options": {
+                "hidden": true
+            }
+        }
+    }
+}

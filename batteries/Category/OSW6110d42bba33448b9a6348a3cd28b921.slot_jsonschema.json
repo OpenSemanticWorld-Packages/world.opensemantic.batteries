@@ -1,0 +1,36 @@
+{
+    "@context": [
+        "/wiki/Category:OSWd5791d13ae43423ebb97ceb942c62d10?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSWd5791d13ae43423ebb97ceb942c62d10?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "6110d42b-ba33-448b-9a63-48a3cd28b921",
+    "title": "PositiveActiveMaterial",
+    "title*": {
+        "en": "Positive active material"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type",
+        "uuid"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW6110d42bba33448b9a6348a3cd28b921"
+            ]
+        },
+        "uuid": {
+            "type": "string",
+            "format": "uuid",
+            "options": {
+                "hidden": true
+            }
+        }
+    }
+}

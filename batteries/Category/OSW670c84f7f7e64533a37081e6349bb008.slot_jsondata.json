@@ -1,0 +1,28 @@
+{
+    "type": [
+        "Category:OSW182916df3eee472e88e7c8d114a7fe27"
+    ],
+    "subclass_of": [
+        "Category:OSW6110d42bba33448b9a6348a3cd28b921"
+    ],
+    "uuid": "670c84f7-f7e6-4533-a370-81e6349bb008",
+    "label": [
+        {
+            "text": "NMC",
+            "lang": "en"
+        },
+        {
+            "text": "NCM",
+            "lang": "en"
+        },
+        {
+            "text": "Lithium nickel manganese cobalt oxide",
+            "lang": "en"
+        },
+        {
+            "text": "LIthium nickel cobalt manganese oxide",
+            "lang": "en"
+        }
+    ],
+    "name": "NMC"
+}

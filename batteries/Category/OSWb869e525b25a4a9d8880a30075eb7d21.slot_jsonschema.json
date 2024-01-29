@@ -1,0 +1,36 @@
+{
+    "@context": [
+        "/wiki/Category:OSWc02165dc24544a10a2046b54506dedac?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSWc02165dc24544a10a2046b54506dedac?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "b869e525-b25a-4a9d-8880-a30075eb7d21",
+    "title": "ConductiveAdditive",
+    "title*": {
+        "en": "Conductive additive"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type",
+        "uuid"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSWb869e525b25a4a9d8880a30075eb7d21"
+            ]
+        },
+        "uuid": {
+            "type": "string",
+            "format": "uuid",
+            "options": {
+                "hidden": true
+            }
+        }
+    }
+}

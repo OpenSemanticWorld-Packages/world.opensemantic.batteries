@@ -12,7 +12,7 @@
     "title": "BatteryCellOpening",
     "title*": {
         "en": "Battery Cell Opening",
-        "de": "Batteriezellöffnung"
+        "de": "Batteriezell\u00f6ffnung"
     },
     "description": "",
     "description*": {},
@@ -28,7 +28,7 @@
         "prior_risk_assessment": {
             "title": "Prior Risk Assessment",
             "title*": {
-                "de": "Vorangegangene Gefährdungsbeurteilung"
+                "de": "Vorangegangene Gef\u00e4hrdungsbeurteilung"
             },
             "type": "string",
             "format": "autocomplete",

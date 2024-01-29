@@ -1,0 +1,211 @@
+{
+    "@context": [
+        "/wiki/Category:OSWdda41d4a4ec0421babe0295c6edcb5df?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSWdda41d4a4ec0421babe0295c6edcb5df?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "cb168c1a-d3c7-467b-b4ed-740381771928",
+    "title": "CyclingTestProcedure",
+    "title*": {
+        "en": "Electrochemical cycling test procedure"
+    },
+    "description": "A procedure describing cycles of charge and discharge of an electrochemical cell.",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "defaultProperties": [
+        "steps"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSWcb168c1ad3c7467bb4ed740381771928"
+            ]
+        },
+        "steps": {
+            "type": "array",
+            "title": "Steps",
+            "title*": {
+                "de": "Schritte"
+            },
+            "description": "Steps of the procedure",
+            "description*": {
+                "de": "Schritte der Prozedur"
+            },
+            "items": {
+                "type": "object",
+                "title": "Step",
+                "title*": {
+                    "de": "Schritt"
+                },
+                "defaultProperties": [
+                    "step_number",
+                    "step_temperature",
+                    "go_back_to",
+                    "go_back_to_repetitions",
+                    "step_description",
+                    "step_file",
+                    "number_of_cycles",
+                    "c_rate_charging",
+                    "end_of_charge_voltage",
+                    "cv_condition",
+                    "resting_time_after_charge",
+                    "c_rate_discharging",
+                    "cut_off_voltage_discharge",
+                    "resting_time_after_discharge"
+                ],
+                "properties": {
+                    "number_of_cycles": {
+                        "type": "integer",
+                        "title": "Number of cycles",
+                        "title*": {
+                            "de": "Anzahl der Zyklen"
+                        }
+                    },
+                    "c_rate_charging": {
+                        "type": "number",
+                        "title": "C-rate on charge [1]",
+                        "title*": {
+                            "de": "Lade-C-Rate"
+                        },
+                        "description": "C-rate on charge, 1 means full charge in 1 hour",
+                        "description*": {
+                            "de": "Lade-C-Rate, 1 bedeutet volle Ladung in 1 Stunde"
+                        }
+                    },
+                    "end_of_charge_voltage": {
+                        "type": "number",
+                        "title": "End of charge voltage [V]",
+                        "title*": {
+                            "de": "Ladeschlussspannung [V]"
+                        }
+                    },
+                    "cv_condition": {
+                        "type": "string",
+                        "title": "CV condition",
+                        "title*": {
+                            "de": "CV-Bedingung"
+                        }
+                    },
+                    "resting_time_after_charge": {
+                        "type": "number",
+                        "title": "Resting time after charge [h]",
+                        "title*": {
+                            "de": "Ruhezeit nach dem Laden [h]"
+                        }
+                    },
+                    "c_rate_discharging": {
+                        "type": "number",
+                        "title": "C-rate on discharge [1]",
+                        "title*": {
+                            "de": "Entlade-C-Rate"
+                        },
+                        "description": "C-rate on discharge, 1 means full discharge in 1 hour",
+                        "description*": {
+                            "de": "Entlade-C-Rate, 1 bedeutet volle Entladung in 1 Stunde"
+                        }
+                    },
+                    "cut_off_voltage_discharge": {
+                        "type": "number",
+                        "title": "Discharge cut-off voltage [V]",
+                        "title*": {
+                            "de": "Entlade-Abschaltspannung [V]"
+                        }
+                    },
+                    "resting_time_after_discharge": {
+                        "type": "number",
+                        "title": "Resting time after discharge [h]",
+                        "title*": {
+                            "de": "Ruhezeit nach der Entladung [h]"
+                        }
+                    },
+                    "step_number": {
+                        "type": "integer",
+                        "title": "Step number",
+                        "title*": {
+                            "de": "Schrittnummer"
+                        },
+                        "description": "Number of the step in the procedure",
+                        "description*": {
+                            "de": "Nummer des Schritts in der Prozedur"
+                        },
+                        "default": 1,
+                        "minimum": 0
+                    },
+                    "step_repetitions": {
+                        "type": "integer",
+                        "title": "Step repetitions",
+                        "title*": {
+                            "de": "Schritt-Wiederholungen"
+                        },
+                        "description": "Number of times the step is repeated",
+                        "description*": {
+                            "de": "Anzahl der Wiederholungen des Schritts"
+                        },
+                        "default": 0,
+                        "minimum": 0
+                    },
+                    "go_back_to": {
+                        "type": "integer",
+                        "title": "Go back to",
+                        "title*": {
+                            "de": "Zur\u00fcck zu"
+                        },
+                        "description": "Number of the step to go back to",
+                        "description*": {
+                            "de": "Nummer des Schritts, zu dem zur\u00fcckgegangen werden soll"
+                        },
+                        "default": 0,
+                        "minimum": 0
+                    },
+                    "go_back_to_repetitions": {
+                        "type": "integer",
+                        "title": "Go back to repetitions",
+                        "title*": {
+                            "de": "Zur\u00fcck zu Wiederholungen"
+                        },
+                        "description": "Number of times the go back to step is repeated",
+                        "description*": {
+                            "de": "Anzahl der Wiederholungen des Zur\u00fcck zu Schritts"
+                        },
+                        "default": 0,
+                        "minimum": 0
+                    },
+                    "step_description": {
+                        "type": "string",
+                        "title": "Description",
+                        "title*": {
+                            "de": "Beschreibung"
+                        },
+                        "description": "Description of the step",
+                        "description*": {
+                            "de": "Beschreibung des Schritts"
+                        }
+                    },
+                    "step_file": {
+                        "type": "string",
+                        "title": "Step file",
+                        "title*": {
+                            "de": "Schritt-Datei"
+                        },
+                        "description": "File containing the step, usually in a vendor specific format",
+                        "description*": {
+                            "de": "Datei, welche den Schritt enth\u00e4lt, normalerweise in einem herstellerspezifischen Format"
+                        },
+                        "format": "autocomplete",
+                        "options": {
+                            "autocomplete": {
+                                "category": "Category:OSW11a53cdfbdc24524bf8ac435cbf65d9d"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

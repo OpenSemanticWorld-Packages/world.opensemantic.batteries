@@ -1,0 +1,28 @@
+{
+    "@context": [
+        "/wiki/Category:OSWdda41d4a4ec0421babe0295c6edcb5df?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSWdda41d4a4ec0421babe0295c6edcb5df?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "807b7b36-387a-466a-83bd-08e30fe97b33",
+    "title": "GittTestProcedure",
+    "title*": {
+        "en": "Galvanostatic Intermittent Titration Technique test procedure"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW807b7b36387a466a83bd08e30fe97b33"
+            ]
+        }
+    }
+}

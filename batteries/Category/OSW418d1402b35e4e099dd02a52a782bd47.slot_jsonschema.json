@@ -1,0 +1,36 @@
+{
+    "@context": [
+        "/wiki/Category:OSW670c84f7f7e64533a37081e6349bb008?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW670c84f7f7e64533a37081e6349bb008?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "418d1402-b35e-4e09-9dd0-2a52a782bd47",
+    "title": "NMC811",
+    "title*": {
+        "en": "NCM811"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type",
+        "uuid"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW418d1402b35e4e099dd02a52a782bd47"
+            ]
+        },
+        "uuid": {
+            "type": "string",
+            "format": "uuid",
+            "options": {
+                "hidden": true
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "@context": [
+        "/wiki/Category:OSW8f36767bb491449ebc959802c8d66d23?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW8f36767bb491449ebc959802c8d66d23?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "46147317-9c1a-4ae2-9751-9477810f4172",
+    "title": "EisFrequencyRangeSpacingOption",
+    "title*": {
+        "en": "EIS frequency range spacing option"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW461473179c1a4ae297519477810f4172"
+            ]
+        }
+    }
+}

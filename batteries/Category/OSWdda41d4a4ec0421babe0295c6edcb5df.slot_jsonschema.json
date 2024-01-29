@@ -19,11 +19,32 @@
     "required": [
         "type"
     ],
+    "defaultProperties": [
+        "attachments"
+    ],
     "properties": {
         "type": {
             "default": [
                 "Category:OSWdda41d4a4ec0421babe0295c6edcb5df"
             ]
+        },
+        "prepended_procedures": {
+            "items": {
+                "options": {
+                    "autocomplete": {
+                        "category": "Category:OSWdda41d4a4ec0421babe0295c6edcb5df"
+                    }
+                }
+            }
+        },
+        "appended_procedures": {
+            "items": {
+                "options": {
+                    "autocomplete": {
+                        "category": "Category:OSWdda41d4a4ec0421babe0295c6edcb5df"
+                    }
+                }
+            }
         }
     }
 }

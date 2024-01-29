@@ -1,0 +1,30 @@
+{
+    "type": [
+        "Category:OSW182916df3eee472e88e7c8d114a7fe27"
+    ],
+    "subclass_of": [
+        "Category:OSW4744375e811943b2a21e922cded383fc"
+    ],
+    "uuid": "680453b7-5637-49a0-a33f-6be16036c81d",
+    "label": [
+        {
+            "text": "Battery cell ",
+            "lang": "en"
+        }
+    ],
+    "constituents": [
+        {
+            "name": "positive_electrode",
+            "type": "Category:OSWd5791d13ae43423ebb97ceb942c62d10",
+            "uuid": "b1515bd9-1547-4dad-bc27-db33d0f7318f",
+            "property": "Property:HasPart"
+        }
+    ],
+    "name": "BatteryCell",
+    "metaclass": [
+        "Category:OSW8c6de716ad66479a9b8bd6f786f6df6e"
+    ],
+    "utf8_icon": [
+        "\ud83d\udd0b"
+    ]
+}

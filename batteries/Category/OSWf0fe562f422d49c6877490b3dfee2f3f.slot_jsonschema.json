@@ -4,24 +4,39 @@
             "responsible_person": "Property:HasResponsiblePerson",
             "location": "Property:IsLocatedIn",
             "organizational_unit": "Property:HasDepartment",
-            "database": "Property:HasDatabase",
             "inventory_number": "Property:HasInventoryNumber",
-            "measurement_channels": "Property:HasMeasurementChannels",
             "risk_assessment": "Property:HasRiskAssessment",
-            "device_type": "Property:HasDeviceType",
             "owner": "Property:HasOwner",
             "serial_number": "Property:HasSerialNumber"
         },
-        "/wiki/Category:OSWffc96a4e0dde4f43ba2b23d56353c9fa?action=raw&slot=jsonschema",
-        "/wiki/Category:OSW7d7c21cbf1284e5a9b85b98c3605db24?action=raw&slot=jsonschema"
+        "/wiki/Category:OSWe427aafafbac4262955b9f690a83405d?action=raw&slot=jsonschema"
     ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSWe427aafafbac4262955b9f690a83405d?action=raw&slot=jsonschema"
+        }
+    ],
+    "title": "Device",
+    "type": "object",
     "properties": {
         "responsible_person": {
-            "type": "string",
-            "format": "autocomplete",
-            "query": "[[Category:OSW44deaa5b806d41a2a88594f562b110e9]] |?Display_title_of=label",
-            "previewWikiTextTemplate": "[[:{{result.fulltext}}]]",
-            "labelTemplate": "{{result.printouts.label.[0]}}"
+            "type": "array",
+            "title": "Responsible Person",
+            "items": {
+                "title": "Responsible Person",
+                "type": "string",
+                "format": "autocomplete",
+                "category": "Category:OSW44deaa5b806d41a2a88594f562b110e9"
+            }
+        },
+        "responsible_person_name": {
+            "type": "array",
+            "title": "Responsible Person Name",
+            "description": "use only if responsible person cannot be created as an object",
+            "items": {
+                "title": "Responsible Person Name",
+                "type": "string"
+            }
         },
         "location": {
             "title": "Location",
@@ -30,67 +45,33 @@
                 "en": "Location"
             },
             "type": "array",
-            "format": "table",
             "items": {
                 "title": "",
                 "type": "string",
                 "format": "autocomplete",
-                "query": "[[Category:OSW3d238d05316e45a4ac95a11d7b24e36b]] |?Display_title_of=label",
-                "previewWikiTextTemplate": "[[:{{result.fulltext}}]]",
-                "labelTemplate": "{{result.printouts.label.[0]}}"
+                "category": "Category:OSW3d238d05316e45a4ac95a11d7b24e36b"
+            }
+        },
+        "location_name": {
+            "title": "Location Name",
+            "description": "Only use if Location Object cannot be found and created",
+            "title*": {
+                "de": "Ort (Name)"
+            },
+            "type": "array",
+            "items": {
+                "title": "",
+                "type": "string"
             }
         },
         "organizational_unit": {
-            "title": "OU",
-            "type": "string",
-            "format": "autocomplete",
-            "query": "[[Category:OSWb8b6278763d54b0784eea9d3b3d183a4]]",
-            "previewWikiTextTemplate": "[[:{{result.fulltext}}]]",
-            "labelTemplate": "{{result.printouts.label.[0]}}"
-        },
-        "database": {
-            "type": "string",
-            "format": "autocomplete",
-            "query": "[[Category:OSW51ad0d1716254c77a2b7a03217f23b43]]",
-            "previewWikiTextTemplate": "[[:{{result.fulltext}}]]",
-            "labelTemplate": "{{result.printouts.label.[0]}}"
-        },
-        "measurement_channels": {
-            "title": "Measurement Channels",
+            "title": "Organizational Unit",
             "type": "array",
-            "format": "array",
-            "title*": {
-                "de": "Messkanäle"
-            },
             "items": {
-                "title": "Measurement Channel",
-                "title*": {
-                    "de": "Messkanäle"
-                },
-                "type": "object",
-                "required": [
-                    "uuid"
-                ],
-                "properties": {
-                    "uuid": {
-                        "type": "string",
-                        "format": "uuid",
-                        "options": {
-                            "hidden": true
-                        }
-                    },
-                    "measured_quantity": {
-                        "title": "Measured Quantity",
-                        "type": "string",
-                        "title*": {
-                            "de": "Messgröße"
-                        }
-                    },
-                    "channel_name": {
-                        "title": "Channel Name",
-                        "type": "string"
-                    }
-                }
+                "title": "Organizational Unit",
+                "type": "string",
+                "format": "autocomplete",
+                "category": "Category:OSWb8b6278763d54b0784eea9d3b3d183a4"
             }
         },
         "inventory_number": {
@@ -98,7 +79,17 @@
             "type": "string"
         },
         "risk_assessment": {
-            "type": "string"
+            "title": "Risk Assessment",
+            "title*": {
+                "de": "Gef\u00e4hrdungsbeurteilung"
+            },
+            "type": "string",
+            "format": "autocomplete",
+            "options": {
+                "autocomplete": {
+                    "category": "Category:OSW3886740859ae459588fee73d3bb3c83e"
+                }
+            }
         },
         "serial_number": {
             "title": "Serial Number",
@@ -109,41 +100,21 @@
             "title": "Owner",
             "type": "string"
         },
-        "device_type": {
-            "type": "string",
-            "format": "autocomplete",
-            "query": "[[Category:OSWbeec89bdcbc64d8f90a459ba19c46dcc]] |?Display_title_of=label",
-            "previewWikiTextTemplate": "[[:{{result.fulltext}}]]",
-            "labelTemplate": "{{result.printouts.label.[0]}}",
-            "render_template": {
-                "type": [
-                    "handlebars"
-                ],
-                "value": "<a href='/wiki/{{result.fulltext}}'>{{result.printouts.label.[0]}}</a>"
-            }
-        },
         "type": {
             "default": [
-                "Category:OSW0dfdf90326584d0485b5fa8324f0de1a"
+                "Category:OSWf0fe562f422d49c6877490b3dfee2f3f"
             ]
         }
     },
-    "title": "Device",
-    "type": "object",
-    "allOf": [
-        {
-            "$ref": "/wiki/Category:OSWe427aafafbac4262955b9f690a83405d?action=raw&slot=jsonschema"
-        }
-    ],
     "uuid": "f0fe562f-422d-49c6-8774-90b3dfee2f3f",
     "title*": {
         "en": "Device",
-        "de": "Gerät"
+        "de": "Ger\u00e4t"
     },
     "description": "A Tool that is a (phyiscal) piece of Hardware.",
     "description*": {
         "en": "A Tool that is a (phyiscal) piece of Hardware.",
-        "de": "Ein Werkzeug, das ein (physisches) Stück Ausrüstung ist."
+        "de": "Ein Werkzeug, das ein (physisches) St\u00fcck Ausr\u00fcstung ist."
     },
     "required": [
         "type"

@@ -1,0 +1,36 @@
+{
+    "@context": [
+        "/wiki/Category:OSW0e56179ca32e49f4a92ddd71e0034550?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW0e56179ca32e49f4a92ddd71e0034550?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "02f14745-aa5d-40a0-8a2b-7563b3ceff1a",
+    "title": "Ni",
+    "title*": {
+        "en": "Nickel"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type",
+        "uuid"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW02f14745aa5d40a08a2b7563b3ceff1a"
+            ]
+        },
+        "uuid": {
+            "type": "string",
+            "format": "uuid",
+            "options": {
+                "hidden": true
+            }
+        }
+    }
+}

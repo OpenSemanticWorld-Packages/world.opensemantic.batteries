@@ -1,0 +1,24 @@
+{
+    "type": [
+        "Category:OSW38ddea7b37fa4712858fe16404993b59"
+    ],
+    "rdf_type": "",
+    "uuid": "bcffb095-3cef-4cc4-b9d3-aa4edbf986fa",
+    "label": [
+        {
+            "text": "NFRA",
+            "lang": "en"
+        },
+        {
+            "text": "Nonlinear Frequency Response Analysis",
+            "lang": "en"
+        }
+    ],
+    "description": [
+        {
+            "text": "Nonlinear Frequency Response Analysis",
+            "lang": "en"
+        }
+    ],
+    "name": "NFRA"
+}

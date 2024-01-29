@@ -1,0 +1,38 @@
+{
+    "@context": [
+        {}
+    ],
+    "defaultProperties": [
+        "uuid",
+        "label"
+    ],
+    "properties": {
+        "manager": {
+            "title": "President",
+            "title*": {
+                "en": "President",
+                "de": "Pr\u00e4sident:in"
+            },
+            "description": "The president is the head of the association.",
+            "description*": {
+                "en": "The president is the head of the association.",
+                "de": "Der/die Pr\u00e4sident:in ist der Vorsitzende des Vereins."
+            }
+        },
+        "type": {
+            "default": [
+                "Category:OSWd9521d3054814dd29c2bcdbd9185d1f0"
+            ]
+        }
+    },
+    "type": "object",
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW1969007d5acf40539642877659a02c23?action=raw&slot=jsonschema"
+        }
+    ],
+    "title": "Association",
+    "required": [
+        "type"
+    ]
+}

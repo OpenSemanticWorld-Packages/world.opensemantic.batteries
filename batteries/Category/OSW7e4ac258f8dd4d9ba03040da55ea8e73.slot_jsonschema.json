@@ -1,0 +1,156 @@
+{
+    "@context": [
+        "/wiki/Category:OSWdda41d4a4ec0421babe0295c6edcb5df?action=raw&slot=jsonschema",
+        {
+            "eis_type": {
+                "@id": "Property:HasEisType",
+                "@type": "@id"
+            },
+            "mode": {
+                "@id": "Property:HasEisMode",
+                "@type": "@id"
+            },
+            "amplitude": {
+                "@id": "Property:HasAmplitude",
+                "@type": "xsd:float"
+            },
+            "frequency_range": {
+                "@id": "Property:HasFrequencyRange",
+                "@type": "@id"
+            },
+            "averaging": {
+                "@id": "Property:HasAveraging",
+                "@type": "xsd:integer"
+            },
+            "drift_correction": {
+                "@id": "Property:HasDriftCorrection",
+                "@type": "xsd:boolean"
+            },
+            "lowest_frequency": {
+                "@id": "Property:HasLowestFrequency",
+                "@type": "xsd:float"
+            },
+            "highest_frequency": {
+                "@id": "Property:HasHighestFrequency",
+                "@type": "xsd:float"
+            }
+        }
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSWdda41d4a4ec0421babe0295c6edcb5df?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "7e4ac258-f8dd-4d9b-a030-40da55ea8e73",
+    "title": "EisTestProcedure",
+    "title*": {
+        "en": "Electrochemical impedance spectroscopy test procedure"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "defaultProperties": [
+        "eis_type",
+        "eis_mode",
+        "amplitude",
+        "amplitude_unit",
+        "frequency_range",
+        "averaging",
+        "drift_correction"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW7e4ac258f8dd4d9ba03040da55ea8e73"
+            ]
+        },
+        "eis_type": {
+            "title": "EIS type",
+            "type": "string",
+            "format": "autocomplete",
+            "range": "Category:OSW38ddea7b37fa4712858fe16404993b59"
+        },
+        "eis_mode": {
+            "title": "Mode",
+            "type": "string",
+            "format": "autocomplete",
+            "range": "Category:OSW7de0f2441b724c3894093e3e35123fc8"
+        },
+        "amplitude": {
+            "title": "Amplitude",
+            "type": "number",
+            "description": "The amplitude of the excitation in mV or mA, depending on EIS type"
+        },
+        "amplitude_unit": {
+            "title": "Unit of the amplitude",
+            "description": "The unit of the amplitude of the excitation",
+            "type": "string",
+            "enum": [
+                "mV",
+                "mA"
+            ],
+            "default": "mV"
+        },
+        "frequency_range": {
+            "title": "Frequency range",
+            "type": "object",
+            "defaultProperties": [
+                "lowest_frequency",
+                "highest_frequency",
+                "step_size"
+            ],
+            "properties": {
+                "lowest_frequency": {
+                    "title": "Lowest frequency [Hz]",
+                    "type": "number"
+                },
+                "highest_frequency": {
+                    "title": "Highest frequency [Hz]",
+                    "type": "number"
+                },
+                "step_size": {
+                    "title": "Step size",
+                    "type": "object",
+                    "defaultProperties": [
+                        "num_points",
+                        "boundary_option",
+                        "spacing_option"
+                    ],
+                    "properties": {
+                        "num_points": {
+                            "title": "Number of points",
+                            "type": "integer"
+                        },
+                        "boundary_option": {
+                            "title": "Boundary option",
+                            "type": "string",
+                            "format": "autocomplete",
+                            "range": "Category:OSW0945915aa38b4ddd905bc959fed02320"
+                        },
+                        "spacing_option": {
+                            "title": "Spacing option",
+                            "type": "string",
+                            "format": "autocomplete",
+                            "range": "Category:OSW461473179c1a4ae297519477810f4172"
+                        }
+                    }
+                }
+            }
+        },
+        "averaging": {
+            "title": "Averaging",
+            "type": "number",
+            "default": 1,
+            "description": "The number of repetitions averaged for a single data point in the file"
+        },
+        "drift_correction": {
+            "title": "Drift correction",
+            "type": "boolean",
+            "default": false,
+            "description": "If the drift correction is enabled, the frequency will be swept downwards and upwards"
+        }
+    }
+}

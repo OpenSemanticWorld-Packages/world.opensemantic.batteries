@@ -16,5 +16,8 @@
             "lang": "de"
         }
     ],
-    "name": "ElectrochemicalTestProcedure"
+    "name": "ElectrochemicalTestProcedure",
+    "utf8_icon": [
+        "\ud83d\udcdd"
+    ]
 }

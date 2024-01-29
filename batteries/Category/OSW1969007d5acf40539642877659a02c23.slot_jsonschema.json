@@ -1,0 +1,140 @@
+{
+    "@context": [
+        {
+            "legal_name": "Property:HasLegalName",
+            "legal_form": "Property:HasLegalForm",
+            "superordinate_ou": "Property:HasSuperordinateOu"
+        }
+    ],
+    "defaultProperties": [
+        "uuid",
+        "label",
+        "abbreviation",
+        "deputy_manager",
+        "mailing_list",
+        "manager",
+        "secretary",
+        "superordinate_ou",
+        "topic",
+        "website",
+        "phone_number",
+        "fax_number",
+        "email",
+        "image",
+        "member_of",
+        "postal_address",
+        "site",
+        "legal_name",
+        "legal_form",
+        "superordinate_ou"
+    ],
+    "properties": {
+        "founder": {
+            "title": "Founder",
+            "title*": {
+                "en": "Founder",
+                "de": "Gr\u00fcnder:in"
+            },
+            "type": "array",
+            "format": "table",
+            "items": {
+                "title": "",
+                "type": "string",
+                "format": "autocomplete",
+                "query": "[[Category:OSW44deaa5b806d41a2a88594f562b110e9]] |?Display_title_of=label",
+                "previewWikiTextTemplate": "[[:{{result.fulltext}}]]",
+                "labelTemplate": "{{result.printouts.label.[0]}}"
+            },
+            "minItems": 1,
+            "default": [
+                ""
+            ]
+        },
+        "founding_date": {
+            "title": "Founding date",
+            "title*": {
+                "en": "Founding date",
+                "de": "Gr\u00fcndungsdatum"
+            },
+            "type": "string",
+            "format": "date",
+            "default": ""
+        },
+        "founding_location": {
+            "title": "Founding location",
+            "title*": {
+                "en": "Founding location",
+                "de": "Gr\u00fcndungsort"
+            },
+            "type": "string",
+            "format": "text",
+            "default": ""
+        },
+        "legal_name": {
+            "title": "Legal name",
+            "title*": {
+                "en": "Legal name",
+                "de": "Rechtlicher Name"
+            },
+            "type": "string",
+            "format": "text",
+            "default": ""
+        },
+        "legal_form": {
+            "title": "Legal form",
+            "title*": {
+                "en": "Legal form",
+                "de": "Rechtsform"
+            },
+            "type": "string",
+            "format": "text",
+            "default": ""
+        },
+        "superordinate_ou": {
+            "title": "Parent organization",
+            "title*": {
+                "en": "Parent organization",
+                "de": "Elternorganisation"
+            },
+            "description": "The parent organization of this organization.",
+            "description*": {
+                "en": "The parent organization of this organization.",
+                "de": "Die Elternorganisation dieser Organisation."
+            },
+            "type": "array",
+            "format": "table",
+            "items": {
+                "title": "",
+                "type": "string",
+                "format": "autocomplete",
+                "query": "[[Category:OSW1969007d5acf40539642877659a02c23]] |?Display_title_of=label",
+                "previewWikiTextTemplate": "[[:{{result.fulltext}}]]",
+                "labelTemplate": "{{result.printouts.label.[0]}}"
+            },
+            "minItems": 1,
+            "default": [
+                ""
+            ]
+        },
+        "type": {
+            "default": [
+                "Category:OSW1969007d5acf40539642877659a02c23"
+            ]
+        }
+    },
+    "type": "object",
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW3cb8cef2225e403092f098f99bc4c472?action=raw&slot=jsonschema"
+        }
+    ],
+    "title": "Organization",
+    "title*": {
+        "de": "Organisation"
+    },
+    "uuid": "1969007d-5acf-4053-9642-877659a02c23",
+    "id": "OSW1969007d5acf40539642877659a02c23",
+    "required": [
+        "type"
+    ]
+}

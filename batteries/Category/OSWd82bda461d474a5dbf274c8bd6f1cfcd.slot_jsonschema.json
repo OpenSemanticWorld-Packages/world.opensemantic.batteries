@@ -1,0 +1,36 @@
+{
+    "@context": [
+        "/wiki/Category:OSW1ee1f5ccdb564f4e829b76b76028aa77?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW1ee1f5ccdb564f4e829b76b76028aa77?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "d82bda46-1d47-4a5d-bf27-4c8bd6f1cfcd",
+    "title": "LithiumMetal",
+    "title*": {
+        "en": "Lithium metal"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type",
+        "uuid"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSWd82bda461d474a5dbf274c8bd6f1cfcd"
+            ]
+        },
+        "uuid": {
+            "type": "string",
+            "format": "uuid",
+            "options": {
+                "hidden": true
+            }
+        }
+    }
+}

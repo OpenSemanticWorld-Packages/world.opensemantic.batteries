@@ -1,0 +1,156 @@
+{ 
+    "title": "{{{name}}}",
+    "required": ["uuid"],
+    "defaultProperties": [
+        "label"{{#if positive_electrode_supplied}}, 
+        "positive_electrode_supplied"{{/if}}{{#if negative_electrode_supplied}}, 
+        "negative_electrode_supplied"{{/if}}{{#if reference_electrode_supplied}}, 
+        "reference_electrode_supplied"{{/if}}{{#if separator_supplied}}, 
+        "separator_supplied"{{/if}}{{#if electrolyte_supplied}}, 
+        "electrolyte_supplied"{{/if}}{{#if cell_format}}, 
+        "cell_type"{{/if}}
+    ],
+    "properties": { 
+        "uuid": {
+            "type": "string",
+            "format": "uuid",
+            "options": {
+                "hidden": true
+            }
+        } {{#if cell_format}},
+        "cell_type": {
+            "title": "Cell type",
+            "type": "string",
+            "format": "autocomplete",
+            "range": "{{{cell_format}}}"
+        } {{/if}} {{#if reference_electrode}},
+        "reference_electrode": {
+            "title": "Reference electrode",
+            "type": "string",
+            "format": "autocomplete",
+            "range": "{{{reference_electrode}}}"
+        } {{/if}} {{#if positive_electrode_supplied}},
+        "positive_electrode_supplied": {
+            "title": "Positive electrode (supplied)",
+            "type": "object",
+            "required": [
+                "positive_active_material"
+            ],
+            "defaultProperties": [
+                "positive_active_material",
+                "positive_electrode_loading",
+                "positive_electrode_mass"
+            ],
+            "properties": {
+                "positive_active_material": {
+                    "title": "Active material",
+                    "type": "string",
+                    "format": "autocomplete",
+                    "range": "{{{positive_electrode_supplied.positive_active_material}}}"
+                },
+                "positive_electrode_loading": {
+                    "title": "Active material loading [mg/cm²]",
+                    "type": "number",
+                    "default": {{{positive_electrode_supplied.positive_electrode_loading}}},
+                    "description": "Weight of active material in an electrode per unit electrode area."
+                },
+                "positive_electrode_mass" : {
+                    "title": "Overall Mass [mg]",
+                    "default": {{{positive_electrode_supplied.positive_electrode_mass}}},
+                    "type": "number"
+                }
+            }
+        } {{/if}} {{#if negative_electrode_supplied}},
+        "negative_electrode_supplied": {
+            "title": "Negative electrode (supplied)",
+            "type": "object",
+            "required": [
+                "negative_active_material"
+            ],
+            "defaultProperties": [
+                "negative_active_material",
+                "negative_electrode_loading",
+                "negative_electrode_mass"
+            ],
+            "properties": {
+                "negative_active_material": {
+                    "title": "Active material",
+                    "type": "string",
+                    "format": "autocomplete",
+                    "range": "{{{negative_electrode_supplied.negative_active_material}}}"
+                },
+                "negative_electrode_loading": {
+                    "title": "Active material loading [mg/cm²]",
+                    "type": "number",
+                    "default": {{{negative_electrode_supplied.negative_electrode_loading}}},
+                    "description": "Weight of active material in an electrode per unit electrode area."
+                },
+                "negative_electrode_mass" : {
+                    "title": "Overall Mass [mg]",
+                    "default": {{{negative_electrode_supplied.negative_electrode_mass}}},
+                    "type": "number"
+                }
+            }
+        } {{/if}} {{#if electrolyte_supplied}},
+        "electrolyte_supplied": {
+            "title": "Electrolyte (supplied)",
+            "type": "object",
+            "required": [
+                "electrolyte_selection"
+            ],
+            "defaultProperties": [
+                "electrolyte_selection",
+                "electrolyte_mass",
+                "electrolyte_volume"
+            ],
+            "properties": {
+                "electrolyte_selection": {
+                    "title": "Electrolyte",
+                    "type": "string",
+                    "format": "autocomplete",
+                    "range": "{{{electrolyte_supplied.electrolyte_selection}}}"
+                },
+                "electrolyte_mass": {
+                    "title": "Overall Mass [mg]",
+                    "default": {{{electrolyte_supplied.electrolyte_mass}}},
+                    "type": "number"
+                },
+                "electrolyte_volume": {
+                    "title": "Overall Volume [µL]",
+                    "default": {{{electrolyte_supplied.electrolyte_volume}}},
+                    "type": "number"
+                }
+            }
+        } {{/if}} {{#if separator_supplied}},
+        "separator_supplied": {
+            "title": "Separator (supplied)",
+            "type": "object",
+            "required": [
+                "separator_selection"
+            ],
+            "defaultProperties": [
+                "separator_selection",
+                "separator_count",
+                "separator_mass"
+            ],
+            "properties": {
+                "separator_selection": {
+                    "title": "Separator",
+                    "type": "string",
+                    "format": "autocomplete",
+                    "range": "{{{separator_supplied.separator_selection}}}"
+                },
+                "separator_count": {
+                    "title": "Number of layers",
+                    "default": {{{separator_supplied.separator_count}}},
+                    "type": "number"
+                },
+                "separator_mass": {
+                    "title": "Overall Mass [mg]",
+                    "default": {{{separator_supplied.separator_mass}}},
+                    "type": "number"
+                }
+            }
+        } {{/if}}
+    } 
+}

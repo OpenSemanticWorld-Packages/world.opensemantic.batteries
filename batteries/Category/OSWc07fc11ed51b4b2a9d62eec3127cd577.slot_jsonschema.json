@@ -1,0 +1,36 @@
+{
+    "@context": [
+        "/wiki/Category:OSW0c31c2d1182f41e1914a65f329aec378?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW0c31c2d1182f41e1914a65f329aec378?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "c07fc11e-d51b-4b2a-9d62-eec3127cd577",
+    "title": "Separator",
+    "title*": {
+        "en": "Separator"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type",
+        "uuid"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSWc07fc11ed51b4b2a9d62eec3127cd577"
+            ]
+        },
+        "uuid": {
+            "type": "string",
+            "format": "uuid",
+            "options": {
+                "hidden": true
+            }
+        }
+    }
+}

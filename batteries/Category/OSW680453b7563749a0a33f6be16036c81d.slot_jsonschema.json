@@ -1,0 +1,47 @@
+{
+    "@context": [
+        "/wiki/Category:OSW4744375e811943b2a21e922cded383fc?action=raw&slot=jsonschema",
+        {
+            "positive_electrode": {
+                "@type": "@id",
+                "@id": "Property:HasPart"
+            }
+        }
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW4744375e811943b2a21e922cded383fc?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "680453b7-5637-49a0-a33f-6be16036c81d",
+    "title": "BatteryCell",
+    "title*": {
+        "en": "Battery cell "
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type",
+        "uuid"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW680453b7563749a0a33f6be16036c81d"
+            ]
+        },
+        "uuid": {
+            "type": "string",
+            "format": "uuid",
+            "options": {
+                "hidden": true
+            }
+        },
+        "positive_electrode": {
+            "title": "positive_electrode",
+            "type": "autocomplete",
+            "range": "Category:OSWd5791d13ae43423ebb97ceb942c62d10"
+        }
+    }
+}

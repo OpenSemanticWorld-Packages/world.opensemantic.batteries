@@ -1,0 +1,152 @@
+{
+    "@context": [
+        {
+            "area": "Property:HasArea",
+            "construction_year": "Property:HasConstructionYear",
+            "door_height": "Property:HasDoorHeight",
+            "door_width": "Property:HasDoorWidth",
+            "usage": "Property:HasRoomUsage",
+            "height": "Property:HasHeight",
+            "length": "Property:HasLength",
+            "located_in": "Property:IsLocatedIn",
+            "number": "Property:HasRoomNumber",
+            "responsible_person": "Property:HasResponsiblePerson",
+            "usage_type": "Property:HasRoomUsageType",
+            "width": "Property:HasWidth"
+        }
+    ],
+    "properties": {
+        "located_in": {
+            "title": "Floor",
+            "title*": {
+                "de": "Stockwerk",
+                "en": "Floor"
+            },
+            "type": "array",
+            "format": "table",
+            "items": {
+                "title": "",
+                "type": "string",
+                "format": "autocomplete",
+                "query": "[[HasType::Category:OSW6c4212f1a39342be963d2b9efd19c5c2]] |?Display_title_of=label |?HasImage=image",
+                "previewWikiTextTemplate": "{{#if result.printouts.image.0.fulltext}}[[{{result.printouts.image.0.fulltext}}|right|x66px]]</br>{{/if}}Level: [[{{result.fulltext}}]]. Rooms: \\{\\{#ask: [[IsLocatedIn::{{result.fulltext}}]]|format=list\\}\\}",
+                "labelTemplate": "{{result.printouts.label.[0]}}"
+            },
+            "minItems": 1,
+            "default": [
+                ""
+            ]
+        },
+        "usage_type": {
+            "title": "Room usage type",
+            "title*": {
+                "en": "Room usage type",
+                "de": "Raumnutzungsart"
+            },
+            "type": "array",
+            "format": "table",
+            "items": {
+                "title": "",
+                "type": "string",
+                "format": "autocomplete",
+                "query": "[[HasType::Category:OSLae92be81cdb34d22844d4791ef790d93]] |?Display_title_of=label",
+                "previewWikiTextTemplate": "{{#if result.printouts.HasImage.0.fulltext}}[[{{result.printouts.HasImage.0.fulltext}}|right|x66px]]</br>{{/if}}This is a building: [[{{result.fulltext}}]]. Levels: \\{\\{#ask: [[IsLocatedIn::{{result.fulltext}}]]|format=list\\}\\}",
+                "labelTemplate": "{{result.printouts.label.[0]}}"
+            },
+            "default": [
+                ""
+            ]
+        },
+        "length": {
+            "title": "Length",
+            "title*": {
+                "de": "L\u00e4nge",
+                "en": "Length"
+            },
+            "type": "number"
+        },
+        "width": {
+            "title": "Width",
+            "type": "number"
+        },
+        "height": {
+            "title": "Height",
+            "type": "number"
+        },
+        "area": {
+            "title": "Area",
+            "type": "number"
+        },
+        "door_width": {
+            "title": "Door Width",
+            "type": "number"
+        },
+        "door_height": {
+            "title": "Door height",
+            "type": "number"
+        },
+        "number": {
+            "title": "Number",
+            "title*": {
+                "en": "Number",
+                "de": "Nummer"
+            },
+            "type": "string"
+        },
+        "usage": {
+            "title": "Room usage",
+            "title*": {
+                "en": "Room usage",
+                "de": "Raumnutzung"
+            },
+            "type": "array",
+            "format": "table",
+            "items": {
+                "title": "",
+                "type": "string",
+                "format": "autocomplete",
+                "query": "[[HasType::Category:OSWac9f0e49d8024804bd7d77058322a3fe]] |?Display_title_of=label",
+                "previewWikiTextTemplate": "{{#if result.printouts.HasImage.0.fulltext}}[[{{result.printouts.HasImage.0.fulltext}}|right|x66px]]</br>{{/if}}This is a building: [[{{result.fulltext}}]]. Levels: \\{\\{#ask: [[IsLocatedIn::{{result.fulltext}}]]|format=list\\}\\}",
+                "labelTemplate": "{{result.printouts.label.[0]}}"
+            },
+            "default": [
+                ""
+            ]
+        },
+        "responsible_person": {
+            "title": "Responsible person",
+            "title*": {
+                "de": "Verantwortliche Person",
+                "en": "Responsible person"
+            },
+            "type": "array",
+            "format": "table",
+            "items": {
+                "title": "",
+                "type": "string",
+                "format": "autocomplete",
+                "query": "[[HasType::Category:OSWd9aa0bca9b0040d8af6f5c091bf9eec7]] |?Display_title_of=label",
+                "previewWikiTextTemplate": "[[:{{result.fulltext}}]]",
+                "labelTemplate": "{{result.printouts.label.[0]}}"
+            },
+            "default": [
+                ""
+            ]
+        },
+        "type": {
+            "default": [
+                "Category:OSWc5ed0ed1e33c4b31887c67af25a610c1"
+            ]
+        }
+    },
+    "title": "Room",
+    "type": "object",
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW3d238d05316e45a4ac95a11d7b24e36b?action=raw&slot=jsonschema"
+        }
+    ],
+    "required": [
+        "type"
+    ]
+}

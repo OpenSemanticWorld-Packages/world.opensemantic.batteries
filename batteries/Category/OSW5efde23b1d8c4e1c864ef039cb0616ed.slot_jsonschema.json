@@ -1,0 +1,41 @@
+{
+    "type": "object",
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:Item?action=raw&slot=jsonschema"
+        }
+    ],
+    "title": "Person role",
+    "required": [
+        "type",
+        "ad_label"
+    ],
+    "@context": [
+        {
+            "ad_label": "Property:HasAdLabel"
+        }
+    ],
+    "properties": {
+        "ad_label": {
+            "title": "AD label",
+            "title*": {
+                "de": "AD-Label"
+            },
+            "desciption": "Label of the title in the Active Directory",
+            "description*": {
+                "de": "Label des Titels im Active Directory"
+            },
+            "type": "array",
+            "format": "table",
+            "items": {
+                "title": "",
+                "type": "string"
+            }
+        },
+        "type": {
+            "default": [
+                "Category:OSW5efde23b1d8c4e1c864ef039cb0616ed"
+            ]
+        }
+    }
+}

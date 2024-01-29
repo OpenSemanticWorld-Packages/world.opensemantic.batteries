@@ -1,0 +1,26 @@
+{
+    "type": [
+        "Category:Category"
+    ],
+    "subclass_of": [
+        "Category:OSW3d238d05316e45a4ac95a11d7b24e36b"
+    ],
+    "utf8_icon": [
+        "\ud83d\uddfa",
+        "\ud83d\udccd",
+        "\ud83d\udccc",
+        "\ud83d\udd88"
+    ],
+    "uuid": "473d7a1e-d485-44d1-be83-b258b5810948",
+    "name": "Site",
+    "label": [
+        {
+            "text": "Site",
+            "lang": "en"
+        },
+        {
+            "text": "Standort",
+            "lang": "de"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "subclass_of": [
+        "Category:OSWdda41d4a4ec0421babe0295c6edcb5df"
+    ],
+    "type": [
+        "Category:Category"
+    ],
+    "uuid": "26faea91-2502-4fe0-8e98-d4abbdf793a0",
+    "label": [
+        {
+            "text": "CV test procedure",
+            "lang": "en"
+        },
+        {
+            "text": "Cyclic voltammetry test procedure",
+            "lang": "en"
+        }
+    ],
+    "name": "CvTestProcedure"
+}

@@ -1,0 +1,422 @@
+{
+    "@context": [
+        {
+            "subjects": "Property:HasTopic",
+            "project_type": "Property:HasType",
+            "grantor": "Property:HasGrantor",
+            "funding_call": "Property:HasFundingCall",
+            "grant_id": "Property:HasGrantId",
+            "start_date": "Property:HasStartDate",
+            "end_date": "Property:HasEndDate",
+            "total_budget": "Property:HasBudget",
+            "yearly_budget": "Property:HasBudgetPart",
+            "yearly_budget_sum": "Property:HasBudget",
+            "year": "Property:HasYear",
+            "budget_start": "Property:HasBudgetStartDate",
+            "budget_end": "Property:HasBudgetEndDate",
+            "budget_year": "Property:HasBudgetYear",
+            "budget_ou": "Property:HasBusinessUnit",
+            "budget_type": "Property:HasType",
+            "other_documents": "Property:HasAdditionalDocument",
+            "proposal": "Property:HasProposal",
+            "report": "Property:HasReport",
+            "abstract": "Property:HasAbstract",
+            "project_manager": "Property:HasManager",
+            "member": "Property:HasMember",
+            "ou": "Property:HasBusinessUnit"
+        },
+        "/wiki/Category:Item?action=raw&slot=jsonschema"
+    ],
+    "defaultProperties": [
+        "funding_call",
+        "ou",
+        "project_manager",
+        "member",
+        "report"
+    ],
+    "properties": {
+        "subjects": {
+            "items": {
+                "title": "Subject",
+                "title*": {
+                    "de": "Thema"
+                },
+                "type": "string"
+            },
+            "title": "Subjects",
+            "type": "array",
+            "format": "array",
+            "title*": {
+                "de": "Themen"
+            }
+        },
+        "project_type": {
+            "title": "Project type",
+            "type": "string",
+            "enum": [
+                "house_project",
+                "internal",
+                "public",
+                "industry"
+            ],
+            "title*": {
+                "de": "Projekttyp"
+            },
+            "default": "",
+            "options": {
+                "enum_titles": [
+                    "House project",
+                    "Internal",
+                    "Public",
+                    "Industry"
+                ],
+                "enum_titles*": {
+                    "de": [
+                        "Hausprojekt",
+                        "Intern",
+                        "\u00d6ffentlich",
+                        "Industrie"
+                    ]
+                }
+            }
+        },
+        "funding_call": {
+            "title": "Funding call",
+            "title*": {
+                "de": "F\u00f6rderaufruf"
+            },
+            "type": "string",
+            "format": "autocomplete",
+            "options": {
+                "autocomplete": {
+                    "category": "Category:OSWd22af0aa3b00462a9da9b509538e8926"
+                }
+            }
+        },
+        "grantor": {
+            "title": "Grantor",
+            "type": "string",
+            "title*": {
+                "de": "F\u00f6rder- bzw. Auftragsgeber"
+            }
+        },
+        "grant_id": {
+            "title": "Grant ID",
+            "title*": {
+                "de": "F\u00f6rderkennzeichen"
+            },
+            "type": "string"
+        },
+        "ou": {
+            "title": "OU",
+            "title*": {
+                "en": "OU",
+                "de": "OE"
+            },
+            "description": "Organizational Unit (OU), which carries out the project",
+            "description*": {
+                "de": "Organisationseinheit (OE), die das Projekt durchf\u00fchrt"
+            },
+            "type": "array",
+            "items": {
+                "title": "Organizational Unit (OU)",
+                "title*": {
+                    "de": "Organisationseinheit (OE)"
+                },
+                "type": "string",
+                "format": "autocomplete",
+                "options": {
+                    "autocomplete": {
+                        "category": "Category:OSW3cb8cef2225e403092f098f99bc4c472"
+                    }
+                }
+            }
+        },
+        "project_manager": {
+            "title": "Project Manager",
+            "title*": {
+                "en": "Project Manager",
+                "de": "Projektleiter*in"
+            },
+            "type": "array",
+            "items": {
+                "title": "Project Manager",
+                "title*": {
+                    "en": "Project Manager",
+                    "de": "Projektleiter*in"
+                },
+                "type": "string",
+                "format": "autocomplete",
+                "options": {
+                    "autocomplete": {
+                        "category": "Category:OSW44deaa5b806d41a2a88594f562b110e9"
+                    }
+                }
+            }
+        },
+        "member": {
+            "title": "Member",
+            "title*": {
+                "en": "Member",
+                "de": "Mitglieder*innen"
+            },
+            "type": "array",
+            "items": {
+                "title": "Member",
+                "title*": {
+                    "en": "Member",
+                    "de": "Mitglieder*in"
+                },
+                "type": "string",
+                "format": "autocomplete",
+                "options": {
+                    "autocomplete": {
+                        "query": "[[Category:OSW44deaa5b806d41a2a88594f562b110e9]] OR [[Category:OSW3cb8cef2225e403092f098f99bc4c472]] |?Display_title_of=label"
+                    }
+                }
+            }
+        },
+        "start_date": {
+            "title": "Start",
+            "type": "string",
+            "format": "date",
+            "title*": {
+                "de": "Beginn"
+            },
+            "options": {
+                "flatpicker": {}
+            }
+        },
+        "end_date": {
+            "title": "End",
+            "type": "string",
+            "format": "date",
+            "title*": {
+                "de": "Ende"
+            },
+            "options": {
+                "flatpicker": {}
+            }
+        },
+        "total_budget": {
+            "title": "Total Budget",
+            "type": "number",
+            "title*": {
+                "de": "Budgetsumme"
+            }
+        },
+        "yearly_budget": {
+            "title": "Yearly budget",
+            "type": "array",
+            "format": "array",
+            "title*": {
+                "de": "Jahresbudget"
+            },
+            "items": {
+                "title": "Yearly budget",
+                "title*": {
+                    "de": "Jahresbudget"
+                },
+                "type": "object",
+                "required": [
+                    "uuid"
+                ],
+                "properties": {
+                    "uuid": {
+                        "type": "string",
+                        "format": "uuid",
+                        "options": {
+                            "hidden": true
+                        }
+                    },
+                    "yearly_budget_sum": {
+                        "title": "Yearly Budget Sum",
+                        "type": "number",
+                        "title*": {
+                            "de": "Summe Jahresbudget"
+                        }
+                    },
+                    "budget_year": {
+                        "title": "Year",
+                        "type": "string",
+                        "title*": {
+                            "de": "Jahr"
+                        }
+                    },
+                    "budget_start": {
+                        "title": "Start",
+                        "type": "string",
+                        "format": "date",
+                        "title*": {
+                            "de": "Beginn"
+                        }
+                    },
+                    "budget_end": {
+                        "title": "End",
+                        "type": "string",
+                        "format": "date",
+                        "title*": {
+                            "de": "Ende"
+                        }
+                    },
+                    "budget_ou": {
+                        "title": "OU",
+                        "title*": {
+                            "en": "OU",
+                            "de": "OE"
+                        },
+                        "type": "array",
+                        "format": "table",
+                        "items": {
+                            "title": "OU",
+                            "title*": {
+                                "en": "OU",
+                                "de": "OE"
+                            },
+                            "type": "string",
+                            "format": "autocomplete",
+                            "options": {
+                                "autocomplete": {
+                                    "category": "Category:OSW3cb8cef2225e403092f098f99bc4c472"
+                                }
+                            }
+                        }
+                    },
+                    "budget_type": {
+                        "title": "Type",
+                        "title*": {
+                            "de": "Typ"
+                        },
+                        "type": "string",
+                        "enum": [
+                            "personnel",
+                            "investment",
+                            "consumables"
+                        ],
+                        "options": {
+                            "enum_titles": [
+                                "Personnel",
+                                "Investment",
+                                "Consumables"
+                            ],
+                            "enum_titles*": {
+                                "de": [
+                                    "Personal",
+                                    "Investition",
+                                    "Verbrauchsmaterial"
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "proposal": {
+            "title": "Proposal",
+            "title*": {
+                "de": "Antrag"
+            },
+            "type": "string",
+            "format": "url",
+            "options": {
+                "upload": {}
+            },
+            "links": [
+                {
+                    "href": "{{#if self}}/w/index.php?title=Special:Redirect/file/{{self}}&width=200&height=200{{/if}}",
+                    "mediaType": "image"
+                },
+                {
+                    "href": "{{#if self}}/w/index.php?title=Special:Redirect/file/{{self}}{{/if}}",
+                    "rel": "{{#if self}}download{{/if}}",
+                    "download": true
+                }
+            ]
+        },
+        "report": {
+            "title": "Report",
+            "title*": {
+                "de": "Bericht"
+            },
+            "type": "string",
+            "format": "url",
+            "options": {
+                "upload": {}
+            },
+            "links": [
+                {
+                    "href": "{{#if self}}/w/index.php?title=Special:Redirect/file/{{self}}&width=200&height=200{{/if}}",
+                    "mediaType": "image"
+                },
+                {
+                    "href": "{{#if self}}/w/index.php?title=Special:Redirect/file/{{self}}{{/if}}",
+                    "rel": "{{#if self}}download{{/if}}",
+                    "download": true
+                }
+            ]
+        },
+        "other_documents": {
+            "title": "Additional documents",
+            "title*": {
+                "en": "Additional documents",
+                "de": "Sonstige Dokumente"
+            },
+            "type": "array",
+            "items": {
+                "title": "Additional documents",
+                "title*": {
+                    "en": "Additional documents",
+                    "de": "Sonstige Dokumente"
+                },
+                "type": "string",
+                "format": "url",
+                "options": {
+                    "upload": {}
+                },
+                "links": [
+                    {
+                        "href": "{{#if self}}/w/index.php?title=Special:Redirect/file/{{self}}&width=200&height=200{{/if}}",
+                        "mediaType": "image"
+                    },
+                    {
+                        "href": "{{#if self}}/w/index.php?title=Special:Redirect/file/{{self}}{{/if}}",
+                        "rel": "{{#if self}}download{{/if}}",
+                        "download": true
+                    }
+                ]
+            }
+        },
+        "abstract": {
+            "title": "Abstract",
+            "type": "string",
+            "format": "textarea",
+            "title*": {
+                "de": "Abstrakt"
+            }
+        },
+        "type": {
+            "default": [
+                "Category:OSWb2d7e6a2eff94c82b7f1f2699d5b0ee3"
+            ]
+        }
+    },
+    "type": "object",
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:Item?action=raw&slot=jsonschema"
+        }
+    ],
+    "title": "Project",
+    "required": [
+        "type"
+    ],
+    "uuid": "b2d7e6a2-eff9-4c82-b7f1-f2699d5b0ee3",
+    "title*": {
+        "en": "Project",
+        "de": "Projekt"
+    },
+    "description": "An enterprise (potentially individual but typically collaborative), planned to achieve a particular aim.",
+    "description*": {
+        "de": "Ein (m\u00f6glicherweise individuelles, in der Regel aber gemeinschaftliches) Unternehmen oder Unternehmung, das auf ein bestimmtes Ziel ausgerichtet ist."
+    }
+}

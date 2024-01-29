@@ -1,0 +1,20 @@
+{
+    "type": [
+        "Category:OSW7de0f2441b724c3894093e3e35123fc8"
+    ],
+    "rdf_type": "",
+    "uuid": "517f9aa6-ade2-4268-95b1-e439d56af04d",
+    "label": [
+        {
+            "text": "ORP-EIS",
+            "lang": "en"
+        }
+    ],
+    "description": [
+        {
+            "text": "ORP-EIS (all frequencies at once)",
+            "lang": "en"
+        }
+    ],
+    "name": "OrpEis"
+}

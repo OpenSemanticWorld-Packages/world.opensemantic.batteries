@@ -1,0 +1,24 @@
+{
+    "type": [
+        "Category:OSW38ddea7b37fa4712858fe16404993b59"
+    ],
+    "rdf_type": "",
+    "uuid": "15cf015b-3199-4196-84d3-276d2d986d57",
+    "label": [
+        {
+            "text": "ORP-EIS",
+            "lang": "en"
+        },
+        {
+            "text": "Odd random phase electrochemical impedance spectroscopy",
+            "lang": "en"
+        }
+    ],
+    "description": [
+        {
+            "text": "(Operando) odd random phase electrochemical impedance spectroscopy",
+            "lang": "en"
+        }
+    ],
+    "name": "OrpEis"
+}

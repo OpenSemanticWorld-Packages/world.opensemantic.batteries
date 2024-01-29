@@ -1,6 +1,12 @@
 {
     "@context": [
-        "/wiki/Category:OSW1a271f289649413488e2841580e43a45?action=raw&slot=jsonschema"
+        "/wiki/Category:OSW1a271f289649413488e2841580e43a45?action=raw&slot=jsonschema",
+        {
+            "attachments**": {
+                "@id": "Property:HasOutput",
+                "@type": "@id"
+            }
+        }
     ],
     "allOf": [
         {
@@ -12,7 +18,7 @@
     "title": "RiskAssessmentProcess",
     "title*": {
         "en": "Risk assessment process",
-        "de": "Gefährdungsbeurteilungprozess"
+        "de": "Gef\u00e4hrdungsbeurteilungprozess"
     },
     "description": "",
     "description*": {},
@@ -35,6 +41,7 @@
                 "de": "Laborordnung oder Betriebsanweisung"
             },
             "type": "array",
+            "format": "table",
             "items": {
                 "type": "string",
                 "title": "Output document",
@@ -46,13 +53,6 @@
                     "autocomplete": {
                         "category": "Category:OSW11a53cdfbdc24524bf8ac435cbf65d9d"
                     }
-                }
-            },
-            "options": {
-                "conditional_visible": {
-                    "modes": [
-                        "query"
-                    ]
                 }
             }
         }

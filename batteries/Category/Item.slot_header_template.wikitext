@@ -1,0 +1,17 @@
+<table class="info_box">
+<tr>
+<th class="heading" colspan="2">{{{_label_schema|Item}}}</th>
+</tr>
+<tr>
+<td class="subheading" colspan="2">Info</td>
+</tr><!--
+    <tr>
+    <td><div class="QrCodeGenerator" colspan="2" data-config='{"text": "{{fullurl:{{FULLPAGENAME}}}}", "heading": "{{#ask:[[{{FULLPAGENAME}}]]|?HasName=|mainlabel=-}}", "caption": "Type: {{#ask:[[{{FULLPAGENAME}}]]|?HasType.HasName=|mainlabel=-}}", "image": true, "print": true, "print_unit": "mm", "print_format": [29,42], "print_margin": [3,3,3,3], "print_scale": 0.115}' style="height: 250px; width: 200px;"></div>
+    <br>
+    </td>
+    </tr>
+--><tr>
+<th>{{{_label_type|Type(s)/Category(s)}}}</th>
+<td>{{{type|}}}</td>
+</tr>
+</table>

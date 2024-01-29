@@ -1,16 +1,10 @@
 {
     "@context": [
-        "/wiki/Category:Item?action=raw&slot=jsonschema",
-        {
-            "humanreadable_id": "Property:HasHumanreadableId",
-            "serial_no": "Property:HasSerialNo",
-            "source": "Property:HasSource",
-            "type_reference": "Property:HasMaterialType"
-        }
+        "/wiki/Category:OSW37a57741ae2e4dd4b29b1172b6848be8?action=raw&slot=jsonschema"
     ],
     "allOf": [
         {
-            "$ref": "/wiki/Category:Item?action=raw&slot=jsonschema"
+            "$ref": "/wiki/Category:OSW37a57741ae2e4dd4b29b1172b6848be8?action=raw&slot=jsonschema"
         }
     ],
     "type": "object",
@@ -23,7 +17,7 @@
     "description": "Contains chemical substances and engineered matterials / parts",
     "description*": {
         "en": "Contains chemical substances and engineered matterials / parts",
-        "de": "Enthält chemische Stoffe, Materialien und Bauteile"
+        "de": "Enth\u00e4lt chemische Stoffe, Materialien und Bauteile"
     },
     "required": [
         "type"
@@ -33,64 +27,6 @@
             "default": [
                 "Category:OSW31ca9a739cb24079b36824045c0832aa"
             ]
-        },
-        "humanreadable_id": {
-            "title": "Material identifier",
-            "title*": {
-                "de": "Materialbezeichnung"
-            },
-            "description": "Unique identifier of the material, human readable",
-            "description*": {
-                "de": "Einzigartige Bezeichnung des Material, menschenlesbar"
-            },
-            "type": "string"
-        },
-        "serial_no": {
-            "title": "Serial or batch number",
-            "title*": {
-                "de": "Serien- oder Chargennummer"
-            },
-            "description": "Serial or batch number of the material, e.g., from the manufacturer",
-            "description*": {
-                "de": "Serien- oder Chargennummer des Material, z.B. vom Hersteller"
-            },
-            "type": "string"
-        },
-        "source": {
-            "title": "Source",
-            "title*": {
-                "de": "Quelle"
-            },
-            "description": "Source or origin of the material, e.g., another material, a lab process (ELN entry) or a supplier",
-            "description*": {
-                "de": "Quelle oder Ursprung des Material, z.B. eine anderes Material,  ein Laborprozess (ELN-Eintrag) oder Lieferant"
-            },
-            "type": "string",
-            "format": "autocomplete",
-            "options": {
-                "autocomplete": {
-                    "query": "[[HasType::Category:OSW31ca9a739cb24079b36824045c0832aa]] OR [[HasType::Category:OSW0e7fab2262fb4427ad0fa454bc868a0d]] OR [[HasType::Category:OSW3cb8cef2225e403092f098f99bc4c472]] |?Display_title_of=label"
-                }
-            },
-            "default": ""
-        },
-        "type_reference": {
-            "title": "Material type",
-            "title*": {
-                "de": "Materialtyp"
-            },
-            "description": "Material type, based on type number as specified by the manufacturer. References an instance of MaterialType.",
-            "description*": {
-                "de": "Materialtyp, basierend auf der Typennummer wie vom Hersteller angegeben. Referenziert eine Instanz von MaterialType."
-            },
-            "type": "string",
-            "format": "autocomplete",
-            "options": {
-                "autocomplete": {
-                    "category": "Category:OSW25ab317fa369435797b7a92c9fd3bde6"
-                }
-            },
-            "default": ""
         }
     }
 }

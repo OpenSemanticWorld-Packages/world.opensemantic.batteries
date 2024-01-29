@@ -1,0 +1,36 @@
+{
+    "@context": [
+        "/wiki/Category:OSWb869e525b25a4a9d8880a30075eb7d21?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSWb869e525b25a4a9d8880a30075eb7d21?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "63bf17f7-68ff-4f02-93b5-9d22f5953ec2",
+    "title": "CarbonAdditive",
+    "title*": {
+        "en": "Carbon additive"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type",
+        "uuid"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW63bf17f768ff4f0293b59d22f5953ec2"
+            ]
+        },
+        "uuid": {
+            "type": "string",
+            "format": "uuid",
+            "options": {
+                "hidden": true
+            }
+        }
+    }
+}

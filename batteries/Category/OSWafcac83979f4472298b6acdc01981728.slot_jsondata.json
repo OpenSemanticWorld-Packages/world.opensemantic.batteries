@@ -1,0 +1,25 @@
+{
+    "subclass_of": [
+        "Category:OSW712583f2479944deb2546b77cf860dda"
+    ],
+    "type": [
+        "Category:Category"
+    ],
+    "uuid": "afcac839-79f4-4722-98b6-acdc01981728",
+    "label": [
+        {
+            "text": "Digital document",
+            "lang": "en"
+        }
+    ],
+    "instance_rdf_type": [
+        "schema:DigitalDocument"
+    ],
+    "description": [
+        {
+            "text": "An electronic file or document.",
+            "lang": "en"
+        }
+    ],
+    "name": "DigitalDocument"
+}

@@ -1,0 +1,45 @@
+{
+    "@context": [
+        {
+            "located_in": "Property:IsLocatedIn"
+        }
+    ],
+    "properties": {
+        "located_in": {
+            "title": "Building",
+            "title*": {
+                "en": "Building",
+                "de": "Geb\u00e4ude"
+            },
+            "type": "array",
+            "format": "table",
+            "items": {
+                "title": "",
+                "type": "string",
+                "format": "autocomplete",
+                "query": "[[HasType::Category:OSW4bcd4a99a73f482ea40ac4210dfab836]] |?Display_title_of=label",
+                "previewWikiTextTemplate": "[[:{{result.fulltext}}]]",
+                "labelTemplate": "{{result.printouts.label.[0]}}"
+            },
+            "minItems": 1,
+            "default": [
+                ""
+            ]
+        },
+        "type": {
+            "default": [
+                "Category:OSW6c4212f1a39342be963d2b9efd19c5c2"
+            ]
+        }
+    },
+    "title": "Floor",
+    "type": "object",
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW3d238d05316e45a4ac95a11d7b24e36b?action=raw&slot=jsonschema"
+        }
+    ],
+    "required": [
+        "type"
+    ]
+}

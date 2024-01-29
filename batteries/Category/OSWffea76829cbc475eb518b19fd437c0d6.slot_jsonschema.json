@@ -1,0 +1,36 @@
+{
+    "@context": [
+        "/wiki/Category:OSWc07fc11ed51b4b2a9d62eec3127cd577?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSWc07fc11ed51b4b2a9d62eec3127cd577?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "ffea7682-9cbc-475e-b518-b19fd437c0d6",
+    "title": "PolyolefinSeparator",
+    "title*": {
+        "en": "Polyolefin separator"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type",
+        "uuid"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSWffea76829cbc475eb518b19fd437c0d6"
+            ]
+        },
+        "uuid": {
+            "type": "string",
+            "format": "uuid",
+            "options": {
+                "hidden": true
+            }
+        }
+    }
+}

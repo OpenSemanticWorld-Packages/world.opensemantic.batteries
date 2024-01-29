@@ -1,0 +1,36 @@
+{
+    "@context": [
+        "/wiki/Category:OSW6110d42bba33448b9a6348a3cd28b921?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW6110d42bba33448b9a6348a3cd28b921?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "36082c03-d485-43ac-a08b-fe4ea3afe8cb",
+    "title": "LFP",
+    "title*": {
+        "en": "LFP"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type",
+        "uuid"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW36082c03d48543aca08bfe4ea3afe8cb"
+            ]
+        },
+        "uuid": {
+            "type": "string",
+            "format": "uuid",
+            "options": {
+                "hidden": true
+            }
+        }
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "@context": [
+        "/wiki/Category:OSWdda41d4a4ec0421babe0295c6edcb5df?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSWdda41d4a4ec0421babe0295c6edcb5df?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "e69626f5-8048-48fa-978d-bca65e6e084a",
+    "title": "RestingTestProcedure",
+    "title*": {
+        "en": "OCV test procedure"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSWe69626f5804848fa978dbca65e6e084a"
+            ]
+        },
+        "steps": {
+            "items": {
+                "defaultProperties": [
+                    "step_temperature",
+                    "step_duration",
+                    "step_number",
+                    "step_repetitions",
+                    "go_back_to",
+                    "go_back_to_repetitions",
+                    "step_description",
+                    "step_file"
+                ],
+                "properties": {
+                    "step_temperature": {
+                        "type": "number",
+                        "title": "Step temperature [\u00b0C]",
+                        "title*": {
+                            "de": "Schritt-Temperatur [\u00b0C]"
+                        },
+                        "description": "Temperature of the step",
+                        "description*": {
+                            "de": "Temperatur des Schritts"
+                        }
+                    },
+                    "step_duration": {
+                        "type": "string",
+                        "title": "Step duration",
+                        "title*": {
+                            "de": "Schritt-Dauer"
+                        },
+                        "description": "Duration of the step in hours:minutes:seconds",
+                        "description*": {
+                            "de": "Dauer des Schritts"
+                        },
+                        "format": "time",
+                        "options": {
+                            "flatpickr": {
+                                "enableTime": true,
+                                "noCalendar": true,
+                                "time_24hr": true,
+                                "dateFormat": "H:i:S",
+                                "defaultDate": "00:00:00"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

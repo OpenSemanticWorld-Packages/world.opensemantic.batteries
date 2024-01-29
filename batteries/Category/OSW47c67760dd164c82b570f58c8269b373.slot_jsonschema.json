@@ -17,7 +17,7 @@
     "description": "A destructive experiment performed on an electrochemical battery cell",
     "description*": {
         "en": "A destructive experiment performed on an electrochemical battery cell",
-        "de": "Ein zerstörendes Experiment an einer elektrochemischen Batteriezellea"
+        "de": "Ein zerst\u00f6rendes Experiment an einer elektrochemischen Batteriezellea"
     },
     "required": [
         "type"

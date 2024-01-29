@@ -1,0 +1,36 @@
+{
+    "@context": [
+        "/wiki/Category:OSW31ca9a739cb24079b36824045c0832aa?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW31ca9a739cb24079b36824045c0832aa?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "c02165dc-2454-4a10-a204-6b54506dedac",
+    "title": "BatteryCellMaterial",
+    "title*": {
+        "en": "Battery cell material"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type",
+        "uuid"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSWc02165dc24544a10a2046b54506dedac"
+            ]
+        },
+        "uuid": {
+            "type": "string",
+            "format": "uuid",
+            "options": {
+                "hidden": true
+            }
+        }
+    }
+}

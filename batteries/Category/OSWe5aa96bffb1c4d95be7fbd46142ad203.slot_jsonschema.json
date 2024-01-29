@@ -30,6 +30,10 @@
                 "@id": "Property:HasActionee",
                 "@type": "@id"
             },
+            "sop": {
+                "@id": "Property:HasSop",
+                "@type": "@id"
+            },
             "status": {
                 "@id": "Property:HasStatus",
                 "@type": "@id"
@@ -51,36 +55,9 @@
     "title": "Process",
     "properties": {
         "type": {
-            "title": "Types/Categories",
-            "title*": {
-                "de": "Typen/Kategorien"
-            },
-            "type": "array",
-            "format": "table",
-            "items": {
-                "title": "Type",
-                "title*": {
-                    "de": "Type"
-                },
-                "type": "string",
-                "format": "autocomplete",
-                "query": "[[HasType::Category:Category]] |?Display_title_of=label",
-                "previewWikiTextTemplate": "[[:{{result.fulltext}}]]",
-                "labelTemplate": "{{result.printouts.label.[0]}}"
-            },
-            "minItems": 1,
             "default": [
                 "Category:OSWe5aa96bffb1c4d95be7fbd46142ad203"
-            ],
-            "options": {
-                "collapsed": true,
-                "hidden": true,
-                "conditional_visible": {
-                    "modes": [
-                        "query"
-                    ]
-                }
-            }
+            ]
         },
         "creator": {
             "type": "string",
@@ -99,7 +76,7 @@
             "type": "array",
             "title": "Actionees",
             "title*": {
-                "de": "Aktuere"
+                "de": "Akteure"
             },
             "items": {
                 "type": "string",
@@ -146,6 +123,12 @@
                     "category": "Category:OSW9725d7a91bab4f1aa68f423e4e9bfcf4"
                 }
             }
+        },
+        "sop": {
+            "title": "Standard operating procedure (SOP)",
+            "type": "string",
+            "format": "autocomplete",
+            "range": "Category:OSWa2c8dd387d0b4a0c807a5a7bde190ba3"
         },
         "tool": {
             "type": "array",

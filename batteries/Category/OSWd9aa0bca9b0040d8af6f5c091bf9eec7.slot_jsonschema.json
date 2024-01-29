@@ -1,0 +1,103 @@
+{
+    "@context": [
+        "/wiki/Category:OSWd9aa0bca9b0040d8af6f5c091bf9eec7?action=raw&slot=jsonschema",
+        {
+            "room": {
+                "@id": "Property:HasRoom",
+                "@type": "@id"
+            },
+            "superior": {
+                "@id": "Property:HasSuperior",
+                "@type": "@id"
+            },
+            "username": {
+                "@id": "Property:HasUsername"
+            }
+        }
+    ],
+    "required": [
+        "username",
+        "type"
+    ],
+    "defaultProperties": [
+        "username"
+    ],
+    "properties": {
+        "username": {
+            "title": "Username",
+            "title*": {
+                "de": "Nutzername"
+            },
+            "description": "Organization user ID",
+            "description*": {
+                "de": "Organization-User-ID"
+            },
+            "type": "string"
+        },
+        "room": {
+            "title": "Room(s)",
+            "title*": {
+                "de": "Raum"
+            },
+            "description": "Office",
+            "description*": {
+                "de": "B\u00fcro"
+            },
+            "type": "array",
+            "format": "table",
+            "items": {
+                "title": "Room",
+                "title*": {
+                    "de": "Raum"
+                },
+                "type": "string",
+                "format": "autocomplete",
+                "range": "Category:OSWc5ed0ed1e33c4b31887c67af25a610c1"
+            },
+            "uniqueItems": true,
+            "default": [
+                ""
+            ]
+        },
+        "superior": {
+            "title": "Superior(s)",
+            "title*": {
+                "de": "F\u00fchrungsperson(en)"
+            },
+            "description": "Direct superior(s)",
+            "description*": {
+                "de": "Direkte F\u00fchrungsperson(en)"
+            },
+            "type": "array",
+            "format": "table",
+            "items": {
+                "title": "Supervisor",
+                "title*": {
+                    "de": "F\u00fchrungsperson"
+                },
+                "type": "string",
+                "format": "autocomplete",
+                "range": "Category:OSWd9aa0bca9b0040d8af6f5c091bf9eec7"
+            },
+            "uniqueItems": true,
+            "default": [
+                ""
+            ]
+        },
+        "type": {
+            "default": [
+                "Category:OSWd9aa0bca9b0040d8af6f5c091bf9eec7"
+            ]
+        }
+    },
+    "type": "object",
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW44deaa5b806d41a2a88594f562b110e9?action=raw&slot=jsonschema"
+        }
+    ],
+    "title": "User",
+    "title*": {
+        "de": "Nutzer"
+    }
+}

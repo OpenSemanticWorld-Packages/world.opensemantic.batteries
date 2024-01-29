@@ -1,0 +1,5 @@
+== Namespaces ==
+for UUID generation via uuid5
+
+* General (same as UUID of the category page): b8b62787-63d5-4b07-84ee-a9d3b3d183a4
+* FhG: fdd10d54-8474-5957-83a1-2ac4e40723a6

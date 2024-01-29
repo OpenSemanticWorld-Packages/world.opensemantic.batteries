@@ -1,0 +1,36 @@
+{
+    "@context": [
+        "/wiki/Category:OSW0e56179ca32e49f4a92ddd71e0034550?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW0e56179ca32e49f4a92ddd71e0034550?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "1e135624-8895-4393-ad21-df1ea97b0b71",
+    "title": "Fe",
+    "title*": {
+        "en": "Iron"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type",
+        "uuid"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW1e13562488954393ad21df1ea97b0b71"
+            ]
+        },
+        "uuid": {
+            "type": "string",
+            "format": "uuid",
+            "options": {
+                "hidden": true
+            }
+        }
+    }
+}

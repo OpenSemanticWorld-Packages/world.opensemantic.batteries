@@ -16,11 +16,18 @@
             "lang": "de"
         }
     ],
-    "name": "ElectrochemicalTest",
     "description": [
         {
             "text": "A test performed on an electrochemical device, usually by applying voltage and current",
             "lang": "en"
+        },
+        {
+            "text": "Ein Test an einem elektrochemischen Ger\u00e4t, \u00fcblicherweise indem Strom und Spannung angelegt werden.",
+            "lang": "de"
         }
+    ],
+    "name": "ElectrochemicalTest",
+    "utf8_icon": [
+        "\ud83d\udcd3"
     ]
 }

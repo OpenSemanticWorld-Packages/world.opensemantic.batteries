@@ -1,0 +1,38 @@
+{
+    "@context": [
+        "/wiki/Category:OSWf7528a256ea1428a8ac209605291a597?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSWf7528a256ea1428a8ac209605291a597?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "0d5886c8-7730-4d03-8f10-e1bcbb29d671",
+    "title": "Pnictogen",
+    "title*": {
+        "en": "Nitrogen group"
+    },
+    "description": "Group 15 of the periodic table of the elements",
+    "description*": {
+        "en": "Group 15 of the periodic table of the elements"
+    },
+    "required": [
+        "type",
+        "uuid"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW0d5886c877304d038f10e1bcbb29d671"
+            ]
+        },
+        "uuid": {
+            "type": "string",
+            "format": "uuid",
+            "options": {
+                "hidden": true
+            }
+        }
+    }
+}

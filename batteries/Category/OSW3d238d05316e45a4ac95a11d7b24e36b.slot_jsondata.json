@@ -1,0 +1,25 @@
+{
+    "type": [
+        "Category:Category"
+    ],
+    "subclass_of": [
+        "Category:Item"
+    ],
+    "uuid": "3d238d05-316e-45a4-ac95-a11d7b24e36b",
+    "name": "Location",
+    "label": [
+        {
+            "text": "Location",
+            "lang": "en"
+        },
+        {
+            "text": "Oertlichkeit",
+            "lang": "de"
+        }
+    ],
+    "utf8_icon": [
+        "\ud83d\udccd",
+        "\ud83d\udccc",
+        "\ud83d\udd88"
+    ]
+}

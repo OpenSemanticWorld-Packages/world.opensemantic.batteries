@@ -1,0 +1,36 @@
+{
+    "@context": [
+        "/wiki/Category:OSW6110d42bba33448b9a6348a3cd28b921?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW6110d42bba33448b9a6348a3cd28b921?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "670c84f7-f7e6-4533-a370-81e6349bb008",
+    "title": "NMC",
+    "title*": {
+        "en": "NMC"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type",
+        "uuid"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW670c84f7f7e64533a37081e6349bb008"
+            ]
+        },
+        "uuid": {
+            "type": "string",
+            "format": "uuid",
+            "options": {
+                "hidden": true
+            }
+        }
+    }
+}

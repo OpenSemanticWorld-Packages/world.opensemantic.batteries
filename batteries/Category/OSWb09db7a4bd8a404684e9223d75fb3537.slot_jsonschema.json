@@ -1,0 +1,36 @@
+{
+    "@context": [
+        "/wiki/Category:OSW1a9524bf22384a9ebd7fed4b9b29e116?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW1a9524bf22384a9ebd7fed4b9b29e116?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "b09db7a4-bd8a-4046-84e9-223d75fb3537",
+    "title": "StyreneButadieneRubber",
+    "title*": {
+        "en": "SBR"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type",
+        "uuid"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSWb09db7a4bd8a404684e9223d75fb3537"
+            ]
+        },
+        "uuid": {
+            "type": "string",
+            "format": "uuid",
+            "options": {
+                "hidden": true
+            }
+        }
+    }
+}

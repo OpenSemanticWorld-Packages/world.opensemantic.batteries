@@ -1,0 +1,36 @@
+{
+    "@context": [
+        "/wiki/Category:OSWd7747cf501984e52bf7aa5e594068ccf?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSWd7747cf501984e52bf7aa5e594068ccf?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "1bab134e-a1b1-4cba-83f6-ccdff9a39cb3",
+    "title": "Lp5710Fec",
+    "title*": {
+        "en": "LP57 + 10% FEC"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type",
+        "uuid"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW1bab134ea1b14cba83f6ccdff9a39cb3"
+            ]
+        },
+        "uuid": {
+            "type": "string",
+            "format": "uuid",
+            "options": {
+                "hidden": true
+            }
+        }
+    }
+}

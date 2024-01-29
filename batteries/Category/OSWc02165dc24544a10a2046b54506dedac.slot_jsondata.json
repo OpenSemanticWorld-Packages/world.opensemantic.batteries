@@ -1,0 +1,16 @@
+{
+    "type": [
+        "Category:OSW182916df3eee472e88e7c8d114a7fe27"
+    ],
+    "subclass_of": [
+        "Category:OSW31ca9a739cb24079b36824045c0832aa"
+    ],
+    "uuid": "c02165dc-2454-4a10-a204-6b54506dedac",
+    "label": [
+        {
+            "text": "Battery cell material",
+            "lang": "en"
+        }
+    ],
+    "name": "BatteryCellMaterial"
+}

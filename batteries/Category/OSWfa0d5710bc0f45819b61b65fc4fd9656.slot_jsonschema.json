@@ -2,6 +2,10 @@
     "@context": [
         "/wiki/Category:OSWe5aa96bffb1c4d95be7fbd46142ad203?action=raw&slot=jsonschema",
         {
+            "approver": {
+                "@id": "Property:HasApprover",
+                "@type": "@id"
+            },
             "orderer": {
                 "@id": "Property:HasOrderer",
                 "@type": "@id"
@@ -48,7 +52,7 @@
             "format": "autocomplete",
             "options": {
                 "autocomplete": {
-                    "query": "[[HasType::Category:OSW44deaa5b806d41a2a88594f562b110e9]] OR [[HasType::Category:OSW3cb8cef2225e403092f098f99bc4c472]] |?Display_title_of=label"
+                    "query": "[[Category:OSW44deaa5b806d41a2a88594f562b110e9]] OR [[HasType::Category:OSW3cb8cef2225e403092f098f99bc4c472]] |?Display_title_of=label"
                 }
             }
         },

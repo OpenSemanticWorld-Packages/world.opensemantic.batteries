@@ -1,0 +1,36 @@
+{
+    "@context": [
+        "/wiki/Category:OSWd5791d13ae43423ebb97ceb942c62d10?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSWd5791d13ae43423ebb97ceb942c62d10?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "1ee1f5cc-db56-4f4e-829b-76b76028aa77",
+    "title": "NegativeActiveMaterial",
+    "title*": {
+        "en": "Negative active material"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type",
+        "uuid"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW1ee1f5ccdb564f4e829b76b76028aa77"
+            ]
+        },
+        "uuid": {
+            "type": "string",
+            "format": "uuid",
+            "options": {
+                "hidden": true
+            }
+        }
+    }
+}

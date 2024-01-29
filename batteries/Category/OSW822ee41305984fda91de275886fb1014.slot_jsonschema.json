@@ -1,0 +1,36 @@
+{
+    "@context": [
+        "/wiki/Category:OSW670c84f7f7e64533a37081e6349bb008?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW670c84f7f7e64533a37081e6349bb008?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "822ee413-0598-4fda-91de-275886fb1014",
+    "title": "NMC532",
+    "title*": {
+        "en": "NMC532"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type",
+        "uuid"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW822ee41305984fda91de275886fb1014"
+            ]
+        },
+        "uuid": {
+            "type": "string",
+            "format": "uuid",
+            "options": {
+                "hidden": true
+            }
+        }
+    }
+}

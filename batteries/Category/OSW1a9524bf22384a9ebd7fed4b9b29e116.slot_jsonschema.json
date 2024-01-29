@@ -1,0 +1,36 @@
+{
+    "@context": [
+        "/wiki/Category:OSWc02165dc24544a10a2046b54506dedac?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSWc02165dc24544a10a2046b54506dedac?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "1a9524bf-2238-4a9e-bd7f-ed4b9b29e116",
+    "title": "Binder",
+    "title*": {
+        "en": "Binder"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type",
+        "uuid"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW1a9524bf22384a9ebd7fed4b9b29e116"
+            ]
+        },
+        "uuid": {
+            "type": "string",
+            "format": "uuid",
+            "options": {
+                "hidden": true
+            }
+        }
+    }
+}

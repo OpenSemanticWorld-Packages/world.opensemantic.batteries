@@ -1,0 +1,22 @@
+{
+    "subclass_of": [
+        "Category:Category"
+    ],
+    "type": [
+        "Category:Category"
+    ],
+    "uuid": "ca99a9bb-9ad2-4386-b222-d18a73c2af5e",
+    "label": [
+        {
+            "text": "Meta Physical Item Category",
+            "lang": "en"
+        }
+    ],
+    "description": [
+        {
+            "text": "Helps to create physical items",
+            "lang": "en"
+        }
+    ],
+    "name": "MetaPhysicalItemCategory"
+}

@@ -1,0 +1,36 @@
+{
+    "@context": [
+        "/wiki/Category:OSWc02165dc24544a10a2046b54506dedac?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSWc02165dc24544a10a2046b54506dedac?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "a1a377f2-97f5-4eca-be55-8b46fb43ad02",
+    "title": "CurrentCollector",
+    "title*": {
+        "en": "Current collector"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type",
+        "uuid"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSWa1a377f297f54ecabe558b46fb43ad02"
+            ]
+        },
+        "uuid": {
+            "type": "string",
+            "format": "uuid",
+            "options": {
+                "hidden": true
+            }
+        }
+    }
+}

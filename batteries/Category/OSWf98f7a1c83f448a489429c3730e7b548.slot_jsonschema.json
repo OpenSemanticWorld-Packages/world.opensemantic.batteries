@@ -1,0 +1,36 @@
+{
+    "@context": [
+        "/wiki/Category:OSW0e56179ca32e49f4a92ddd71e0034550?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW0e56179ca32e49f4a92ddd71e0034550?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "f98f7a1c-83f4-48a4-8942-9c3730e7b548",
+    "title": "Mn",
+    "title*": {
+        "en": "Manganese"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type",
+        "uuid"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSWf98f7a1c83f448a489429c3730e7b548"
+            ]
+        },
+        "uuid": {
+            "type": "string",
+            "format": "uuid",
+            "options": {
+                "hidden": true
+            }
+        }
+    }
+}

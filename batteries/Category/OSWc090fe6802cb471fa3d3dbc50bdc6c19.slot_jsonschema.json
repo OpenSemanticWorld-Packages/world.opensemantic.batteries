@@ -1,0 +1,36 @@
+{
+    "@context": [
+        "/wiki/Category:OSW0e56179ca32e49f4a92ddd71e0034550?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW0e56179ca32e49f4a92ddd71e0034550?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "c090fe68-02cb-471f-a3d3-dbc50bdc6c19",
+    "title": "Cu",
+    "title*": {
+        "en": "Copper"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type",
+        "uuid"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSWc090fe6802cb471fa3d3dbc50bdc6c19"
+            ]
+        },
+        "uuid": {
+            "type": "string",
+            "format": "uuid",
+            "options": {
+                "hidden": true
+            }
+        }
+    }
+}

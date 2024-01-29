@@ -1,0 +1,36 @@
+{
+    "@context": [
+        "/wiki/Category:OSW0d5886c877304d038f10e1bcbb29d671?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW0d5886c877304d038f10e1bcbb29d671?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "b7e39094-7188-40e2-91e9-31d113eca609",
+    "title": "N",
+    "title*": {
+        "en": "Nitrogen"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type",
+        "uuid"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSWb7e39094718840e291e931d113eca609"
+            ]
+        },
+        "uuid": {
+            "type": "string",
+            "format": "uuid",
+            "options": {
+                "hidden": true
+            }
+        }
+    }
+}

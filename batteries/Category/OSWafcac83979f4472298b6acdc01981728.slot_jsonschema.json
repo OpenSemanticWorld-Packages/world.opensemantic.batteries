@@ -1,0 +1,30 @@
+{
+    "@context": [
+        "/wiki/Category:OSW712583f2479944deb2546b77cf860dda?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW712583f2479944deb2546b77cf860dda?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "afcac839-79f4-4722-98b6-acdc01981728",
+    "title": "DigitalDocument",
+    "title*": {
+        "en": "Digital document"
+    },
+    "description": "An electronic file or document.",
+    "description*": {
+        "en": "An electronic file or document."
+    },
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSWafcac83979f4472298b6acdc01981728"
+            ]
+        }
+    }
+}

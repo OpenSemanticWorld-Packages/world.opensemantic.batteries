@@ -1,0 +1,36 @@
+{
+    "@context": [
+        "/wiki/Category:OSWd7747cf501984e52bf7aa5e594068ccf?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSWd7747cf501984e52bf7aa5e594068ccf?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "80c6929b-1d74-4318-90eb-253ff8885223",
+    "title": "Lp572Fec",
+    "title*": {
+        "en": "LP57 + 2% FEC"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type",
+        "uuid"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW80c6929b1d74431890eb253ff8885223"
+            ]
+        },
+        "uuid": {
+            "type": "string",
+            "format": "uuid",
+            "options": {
+                "hidden": true
+            }
+        }
+    }
+}

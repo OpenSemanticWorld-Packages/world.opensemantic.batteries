@@ -1,0 +1,61 @@
+<table class="info_box">
+<tr>
+<th class="heading" colspan="2">{{{_label_schema|Building}}}</th>
+</tr>
+<!--
+<tr>
+<td class="subheading" colspan="2">Info</td>
+</tr>
+-->
+<tr>
+<th>{{{_label_construction_year|Construction year}}}</th>
+<td>{{{construction_year|}}}</td>
+</tr>
+<tr><!--
+<th>{{{_label_located_in|Site}}}</th> -->
+<th>{{#switch:{{USERLANGUAGECODE}}
+        |en=Location
+        |de=Lage}}</th>
+<td>{{#ask:[[{{FULLPAGENAME}}]]|?IsLocatedIn=|format=plain|mainlabel=-}}</td>
+</tr>
+<tr>
+<th>{{{_label_function|Function}}}</th>
+<td>{{#ask:[[{{FULLPAGENAME}}]]|?HasBuildingFunction=|format=plain|mainlabel=-}}</td>
+</tr>
+<tr>
+<th>{{#switch:{{USERLANGUAGECODE}}|en=Floors|de=Stockwerke}}</th>
+<td>{{#ask: [[Category:OSW6c4212f1a39342be963d2b9efd19c5c2]][[IsLocatedIn::{{FULLPAGENAME}}]]}}</td>
+</tr>
+<tr>
+<td class="subheading" colspan="2">{{#switch:{{USERLANGUAGECODE}}
+    |en=Dimensions
+    |de=Abmessungen}}</th></td>
+</tr>
+<tr>
+<th>{{{_label_length|Length}}}</th>
+<td>{{{length|}}}</td>
+</tr>
+<tr>
+<th>{{{_label_width|Width}}}</th>
+<td>{{{width|}}}</td>
+</tr>
+<tr>
+<th>{{{_label_height|Height}}}</th>
+<td>{{{height|}}}</td>
+</tr>
+<tr>
+<th>{{{_label_footprint|Footprint}}}</th>
+<td>{{{footprint|}}}</td>
+</tr>
+<tr>
+<th>{{{_label_area|Total floor area}}}</th>
+<td>{{{area|}}}</td>
+</tr>
+<tr>
+<td class="subheading" colspan="2">{{{_label_responsibility|Responsibility}}}</td>
+</tr>
+<tr>
+<th>{{{_label_responsible_person|Responsible person}}}</th>
+<td>{{#ask:[[{{FULLPAGENAME}}]]|?HasResponsiblePerson=|format=plain|mainlabel=-}}</td>
+</tr>
+</table>

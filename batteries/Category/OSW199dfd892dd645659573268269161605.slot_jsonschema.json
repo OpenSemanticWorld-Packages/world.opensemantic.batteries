@@ -1,0 +1,28 @@
+{
+    "@context": [
+        "/wiki/Category:OSWdda41d4a4ec0421babe0295c6edcb5df?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSWdda41d4a4ec0421babe0295c6edcb5df?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "199dfd89-2dd6-4565-9573-268269161605",
+    "title": "PittTestProcedure",
+    "title*": {
+        "en": "Potentiostatic Intermittent Titration Technique test procedure"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW199dfd892dd645659573268269161605"
+            ]
+        }
+    }
+}

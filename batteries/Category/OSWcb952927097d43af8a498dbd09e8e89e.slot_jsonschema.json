@@ -1,0 +1,36 @@
+{
+    "@context": [
+        "/wiki/Category:OSWe83096e2cb754dffb5d15b699e03d5c8?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSWe83096e2cb754dffb5d15b699e03d5c8?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "cb952927-097d-43af-8a49-8dbd09e8e89e",
+    "title": "NegativeElectrode",
+    "title*": {
+        "en": "Negative electrode"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type",
+        "uuid"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSWcb952927097d43af8a498dbd09e8e89e"
+            ]
+        },
+        "uuid": {
+            "type": "string",
+            "format": "uuid",
+            "options": {
+                "hidden": true
+            }
+        }
+    }
+}

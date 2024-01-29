@@ -1,0 +1,28 @@
+{
+    "@context": [
+        "/wiki/Category:OSW8f36767bb491449ebc959802c8d66d23?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW8f36767bb491449ebc959802c8d66d23?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "0945915a-a38b-4ddd-905b-c959fed02320",
+    "title": "EisFrequencyBoundaryOption",
+    "title*": {
+        "en": "EIS frequency boundary option"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW0945915aa38b4ddd905bc959fed02320"
+            ]
+        }
+    }
+}

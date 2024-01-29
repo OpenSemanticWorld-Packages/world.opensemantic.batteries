@@ -1,0 +1,36 @@
+{
+    "@context": [
+        "/wiki/Category:OSWc02165dc24544a10a2046b54506dedac?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSWc02165dc24544a10a2046b54506dedac?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "d5791d13-ae43-423e-bb97-ceb942c62d10",
+    "title": "ActiveMaterial",
+    "title*": {
+        "en": "Active material"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type",
+        "uuid"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSWd5791d13ae43423ebb97ceb942c62d10"
+            ]
+        },
+        "uuid": {
+            "type": "string",
+            "format": "uuid",
+            "options": {
+                "hidden": true
+            }
+        }
+    }
+}

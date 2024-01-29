@@ -1,8 +1,5 @@
 {
     "@context": [
-        {
-            "typical_process": "Property:HasTypicalProcess"
-        },
         "/wiki/Category:Item?action=raw&slot=jsonschema"
     ],
     "title": "Tool",
@@ -23,26 +20,9 @@
     "description": "Item that participates as a utility (almost) unchanged in a process",
     "description*": {
         "en": "Item that participates as a utility (almost) unchanged in a process",
-        "de": "Gegenstand der als Hilfsmittel (nahezu) unverändert in einem Prozess teilnimmt"
+        "de": "Gegenstand der als Hilfsmittel (nahezu) unver\u00e4ndert in einem Prozess teilnimmt"
     },
     "properties": {
-        "purpose": {
-            "title": "Purpose",
-            "type": "string"
-        },
-        "typical_process": {
-            "title": "Typical Process(es)",
-            "type": "array",
-            "items": {
-                "type": "string",
-                "format": "autocomplete",
-                "options": {
-                    "autocomplete": {
-                        "category": "Category:OSW1d19e9396a6a455db0fad9fe6ce47f50"
-                    }
-                }
-            }
-        },
         "type": {
             "default": [
                 "Category:OSWe427aafafbac4262955b9f690a83405d"

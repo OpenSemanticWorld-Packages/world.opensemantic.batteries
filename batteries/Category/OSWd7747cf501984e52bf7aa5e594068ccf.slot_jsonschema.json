@@ -1,0 +1,36 @@
+{
+    "@context": [
+        "/wiki/Category:OSW7d5c3e78685249f29b8bbed364e8373e?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW7d5c3e78685249f29b8bbed364e8373e?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "d7747cf5-0198-4e52-bf7a-a5e594068ccf",
+    "title": "LP57",
+    "title*": {
+        "en": "LP57"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type",
+        "uuid"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSWd7747cf501984e52bf7aa5e594068ccf"
+            ]
+        },
+        "uuid": {
+            "type": "string",
+            "format": "uuid",
+            "options": {
+                "hidden": true
+            }
+        }
+    }
+}

@@ -2,15 +2,27 @@
     "@context": [
         "/wiki/Category:OSWfa0d5710bc0f45819b61b65fc4fd9656?action=raw&slot=jsonschema",
         {
-            "project": {
-                "@id": "Property:HasProject",
+            "analyzed_data_files": {
+                "@id": "Property:HasAnalyzedDataFile",
+                "@type": "@id"
+            },
+            "contact": {
+                "@id": "Property:HasContact",
                 "@type": "@id"
             },
             "keywords": {
                 "@id": "Property:HasKeyword"
             },
-            "prior_risk_assessment": {
-                "@id": "Property:HasPriorRiskAssessment",
+            "orderer": {
+                "@id": "Property:HasOrderer",
+                "@type": "@id"
+            },
+            "project": {
+                "@id": "Property:HasProject",
+                "@type": "@id"
+            },
+            "raw_data_files": {
+                "@id": "Property:HasRawDataFile",
                 "@type": "@id"
             }
         }
@@ -24,25 +36,34 @@
     ],
     "title": "ElnEntry",
     "title*": {
-        "de": "Laborbucheintrag",
-        "en": "ELN Entry"
+        "de": "Laborprozess",
+        "en": "Laboratory process"
     },
     "description": "Contains notes and data about experiments",
     "description*": {
-        "de": "Enthält Notizen und Daten über Experimente",
+        "de": "Enth\u00e4lt Notizen und Daten \u00fcber Experimente",
         "en": "Contains notes and data about experiments"
     },
+    "required": [
+        "type"
+    ],
+    "defaultProperties": [],
     "properties": {
+        "type": {
+            "default": [
+                "Category:OSW0e7fab2262fb4427ad0fa454bc868a0d"
+            ]
+        },
         "collection": {
             "type": "boolean",
             "format": "checkbox",
-            "title": "Experiment-Collection",
+            "title": "Experiment Collection",
             "title*": {
                 "de": "Experiment/Versuchsreihe"
             },
-            "description": "",
+            "description": "This is a collection of ELN entries",
             "description*": {
-                "de": "Stellt eine Sammlung von Laborbucheintragen dar."
+                "de": "Stellt eine Sammlung von Laborbucheintr\u00e4gen dar."
             }
         },
         "display_id": {
@@ -52,9 +73,43 @@
             "title*": {
                 "de": "ID im Namen anzeigen"
             },
-            "description": "Display ID in name. If no name is present, the ID is always displayed",
+            "description": "Show ID after the name. If there is no name, the ID is always displayed.",
             "description*": {
                 "de": "ID hinter dem Namen einblenden. Falls kein Name vorhanden ist wird immer die ID angezeigt."
+            }
+        },
+        "orderer": {
+            "type": "string",
+            "format": "autocomplete",
+            "title": "Orderer",
+            "title*": {
+                "de": "Auftraggeber"
+            },
+            "description": "Internal or external customer.",
+            "description*": {
+                "de": "Interner oder externer Kunde."
+            },
+            "options": {
+                "autocomplete": {
+                    "category": "Category:OSW3cb8cef2225e403092f098f99bc4c472"
+                }
+            }
+        },
+        "contact": {
+            "type": "string",
+            "format": "autocomplete",
+            "title": "Contact",
+            "title*": {
+                "de": "Ansprechpartner"
+            },
+            "description": "Contact at the customer",
+            "description*": {
+                "de": "Kontakt seitens Auftraggeber"
+            },
+            "options": {
+                "autocomplete": {
+                    "category": "Category:OSW44deaa5b806d41a2a88594f562b110e9"
+                }
             }
         },
         "project": {
@@ -64,9 +119,9 @@
             "title*": {
                 "de": "Projekt"
             },
-            "description": "Associated project. Access rights are inherited from this project",
+            "description": "Assigned project. The access rights are also taken from this project",
             "description*": {
-                "de": "Zugeordnetes Projekt. Von diesem werden auch die Zugriffsrechte übernommen"
+                "de": "Zugeordnetes Projekt. Von diesem werden auch die Zugriffsrechte \u00fcbernommen"
             },
             "options": {
                 "autocomplete": {
@@ -78,7 +133,7 @@
             "type": "array",
             "title": "Keywords",
             "title*": {
-                "de": "Schlagwörter"
+                "de": "Schlagw\u00f6rter"
             },
             "items": {
                 "type": "",
@@ -93,27 +148,47 @@
                 "de": ""
             }
         },
-        "prior_risk_assessment": {
-            "title": "Prior Risk Assessment",
+        "raw_data_files": {
+            "title": "Raw data file",
             "title*": {
-                "de": "Vorangegangene Gefährdungsbeurteilung"
+                "de": "Rohdatendatei"
             },
-            "type": "string",
-            "format": "autocomplete",
-            "options": {
-                "autocomplete": {
-                    "query": "[[Category:OSW11a53cdfbdc24524bf8ac435cbf65d9d]] [[-HasOutput.HasSchema::Category:OSW3886740859ae459588fee73d3bb3c83e]] |?Display_title_of=label"
-                }
+            "description": "File containing the raw data of the test",
+            "description*": {
+                "de": "Datei, die die Rohdaten des Tests enth\u00e4lt"
             },
-            "default": "File:OSW2132a1e88a4242f9b186f0a62e30cfc0.pdf"
+            "type": "array",
+            "format": "table",
+            "items": {
+                "title": "Raw data file",
+                "title*": {
+                    "de": "Rohdatendatei"
+                },
+                "type": "string",
+                "format": "autocomplete",
+                "range": "Category:OSW11a53cdfbdc24524bf8ac435cbf65d9d"
+            }
         },
-        "type": {
-            "default": [
-                "Category:OSW0e7fab2262fb4427ad0fa454bc868a0d"
-            ]
+        "analyzed_data_files": {
+            "title": "Analyzed data file",
+            "title*": {
+                "de": "Analysedatei"
+            },
+            "description": "File containing the analyzed data of the test",
+            "description*": {
+                "de": "Datei, die die analysierten Daten des Tests enth\u00e4lt"
+            },
+            "type": "array",
+            "format": "table",
+            "items": {
+                "title": "Analyzed data file",
+                "title*": {
+                    "de": "Analysedatei"
+                },
+                "type": "string",
+                "format": "autocomplete",
+                "range": "Category:OSW11a53cdfbdc24524bf8ac435cbf65d9d"
+            }
         }
-    },
-    "required": [
-        "type"
-    ]
+    }
 }
