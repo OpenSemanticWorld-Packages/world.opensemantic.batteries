@@ -22,14 +22,14 @@
             "lang": "en"
         },
         {
-            "text": "Enth\u00e4lt chemische Stoffe, Materialien und Bauteile",
+            "text": "Enthält chemische Stoffe, Materialien und Bauteile",
             "lang": "de"
         }
     ],
     "utf8_icon": [
-        "\u2697",
-        "\u269b",
-        "\u2696"
+        "⚗",
+        "⚛",
+        "⚖"
     ],
     "name": "Material",
     "metaclass": [

@@ -14,12 +14,12 @@
     "title": "FundingCall",
     "title*": {
         "en": "Funding Call",
-        "de": "F\u00f6rderaufruf"
+        "de": "Förderaufruf"
     },
     "description": "Announcement of a funding opportunity with details of the funding conditions",
     "description*": {
         "en": "Announcement of a funding opportunity with details of the funding conditions",
-        "de": "Bekanntgabe einer F\u00f6rderm\u00f6glichkeit unter Angabe der F\u00f6rderbedingungen"
+        "de": "Bekanntgabe einer Fördermöglichkeit unter Angabe der Förderbedingungen"
     },
     "required": [
         "type"

@@ -41,7 +41,7 @@
             },
             "description": "Office",
             "description*": {
-                "de": "B\u00fcro"
+                "de": "Büro"
             },
             "type": "array",
             "format": "table",
@@ -62,18 +62,18 @@
         "superior": {
             "title": "Superior(s)",
             "title*": {
-                "de": "F\u00fchrungsperson(en)"
+                "de": "Führungsperson(en)"
             },
             "description": "Direct superior(s)",
             "description*": {
-                "de": "Direkte F\u00fchrungsperson(en)"
+                "de": "Direkte Führungsperson(en)"
             },
             "type": "array",
             "format": "table",
             "items": {
                 "title": "Supervisor",
                 "title*": {
-                    "de": "F\u00fchrungsperson"
+                    "de": "Führungsperson"
                 },
                 "type": "string",
                 "format": "autocomplete",

@@ -1,0 +1,25 @@
+{ 
+    "title": "{{{name}}}",
+    "required": ["uuid"],
+    "properties": { 
+        "uuid": {
+            "type": "string",
+            "format": "uuid",
+            "options": {
+                "hidden": true
+            }
+        } {{#if orderer}},
+        "orderer": {
+            "default": "{{{orderer_default}}}"
+        } {{/if}} {{#if contact}},
+        "contact": {
+            "default": "{{{contact_default}}}"
+        } {{/if}} {{#if approver_default}},
+        "approver": {
+            "default": [
+                {{#each approver_default}}"{{{.}}}"{{#unless @last}},
+                {{/unless}}{{/each}}
+            ]
+        } {{/if}} 
+    } 
+}

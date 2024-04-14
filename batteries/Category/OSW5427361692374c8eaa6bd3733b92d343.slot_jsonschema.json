@@ -32,7 +32,7 @@
             "description": "The organization this organization is a member of.",
             "description*": {
                 "en": "The organization this organization is a member of.",
-                "de": "Die Organisation, der diese Organisation angeh\u00f6rt."
+                "de": "Die Organisation, der diese Organisation angehört."
             },
             "type": "array",
             "format": "table",
@@ -126,7 +126,7 @@
                     "title": "Street",
                     "title*": {
                         "en": "Street",
-                        "de": "Stra\u00dfe"
+                        "de": "Straße"
                     },
                     "type": "string"
                 },
@@ -187,7 +187,7 @@
             "description": "Faculty or organization, the institute belongs to.",
             "description*": {
                 "en": "Faculty or organization, the institute belongs to.",
-                "de": "Fakult\u00e4t oder Organisation, zu der das Institut geh\u00f6rt."
+                "de": "Fakultät oder Organisation, zu der das Institut gehört."
             },
             "type": "array",
             "format": "table",

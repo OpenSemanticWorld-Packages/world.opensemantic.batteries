@@ -16,7 +16,7 @@
             "lang": "en"
         },
         {
-            "text": "Ger\u00e4t",
+            "text": "Gerät",
             "lang": "de"
         }
     ],
@@ -26,11 +26,11 @@
             "lang": "en"
         },
         {
-            "text": "Ein Werkzeug, das ein (physisches) St\u00fcck Ausr\u00fcstung ist.",
+            "text": "Ein Werkzeug, das ein (physisches) Stück Ausrüstung ist.",
             "lang": "de"
         }
     ],
     "utf8_icon": [
-        "\ud83d\udd2c"
+        "🔬"
     ]
 }

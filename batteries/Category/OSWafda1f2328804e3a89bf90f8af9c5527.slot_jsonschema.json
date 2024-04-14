@@ -12,12 +12,13 @@
     "title": "BatteryCellOpening",
     "title*": {
         "en": "Battery Cell Opening",
-        "de": "Batteriezell\u00f6ffnung"
+        "de": "Batteriezellöffnung"
     },
     "description": "",
     "description*": {},
     "required": [
-        "type"
+        "type",
+        "uuid"
     ],
     "properties": {
         "type": {
@@ -28,7 +29,7 @@
         "prior_risk_assessment": {
             "title": "Prior Risk Assessment",
             "title*": {
-                "de": "Vorangegangene Gef\u00e4hrdungsbeurteilung"
+                "de": "Vorangegangene Gefährdungsbeurteilung"
             },
             "type": "string",
             "format": "autocomplete",
@@ -38,6 +39,25 @@
                 }
             },
             "default": "File:OSWaa635a571dfb4aa682e43b98937f5dd3.pdf"
+        },
+        "uuid": {
+            "type": "string",
+            "format": "uuid",
+            "options": {
+                "hidden": true
+            }
+        },
+        "input": {
+            "items": {
+                "options": {
+                    "autocomplete": {
+                        "query": "[[Category:OSW680453b7563749a0a33f6be16036c81d]]"
+                    }
+                }
+            },
+            "default": [
+                ""
+            ]
         }
     }
 }

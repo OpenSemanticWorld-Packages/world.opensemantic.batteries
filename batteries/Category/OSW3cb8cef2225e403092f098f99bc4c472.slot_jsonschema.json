@@ -334,7 +334,7 @@
             "title": "Founder",
             "title*": {
                 "en": "Founder",
-                "de": "Gr\u00fcnder:in"
+                "de": "Gründer:in"
             },
             "type": "array",
             "format": "table",
@@ -353,7 +353,7 @@
             "title": "Founding date",
             "title*": {
                 "en": "Founding date",
-                "de": "Gr\u00fcndungsdatum"
+                "de": "Gründungsdatum"
             },
             "type": "string",
             "format": "date",
@@ -363,7 +363,7 @@
             "title": "Founding location",
             "title*": {
                 "en": "Founding location",
-                "de": "Gr\u00fcndungsort"
+                "de": "Gründungsort"
             },
             "type": "string",
             "format": "text",
@@ -372,7 +372,7 @@
         "funder": {
             "title": "Funder",
             "title*": {
-                "de": "F\u00f6rderer*in"
+                "de": "Förderer*in"
             },
             "description": "The Funder of a Consortium is the Organization that provides the funding for the Consortium.",
             "description*": {
@@ -454,7 +454,7 @@
             },
             "description": "The organization(al unit) this organization is a member of.",
             "description*": {
-                "de": "Die Organisation(seinheit), der diese Organisation angeh\u00f6rt."
+                "de": "Die Organisation(seinheit), der diese Organisation angehört."
             },
             "type": "array",
             "format": "table",
@@ -519,7 +519,7 @@
         "secretary": {
             "title": "Secretary",
             "title*": {
-                "de": "Sekret\u00e4r:in"
+                "de": "Sekretär:in"
             },
             "type": "array",
             "format": "table",
@@ -614,7 +614,7 @@
                 "street_name": {
                     "title": "Street",
                     "title*": {
-                        "de": "Stra\u00dfe"
+                        "de": "Straße"
                     },
                     "type": "string"
                 },
@@ -669,14 +669,14 @@
         "superordinate_ou": {
             "title": "Superordinate OU(s)",
             "title*": {
-                "de": "\u00dcbergeordnete OE(s)"
+                "de": "Übergeordnete OE(s)"
             },
             "type": "array",
             "format": "table",
             "items": {
                 "title": "Superordinate OU",
                 "title*": {
-                    "de": "\u00dcbergeordnete OE"
+                    "de": "Übergeordnete OE"
                 },
                 "type": "string",
                 "format": "autocomplete",
@@ -870,7 +870,7 @@
         "associated_acl_roles": {
             "title": "Access control roles",
             "title*": {
-                "de": "Rollen f\u00fcr die Zugriffskontrolle"
+                "de": "Rollen für die Zugriffskontrolle"
             },
             "type": "array",
             "items": {

@@ -74,7 +74,7 @@
                     "de": [
                         "Hausprojekt",
                         "Intern",
-                        "\u00d6ffentlich",
+                        "Öffentlich",
                         "Industrie"
                     ]
                 }
@@ -83,7 +83,7 @@
         "funding_call": {
             "title": "Funding call",
             "title*": {
-                "de": "F\u00f6rderaufruf"
+                "de": "Förderaufruf"
             },
             "type": "string",
             "format": "autocomplete",
@@ -97,13 +97,13 @@
             "title": "Grantor",
             "type": "string",
             "title*": {
-                "de": "F\u00f6rder- bzw. Auftragsgeber"
+                "de": "Förder- bzw. Auftragsgeber"
             }
         },
         "grant_id": {
             "title": "Grant ID",
             "title*": {
-                "de": "F\u00f6rderkennzeichen"
+                "de": "Förderkennzeichen"
             },
             "type": "string"
         },
@@ -115,7 +115,7 @@
             },
             "description": "Organizational Unit (OU), which carries out the project",
             "description*": {
-                "de": "Organisationseinheit (OE), die das Projekt durchf\u00fchrt"
+                "de": "Organisationseinheit (OE), die das Projekt durchführt"
             },
             "type": "array",
             "items": {
@@ -417,6 +417,6 @@
     },
     "description": "An enterprise (potentially individual but typically collaborative), planned to achieve a particular aim.",
     "description*": {
-        "de": "Ein (m\u00f6glicherweise individuelles, in der Regel aber gemeinschaftliches) Unternehmen oder Unternehmung, das auf ein bestimmtes Ziel ausgerichtet ist."
+        "de": "Ein (möglicherweise individuelles, in der Regel aber gemeinschaftliches) Unternehmen oder Unternehmung, das auf ein bestimmtes Ziel ausgerichtet ist."
     }
 }

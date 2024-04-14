@@ -1,0 +1,178 @@
+{
+    "@context": [
+        "/wiki/Category:OSW680453b7563749a0a33f6be16036c81d?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW680453b7563749a0a33f6be16036c81d?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "852576b8-0ff5-42f5-895c-40a9296bc9ac",
+    "title": "LfpVsGraphiteBatteryCell",
+    "title*": {
+        "en": "LFP vs Graphite battery cell"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type",
+        "uuid"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW852576b80ff542f5895c40a9296bc9ac"
+            ]
+        },
+        "uuid": {
+            "type": "string",
+            "format": "uuid",
+            "options": {
+                "hidden": true
+            }
+        },
+        "cell_type": {
+            "title": "Cell type",
+            "type": "string",
+            "format": "autocomplete",
+            "range": "Category:OSW7a05349cdec843309927991d1163e5fd"
+        },
+        "reference_electrode": {
+            "title": "Reference electrode",
+            "type": "string",
+            "format": "autocomplete",
+            "range": "Category:OSWd82bda461d474a5dbf274c8bd6f1cfcd"
+        },
+        "positive_electrode_supplied": {
+            "title": "Positive electrode (supplied)",
+            "type": "object",
+            "required": [
+                "positive_active_material"
+            ],
+            "defaultProperties": [
+                "positive_active_material",
+                "positive_electrode_loading",
+                "positive_electrode_mass"
+            ],
+            "properties": {
+                "positive_active_material": {
+                    "title": "Active material",
+                    "type": "string",
+                    "format": "autocomplete",
+                    "range": "Category:OSW36082c03d48543aca08bfe4ea3afe8cb"
+                },
+                "positive_electrode_loading": {
+                    "title": "Active material loading [mg/cm²]",
+                    "type": "number",
+                    "default": 0,
+                    "description": "Weight of active material in an electrode per unit electrode area."
+                },
+                "positive_electrode_mass": {
+                    "title": "Overall Mass [mg]",
+                    "default": 0,
+                    "type": "number"
+                }
+            }
+        },
+        "negative_electrode_supplied": {
+            "title": "Negative electrode (supplied)",
+            "type": "object",
+            "required": [
+                "negative_active_material"
+            ],
+            "defaultProperties": [
+                "negative_active_material",
+                "negative_electrode_loading",
+                "negative_electrode_mass"
+            ],
+            "properties": {
+                "negative_active_material": {
+                    "title": "Active material",
+                    "type": "string",
+                    "format": "autocomplete",
+                    "range": "Category:OSW2cfa957f5e824cf38da52d547cebe73d"
+                },
+                "negative_electrode_loading": {
+                    "title": "Active material loading [mg/cm²]",
+                    "type": "number",
+                    "default": 0,
+                    "description": "Weight of active material in an electrode per unit electrode area."
+                },
+                "negative_electrode_mass": {
+                    "title": "Overall Mass [mg]",
+                    "default": 0,
+                    "type": "number"
+                }
+            }
+        },
+        "electrolyte_supplied": {
+            "title": "Electrolyte (supplied)",
+            "type": "object",
+            "required": [
+                "electrolyte_selection"
+            ],
+            "defaultProperties": [
+                "electrolyte_selection",
+                "electrolyte_mass",
+                "electrolyte_volume"
+            ],
+            "properties": {
+                "electrolyte_selection": {
+                    "title": "Electrolyte",
+                    "type": "string",
+                    "format": "autocomplete",
+                    "range": "Category:OSWd7747cf501984e52bf7aa5e594068ccf"
+                },
+                "electrolyte_mass": {
+                    "title": "Overall Mass [mg]",
+                    "default": 0,
+                    "type": "number"
+                },
+                "electrolyte_volume": {
+                    "title": "Overall Volume [µL]",
+                    "default": 0,
+                    "type": "number"
+                }
+            }
+        },
+        "separator_supplied": {
+            "title": "Separator (supplied)",
+            "type": "object",
+            "required": [
+                "separator_selection"
+            ],
+            "defaultProperties": [
+                "separator_selection",
+                "separator_count",
+                "separator_mass"
+            ],
+            "properties": {
+                "separator_selection": {
+                    "title": "Separator",
+                    "type": "string",
+                    "format": "autocomplete",
+                    "range": "Category:OSWffea76829cbc475eb518b19fd437c0d6"
+                },
+                "separator_count": {
+                    "title": "Number of layers",
+                    "default": 0,
+                    "type": "number"
+                },
+                "separator_mass": {
+                    "title": "Overall Mass [mg]",
+                    "default": 0,
+                    "type": "number"
+                }
+            }
+        }
+    },
+    "defaultProperties": [
+        "label",
+        "positive_electrode_supplied",
+        "negative_electrode_supplied",
+        "separator_supplied",
+        "electrolyte_supplied",
+        "cell_type"
+    ]
+}

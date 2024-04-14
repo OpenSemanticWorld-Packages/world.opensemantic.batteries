@@ -1,0 +1,30 @@
+{
+    "subclass_of": [
+        "Category:OSWe5aa96bffb1c4d95be7fbd46142ad203"
+    ],
+    "type": [
+        "Category:Category"
+    ],
+    "uuid": "b47292f6-8e83-4e35-92f1-fa8f706ddde4",
+    "label": [
+        {
+            "text": "Work package",
+            "lang": "en"
+        },
+        {
+            "text": "Arbeitspaket",
+            "lang": "de"
+        }
+    ],
+    "description": [
+        {
+            "text": "Work package as defined in a project proposal",
+            "lang": "en"
+        },
+        {
+            "text": "Arbeitspaket wie in einem Projektvorschlag definiert",
+            "lang": "de"
+        }
+    ],
+    "name": "WorkPackage"
+}

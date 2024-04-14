@@ -1,10 +1,10 @@
 {
     "@context": [
-        "/wiki/Category:OSW0e7fab2262fb4427ad0fa454bc868a0d?action=raw&slot=jsonschema"
+        "/wiki/Category:OSWfa914762adaa4665a63b6a77c3ea6eed?action=raw&slot=jsonschema"
     ],
     "allOf": [
         {
-            "$ref": "/wiki/Category:OSW0e7fab2262fb4427ad0fa454bc868a0d?action=raw&slot=jsonschema"
+            "$ref": "/wiki/Category:OSWfa914762adaa4665a63b6a77c3ea6eed?action=raw&slot=jsonschema"
         }
     ],
     "type": "object",
@@ -17,7 +17,7 @@
     "description": "A destructive experiment performed on an electrochemical battery cell",
     "description*": {
         "en": "A destructive experiment performed on an electrochemical battery cell",
-        "de": "Ein zerst\u00f6rendes Experiment an einer elektrochemischen Batteriezellea"
+        "de": "Ein zerstörendes Experiment an einer elektrochemischen Batteriezellea"
     },
     "required": [
         "type"

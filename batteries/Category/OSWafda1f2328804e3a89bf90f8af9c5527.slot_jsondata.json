@@ -1,20 +1,28 @@
 {
     "type": [
-        "Category:Category"
+        "Category:OSW6cc7d1cc87dc4fa8935d5b3d2a9b55c5"
     ],
     "subclass_of": [
         "Category:OSW47c67760dd164c82b570f58c8269b373"
     ],
     "uuid": "afda1f23-2880-4e3a-89bf-90f8af9c5527",
-    "name": "BatteryCellOpening",
     "label": [
         {
             "text": "Battery Cell Opening",
             "lang": "en"
         },
         {
-            "text": "Batteriezell\u00f6ffnung",
+            "text": "Batteriezellöffnung",
             "lang": "de"
+        }
+    ],
+    "name": "BatteryCellOpening",
+    "tools": [],
+    "input": [
+        {
+            "uuid": "fb147eab-177b-4921-94c2-68ab8d6d6c55",
+            "input_type": "Category:OSW680453b7563749a0a33f6be16036c81d",
+            "input_default": ""
         }
     ]
 }

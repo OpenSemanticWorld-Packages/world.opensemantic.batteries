@@ -1,0 +1,28 @@
+{
+    "@context": [
+        "/wiki/Category:OSWef181c1daf2343fd8c132c39e7d748bd?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSWef181c1daf2343fd8c132c39e7d748bd?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "d5b87e52-a613-49db-b607-7bf2447a7bf4",
+    "title": "MaccorSeries4000",
+    "title*": {
+        "en": "Maccor Series 4000"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSWd5b87e52a61349dbb6077bf2447a7bf4"
+            ]
+        }
+    }
+}

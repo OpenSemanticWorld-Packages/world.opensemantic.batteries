@@ -1,0 +1,20 @@
+{
+    "type": [
+        "Category:OSWd845b96813a344458f140e48c4d063fd"
+    ],
+    "subclass_of": [
+        "Category:OSWf0fe562f422d49c6877490b3dfee2f3f"
+    ],
+    "uuid": "69729530-f3ca-4add-af8d-d95ea3781607",
+    "label": [
+        {
+            "text": "Electrochemical testing device",
+            "lang": "en"
+        },
+        {
+            "text": "Elektrochemischer Tester",
+            "lang": "de"
+        }
+    ],
+    "name": "ElectrochemicalTestingDevice"
+}

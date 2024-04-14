@@ -62,7 +62,7 @@
             },
             "description": "Name of the manufacturer. Only needed if a link cannot be provided because the entry does not exist yet",
             "description*": {
-                "de": "Name des Herstellers. Nur notwendig wenn eine Verlinkung nicht m\u00f6glich ist weil etwa der Eintrag noch nicht existiert."
+                "de": "Name des Herstellers. Nur notwendig wenn eine Verlinkung nicht möglich ist weil etwa der Eintrag noch nicht existiert."
             }
         },
         "manufacturer_type_id": {

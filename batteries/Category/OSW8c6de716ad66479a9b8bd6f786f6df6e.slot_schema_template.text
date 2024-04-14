@@ -7,8 +7,7 @@
         "negative_electrode_supplied"{{/if}}{{#if reference_electrode_supplied}}, 
         "reference_electrode_supplied"{{/if}}{{#if separator_supplied}}, 
         "separator_supplied"{{/if}}{{#if electrolyte_supplied}}, 
-        "electrolyte_supplied"{{/if}}{{#if cell_format}}, 
-        "cell_type"{{/if}}
+        "electrolyte_supplied"{{/if}}
     ],
     "properties": { 
         "uuid": {
@@ -17,13 +16,7 @@
             "options": {
                 "hidden": true
             }
-        } {{#if cell_format}},
-        "cell_type": {
-            "title": "Cell type",
-            "type": "string",
-            "format": "autocomplete",
-            "range": "{{{cell_format}}}"
-        } {{/if}} {{#if reference_electrode}},
+        } {{#if reference_electrode}},
         "reference_electrode": {
             "title": "Reference electrode",
             "type": "string",

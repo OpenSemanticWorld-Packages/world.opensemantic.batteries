@@ -1,16 +1,121 @@
 {
     "@context": [
-        "/wiki/Category:Category?action=raw&slot=jsonschema",
         {
+            "belongs_to_project_default": {
+                "@id": "Property:BelongsTo",
+                "@type": "@id"
+            },
+            "belongs_to_work_package_default": {
+                "@id": "Property:BelongsTo",
+                "@type": "@id"
+            },
+            "belongs_to_task_default": {
+                "@id": "Property:BelongsTo",
+                "@type": "@id"
+            },
             "constituents": {
-                "@type": "@id",
                 "@id": "Property:HasStatement",
+                "@type": "@id",
                 "@context": {
                     "property": "Property:HasProperty",
                     "type": "Property:HasValue"
                 }
+            },
+            "data_sheet": {
+                "@id": "Property:HasDataSheet",
+                "@type": "@id"
+            },
+            "instructions": {
+                "@id": "Property:HasInstructions",
+                "@type": "@id"
+            },
+            "manual": {
+                "@id": "Property:HasManual",
+                "@type": "@id"
+            },
+            "origin": {
+                "@id": "Property:HasStatement",
+                "@context": {
+                    "origin_type": {
+                        "@id": "Property:HasOriginType",
+                        "@type": "@id"
+                    },
+                    "origin_default": {
+                        "@id": "Property:HasOrigin",
+                        "@type": "@id"
+                    }
+                }
+            },
+            "processing_date_default": {
+                "@id": "Property:ProcessedOn",
+                "@type": "xsd:string"
+            },
+            "processing_ou_default": {
+                "@id": "Property:ProcessedBy",
+                "@type": "@id"
+            },
+            "processing_ou_default*": {
+                "@id": "Property:HasManufacturer",
+                "@type": "@id"
+            },
+            "processing_site_default": {
+                "@id": "Property:ProcessedAt",
+                "@type": "@id"
+            },
+            "processing_employee_default": {
+                "@id": "Property:ProcessedBy",
+                "@type": "@id"
+            },
+            "safety_data_sheet": {
+                "@id": "Property:HasSafetyDataSheet",
+                "@type": "@id"
+            },
+            "specifications": {
+                "@id": "Property:HasStatement",
+                "@type": "xsd:string",
+                "@context": {
+                    "attribute_name": {
+                        "@id": "Property:HasAttribute"
+                    },
+                    "quantity_prop": {
+                        "@id": "Property:HasProperty",
+                        "@context": {
+                            "numerical_value": "Property:HasNumericalValue",
+                            "unit": "Property:HasUnit",
+                            "unit_symbol": "Property:HasUnitSymbol",
+                            "value": "Property:HasValue"
+                        }
+                    }
+                }
+            },
+            "supply": {
+                "@id": "Property:HasStatement",
+                "@type": "xsd:string",
+                "@context": {
+                    "supplier": {
+                        "@id": "Property:HasSupplier",
+                        "@type": "@id"
+                    },
+                    "article_no": {
+                        "@id": "Property:HasArticleNumber",
+                        "@type": "xsd:string"
+                    },
+                    "link": {
+                        "@id": "Property:HasUrl",
+                        "@type": "@id"
+                    },
+                    "comment": {
+                        "@id": "Property:HasComment",
+                        "@type": "xsd:string"
+                    }
+                }
+            },
+            "type_no": {
+                "@id": "Property:HasTypeNumber",
+                "@type": "xsd:string"
             }
-        }
+        },
+        "/wiki/Category:Category?action=raw&slot=jsonschema"
     ],
     "allOf": [
         {
@@ -30,16 +135,348 @@
     "required": [
         "type"
     ],
+    "defaultPropertis": [
+        "type_no",
+        "processing_ou_default",
+        "data_sheet",
+        "safety_data_sheet",
+        "supply",
+        "specifications"
+    ],
     "properties": {
         "type": {
             "default": [
                 "Category:OSWca99a9bb9ad24386b222d18a73c2af5e"
             ]
         },
+        "type_no": {
+            "title": "Type number",
+            "title*": {
+                "de": "Typennummer"
+            },
+            "description": "Type or model number as specified by the manufacturer",
+            "description*": {
+                "de": "Typen- oder Modellnummer wie vom Hersteller angegeben"
+            },
+            "type": "string",
+            "format": ""
+        },
+        "processing_ou_default": {
+            "title": "Manufacturer or processor",
+            "title*": {
+                "de": "Hersteller oder Prozessor"
+            },
+            "description": "The manufacturer or processing organization(al unit) of the physical item. Sets the default value for instances of this category",
+            "description*": {
+                "de": "Der Hersteller oder prozessierende Organisation(seinheit) des physischen Gegendstandes. Legt den Standardwert für Instanzen dieser Kategorie fest."
+            },
+            "type": "string",
+            "format": "autocomplete",
+            "range": "Category:OSW3cb8cef2225e403092f098f99bc4c472"
+        },
+        "data_sheet": {
+            "title": "Data sheet",
+            "title*": {
+                "de": "Datenblatt"
+            },
+            "type": "array",
+            "format": "table",
+            "items": {
+                "title": "Document",
+                "title*": {
+                    "de": "Dokument"
+                },
+                "type": "string",
+                "format": "autocomplete",
+                "options": {
+                    "autocomplete": {
+                        "category": "Category:OSW11a53cdfbdc24524bf8ac435cbf65d9d"
+                    }
+                }
+            },
+            "uniqueItems": true
+        },
+        "safety_data_sheet": {
+            "title": "Safety data sheet",
+            "title*": {
+                "de": "Sicherheitsdatenblatt"
+            },
+            "type": "array",
+            "format": "table",
+            "items": {
+                "title": "Document",
+                "title*": {
+                    "de": "Dokument"
+                },
+                "type": "string",
+                "format": "autocomplete",
+                "options": {
+                    "autocomplete": {
+                        "category": "Category:OSW11a53cdfbdc24524bf8ac435cbf65d9d"
+                    }
+                }
+            },
+            "uniqueItems": true
+        },
+        "manual": {
+            "title": "Manual",
+            "title*": {
+                "de": "Handbuch"
+            },
+            "description": "Comprehensive guide that details how to use a the physical item.",
+            "description*": {
+                "de": "Handbuch, Gerauchsanweisung, Betriebs- oder Bedienungsanleitung mit Einzelheiten zur Verwendung des physischen Gegenstands."
+            },
+            "type": "array",
+            "format": "table",
+            "items": {
+                "title": "Document",
+                "title*": {
+                    "de": "Dokument"
+                },
+                "type": "string",
+                "format": "autocomplete",
+                "options": {
+                    "autocomplete": {
+                        "category": "Category:OSW11a53cdfbdc24524bf8ac435cbf65d9d"
+                    }
+                }
+            },
+            "uniqueItems": true
+        },
+        "instructions": {
+            "title": "Instructions",
+            "title*": {
+                "de": "Anleitung"
+            },
+            "description": "A list of steps to be performed, e.g., the setup instructions.",
+            "description*": {
+                "de": "Eine Liste auszuführenden Schritte, z. B. die Einrichtungsanweisungen."
+            },
+            "type": "array",
+            "format": "table",
+            "items": {
+                "title": "Document",
+                "title*": {
+                    "de": "Dokument"
+                },
+                "type": "string",
+                "format": "autocomplete",
+                "options": {
+                    "autocomplete": {
+                        "category": "Category:OSW11a53cdfbdc24524bf8ac435cbf65d9d"
+                    }
+                }
+            },
+            "uniqueItems": true
+        },
+        "supply": {
+            "title": "Supply",
+            "title*": {
+                "de": "Bezugsmöglichkeit"
+            },
+            "description": "Supply of the material with supplier, article no. and link",
+            "description*": {
+                "de": "Bezugsmöglichkeit des Materials mit Lieferant, Artikelnummer und Link"
+            },
+            "type": "array",
+            "format": "table",
+            "items": {
+                "title": "Supply",
+                "title*": {
+                    "de": "Bezugsmöglichkeit"
+                },
+                "type": "object",
+                "required": [
+                    "uuid",
+                    "supplier"
+                ],
+                "properties": {
+                    "uuid": {
+                        "type": "string",
+                        "format": "uuid",
+                        "options": {
+                            "hidden": true
+                        }
+                    },
+                    "supplier": {
+                        "title": "Supplier",
+                        "title*": {
+                            "de": "Lieferant"
+                        },
+                        "type": "string",
+                        "format": "autocomplete",
+                        "options": {
+                            "autocomplete": {
+                                "category": "Category:OSW3cb8cef2225e403092f098f99bc4c472"
+                            }
+                        }
+                    },
+                    "article_no": {
+                        "title": "Article no.",
+                        "title*": {
+                            "de": "Artikelnummer"
+                        },
+                        "description": "Article number in the catalogue of the supplier",
+                        "description*": {
+                            "de": "Artikelnummer im Katalog des Lieferanten"
+                        },
+                        "type": "string"
+                    },
+                    "comment": {
+                        "title": "Comment",
+                        "title*": {
+                            "de": "Kommentar"
+                        },
+                        "description": "Comment on the supply of the material",
+                        "description*": {
+                            "de": "Kommentar bezüglich der Bezugsmöglichkeit des Materials"
+                        },
+                        "type": "string",
+                        "format": ""
+                    },
+                    "link": {
+                        "title": "Link",
+                        "title*": {
+                            "de": "Link"
+                        },
+                        "description": "Link to the article in the online catalogue of the supplier",
+                        "description*": {
+                            "de": "Link zum Artikel im Online-Katalog des Lieferanten"
+                        },
+                        "type": "string",
+                        "format": "uri"
+                    }
+                },
+                "eval_template": [
+                    {
+                        "type": "wikitext",
+                        "mode": "render",
+                        "value": "[[{{{supplier}}}]]: [{{{link}}} {{{article_no}}}] ({{{comment}}})"
+                    }
+                ]
+            }
+        },
+        "specifications": {
+            "title": "Specification of technical properties",
+            "title*": {
+                "de": "Spezifikation technischer Eigenschaften"
+            },
+            "id": "specs",
+            "type": "array",
+            "format": "table",
+            "items": {
+                "title": "Attribute",
+                "title*": {
+                    "de": "Attribut"
+                },
+                "type": "object",
+                "headerTemplate": "{{i1}} - {{self.name}}",
+                "defaultProperties": [
+                    "attribute_name",
+                    "quantity_prop"
+                ],
+                "required": [
+                    "uuid",
+                    "attribute_name",
+                    "quantity_prop"
+                ],
+                "properties": {
+                    "uuid": {
+                        "type": "string",
+                        "format": "uuid",
+                        "options": {
+                            "hidden": true
+                        }
+                    },
+                    "attribute_name": {
+                        "title": "Name",
+                        "type": "array",
+                        "format": "table",
+                        "eval_template": [
+                            {
+                                "type": "mustache-wikitext",
+                                "mode": "render",
+                                "value": "{{=<% %>=}} {{#switch:{{USERLANGUAGECODE}} <%={{ }}=%> {{#attribute_name}} |{{lang}}={{text}} |#default={{text}} {{/attribute_name}} {{=<% %>=}} }}"
+                            }
+                        ],
+                        "items": {
+                            "title": "Attribute",
+                            "title*": {
+                                "de": "Attribut"
+                            },
+                            "type": "object",
+                            "eval_template": [
+                                {
+                                    "type": "wikitext",
+                                    "mode": "store",
+                                    "value": "{{{text}}}@{{{lang}}}"
+                                }
+                            ],
+                            "required": [
+                                "text",
+                                "lang"
+                            ],
+                            "properties": {
+                                "text": {
+                                    "title": "Text",
+                                    "title*": {
+                                        "de": "Text"
+                                    },
+                                    "type": "string",
+                                    "minLength": 1,
+                                    "options": {
+                                        "input_width": "400px",
+                                        "inputAttributes": {
+                                            "placeholder": "Title of the entry"
+                                        },
+                                        "inputAttributes*": {
+                                            "de": {
+                                                "placeholder": "Titel dieses Eintrags"
+                                            }
+                                        }
+                                    }
+                                },
+                                "lang": {
+                                    "title": "Lang code",
+                                    "title*": {
+                                        "de": "Sprache"
+                                    },
+                                    "type": "string",
+                                    "enum": [
+                                        "en",
+                                        "de"
+                                    ],
+                                    "default": "en",
+                                    "default*": {
+                                        "en": "en",
+                                        "de": "de"
+                                    },
+                                    "options": {
+                                        "input_width": "100px"
+                                    }
+                                }
+                            }
+                        },
+                        "minItems": 1
+                    },
+                    "quantity_prop": {
+                        "$ref": "/wiki/JsonSchema:QuantityProperty?action=raw"
+                    }
+                },
+                "eval_template": [
+                    {
+                        "type": "mustache-wikitext",
+                        "mode": "render",
+                        "value": "{{=<% %>=}} {{#switch:{{USERLANGUAGECODE}} <%={{ }}=%> {{#attribute_name}} |{{lang}}={{text}} |#default={{text}} {{/attribute_name}} {{=<% %>=}} }} attribute {{{quantity_prop.value}}}"
+                    }
+                ]
+            }
+        },
         "constituents": {
             "type": "array",
             "format": "tabs",
-            "title": "Constituents",
+            "title": "Components / Constituents",
             "title*": {
                 "de": "Bestandteile"
             },
@@ -96,6 +533,208 @@
                     "default": {
                         "title": "Default value",
                         "type": "string"
+                    }
+                }
+            }
+        },
+        "processing_date_default": {
+            "type": "string",
+            "format": "date",
+            "title": "Processing date (default)",
+            "title*": {
+                "de": "Datum der Prozessierung (Standardwert)"
+            },
+            "options": {
+                "flatpickr": {}
+            }
+        },
+        "processing_site_default": {
+            "title": "Processed at (site, default)",
+            "title*": {
+                "de": "Prozessiert an (Standort, Standardwert)"
+            },
+            "type": "string",
+            "format": "autocomplete",
+            "range": "Category:OSW473d7a1ed48544d1be83b258b5810948",
+            "watch": {
+                "processing_ou": "processing_ou_default"
+            },
+            "options": {
+                "autocomplete": {
+                    "query": "[[-IsLocatedIn::$(processing_ou)]] OR [[-IsLocatedIn.-HasSuperordinateOu::$(processing_ou)]] "
+                }
+            }
+        },
+        "processing_employee_default": {
+            "title": "Processing employee(s) (default)",
+            "title*": {
+                "de": "Prozessierende Mitarbeitende (Standardwert)"
+            },
+            "type": "array",
+            "format": "table",
+            "items": {
+                "title": "Employee",
+                "title*": {
+                    "de": "Mitarbeiter*in"
+                },
+                "type": "string",
+                "format": "autocomplete",
+                "$comment": "range: Person",
+                "range": "Category:OSW44deaa5b806d41a2a88594f562b110e9",
+                "watch": {
+                    "processing_ou": "processing_ou_default"
+                },
+                "options": {
+                    "autocomplete": {
+                        "query": "[[HasOrganization::$(processing_ou)]] OR [[HasOu::$(processing_ou)]]"
+                    }
+                }
+            }
+        },
+        "origin": {
+            "title": "Origin (default)",
+            "title*": {
+                "de": "Ursprung (Standardwert)"
+            },
+            "description": "Other physical item(s) that this physical item was derived from.",
+            "description*": {
+                "de": "Andere(r) physische(r) Gegenstand/Gegenstände aus der dieser physische Gegenstand hergestellt wurde."
+            },
+            "type": "array",
+            "format": "table",
+            "items": {
+                "title": "Other physical Item (Type)",
+                "title*": {
+                    "de": "Anderer physischer Gegenstand (Typ)"
+                },
+                "type": "object",
+                "id": "origin_",
+                "defaultProperties": [
+                    "origin_type",
+                    "origin_default"
+                ],
+                "required": [
+                    "origin_type",
+                    "uuid"
+                ],
+                "properties": {
+                    "uuid": {
+                        "type": "string",
+                        "format": "uuid",
+                        "options": {
+                            "hidden": true
+                        }
+                    },
+                    "origin_type": {
+                        "title": "Type",
+                        "title*": {
+                            "de": "Typ"
+                        },
+                        "type": "string",
+                        "format": "autocomplete",
+                        "options": {
+                            "autocomplete": {
+                                "$comment": "todo: we need an any-subcategory-of shortcut",
+                                "query": "[[SubClassOf::Category:OSW37a57741ae2e4dd4b29b1172b6848be8]]OR[[SubClassOf.SubClassOf::Category:OSW37a57741ae2e4dd4b29b1172b6848be8]]OR[[SubClassOf.SubClassOf.SubClassOf::Category:OSW37a57741ae2e4dd4b29b1172b6848be8]]OR[[SubClassOf.SubClassOf.SubClassOf.SubClassOf::Category:OSW37a57741ae2e4dd4b29b1172b6848be8]]OR[[SubClassOf.SubClassOf.SubClassOf.SubClassOf.SubClassOf::Category:OSW37a57741ae2e4dd4b29b1172b6848be8]]"
+                            }
+                        }
+                    },
+                    "origin_default": {
+                        "title": "Default",
+                        "title*": {
+                            "de": "Standardwert"
+                        },
+                        "type": "string",
+                        "format": "autocomplete",
+                        "range": "Category:OSW37a57741ae2e4dd4b29b1172b6848be8",
+                        "watch": {
+                            "origin_type_w": "origin_.origin_type"
+                        },
+                        "options": {
+                            "autocomplete": {
+                                "query": "[[$(origin_type_w)]]"
+                            }
+                        }
+                    }
+                },
+                "eval_template": [
+                    {
+                        "type": "wikitext",
+                        "mode": "render",
+                        "value": "{{#switch:{{USERLANGUAGECODE}}|en=Type|de=Typ|#default=Type}}: [[:{{{origin_type}}}]] {{#if: {{{origin_default}}} | ({{#switch:{{USERLANGUAGECODE}}|en=default|de=Default|#default=default}}: [[{{{origin_default}}}]]) | ({{#switch:{{USERLANGUAGECODE}}|en=no default|de=Kein Default|#default=no default}})}} "
+                    }
+                ]
+            }
+        },
+        "belongs_to_project_default": {
+            "$comment": "Should be an array, but this requires advanced watch features in belongs_to_work_package_default",
+            "title": "Belongs to (project, default)",
+            "title*": {
+                "de": "Gehört zu (Projekt, Standardwert)"
+            },
+            "description": "Project to which this physical item belongs. Serves as a filter for the \"belongs to (task/work package)\" property.",
+            "description*": {
+                "de": "Projekt, zu dem dieser physische Gegenstand gehört. Dient als Filter für die \"gehört zu (Task/Arbeitspaket)\" Eigenschaft."
+            },
+            "type": "string",
+            "format": "autocomplete",
+            "range": "Category:OSWb2d7e6a2eff94c82b7f1f2699d5b0ee3"
+        },
+        "belongs_to_work_package_default": {
+            "title": "Belongs to (work package, default)",
+            "title*": {
+                "de": "Gehört zu (Arbeitspaket, Standardwert)"
+            },
+            "description": "Work package from the work package plan of the project. Might not be required if a task is stated and that task links to a work package already.",
+            "description*": {
+                "de": "Arbeitspaket aus dem Arbeitspaketplan des Projekts. Ist möglicherweise nicht erforderlich, wenn eine Aufgabe angegeben wird und diese Aufgabe bereits mit einem Arbeitspaket verknüpft ist."
+            },
+            "type": "array",
+            "format": "table",
+            "items": {
+                "title": "Workpackage",
+                "title*": {
+                    "de": "Arbeitspaket"
+                },
+                "type": "string",
+                "format": "autocomplete",
+                "range": "Category:OSWb47292f68e834e3592f1fa8f706ddde4",
+                "watch": {
+                    "project": "belongs_to_project_default"
+                },
+                "options": {
+                    "autocomplete": {
+                        "query": "[[Category:OSWb47292f68e834e3592f1fa8f706ddde4]][[BelongsTo::$(project)]]"
+                    }
+                }
+            }
+        },
+        "belongs_to_task_default": {
+            "$comment": "TBD: This does not allow to select tasks that are not part of a project",
+            "title": "Belongs to (task, default)",
+            "title*": {
+                "de": "Gehört zu (Task, Standardwert)"
+            },
+            "description": "Task from the work package plan of the project.",
+            "description*": {
+                "de": "Aufgabe aus dem Arbeitspaketplan des Projekts."
+            },
+            "type": "array",
+            "format": "table",
+            "items": {
+                "title": "Task",
+                "title*": {
+                    "de": "Task"
+                },
+                "type": "string",
+                "format": "autocomplete",
+                "range": "Category:OSWc5d4829ed2744a219ba027171c75fa1d",
+                "watch": {
+                    "project": "belongs_to_project_default"
+                },
+                "options": {
+                    "autocomplete": {
+                        "query": "[[Category:OSWc5d4829ed2744a219ba027171c75fa1d]][[BelongsTo::$(project)]]"
                     }
                 }
             }

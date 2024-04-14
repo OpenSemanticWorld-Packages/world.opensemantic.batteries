@@ -28,8 +28,8 @@
     ],
     "main_unit": {
         "uuid": "6f555605-025f-4c85-bc44-495e839148de",
-        "name": "m\u00b3",
-        "main_symbol": "m\u00b3",
+        "name": "m³",
+        "main_symbol": "m³",
         "alternative_symbols": [
             "m3",
             "m^3"
@@ -49,7 +49,7 @@
             "name": "l",
             "main_symbol": "l",
             "alternative_symbols": [
-                "dm\u00b3",
+                "dm³",
                 "dm3",
                 "dm^3",
                 "L"

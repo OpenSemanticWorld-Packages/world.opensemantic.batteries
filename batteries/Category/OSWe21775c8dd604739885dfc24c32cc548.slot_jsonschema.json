@@ -75,7 +75,7 @@
             },
             "description": "Procedures that are executed before the steps defined in this procedure.",
             "description*": {
-                "de": "Prozeduren, die vor den in dieser Prozedur definierten Schritten ausgef\u00fchrt werden."
+                "de": "Prozeduren, die vor den in dieser Prozedur definierten Schritten ausgeführt werden."
             },
             "type": "array",
             "items": {
@@ -99,7 +99,7 @@
             },
             "description": "Procedures that are executed after the steps defined in this procedure.",
             "description*": {
-                "de": "Prozeduren, die nach den in dieser Prozedur definierten Schritten ausgef\u00fchrt werden."
+                "de": "Prozeduren, die nach den in dieser Prozedur definierten Schritten ausgeführt werden."
             },
             "type": "array",
             "items": {
@@ -170,20 +170,20 @@
                     },
                     "step_temperature": {
                         "type": "number",
-                        "title": "Applied temperature [\u00b0C]",
+                        "title": "Applied temperature [°C]",
                         "title*": {
-                            "de": "Angelegte Temperatur [\u00b0C]"
+                            "de": "Angelegte Temperatur [°C]"
                         }
                     },
                     "go_back_to": {
                         "type": "integer",
                         "title": "Go back to",
                         "title*": {
-                            "de": "Zur\u00fcck zu"
+                            "de": "Zurück zu"
                         },
                         "description": "Number of the step to go back to",
                         "description*": {
-                            "de": "Nummer des Schritts, zu dem zur\u00fcckgegangen werden soll"
+                            "de": "Nummer des Schritts, zu dem zurückgegangen werden soll"
                         },
                         "default": 0,
                         "minimum": 0
@@ -192,11 +192,11 @@
                         "type": "integer",
                         "title": "Go back to repetitions",
                         "title*": {
-                            "de": "Zur\u00fcck zu Wiederholungen"
+                            "de": "Zurück zu Wiederholungen"
                         },
                         "description": "Number of times the go back to step is repeated",
                         "description*": {
-                            "de": "Anzahl der Wiederholungen des Zur\u00fcck zu Schritts"
+                            "de": "Anzahl der Wiederholungen des Zurück zu Schritts"
                         },
                         "default": 0,
                         "minimum": 0
@@ -220,7 +220,7 @@
                         },
                         "description": "File containing the step, usually in a vendor specific format",
                         "description*": {
-                            "de": "Datei, welche den Schritt enth\u00e4lt, normalerweise in einem herstellerspezifischen Format"
+                            "de": "Datei, welche den Schritt enthält, normalerweise in einem herstellerspezifischen Format"
                         },
                         "format": "autocomplete",
                         "options": {
@@ -310,7 +310,7 @@
             },
             "description": "File containing the procedure, usually in a vendor specific format",
             "description*": {
-                "de": "Datei, welche die Prozedur enth\u00e4lt, normalerweise in einem herstellerspezifischen Format"
+                "de": "Datei, welche die Prozedur enthält, normalerweise in einem herstellerspezifischen Format"
             },
             "type": "array",
             "items": {

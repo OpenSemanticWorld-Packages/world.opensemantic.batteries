@@ -1,0 +1,140 @@
+{
+    "type": [
+        "Category:OSW8c6de716ad66479a9b8bd6f786f6df6e"
+    ],
+    "cell_form_factor": "Category:OSWe2837f8ca1884f6595a664f19fd7bf22",
+    "cell_format": "Item:OSW315bf2e58ced496fa31acbf6a2940e52",
+    "reference_electrode": "Category:OSWd82bda461d474a5dbf274c8bd6f1cfcd",
+    "positive_electrode_supplied": {
+        "positive_active_material": "Category:OSW36082c03d48543aca08bfe4ea3afe8cb",
+        "positive_electrode_loading": 12,
+        "positive_electrode_mass": 200
+    },
+    "negative_electrode_supplied": {
+        "negative_active_material": "Category:OSW2cfa957f5e824cf38da52d547cebe73d",
+        "negative_electrode_loading": 20,
+        "negative_electrode_mass": 40
+    },
+    "electrolyte_supplied": {
+        "electrolyte_selection": "Category:OSW1bab134ea1b14cba83f6ccdff9a39cb3",
+        "electrolyte_mass": 10,
+        "electrolyte_volume": 20
+    },
+    "separator_supplied": {
+        "separator_selection": "Category:OSWffea76829cbc475eb518b19fd437c0d6",
+        "separator_count": 0,
+        "separator_mass": 0
+    },
+    "subclass_of": [
+        "Category:OSW680453b7563749a0a33f6be16036c81d"
+    ],
+    "uuid": "60482870-f8fc-4067-82f6-0295bf7a09e3",
+    "label": [
+        {
+            "text": "LG INR18650 MH1",
+            "lang": "en"
+        }
+    ],
+    "name": "LgInr18650Mh1",
+    "processing_ou_default": "Item:OSWd06efe7de0954e1ebabfe2c7091cc926",
+    "type_no": "INR18650 MH1 3200mAh",
+    "data_sheet": [
+        "File:OSW7250e882606547c0958dbabba8b9bd23.pdf"
+    ],
+    "safety_data_sheet": [
+        "File:OSW63b8041a2cf14377b34582bd297df12a.pdf"
+    ],
+    "manual": [
+        "File:OSW35750f9ad8bc458db1ad3d2e0ee484e0.pdf"
+    ],
+    "instructions": [
+        "File:OSW35750f9ad8bc458db1ad3d2e0ee484e0.pdf"
+    ],
+    "supply": [
+        {
+            "uuid": "c6d44069-1673-4117-a3a5-4170d024dafe",
+            "supplier": "Item:OSWf1caef36c4a54adba0f2b810ee3418ab",
+            "article_no": "Stock xxx",
+            "comment": "Free of charge",
+            "link": "https://varta.com"
+        },
+        {
+            "uuid": "6ffcae67-64f1-4dbe-a67c-4583d9b5a327",
+            "supplier": "Item:OSWf1caef36c4a54adba0f2b810ee3418ab",
+            "article_no": "Stock-ca2",
+            "comment": "Free",
+            "link": "https://varta.com"
+        }
+    ],
+    "specifications": [
+        {
+            "uuid": "079a38e0-15e3-4160-8195-4761a6bbe598",
+            "attribute_name": [
+                {
+                    "text": "Weight (max.)",
+                    "lang": "en"
+                }
+            ],
+            "quantity_prop": {
+                "uuid": "b71104af-3cfc-47a7-b81b-a11714928d6b",
+                "quantity": "Property:HasMass",
+                "value": "10 g",
+                "unit": "Property:HasMass#OSW2b1a3a39eceb4249b86897def91134dc",
+                "unit_symbol": "g",
+                "numerical_value": "10"
+            }
+        },
+        {
+            "uuid": "9f7a8d1f-2096-46d8-adbc-9745566a5da6",
+            "attribute_name": [
+                {
+                    "text": "Weight (min.)",
+                    "lang": "en"
+                }
+            ],
+            "quantity_prop": {
+                "uuid": "b71104af-3cfc-232a-b81b-a11714928d6b",
+                "quantity": "Property:HasMass",
+                "value": "1 g",
+                "unit": "Property:HasMass#OSW2b1a3a39eceb4249b86897def91134dc",
+                "unit_symbol": "g",
+                "numerical_value": "1"
+            }
+        }
+    ],
+    "constituents": [],
+    "processing_date_default": "2024-03-27",
+    "processing_site_default": "Item:OSWcdc75163ae464fb0904d4ce52f0cee8c",
+    "processing_employee_default": [
+        "Item:OSW4dd30c2efe354f49b49568a477a7e1b6"
+    ],
+    "belongs_to_project_default": "Item:OSW315983c43c874b4d9f9688de9763e40d",
+    "belongs_to_work_package_default": [
+        "Item:OSW7b4b356b8a584f6c9290fbed4fefebfa"
+    ],
+    "belongs_to_task_default": [
+        "Item:OSWaecfe9ca3a2e4ceabb4602a865693d88"
+    ],
+    "origin": [
+        {
+            "uuid": "5f4160d3-6b78-4b51-98a6-1fcce9ed8cd2",
+            "origin_type": "Category:OSW852576b80ff542f5895c40a9296bc9ac",
+            "origin_default": "Item:OSW6dc0d2fd2a6a4a14bf6f380f3a37be1d"
+        },
+        {
+            "uuid": "f32cfc5f-4ac2-4067-8cfd-b3645f1f91a2",
+            "origin_type": "Category:OSWad76c1ea5a6444a7980c287f2856d21e",
+            "origin_default": "Item:OSW4073c7109d15416185417040e5c9cbc2"
+        }
+    ],
+    "description": [
+        {
+            "text": "Some engl. desc",
+            "lang": "en"
+        },
+        {
+            "text": "Eine deutsche Beschreibung",
+            "lang": "de"
+        }
+    ]
+}

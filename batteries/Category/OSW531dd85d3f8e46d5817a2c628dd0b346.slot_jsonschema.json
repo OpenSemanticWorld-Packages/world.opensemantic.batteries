@@ -1,0 +1,37 @@
+{
+    "@context": [
+        "/wiki/Category:OSWbeaf0d4e4dfd4fe29b7349751b3bccba?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSWbeaf0d4e4dfd4fe29b7349751b3bccba?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "531dd85d-3f8e-46d5-817a-2c628dd0b346",
+    "title": "BatteryPack",
+    "title*": {
+        "en": "Battery pack",
+        "de": "Batteriepack"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type",
+        "uuid"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW531dd85d3f8e46d5817a2c628dd0b346"
+            ]
+        },
+        "uuid": {
+            "type": "string",
+            "format": "uuid",
+            "options": {
+                "hidden": true
+            }
+        }
+    }
+}

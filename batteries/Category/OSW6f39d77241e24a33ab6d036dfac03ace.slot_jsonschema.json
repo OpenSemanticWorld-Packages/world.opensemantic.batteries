@@ -1,52 +1,20 @@
 {
     "@context": [
-        "/wiki/Category:OSW0e7fab2262fb4427ad0fa454bc868a0d?action=raw&slot=jsonschema",
         {
-            "battery_cell_dut": {
-                "@id": "Property:HasDut",
-                "@type": "@id"
-            },
-            "device_under_test": {
-                "@id": "Property:HasDut",
-                "@type": "@id"
-            },
-            "channel": {
-                "@id": "Property:HasChannel",
-                "@type": "@id"
-            },
-            "environmental_test_chamber": {
-                "@id": "Property:HasTool",
-                "@type": "@id"
-            },
-            "test_procedure": {
-                "@id": "Property:HasProcedure",
-                "@type": "@id"
-            },
-            "test_procedure_name": {
-                "@id": "Property:HasProcedure",
-                "@type": "@id"
-            },
-            "tester": {
-                "@id": "Property:HasTool",
-                "@type": "@id"
-            },
-            "tester_name": {
-                "@id": "Property:HasTool",
-                "@type": "@id"
-            },
             "test_temperature": {
                 "@id": "Property:HasTemperature",
-                "@type": "@id"
+                "@type": "xsd:float"
             },
             "test_humidity": {
                 "@id": "Property:HasHumidity",
-                "@type": "@id"
+                "@type": "xsd:float"
             }
-        }
+        },
+        "/wiki/Category:OSWfa914762adaa4665a63b6a77c3ea6eed?action=raw&slot=jsonschema"
     ],
     "allOf": [
         {
-            "$ref": "/wiki/Category:OSW0e7fab2262fb4427ad0fa454bc868a0d?action=raw&slot=jsonschema"
+            "$ref": "/wiki/Category:OSWfa914762adaa4665a63b6a77c3ea6eed?action=raw&slot=jsonschema"
         }
     ],
     "type": "object",
@@ -59,21 +27,18 @@
     "description": "A test performed on an electrochemical device, usually by applying voltage and current",
     "description*": {
         "en": "A test performed on an electrochemical device, usually by applying voltage and current",
-        "de": "Ein Test an einem elektrochemischen Ger\u00e4t, \u00fcblicherweise indem Strom und Spannung angelegt werden."
+        "de": "Ein Test an einem elektrochemischen Gerät, üblicherweise indem Strom und Spannung angelegt werden."
     },
     "required": [
-        "type"
+        "type",
+        "uuid"
     ],
     "defaultProperties": [
-        "battery_cell_dut",
-        "tester",
-        "channel",
-        "test_procedure",
         "test_temperature",
         "test_humidity",
-        "environmental_test_chamber",
         "raw_data_files",
-        "analyzed_data_files"
+        "analyzed_data_files",
+        "workflow_runs"
     ],
     "properties": {
         "type": {
@@ -81,134 +46,10 @@
                 "Category:OSW6f39d77241e24a33ab6d036dfac03ace"
             ]
         },
-        "device_under_test": {
-            "title": "Device under test",
-            "title*": {
-                "de": "Zu testendes Ger\u00e4t"
-            },
-            "description": "Electrochemical cell that was tested",
-            "description*": {
-                "de": "Elektrochemische Zelle, die getestet wurde"
-            },
-            "type": "string",
-            "format": "autocomplete",
-            "range": "Category:OSW4744375e811943b2a21e922cded383fc"
-        },
-        "battery_cell_dut": {
-            "title": "Battery cell",
-            "title*": {
-                "de": "Batteriezelle"
-            },
-            "description": "Electrochemical cell that was tested",
-            "description*": {
-                "de": "Elektrochemische Zelle, die getestet wurde"
-            },
-            "type": "string",
-            "format": "autocomplete",
-            "options": {
-                "autocomplete": {
-                    "category": "Category:OSW680453b7563749a0a33f6be16036c81d"
-                }
-            }
-        },
-        "tester": {
-            "title": "Electrochemical tester",
-            "title*": {
-                "de": "Elektrochemischer Tester"
-            },
-            "description": "Device used to perform the test",
-            "description*": {
-                "de": "Ger\u00e4t, mit dem der Test durchgef\u00fchrt wurde"
-            },
-            "type": "string",
-            "format": "autocomplete",
-            "options": {
-                "autocomplete": {
-                    "category": "Category:OSW69729530f3ca4addaf8dd95ea3781607"
-                }
-            }
-        },
-        "tester_name": {
-            "title": "Electrochemical tester (name)",
-            "title*": {
-                "de": "Elektrochemischer Tester (Name)"
-            },
-            "description": "Device used to perform the test",
-            "description*": {
-                "de": "Ger\u00e4t, mit dem der Test durchgef\u00fchrt wurde"
-            },
-            "type": "string"
-        },
-        "channel": {
-            "title": "Channel",
-            "title*": {
-                "de": "Kanal"
-            },
-            "description": "Channel used to perform the test",
-            "description*": {
-                "de": "Kanal, mit dem der Test durchgef\u00fchrt wurde"
-            },
-            "type": "integer"
-        },
-        "test_procedure": {
-            "title": "Test procedure",
-            "title*": {
-                "de": "Testprozedur"
-            },
-            "type": "array",
-            "format": "table",
-            "items": {
-                "title": "Test procedure",
-                "title*": {
-                    "de": "Testprozedur"
-                },
-                "type": "object",
-                "properties": {
-                    "subcategory_select": {
-                        "title": "Subcategory",
-                        "description": "Select Subcategory first to get more precise results.",
-                        "type": "string",
-                        "format": "autocomplete",
-                        "range": "Category:Category",
-                        "subclassof_range": "Category:OSWdda41d4a4ec0421babe0295c6edcb5df",
-                        "default": "Category:OSWe69626f5804848fa978dbca65e6e084a"
-                    },
-                    "instance_select": {
-                        "title": "Instance",
-                        "description": "Select or create an appropiate test procedure.",
-                        "type": "string",
-                        "format": "autocomplete",
-                        "watch": {
-                            "subcategory_select": "subcategory_select"
-                        },
-                        "range": "$(subcategory_select)"
-                    }
-                }
-            }
-        },
-        "test_procedure_name": {
-            "title": "Test procedure",
-            "title*": {
-                "de": "Testprozedur"
-            },
-            "type": "array",
-            "format": "table",
-            "items": {
-                "title": "Test procedure",
-                "title*": {
-                    "de": "Testprozedur"
-                },
-                "type": "string"
-            },
-            "uniqueItems": true,
-            "default": [
-                ""
-            ]
-        },
         "test_temperature": {
-            "title": "Test temperature / \u00b0C",
+            "title": "Test temperature / °C",
             "title*": {
-                "de": "Testtemperatur / \u00b0C"
+                "de": "Testtemperatur / °C"
             },
             "description": "Temperature the battery was tested at",
             "description*": {
@@ -227,15 +68,224 @@
             },
             "type": "number"
         },
-        "environmental_test_chamber": {
-            "title": "Enviromental test chamber",
-            "title*": {
-                "de": "Umwelttestkammer"
-            },
+        "workflow_runs": {
+            "type": "array",
+            "title": "Workflow Runs",
+            "description": "Workflows sheduled for this item",
+            "propertyOrder": 1010,
+            "default": [
+                {
+                    "tool": [
+                        "Item:OSWba3abe8b955a4879bd74fa21834c2e1d"
+                    ]
+                }
+            ],
+            "eval_template": [
+                {
+                    "type": "mustache-wikitext",
+                    "mode": "render",
+                    "value": "{{#workflow_runs}} <div class='PrefectStatusBadge' data-config='{\"uuid\":\"{{{uuid}}}\", {{=<% %>=}} \"parent\": \"{{FULLPAGENAME}}\", \"_parameters\": {\"request\": {\"model_titles\":  [\"{{FULLPAGENAME}}\"] <%={{ }}=%> } } }'></div> {{/workflow_runs}}"
+                }
+            ],
+            "items": {
+                "_$ref": "/wiki/Category:OSWb79812225c7849b78e98f2b3b10498b3?action=raw&slot=jsonschema",
+                "title": "Workflow Run",
+                "required": [
+                    "uuid",
+                    "tool",
+                    "status"
+                ],
+                "properties": {
+                    "uuid": {
+                        "title": "UUID",
+                        "type": "string",
+                        "format": "uuid",
+                        "options": {
+                            "hidden": true
+                        }
+                    },
+                    "name": {
+                        "title": "Name",
+                        "description": "Technical / Machine compatible name",
+                        "description*": {
+                            "de": "Technischer / Maschinenkompatibler Name"
+                        },
+                        "type": "string",
+                        "options": {
+                            "hidden": true
+                        }
+                    },
+                    "label": {
+                        "type": "array",
+                        "title": "Labels",
+                        "title*": {
+                            "de": "Namen"
+                        },
+                        "description": "Human readable names. You have to assign at least one.",
+                        "description*": {
+                            "de": "Menschenlesbarer Namen. Du musst mindestens einen vergeben."
+                        },
+                        "format": "table",
+                        "eval_template": [
+                            {
+                                "type": "mustache-wikitext",
+                                "mode": "render",
+                                "value": "{{=<% %>=}} {{#switch:{{USERLANGUAGECODE}} <%={{ }}=%> {{#label}} |{{lang}}={{text}} {{/label}} {{=<% %>=}} }}"
+                            }
+                        ],
+                        "items": {
+                            "title": "Label",
+                            "title*": {
+                                "de": "Name"
+                            },
+                            "eval_template": [
+                                {
+                                    "type": "wikitext",
+                                    "mode": "store",
+                                    "value": "{{{text}}}@{{{lang}}}"
+                                }
+                            ],
+                            "$ref": "/wiki/JsonSchema:Label?action=raw"
+                        },
+                        "minItems": 1
+                    },
+                    "status": {
+                        "type": "string",
+                        "format": "autocomplete",
+                        "title": "Status",
+                        "default": "Item:OSWaa8d29404288446a9f3ec7afa4e2a512",
+                        "options": {
+                            "autocomplete": {
+                                "category": "Category:OSW9725d7a91bab4f1aa68f423e4e9bfcf4"
+                            }
+                        }
+                    },
+                    "tool": {
+                        "type": "array",
+                        "title": "Workflows",
+                        "title*": {
+                            "de": "Workflows"
+                        },
+                        "minItems": 1,
+                        "maxItems": 1,
+                        "items": {
+                            "type": "string",
+                            "title": "Workflow",
+                            "title*": {
+                                "de": "Workflow"
+                            },
+                            "format": "autocomplete",
+                            "options": {
+                                "autocomplete": {
+                                    "category": "Category:OSW22dc1c3790974a1bb7187d7a77f7e767"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "repository_records": {
+            "type": "array",
+            "format": "tabs",
+            "title": "Repositories",
+            "eval_template": [
+                {
+                    "type": "mustache-wikitext",
+                    "mode": "render",
+                    "value": "{{#repository_records}}<span class='badge badge-primary bg-primary' style='border-top-right-radius:0;border-bottom-right-radius:0'>{{{repository_name}}}</span><span class='badge badge-secondary bg-secondary' style='border-top-left-radius:0;border-bottom-left-radius:0'>[{{{record_link}}} <span style='color:white'>{{{record_pid}}}</span>]</span>{{/repository_records}}"
+                }
+            ],
+            "items": {
+                "type": "object",
+                "title": "Repository",
+                "properties": {
+                    "repository_name": {
+                        "type": "string",
+                        "title": "Repository name"
+                    },
+                    "record_pid": {
+                        "type": "string",
+                        "title": "Record ID"
+                    },
+                    "record_link": {
+                        "type": "string",
+                        "format": "url",
+                        "title": "Record link"
+                    }
+                }
+            }
+        },
+        "uuid": {
             "type": "string",
-            "format": "autocomplete",
-            "range": "Category:OSWb3b9ec5cb50d401c9b996ce3009b5c54",
-            "default": ""
+            "format": "uuid",
+            "options": {
+                "hidden": true
+            }
+        },
+        "device_under_test": {
+            "items": {
+                "options": {
+                    "autocomplete": {
+                        "query": "[[Category:OSW680453b7563749a0a33f6be16036c81d]]"
+                    }
+                }
+            },
+            "default": [
+                ""
+            ]
+        },
+        "tester": {
+            "items": {
+                "properties": {
+                    "tester_instance": {
+                        "options": {
+                            "autocomplete": {
+                                "query": "[[Category:OSW69729530f3ca4addaf8dd95ea3781607]]"
+                            }
+                        }
+                    }
+                }
+            },
+            "default": [
+                {
+                    "tester_instance": ""
+                },
+                {
+                    "tester_instance": "",
+                    "tester_channel": [
+                        "0",
+                        "8",
+                        "15"
+                    ]
+                },
+                {
+                    "tester_instance": "Item:OSW3c0298bf657c47ef9ea2d0b6553f255d",
+                    "tester_channel": [
+                        "0",
+                        "8",
+                        "15"
+                    ]
+                }
+            ]
+        },
+        "test_procedure": {
+            "default": [
+                {
+                    "test_procedure_subcategory": "Category:OSWdda41d4a4ec0421babe0295c6edcb5df"
+                }
+            ],
+            "items": {
+                "properties": {
+                    "test_procedure_subcategory": {
+                        "options": {
+                            "autocomplete": {
+                                "query": "[[Category:OSWdda41d4a4ec0421babe0295c6edcb5df]]"
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }

@@ -8,12 +8,12 @@
             "title": "Rector / president",
             "title*": {
                 "en": "Rector / president",
-                "de": "Rektor:in / Pr\u00e4sident:in"
+                "de": "Rektor:in / Präsident:in"
             },
             "description": "The rector or president is the head of the university.",
             "description*": {
                 "en": "The rector or president is the head of the university.",
-                "de": "Der/die Rektor:in oder Pr\u00e4sident:in ist der/die Leiter:in der Universit\u00e4t."
+                "de": "Der/die Rektor:in oder Präsident:in ist der/die Leiter:in der Universität."
             }
         },
         "type": {

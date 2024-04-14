@@ -18,7 +18,7 @@
             "description": "University",
             "description*": {
                 "en": "University",
-                "de": "Universit\u00e4t oder Hochschule"
+                "de": "Universität oder Hochschule"
             },
             "type": "array",
             "format": "table",

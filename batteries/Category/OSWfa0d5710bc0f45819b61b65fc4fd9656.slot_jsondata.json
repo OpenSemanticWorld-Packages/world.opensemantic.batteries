@@ -16,5 +16,8 @@
             "lang": "de"
         }
     ],
-    "name": "StrictParticipantsProcess"
+    "name": "StrictParticipantsProcess",
+    "metaclass": [
+        "Category:OSW0b6e695c4bb74e9ea5aa7f5da3150653"
+    ]
 }

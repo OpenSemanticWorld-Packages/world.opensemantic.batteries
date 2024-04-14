@@ -17,7 +17,7 @@
     "description": "A standard operating procedure (SOP) is a set of step-by-step instructions compiled by an organization to help workers carry out routine operations. SOPs aim to achieve efficiency, quality output, and uniformity of performance, while reducing miscommunication and failure to comply with industry regulations.",
     "description*": {
         "en": "A standard operating procedure (SOP) is a set of step-by-step instructions compiled by an organization to help workers carry out routine operations. SOPs aim to achieve efficiency, quality output, and uniformity of performance, while reducing miscommunication and failure to comply with industry regulations.",
-        "de": "Eine Standardarbeitsanweisung (SOP) ist eine Reihe von Schritt-f\u00fcr-Schritt-Anweisungen, die von einer Organisation zusammengestellt werden, um den Mitarbeitern bei der Durchf\u00fchrung von Routinearbeiten zu helfen[1]."
+        "de": "Eine Standardarbeitsanweisung (SOP) ist eine Reihe von Schritt-für-Schritt-Anweisungen, die von einer Organisation zusammengestellt werden, um den Mitarbeitern bei der Durchführung von Routinearbeiten zu helfen[1]."
     },
     "required": [
         "type"
@@ -36,7 +36,7 @@
             "title": "Validity",
             "title*": {
                 "en": "Validity",
-                "de": "G\u00fcltigkeit"
+                "de": "Gültigkeit"
             },
             "type": "object",
             "properties": {
@@ -51,12 +51,12 @@
                     "title": "Validity Start Date",
                     "title*": {
                         "en": "Validity Start Date",
-                        "de": "G\u00fcltigkeitsbeginn"
+                        "de": "Gültigkeitsbeginn"
                     },
                     "description": "The date from which the SOP becomes/became valid.",
                     "description*": {
                         "en": "The date from which the SOP becomes/became valid.",
-                        "de": "Das Datum, ab dem die SOP g\u00fcltig ist/wurde."
+                        "de": "Das Datum, ab dem die SOP gültig ist/wurde."
                     },
                     "type": "string",
                     "format": "datetime-local",
@@ -68,12 +68,12 @@
                     "title": "Validity End Date",
                     "title*": {
                         "en": "Validity End Date",
-                        "de": "G\u00fcltigkeitsend"
+                        "de": "Gültigkeitsend"
                     },
                     "description": "The date from which the SOP stops/stopped being valid.",
                     "description*": {
                         "en": "The date from which the SOP stops/stopped being valid.",
-                        "de": "Das Datum, ab dem der SOP nicht mehr g\u00fcltig ist/war."
+                        "de": "Das Datum, ab dem der SOP nicht mehr gültig ist/war."
                     },
                     "type": "string",
                     "format": "datetime-local",

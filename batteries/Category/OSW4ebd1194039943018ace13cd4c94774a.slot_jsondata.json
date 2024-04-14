@@ -1,0 +1,20 @@
+{
+    "type": [
+        "Category:OSWd845b96813a344458f140e48c4d063fd"
+    ],
+    "subclass_of": [
+        "Category:OSWb3b9ec5cb50d401c9b996ce3009b5c54"
+    ],
+    "uuid": "4ebd1194-0399-4301-8ace-13cd4c94774a",
+    "label": [
+        {
+            "text": "Temperature test chamber",
+            "lang": "en"
+        },
+        {
+            "text": "Temperaturtestkammer",
+            "lang": "de"
+        }
+    ],
+    "name": "TemperatureTestChamber"
+}

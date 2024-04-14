@@ -17,29 +17,16 @@
     "description": "The most generic kind of (product of) creative work, including books, movies, photographs, software programs, etc.",
     "description*": {
         "en": "The most generic kind of (product of) creative work, including books, movies, photographs, software programs, etc.",
-        "de": "Die allgemeinste Art eines Produktes kreativer Arbeit, einschlie\u00dflich B\u00fccher, Filme, Fotos, Softwareprogramme usw."
+        "de": "Die allgemeinste Art eines Produktes kreativer Arbeit, einschließlich Bücher, Filme, Fotos, Softwareprogramme usw."
     },
     "required": [
-        "type",
-        "rdf_type"
+        "type"
     ],
     "properties": {
         "type": {
             "default": [
                 "Category:OSW712583f2479944deb2546b77cf860dda"
             ]
-        },
-        "rdf_type": {
-            "type": "array",
-            "items": {
-                "type": "string"
-            },
-            "default": [
-                "schema:CreativeWork"
-            ],
-            "options": {
-                "hidden": true
-            }
         }
     }
 }

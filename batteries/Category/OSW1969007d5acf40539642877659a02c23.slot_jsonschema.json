@@ -33,7 +33,7 @@
             "title": "Founder",
             "title*": {
                 "en": "Founder",
-                "de": "Gr\u00fcnder:in"
+                "de": "Gründer:in"
             },
             "type": "array",
             "format": "table",
@@ -54,7 +54,7 @@
             "title": "Founding date",
             "title*": {
                 "en": "Founding date",
-                "de": "Gr\u00fcndungsdatum"
+                "de": "Gründungsdatum"
             },
             "type": "string",
             "format": "date",
@@ -64,7 +64,7 @@
             "title": "Founding location",
             "title*": {
                 "en": "Founding location",
-                "de": "Gr\u00fcndungsort"
+                "de": "Gründungsort"
             },
             "type": "string",
             "format": "text",

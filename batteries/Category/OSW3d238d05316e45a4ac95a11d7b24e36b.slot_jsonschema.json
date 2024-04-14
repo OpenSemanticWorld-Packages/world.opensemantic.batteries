@@ -125,7 +125,7 @@
                     "title": "Street",
                     "title*": {
                         "en": "Street",
-                        "de": "Stra\u00dfe"
+                        "de": "Straße"
                     },
                     "type": "string"
                 },

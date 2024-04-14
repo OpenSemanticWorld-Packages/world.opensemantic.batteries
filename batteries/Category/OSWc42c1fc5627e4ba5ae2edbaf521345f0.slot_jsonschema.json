@@ -1,0 +1,29 @@
+{
+    "@context": [
+        "/wiki/Category:OSWd02741381aaa4709ae0753a0edc341ce?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSWd02741381aaa4709ae0753a0edc341ce?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "c42c1fc5-627e-4ba5-ae2e-dbaf521345f0",
+    "title": "Keyword",
+    "title*": {
+        "en": "Keyword",
+        "de": "Schlagwort"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSWc42c1fc5627e4ba5ae2edbaf521345f0"
+            ]
+        }
+    }
+}

@@ -1,5 +1,65 @@
 {
     "@context": [
+        {
+            "belongs_to_project": {
+                "@id": "Property:BelongsTo",
+                "@type": "@id"
+            },
+            "belongs_to_work_package": {
+                "@id": "Property:BelongsTo",
+                "@type": "@id"
+            },
+            "belongs_to_task": {
+                "@id": "Property:BelongsTo",
+                "@type": "@id"
+            },
+            "constituents": {
+                "@type": "@id",
+                "@id": "Property:HasStatement",
+                "@context": {
+                    "property": "Property:HasProperty",
+                    "type": "Property:HasValue"
+                }
+            },
+            "object": {
+                "@type": "@id",
+                "@id": "Property:HasObject"
+            },
+            "origin": {
+                "@type": "@id",
+                "@id": "Property:HasOrigin"
+            },
+            "processing_date": {
+                "@id": "Property:ProcessedOn",
+                "@type": "@id"
+            },
+            "processing_ou": {
+                "@id": "Property:ProcessedBy",
+                "@type": "@id"
+            },
+            "processing_site": {
+                "@id": "Property:ProcessedAt",
+                "@type": "@id"
+            },
+            "processing_employee": {
+                "@id": "Property:ProcessedBy",
+                "@type": "@id"
+            },
+            "predicate": {
+                "@type": "@id",
+                "@id": "Property:HasProperty"
+            },
+            "substatements": {
+                "@type": "@id",
+                "@id": "Property:HasStatement"
+            },
+            "quantity": {
+                "@type": "@id",
+                "@id": "Property:HasProperty"
+            },
+            "value": "Property:HasObject",
+            "unit": "Property:HasUnit"
+        },
         "/wiki/Category:Item?action=raw&slot=jsonschema"
     ],
     "allOf": [
@@ -17,16 +77,396 @@
     "description": "Physical item as opposed to intangible item. It can posses properties such as position, geometry, weight, volume , etc.  ",
     "description*": {
         "en": "Physical item as opposed to intangible item. It can posses properties such as position, geometry, weight, volume , etc.  ",
-        "de": "Physischer Gegenstand im Gegensatz zu immateriellen Gegenst\u00e4nden. Er kann Eigenschaften wie Position, Geometrie, Gewicht, Volumen usw. besitzen.  "
+        "de": "Physischer Gegenstand im Gegensatz zu immateriellen Gegenständen. Er kann Eigenschaften wie Position, Geometrie, Gewicht, Volumen usw. besitzen.  "
     },
     "required": [
         "type"
+    ],
+    "defaultProperties": [
+        "origin",
+        "constituents",
+        "belongs_to_task",
+        "belongs_to_work_package",
+        "processing_date",
+        "processing_ou",
+        "processing_site",
+        "processing_employee"
     ],
     "properties": {
         "type": {
             "default": [
                 "Category:OSW37a57741ae2e4dd4b29b1172b6848be8"
             ]
+        },
+        "processing_date": {
+            "type": "string",
+            "format": "date",
+            "title": "Processing date",
+            "title*": {
+                "de": "Datum der Prozessierung"
+            },
+            "options": {
+                "flatpickr": {}
+            }
+        },
+        "processing_ou": {
+            "title": "Processing organizational unit",
+            "title*": {
+                "de": "Prozessierende Organisationseinheit"
+            },
+            "type": "string",
+            "format": "autocomplete",
+            "range": "Category:OSW3cb8cef2225e403092f098f99bc4c472"
+        },
+        "processing_site": {
+            "title": "Processed at (site)",
+            "title*": {
+                "de": "Prozessiert an (Standort)"
+            },
+            "type": "string",
+            "format": "autocomplete",
+            "range": "Category:OSW473d7a1ed48544d1be83b258b5810948",
+            "watch": {
+                "processing_ou": "processing_ou"
+            },
+            "options": {
+                "autocomplete": {
+                    "query": "[[-IsLocatedIn::$(processing_ou)]] OR [[-IsLocatedIn.-HasSuperordinateOu::$(processing_ou)]] "
+                }
+            }
+        },
+        "processing_employee": {
+            "title": "Processing employee(s)",
+            "title*": {
+                "de": "Prozessierende Mitarbeitende"
+            },
+            "type": "array",
+            "format": "table",
+            "items": {
+                "title": "Employee",
+                "title*": {
+                    "de": "Mitarbeiter*in"
+                },
+                "type": "string",
+                "format": "autocomplete",
+                "$comment": "range: Person",
+                "range": "Category:OSW44deaa5b806d41a2a88594f562b110e9",
+                "watch": {
+                    "processing_ou": "processing_ou"
+                },
+                "options": {
+                    "autocomplete": {
+                        "query": "[[HasOrganization::$(processing_ou)]] OR [[HasOu::$(processing_ou)]]"
+                    }
+                }
+            }
+        },
+        "constituents": {
+            "type": "array",
+            "format": "tabs",
+            "title": "Components / Constituents",
+            "title*": {
+                "de": "Bestandteile"
+            },
+            "eval_template": {
+                "type": "mustache-wikitext",
+                "mode": "render",
+                "value": "{{#constituents}} [[{{object}}]] {{#substatements}} {{value}} {{/substatements}} {{/constituents}} <br>"
+            },
+            "items": {
+                "type": "object",
+                "id": "statement",
+                "title": "Item",
+                "title*": {
+                    "de": "Item"
+                },
+                "_headerTemplate": "{{self.object}}",
+                "required": [
+                    "uuid",
+                    "predicate",
+                    "object"
+                ],
+                "properties": {
+                    "uuid": {
+                        "title": "UUID",
+                        "type": "string",
+                        "format": "uuid",
+                        "options": {
+                            "hidden": true
+                        }
+                    },
+                    "predicate": {
+                        "type": "string",
+                        "format": "autocomplete",
+                        "title": "Predicate",
+                        "title*": {
+                            "de": "Prädikat"
+                        },
+                        "options": {
+                            "grid_columns": 4,
+                            "autocomplete": {
+                                "category": "Category:Property"
+                            },
+                            "hidden": true
+                        },
+                        "default": "Property:HasPart"
+                    },
+                    "object": {
+                        "type": "string",
+                        "format": "autocomplete",
+                        "title": "Substance",
+                        "title*": {
+                            "de": "Substanz"
+                        },
+                        "options": {
+                            "grid_columns": 4,
+                            "autocomplete": {
+                                "category": "Category:OSW0583b134c618484c9911a3dff145c7eb",
+                                "query_filter_property": "HasName"
+                            }
+                        }
+                    },
+                    "substatements": {
+                        "title": "Amounts",
+                        "title*": {
+                            "de": "Mengen"
+                        },
+                        "type": "array",
+                        "format": "tabs",
+                        "propertyOrder": 1010,
+                        "items": {
+                            "type": "object",
+                            "id": "statement",
+                            "title": "Amount",
+                            "title*": {
+                                "de": "Menge"
+                            },
+                            "headerTemplate": "{{self.value}}",
+                            "required": [
+                                "uuid",
+                                "quantity",
+                                "value",
+                                "unit",
+                                "unit_symbol",
+                                "numerical_value"
+                            ],
+                            "properties": {
+                                "uuid": {
+                                    "title": "UUID",
+                                    "type": "string",
+                                    "format": "uuid",
+                                    "options": {
+                                        "hidden": true
+                                    }
+                                },
+                                "quantity": {
+                                    "type": "string",
+                                    "format": "autocomplete",
+                                    "title": "Property",
+                                    "title*": {
+                                        "de": "Attribut"
+                                    },
+                                    "options": {
+                                        "grid_columns": 4,
+                                        "autocomplete": {
+                                            "category": "Category:QuantityProperty"
+                                        }
+                                    },
+                                    "default": "Property:HasMassConcentration"
+                                },
+                                "numerical_value": {
+                                    "type": "string",
+                                    "format": "number",
+                                    "title": "Value",
+                                    "title*": {
+                                        "de": "Wert"
+                                    },
+                                    "options": {
+                                        "grid_columns": 2
+                                    }
+                                },
+                                "unit": {
+                                    "type": "string",
+                                    "format": "autocomplete",
+                                    "title": "Unit",
+                                    "title*": {
+                                        "de": "Einheit"
+                                    },
+                                    "watch": {
+                                        "quantity": "statement.quantity",
+                                        "unit_symbol": "statement.unit_symbol"
+                                    },
+                                    "options": {
+                                        "grid_columns": 2,
+                                        "autocomplete": {
+                                            "query": "[[-HasInputUnit::{{$(quantity)}}]]|?Display_title_of=label",
+                                            "render_template": {
+                                                "type": [
+                                                    "handlebars"
+                                                ],
+                                                "value": "{{result.printouts.label.[0]}}"
+                                            },
+                                            "field_maps": [
+                                                {
+                                                    "source_path": "$",
+                                                    "template": "{{{result.printouts.label.[0]}}}",
+                                                    "target_path": "$(unit_symbol)"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                "unit_symbol": {
+                                    "type": "string",
+                                    "options": {
+                                        "hidden": true
+                                    }
+                                },
+                                "value": {
+                                    "type": "string",
+                                    "title": "Value",
+                                    "title*": {
+                                        "de": "Wert"
+                                    },
+                                    "watch": {
+                                        "numerical_value": "statement.numerical_value",
+                                        "unit_symbol": "statement.unit_symbol"
+                                    },
+                                    "template": "{{{numerical_value}}} {{{unit_symbol}}}",
+                                    "options": {
+                                        "hidden": true
+                                    }
+                                }
+                            }
+                        },
+                        "options": {
+                            "grid_columns": 12
+                        }
+                    }
+                }
+            }
+        },
+        "statements": {
+            "items": {
+                "default": {
+                    "type": "object_statement",
+                    "predicate": "Property:HasPart",
+                    "substatements": [
+                        {
+                            "type": "quantity_statement",
+                            "quantity": "Property:HasMass",
+                            "unit": "Property:HasMass#OSW2b1a3a39eceb4249b86897def91134dc"
+                        }
+                    ]
+                }
+            }
+        },
+        "origin": {
+            "title": "Origin",
+            "title*": {
+                "de": "Ursprung"
+            },
+            "description": "Other physical item(s) that this physical item was derived from.",
+            "description*": {
+                "de": "Andere(r) physische(r) Gegenstand/Gegenstände aus der dieser physische Gegenstand hergestellt wurde."
+            },
+            "type": "array",
+            "format": "table",
+            "items": {
+                "title": "Other physical Item",
+                "title*": {
+                    "de": "Anderer physischer Gegenstand"
+                },
+                "type": "string",
+                "format": "autocomplete",
+                "options": {
+                    "autocomplete": {
+                        "category": "Category:OSW37a57741ae2e4dd4b29b1172b6848be8"
+                    }
+                }
+            }
+        },
+        "belongs_to_project": {
+            "title": "Belongs to (project)",
+            "title*": {
+                "de": "Gehört zu (Projekt)"
+            },
+            "description": "Project to which this task belongs.",
+            "description*": {
+                "de": "Projekt, zu dem diese Aufgabe gehört."
+            },
+            "type": "array",
+            "format": "table",
+            "items": {
+                "title": "Project",
+                "title*": {
+                    "de": "Projekt"
+                },
+                "type": "string",
+                "format": "autocomplete",
+                "range": "Category:OSWb2d7e6a2eff94c82b7f1f2699d5b0ee3"
+            },
+            "default": [
+                "Item:OSWe984d14ce3364c33beb311fb7a9f624b"
+            ]
+        },
+        "belongs_to_work_package": {
+            "title": "Belongs to (work package)",
+            "title*": {
+                "de": "Gehört zu (Arbeitspaket)"
+            },
+            "description": "Work package from the work package plan of the project. Might not be required if a task is stated and that task links to a work package already.",
+            "description*": {
+                "de": "Arbeitspaket aus dem Arbeitspaketplan des Projekts. Ist möglicherweise nicht erforderlich, wenn eine Aufgabe angegeben wird und diese Aufgabe bereits mit einem Arbeitspaket verknüpft ist."
+            },
+            "type": "array",
+            "format": "table",
+            "items": {
+                "title": "Workpackage",
+                "title*": {
+                    "de": "Arbeitspaket"
+                },
+                "type": "string",
+                "format": "autocomplete",
+                "range": "Category:OSWb47292f68e834e3592f1fa8f706ddde4",
+                "watch": {
+                    "belongs_to_project_w": "belongs_to_project"
+                },
+                "options": {
+                    "autocomplete": {
+                        "query": "[[Category:OSWb47292f68e834e3592f1fa8f706ddde4]][[BelongsTo::$(belongs_to_project_w)]]"
+                    }
+                }
+            }
+        },
+        "belongs_to_task": {
+            "title": "Belongs to (task)",
+            "title*": {
+                "de": "Gehört zu (Task)"
+            },
+            "description": "Task from the work package plan of the project.",
+            "description*": {
+                "de": "Aufgabe aus dem Arbeitspaketplan des Projekts."
+            },
+            "type": "array",
+            "format": "table",
+            "items": {
+                "title": "Task",
+                "title*": {
+                    "de": "Task"
+                },
+                "type": "string",
+                "format": "autocomplete",
+                "range": "Category:OSWc5d4829ed2744a219ba027171c75fa1d",
+                "watch": {
+                    "belongs_to_project_w": "belongs_to_project"
+                },
+                "options": {
+                    "autocomplete": {
+                        "query": "[[Category:OSWc5d4829ed2744a219ba027171c75fa1d]][[BelongsTo::$(belongs_to_project_w)]] OR [[Category:OSWc5d4829ed2744a219ba027171c75fa1d]][[IsRelatedTo::$(belongs_to_project_w)]]"
+                    }
+                }
+            }
         }
     }
 }

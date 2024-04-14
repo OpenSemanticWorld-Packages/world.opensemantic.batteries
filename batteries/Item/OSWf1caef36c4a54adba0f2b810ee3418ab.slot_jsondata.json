@@ -1,0 +1,47 @@
+{
+    "type": [
+        "Category:OSW3cb8cef2225e403092f098f99bc4c472"
+    ],
+    "uuid": "f1caef36-c4a5-4adb-a0f2-b810ee3418ab",
+    "label": [
+        {
+            "text": "Varta Energy Storage GmbH",
+            "lang": "en"
+        }
+    ],
+    "abbreviation": "",
+    "deputy_manager": [
+        ""
+    ],
+    "mailing_list": [],
+    "manager": [
+        ""
+    ],
+    "secretary": [
+        ""
+    ],
+    "superordinate_ou": [
+        ""
+    ],
+    "topic": [
+        ""
+    ],
+    "website": [],
+    "phone_number": [],
+    "fax_number": [],
+    "email": [],
+    "image": "",
+    "member_of": [
+        ""
+    ],
+    "postal_address": {
+        "uuid": "caa16c6c-da63-45b0-bc96-2337bc29f354",
+        "street_name": "",
+        "house_no": "",
+        "postal_code": "",
+        "city": "",
+        "country": ""
+    },
+    "description": [],
+    "name": "VartaEnergyStorageGmbh"
+}

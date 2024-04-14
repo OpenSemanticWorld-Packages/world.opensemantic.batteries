@@ -3,7 +3,7 @@
         "Category:Item"
     ],
     "utf8_icon": [
-        "\ud83d\udcdd"
+        "📝"
     ],
     "uuid": "81e9e22e-7d93-4382-a6a5-6df7d3736957",
     "name": "Recipe",
@@ -23,7 +23,7 @@
             "lang": "en"
         },
         {
-            "text": "Eine Zubereitungsanleitung, z. B. f\u00fcr ein Gericht",
+            "text": "Eine Zubereitungsanleitung, z. B. für ein Gericht",
             "lang": "de"
         }
     ],

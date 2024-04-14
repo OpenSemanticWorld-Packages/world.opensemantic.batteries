@@ -65,7 +65,7 @@
             "format": "autocomplete",
             "title": "Priority",
             "title*": {
-                "de": "Priorit\u00e4t"
+                "de": "Priorität"
             },
             "options": {
                 "autocomplete": {
@@ -77,18 +77,18 @@
             "type": "array",
             "title": "Dependencies",
             "title*": {
-                "de": "Abh\u00e4ngigkeiten"
+                "de": "Abhängigkeiten"
             },
             "description": "Strict dependency from another requirement",
             "description*": {
-                "de": "Strenge Abh\u00e4ngigkeit von einer anderen Anforderung"
+                "de": "Strenge Abhängigkeit von einer anderen Anforderung"
             },
             "items": {
                 "type": "string",
                 "format": "autocomplete",
                 "title": "Dependency",
                 "title*": {
-                    "de": "Abh\u00e4ngigkeit"
+                    "de": "Abhängigkeit"
                 },
                 "options": {
                     "autocomplete": {

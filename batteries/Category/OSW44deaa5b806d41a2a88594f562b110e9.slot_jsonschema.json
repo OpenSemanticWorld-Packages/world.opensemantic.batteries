@@ -64,6 +64,10 @@
                 "@id": "Property:HasOU",
                 "@type": "@id"
             },
+            "organizational_unit**": {
+                "@id": "Property:HasOu",
+                "@type": "@id"
+            },
             "phone_number": {
                 "@id": "schema:telephone"
             },
@@ -177,7 +181,7 @@
             },
             "description": "Organization(s) the person is affiliated with. E.g., university, research institute, company, etc.",
             "description*": {
-                "de": "Organisation(en), derer die Person Mitglied ist. Z.B. Universit\u00e4t, Forschungsinstitut, Unternehmen, etc."
+                "de": "Organisation(en), derer die Person Mitglied ist. Z.B. Universität, Forschungsinstitut, Unternehmen, etc."
             },
             "type": "array",
             "format": "table",
@@ -203,7 +207,7 @@
             },
             "description": "Organizational (sub)unit(s) the person is member of. E.g., faculty, institute, department or research group, etc.",
             "description*": {
-                "de": "Organisations(unter)einheit(en), derer die Person Mitglied ist. Z.B. Fakult\u00e4t, Institut, Abteilung oder Forschungsgruppe, etc."
+                "de": "Organisations(unter)einheit(en), derer die Person Mitglied ist. Z.B. Fakultät, Institut, Abteilung oder Forschungsgruppe, etc."
             },
             "type": "array",
             "format": "table",
@@ -321,7 +325,7 @@
         "located_in": {
             "title": "Located at ",
             "title*": {
-                "de": "T\u00e4tig an (Standort)"
+                "de": "Tätig an (Standort)"
             },
             "type": "array",
             "format": "table",
@@ -414,6 +418,6 @@
     "description": "Category for a person in general. Subcategories are e.g. 'User', i.e. persons who have a user ID.",
     "description*": {
         "en": "Category for a person in general. Subcategories are e.g. 'User', i.e. persons who have a user ID.",
-        "de": "Kategorie f\u00fcr eine Person im Allgemeinen. Unterkategorien sind bsp. 'User', also Personen die \u00fcber eine Nutzerkennung verf\u00fcgen."
+        "de": "Kategorie für eine Person im Allgemeinen. Unterkategorien sind bsp. 'User', also Personen die über eine Nutzerkennung verfügen."
     }
 }

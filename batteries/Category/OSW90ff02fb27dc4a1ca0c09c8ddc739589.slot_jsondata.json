@@ -1,0 +1,24 @@
+{
+    "type": [
+        "Category:OSWca99a9bb9ad24386b222d18a73c2af5e"
+    ],
+    "subclass_of": [
+        "Category:OSWbeaf0d4e4dfd4fe29b7349751b3bccba"
+    ],
+    "uuid": "90ff02fb-27dc-4a1c-a0c0-9c8ddc739589",
+    "label": [
+        {
+            "text": "Battery module",
+            "lang": "en"
+        },
+        {
+            "text": "Batteriemodul",
+            "lang": "de"
+        }
+    ],
+    "name": "BatteryModule",
+    "utf8_icon": [
+        "🧱",
+        "🔋"
+    ]
+}

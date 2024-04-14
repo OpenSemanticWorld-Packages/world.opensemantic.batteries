@@ -1,9 +1,31 @@
 {
-    "subclass_of": [
-        "Category:OSW0e7fab2262fb4427ad0fa454bc868a0d"
-    ],
     "type": [
-        "Category:Category"
+        "Category:OSW6cc7d1cc87dc4fa8935d5b3d2a9b55c5"
+    ],
+    "device_under_test": [
+        {
+            "uuid": "56775bc8-7e66-42be-b1a1-ea17411c6407",
+            "dut_type": "Category:OSW680453b7563749a0a33f6be16036c81d",
+            "dut_default": ""
+        }
+    ],
+    "tester": [
+        {
+            "uuid": "e344d05f-7ed3-4671-b394-af1019eacd5f",
+            "tester_type": "Category:OSW69729530f3ca4addaf8dd95ea3781607",
+            "tester_default": "",
+            "tester_channel_default": []
+        }
+    ],
+    "test_procedure": [
+        {
+            "uuid": "be54427c-979a-4a73-b828-99c74bdf097e",
+            "procedure_type": "Category:OSWdda41d4a4ec0421babe0295c6edcb5df",
+            "procedure_default": ""
+        }
+    ],
+    "subclass_of": [
+        "Category:OSWfa914762adaa4665a63b6a77c3ea6eed"
     ],
     "uuid": "6f39d772-41e2-4a33-ab6d-036dfac03ace",
     "label": [
@@ -22,12 +44,19 @@
             "lang": "en"
         },
         {
-            "text": "Ein Test an einem elektrochemischen Ger\u00e4t, \u00fcblicherweise indem Strom und Spannung angelegt werden.",
+            "text": "Ein Test an einem elektrochemischen Gerät, üblicherweise indem Strom und Spannung angelegt werden.",
             "lang": "de"
         }
     ],
     "name": "ElectrochemicalTest",
     "utf8_icon": [
-        "\ud83d\udcd3"
+        "📓"
+    ],
+    "tools": [
+        {
+            "tool_type": "Category:OSWb3b9ec5cb50d401c9b996ce3009b5c54",
+            "uuid": "d7c5462d-dfd9-47c4-9449-4b2a56b8c7a4",
+            "tool_default": ""
+        }
     ]
 }

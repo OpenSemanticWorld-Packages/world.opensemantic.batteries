@@ -30,12 +30,15 @@
             "lang": "en"
         },
         {
-            "text": "Enth\u00e4lt Notizen und Daten \u00fcber Experimente",
+            "text": "Enthält Notizen und Daten über Experimente",
             "lang": "de"
         }
     ],
     "name": "ElnEntry",
+    "metaclass": [
+        "Category:OSW61d19dea4b9c4de8bcbde8036fc0e0a6"
+    ],
     "utf8_icon": [
-        "\ud83d\udcd3"
+        "📓"
     ]
 }

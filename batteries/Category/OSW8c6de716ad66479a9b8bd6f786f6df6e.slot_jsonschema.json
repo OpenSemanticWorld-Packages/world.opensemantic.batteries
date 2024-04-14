@@ -1,36 +1,64 @@
 {
     "@context": [
-        "/wiki/Category:OSWca99a9bb9ad24386b222d18a73c2af5e?action=raw&slot=jsonschema",
         {
-            "positive_electrode_2": {
+            "cell_format": {
                 "@type": "@id",
-                "@id": "Property:HasPart"
+                "@id": "Property:HasFormat"
+            },
+            "cell_form_factor": {
+                "@type": "@id",
+                "@id": "Property:HasFormFactor"
+            },
+            "reference_electrode": {
+                "@type": "@id",
+                "@id": "Property:HasFormat"
             },
             "positive_electrode_supplied": {
                 "@type": "@id",
                 "@id": "Property:HasPart"
             },
+            "positive_electrode_supplied*": {
+                "@type": "@id",
+                "@id": "Property:HasPositiveElectrode"
+            },
             "negative_electrode_supplied": {
                 "@type": "@id",
                 "@id": "Property:HasPart"
+            },
+            "negative_electrode_supplied*": {
+                "@type": "@id",
+                "@id": "Property:HasNegativeElectrode"
             },
             "reference_electrode_supplied": {
                 "@type": "@id",
                 "@id": "Property:HasPart"
             },
+            "reference_electrode_supplied*": {
+                "@type": "@id",
+                "@id": "Property:HasReferenceElectrode"
+            },
             "electrolyte_supplied": {
                 "@type": "@id",
                 "@id": "Property:HasPart"
             },
+            "electrolyte_supplied*": {
+                "@type": "@id",
+                "@id": "Property:HasElectrolyte"
+            },
             "separator_supplied": {
                 "@type": "@id",
                 "@id": "Property:HasPart"
+            },
+            "separator_supplied*": {
+                "@type": "@id",
+                "@id": "Property:HasSeparator"
             }
-        }
+        },
+        "/wiki/Category:OSW28d9dcd7ba6f48d988bfba619e1b4b1b?action=raw&slot=jsonschema"
     ],
     "allOf": [
         {
-            "$ref": "/wiki/Category:OSWca99a9bb9ad24386b222d18a73c2af5e?action=raw&slot=jsonschema"
+            "$ref": "/wiki/Category:OSW28d9dcd7ba6f48d988bfba619e1b4b1b?action=raw&slot=jsonschema"
         }
     ],
     "type": "object",
@@ -44,24 +72,55 @@
     "required": [
         "type"
     ],
+    "defaultProperties": [
+        "cell_form_factor",
+        "cell_format",
+        "reference_electrode",
+        "positive_electrode_supplied",
+        "negative_electrode_supplied",
+        "electrolyte_supplied",
+        "separator_supplied"
+    ],
     "properties": {
         "type": {
             "default": [
                 "Category:OSW8c6de716ad66479a9b8bd6f786f6df6e"
             ]
         },
-        "cell_format": {
-            "title": "Cell format",
+        "cell_form_factor": {
+            "title": "Cell form factor",
+            "title*": {
+                "de": "Zellformfaktor"
+            },
             "type": "string",
             "format": "autocomplete",
             "options": {
                 "autocomplete": {
-                    "query": "[[SubClassOf::Category:OSWf04e73d3c3cb4e4ea7033066e472e9ff]] OR [[SubClassOf.SubClassOf::Category:OSWf04e73d3c3cb4e4ea7033066e472e9ff]] OR [[SubClassOf.SubClassOf.SubClassOf::Category:OSWf04e73d3c3cb4e4ea7033066e472e9ff]]"
+                    "query": "[[SubClassOf::Category:OSWf04e73d3c3cb4e4ea7033066e472e9ff]]"
+                }
+            }
+        },
+        "cell_format": {
+            "title": "Cell format",
+            "title*": {
+                "de": "Zellformat"
+            },
+            "type": "string",
+            "format": "autocomplete",
+            "watch": {
+                "watched_cell_form_factor": "cell_form_factor"
+            },
+            "options": {
+                "autocomplete": {
+                    "category": "$(watched_cell_form_factor)"
                 }
             }
         },
         "reference_electrode": {
             "title": "Reference electrode",
+            "title*": {
+                "de": "Referenz-Elektrode"
+            },
             "type": "string",
             "format": "autocomplete",
             "options": {
@@ -71,7 +130,18 @@
             }
         },
         "positive_electrode_supplied": {
+            "@context": [
+                {
+                    "positive_active_material": {
+                        "@id": "Property:HasPositiveActiveMaterial",
+                        "@type": "@id"
+                    }
+                }
+            ],
             "title": "Positive electrode (supplied)",
+            "title*": {
+                "de": "Positive Elektrode (geliefert)"
+            },
             "type": "object",
             "required": [
                 "positive_active_material"
@@ -84,6 +154,9 @@
             "properties": {
                 "positive_active_material": {
                     "title": "Active material",
+                    "title*": {
+                        "de": "Aktivmaterial"
+                    },
                     "type": "string",
                     "format": "autocomplete",
                     "options": {
@@ -93,18 +166,27 @@
                     }
                 },
                 "positive_electrode_loading": {
-                    "title": "Active material loading [mg/cm\u00b2]",
+                    "title": "Active material loading [mg/cm²]",
+                    "title*": {
+                        "de": "Aktivmaterialbeladung [mg/cm²]"
+                    },
                     "type": "number",
                     "description": "Weight of active material in an electrode per unit electrode area."
                 },
                 "positive_electrode_mass": {
                     "title": "Overall Mass [mg]",
+                    "title*": {
+                        "de": "Gesamtmasse [mg]"
+                    },
                     "type": "number"
                 }
             }
         },
         "negative_electrode_supplied": {
             "title": "Negative electrode (supplied)",
+            "title*": {
+                "de": "Negative Elektrode (geliefert)"
+            },
             "type": "object",
             "required": [
                 "negative_active_material"
@@ -117,6 +199,9 @@
             "properties": {
                 "negative_active_material": {
                     "title": "Active material",
+                    "title*": {
+                        "de": "Aktivmaterial"
+                    },
                     "type": "string",
                     "format": "autocomplete",
                     "options": {
@@ -126,18 +211,27 @@
                     }
                 },
                 "negative_electrode_loading": {
-                    "title": "Active material loading [mg/cm\u00b2]",
+                    "title": "Active material loading [mg/cm²]",
+                    "title*": {
+                        "de": "Aktivmaterialbeladung [mg/cm²]"
+                    },
                     "type": "number",
                     "description": "Weight of active material in an electrode per unit electrode area."
                 },
                 "negative_electrode_mass": {
                     "title": "Overall Mass [mg]",
+                    "title*": {
+                        "de": "Gesamtmasse [mg]"
+                    },
                     "type": "number"
                 }
             }
         },
         "electrolyte_supplied": {
             "title": "Electrolyte (supplied)",
+            "title*": {
+                "de": "Elektrolyt (geliefert)"
+            },
             "type": "object",
             "required": [
                 "electrolyte_selection"
@@ -150,6 +244,9 @@
             "properties": {
                 "electrolyte_selection": {
                     "title": "Electrolyte",
+                    "title*": {
+                        "de": "Elektrolyt"
+                    },
                     "type": "string",
                     "format": "autocomplete",
                     "options": {
@@ -160,16 +257,25 @@
                 },
                 "electrolyte_mass": {
                     "title": "Overall Mass [mg]",
+                    "title*": {
+                        "de": "Gesamtmasse [mg]"
+                    },
                     "type": "number"
                 },
                 "electrolyte_volume": {
-                    "title": "Overall Volume [\u00b5L]",
+                    "title": "Overall Volume [µL]",
+                    "title*": {
+                        "de": "Gesamtvolumen [µL]"
+                    },
                     "type": "number"
                 }
             }
         },
         "separator_supplied": {
             "title": "Separator (supplied)",
+            "title*": {
+                "de": "Separator (geliefert)"
+            },
             "type": "object",
             "required": [
                 "separator_selection"
@@ -192,19 +298,18 @@
                 },
                 "separator_count": {
                     "title": "Number of layers",
+                    "title*": {
+                        "de": "Anzahl der Schichten"
+                    },
                     "type": "number"
                 },
                 "separator_mass": {
                     "title": "Overall Mass [mg]",
+                    "title*": {
+                        "de": "Gesamtmasse [mg]"
+                    },
                     "type": "number"
                 }
-            }
-        },
-        "constituents": {
-            "default": {
-                "name": "positive_electrode_",
-                "type": "Category:OSW670c84f7f7e64533a37081e6349bb008",
-                "uuid": "b1515bd9-1547-4dad-bc27-db33d0f7318f"
             }
         }
     }

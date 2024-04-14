@@ -1,0 +1,34 @@
+{
+    "type": [
+        "Category:OSW6cc7d1cc87dc4fa8935d5b3d2a9b55c5"
+    ],
+    "subclass_of": [
+        "Category:OSWafda1f2328804e3a89bf90f8af9c5527"
+    ],
+    "uuid": "143d6c01-5ed5-42dd-96b0-f43fa3e0a9ff",
+    "label": [
+        {
+            "text": "Battery cell opening in a glovebox",
+            "lang": "en"
+        },
+        {
+            "text": "Batteriezellöffnung in einer Glovebox",
+            "lang": "de"
+        }
+    ],
+    "name": "BatteryCellOpeningInAGlovebox",
+    "tools": [
+        {
+            "tool_type": "Category:OSW2963419070cf46768d173adca0bd1a56",
+            "uuid": "134ec6e9-33d0-4948-8e8b-1ebc66508290",
+            "tool_default": ""
+        }
+    ],
+    "input": [
+        {
+            "uuid": "192490f9-e420-42b4-9630-3a70dce0f6ca",
+            "input_type": "Category:OSW680453b7563749a0a33f6be16036c81d",
+            "input_default": ""
+        }
+    ]
+}

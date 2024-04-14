@@ -32,7 +32,7 @@
             "description": "Faculty, institute, department or organization, the group belongs to.",
             "description*": {
                 "en": "Faculty, institute, department or organization, the group belongs to.",
-                "de": "Fakult\u00e4t, Institut, Abteilung oder Organisation, der die Gruppe angeh\u00f6rt."
+                "de": "Fakultät, Institut, Abteilung oder Organisation, der die Gruppe angehört."
             },
             "type": "array",
             "format": "table",

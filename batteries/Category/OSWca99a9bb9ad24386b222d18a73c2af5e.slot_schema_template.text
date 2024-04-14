@@ -14,8 +14,50 @@
             "title": "{{{name}}}",
             "type": "autocomplete",
             "range": "{{{type}}}" {{#if default}},
-            "default": "{{{default}}}"{{/if}} 
-        {{#if is_array}} } {{/if}}
-        } {{/each}}
+            "default": "{{{default}}}"{{/if}}
+            {{#if is_array}} } {{/if}} {{#unless @last}},{{/unless}}	
+        } {{/each}} {{#if processing_ou_default}},
+        "processing_ou": {
+            "default": "{{{processing_ou_default}}}"
+        } {{/if}} {{#if processing_date_default}},
+        "processing_date": {
+            "default": "{{{processing_date_default}}}"
+        } {{/if}} {{#if processing_site_default}},
+        "processing_site": {
+            "default": "{{{processing_site_default}}}"
+        } {{/if}} {{#if processing_employee_default}},
+        "processing_employee": {
+            "default": [
+                {{#each processing_employee_default}}"{{{.}}}"{{#unless @last}},
+                {{/unless}}{{/each}}
+            ]
+        } {{/if}} {{#if origin}},
+        "origin": {
+            "options": {
+                "autocomplete": {
+                    "query": "{{#each origin}}[[{{{origin}}}{{{origin_type}}}]]{{#unless @last}} OR {{/unless}}{{/each}}"            
+                }
+            },
+            "default": [
+                {{#each origin}}"{{{origin}}}{{{origin_default}}}"{{#unless @last}},
+                {{/unless}}{{/each}}
+            ]
+        } {{/if}} {{#if belongs_to_project_default}},
+        "belongs_to_project": {
+            "default": "{{{belongs_to_project_default}}}"
+        } {{/if}} {{#if belongs_to_work_package_default}},
+        "belongs_to_work_package": {            
+            "default": [
+                {{#each belongs_to_work_package_default}}"{{{.}}}"{{#unless @last}},
+                {{/unless}}{{/each}}
+            ]
+        } {{/if}} {{#if belongs_to_task_default}},
+        "belongs_to_task": {
+            "default": [
+                {{#each belongs_to_task_default}}"{{{.}}}"{{#unless @last}},
+                {{/unless}}{{/each}}
+            ]
+        } {{/if}}
+
     } 
 }

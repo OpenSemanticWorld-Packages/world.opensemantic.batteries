@@ -12,13 +12,13 @@
             "lang": "en"
         },
         {
-            "text": "F\u00f6rderaufruf",
+            "text": "Förderaufruf",
             "lang": "de"
         }
     ],
     "utf8_icon": [
-        "\ud83d\udcb8",
-        "\ud83d\udcc3"
+        "💸",
+        "📃"
     ],
     "name": "FundingCall",
     "description": [
@@ -27,7 +27,7 @@
             "lang": "en"
         },
         {
-            "text": "Bekanntgabe einer F\u00f6rderm\u00f6glichkeit unter Angabe der F\u00f6rderbedingungen",
+            "text": "Bekanntgabe einer Fördermöglichkeit unter Angabe der Förderbedingungen",
             "lang": "de"
         }
     ]

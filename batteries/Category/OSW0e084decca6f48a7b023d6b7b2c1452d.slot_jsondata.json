@@ -6,7 +6,7 @@
         "Category:Item"
     ],
     "utf8_icon": [
-        "\ud83d\udcc6"
+        "📆"
     ],
     "uuid": "0e084dec-ca6f-48a7-b023-d6b7b2c1452d",
     "name": "Event",
@@ -26,7 +26,7 @@
             "lang": "en"
         },
         {
-            "text": "Ein Ereignis, entweder lokal, remote oder hybrid. Z.B. eine Besprechung oder eine Konferenz. Dieses Element ist f\u00fcr die Dokumentation von Ereignissen gedacht. Es ist insbesondere f\u00fcr Notizen, Beschl\u00fcsse und Aufgaben vorgesehen. Bei wiederkehrenden Ereignissen (Serien) sollten die Aufgaben dort verwaltet werden.",
+            "text": "Ein Ereignis, entweder lokal, remote oder hybrid. Z.B. eine Besprechung oder eine Konferenz. Dieses Element ist für die Dokumentation von Ereignissen gedacht. Es ist insbesondere für Notizen, Beschlüsse und Aufgaben vorgesehen. Bei wiederkehrenden Ereignissen (Serien) sollten die Aufgaben dort verwaltet werden.",
             "lang": "de"
         }
     ]

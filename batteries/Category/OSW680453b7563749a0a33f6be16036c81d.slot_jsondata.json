@@ -1,6 +1,6 @@
 {
     "type": [
-        "Category:OSW182916df3eee472e88e7c8d114a7fe27"
+        "Category:OSW8c6de716ad66479a9b8bd6f786f6df6e"
     ],
     "subclass_of": [
         "Category:OSW4744375e811943b2a21e922cded383fc"
@@ -10,14 +10,10 @@
         {
             "text": "Battery cell ",
             "lang": "en"
-        }
-    ],
-    "constituents": [
+        },
         {
-            "name": "positive_electrode",
-            "type": "Category:OSWd5791d13ae43423ebb97ceb942c62d10",
-            "uuid": "b1515bd9-1547-4dad-bc27-db33d0f7318f",
-            "property": "Property:HasPart"
+            "text": "Batteriezelle",
+            "lang": "de"
         }
     ],
     "name": "BatteryCell",
@@ -25,6 +21,9 @@
         "Category:OSW8c6de716ad66479a9b8bd6f786f6df6e"
     ],
     "utf8_icon": [
-        "\ud83d\udd0b"
+        "🔋"
+    ],
+    "instance_rdf_type": [
+        "BattINFO:BattINFO#EMMO_68ed592a_7924_45d0_a108_94d6275d57f0"
     ]
 }

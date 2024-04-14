@@ -17,7 +17,7 @@
     "description": "Contains chemical substances and engineered matterials / parts",
     "description*": {
         "en": "Contains chemical substances and engineered matterials / parts",
-        "de": "Enth\u00e4lt chemische Stoffe, Materialien und Bauteile"
+        "de": "Enthält chemische Stoffe, Materialien und Bauteile"
     },
     "required": [
         "type"

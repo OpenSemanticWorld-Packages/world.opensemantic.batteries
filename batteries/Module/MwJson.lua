@@ -294,7 +294,7 @@ function p.processJsondata(args)
 				if (p.tableLength(vpart) == 2 and vpart[1] == "File") then jsonld[k] = mw.getCurrentFrame():callParserFunction( 'filepath', { vpart[2] } ) end --google does not follow redirects via "File":"wiki:Special:Redirect/file/"
 			end
 		end
-		wikitext = wikitext .. "<div class='jsonld-header' style='display:none' data-jsonld='" .. mw.text.jsonEncode( jsonld ):gsub("'","`") .. "'></div>"
+		--wikitext = wikitext .. "<div class='jsonld-header' style='display:none' data-jsonld='" .. mw.text.jsonEncode( jsonld ):gsub("'","`") .. "'></div>"
 	end
 	
 	local json_res = p.expandEmbeddedTemplates({jsonschema=jsonschema, jsondata=json_data_render, mode='render'})
@@ -417,6 +417,8 @@ function p.renderInfoBox(args)
 						v = string.gsub(v, "Category:", ":Category:") -- make sure category links work
 						v = string.gsub(v, "File:", ":File:") -- do not embedd images but link to them
 						v = "[[" .. v .. "]]" 
+					elseif type(v) == 'boolean' then
+						v = tostring(v) -- Convert boolean to string
 					end
 					cell:wikitext( v )
 				end

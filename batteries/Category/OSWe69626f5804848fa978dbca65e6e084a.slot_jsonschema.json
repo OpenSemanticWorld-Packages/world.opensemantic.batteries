@@ -39,9 +39,9 @@
                 "properties": {
                     "step_temperature": {
                         "type": "number",
-                        "title": "Step temperature [\u00b0C]",
+                        "title": "Step temperature [°C]",
                         "title*": {
-                            "de": "Schritt-Temperatur [\u00b0C]"
+                            "de": "Schritt-Temperatur [°C]"
                         },
                         "description": "Temperature of the step",
                         "description*": {

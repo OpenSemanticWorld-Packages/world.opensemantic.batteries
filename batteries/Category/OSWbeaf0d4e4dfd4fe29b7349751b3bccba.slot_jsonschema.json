@@ -1,0 +1,67 @@
+{
+    "@context": [
+        {
+            "part_of": {
+                "@id": "IsPartOf",
+                "@type": "@id"
+            }
+        },
+        "/wiki/Category:OSW37a57741ae2e4dd4b29b1172b6848be8?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW37a57741ae2e4dd4b29b1172b6848be8?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "beaf0d4e-4dfd-4fe2-9b73-49751b3bccba",
+    "title": "ElectrochemicalEnergyStorageDevice",
+    "title*": {
+        "en": "Electrochemical energy storage device"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type",
+        "uuid"
+    ],
+    "defaultProperties": [
+        "part_of"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSWbeaf0d4e4dfd4fe29b7349751b3bccba"
+            ]
+        },
+        "uuid": {
+            "type": "string",
+            "format": "uuid",
+            "options": {
+                "hidden": true
+            }
+        },
+        "part_of": {
+            "title": "Part of (EESD)",
+            "title*": {
+                "de": "Teil von (EES)"
+            },
+            "description": "The electrochemical energy storage device that this electrochemical energy storage device is or was part of.",
+            "description*": {
+                "de": "Der elektrochemische Energiespeicher, von dem dieser elektrochemische Energiespeicher ein Teil ist oder war."
+            },
+            "type": "array",
+            "format": "table",
+            "items": {
+                "title": "Other EESD",
+                "title*": {
+                    "de": "Anderer EES"
+                },
+                "type": "string",
+                "format": "autocomplete",
+                "range": "Category:OSWbeaf0d4e4dfd4fe29b7349751b3bccba"
+            },
+            "uniqueItems": true
+        }
+    }
+}

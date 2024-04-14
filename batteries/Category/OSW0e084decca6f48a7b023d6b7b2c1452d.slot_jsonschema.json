@@ -111,7 +111,7 @@
     },
     "description": "An event, either local, remote or hybrid. E.g., a meeting or a conference. This element is intended to be used to document events. It is dedicated especially to notes, resolutions and tasks. For recurring events (series), the tasks should be managed there.",
     "description*": {
-        "de": "Ein Ereignis, entweder lokal, remote oder hybrid. Z.B. eine Besprechung oder eine Konferenz. Dieses Element ist f\u00fcr die Dokumentation von Ereignissen gedacht. Es ist insbesondere f\u00fcr Notizen, Beschl\u00fcsse und Aufgaben vorgesehen. Bei wiederkehrenden Ereignissen (Serien) sollten die Aufgaben dort verwaltet werden.",
+        "de": "Ein Ereignis, entweder lokal, remote oder hybrid. Z.B. eine Besprechung oder eine Konferenz. Dieses Element ist für die Dokumentation von Ereignissen gedacht. Es ist insbesondere für Notizen, Beschlüsse und Aufgaben vorgesehen. Bei wiederkehrenden Ereignissen (Serien) sollten die Aufgaben dort verwaltet werden.",
         "en": "An event, either local, remote or hybrid. E.g., a meeting or a conference. This element is intended to be used to document events. It is dedicated especially to notes, resolutions and tasks. For recurring events (series), the tasks should be managed there."
     },
     "properties": {
@@ -251,7 +251,7 @@
             },
             "description": "The event series this event is part of.",
             "description*": {
-                "de": "Die Ereignisserie, zu der dieses Ereignis geh\u00f6rt."
+                "de": "Die Ereignisserie, zu der dieses Ereignis gehört."
             },
             "type": "string",
             "format": "autocomplete",
@@ -375,7 +375,7 @@
             },
             "description": "E.g., the organizational unit for which this event is most relevant or whos members are most likely to participate.",
             "description*": {
-                "de": "Z.B. die Organisationseinheit, f\u00fcr die dieses Ereignis am relevantesten ist oder deren Mitglieder am ehesten teilnehmen."
+                "de": "Z.B. die Organisationseinheit, für die dieses Ereignis am relevantesten ist oder deren Mitglieder am ehesten teilnehmen."
             },
             "type": "array",
             "format": "table",

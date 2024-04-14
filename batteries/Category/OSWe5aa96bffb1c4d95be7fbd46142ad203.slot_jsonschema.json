@@ -10,7 +10,7 @@
                 "@id": "Property:HasSchema",
                 "@type": "@id"
             },
-            "tool": {
+            "tools": {
                 "@id": "Property:HasTool",
                 "@type": "@id"
             },
@@ -53,6 +53,10 @@
         }
     ],
     "title": "Process",
+    "required": [
+        "type"
+    ],
+    "defaultProperties": [],
     "properties": {
         "type": {
             "default": [
@@ -63,7 +67,7 @@
             "type": "string",
             "title": "Creator",
             "title*": {
-                "de": "Ersteller"
+                "de": "Ersteller*in"
             },
             "format": "autocomplete",
             "options": {
@@ -130,7 +134,7 @@
             "format": "autocomplete",
             "range": "Category:OSWa2c8dd387d0b4a0c807a5a7bde190ba3"
         },
-        "tool": {
+        "tools": {
             "type": "array",
             "title": "Tools",
             "title*": {
@@ -147,13 +151,6 @@
                     "autocomplete": {
                         "category": "Category:OSWe427aafafbac4262955b9f690a83405d"
                     }
-                }
-            },
-            "options": {
-                "conditional_visible": {
-                    "modes": [
-                        "query"
-                    ]
                 }
             }
         },
@@ -175,13 +172,6 @@
                         "category": "Category:Entity"
                     }
                 }
-            },
-            "options": {
-                "conditional_visible": {
-                    "modes": [
-                        "query"
-                    ]
-                }
             }
         },
         "output": {
@@ -202,13 +192,6 @@
                         "category": "Category:Entity"
                     }
                 }
-            },
-            "options": {
-                "conditional_visible": {
-                    "modes": [
-                        "query"
-                    ]
-                }
             }
         },
         "parameters": {
@@ -223,8 +206,5 @@
                 "$ref": "#"
             }
         }
-    },
-    "required": [
-        "type"
-    ]
+    }
 }

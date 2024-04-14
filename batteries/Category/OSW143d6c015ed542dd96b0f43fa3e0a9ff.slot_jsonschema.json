@@ -1,0 +1,49 @@
+{
+    "@context": [
+        "/wiki/Category:OSWafda1f2328804e3a89bf90f8af9c5527?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSWafda1f2328804e3a89bf90f8af9c5527?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "143d6c01-5ed5-42dd-96b0-f43fa3e0a9ff",
+    "title": "BatteryCellOpeningInAGlovebox",
+    "title*": {
+        "en": "Battery cell opening in a glovebox",
+        "de": "Batteriezellöffnung in einer Glovebox"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type",
+        "uuid"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW143d6c015ed542dd96b0f43fa3e0a9ff"
+            ]
+        },
+        "uuid": {
+            "type": "string",
+            "format": "uuid",
+            "options": {
+                "hidden": true
+            }
+        },
+        "input": {
+            "items": {
+                "options": {
+                    "autocomplete": {
+                        "query": "[[Category:OSW680453b7563749a0a33f6be16036c81d]]"
+                    }
+                }
+            },
+            "default": [
+                ""
+            ]
+        }
+    }
+}

@@ -46,7 +46,7 @@
         "length": {
             "title": "Length",
             "title*": {
-                "de": "L\u00e4nge",
+                "de": "Länge",
                 "en": "Length"
             },
             "type": "number"
@@ -71,7 +71,7 @@
             "title": "Building function",
             "title*": {
                 "en": "Building function",
-                "de": "Geb\u00e4udefunktion"
+                "de": "Gebäudefunktion"
             },
             "type": "array",
             "format": "table",
@@ -114,7 +114,7 @@
     "title": "Building",
     "title*": {
         "en": "Building",
-        "de": "Geb\u00e4ude"
+        "de": "Gebäude"
     },
     "type": "object",
     "allOf": [

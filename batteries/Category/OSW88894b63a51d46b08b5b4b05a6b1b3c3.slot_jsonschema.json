@@ -88,7 +88,7 @@
                         "format": "autocomplete",
                         "title": "Predicate",
                         "title*": {
-                            "de": "Pr\u00e4dikat"
+                            "de": "Prädikat"
                         },
                         "options": {
                             "grid_columns": 4,

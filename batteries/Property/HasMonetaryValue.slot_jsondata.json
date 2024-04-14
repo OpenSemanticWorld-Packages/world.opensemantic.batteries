@@ -12,8 +12,8 @@
         {
             "conversion_factor_to_main_unit": "0.95",
             "uuid": "a58c8789-101f-4772-877d-f5f7d858d14c",
-            "name": "\u20ac",
-            "main_symbol": "\u20ac",
+            "name": "€",
+            "main_symbol": "€",
             "alternative_symbols": [],
             "use_as_input_unit": true,
             "use_as_display_unit": true,
@@ -32,8 +32,8 @@
         {
             "conversion_factor_to_main_unit": "0.00950",
             "uuid": "7ca0686c-2f27-4d9c-8466-c29a48af9ef3",
-            "name": "k\u20ac",
-            "main_symbol": "k\u20ac",
+            "name": "k€",
+            "main_symbol": "k€",
             "alternative_symbols": [],
             "use_as_input_unit": true,
             "use_as_display_unit": false,
@@ -65,7 +65,7 @@
             "lang": "en"
         },
         {
-            "text": "Verkn\u00fcpft ein Subjekt mit einem Geldwert",
+            "text": "Verknüpft ein Subjekt mit einem Geldwert",
             "lang": "en"
         }
     ]

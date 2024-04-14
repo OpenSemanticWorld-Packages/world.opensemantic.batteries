@@ -28,7 +28,7 @@
     },
     "description": "Preparation instructions, e.g. for a dish",
     "description*": {
-        "de": "Eine Zubereitungsanleitung, z. B. f\u00fcr ein Gericht"
+        "de": "Eine Zubereitungsanleitung, z. B. für ein Gericht"
     },
     "properties": {
         "output_count": {

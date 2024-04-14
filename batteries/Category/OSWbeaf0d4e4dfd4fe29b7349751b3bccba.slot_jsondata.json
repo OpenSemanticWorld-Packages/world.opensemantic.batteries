@@ -1,0 +1,23 @@
+{
+    "type": [
+        "Category:OSWca99a9bb9ad24386b222d18a73c2af5e"
+    ],
+    "subclass_of": [
+        "Category:OSW37a57741ae2e4dd4b29b1172b6848be8"
+    ],
+    "uuid": "beaf0d4e-4dfd-4fe2-9b73-49751b3bccba",
+    "label": [
+        {
+            "text": "Electrochemical energy storage device",
+            "lang": "en"
+        },
+        {
+            "text": "Elektrochemischer Energiespeicher",
+            "lang": "de"
+        }
+    ],
+    "name": "ElectrochemicalEnergyStorageDevice",
+    "metaclass": [
+        "Category:OSW28d9dcd7ba6f48d988bfba619e1b4b1b"
+    ]
+}

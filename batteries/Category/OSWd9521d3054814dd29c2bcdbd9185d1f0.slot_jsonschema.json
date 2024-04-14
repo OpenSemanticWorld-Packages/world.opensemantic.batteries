@@ -11,12 +11,12 @@
             "title": "President",
             "title*": {
                 "en": "President",
-                "de": "Pr\u00e4sident:in"
+                "de": "Präsident:in"
             },
             "description": "The president is the head of the association.",
             "description*": {
                 "en": "The president is the head of the association.",
-                "de": "Der/die Pr\u00e4sident:in ist der Vorsitzende des Vereins."
+                "de": "Der/die Präsident:in ist der Vorsitzende des Vereins."
             }
         },
         "type": {

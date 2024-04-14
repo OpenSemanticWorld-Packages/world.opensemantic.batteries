@@ -1,0 +1,37 @@
+{
+    "@context": [
+        "/wiki/Category:OSWbeaf0d4e4dfd4fe29b7349751b3bccba?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSWbeaf0d4e4dfd4fe29b7349751b3bccba?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "90ff02fb-27dc-4a1c-a0c0-9c8ddc739589",
+    "title": "BatteryModule",
+    "title*": {
+        "en": "Battery module",
+        "de": "Batteriemodul"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type",
+        "uuid"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW90ff02fb27dc4a1ca0c09c8ddc739589"
+            ]
+        },
+        "uuid": {
+            "type": "string",
+            "format": "uuid",
+            "options": {
+                "hidden": true
+            }
+        }
+    }
+}

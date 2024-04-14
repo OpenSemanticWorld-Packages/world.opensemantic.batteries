@@ -18,7 +18,7 @@
             "description": "Faculty, institute or organization, the department belongs to.",
             "description*": {
                 "en": "Faculty, institute or organization, the department belongs to.",
-                "de": "Fakult\u00e4t, Institut oder Organisation, zu der die Abteilung geh\u00f6rt."
+                "de": "Fakultät, Institut oder Organisation, zu der die Abteilung gehört."
             },
             "type": "array",
             "format": "table",

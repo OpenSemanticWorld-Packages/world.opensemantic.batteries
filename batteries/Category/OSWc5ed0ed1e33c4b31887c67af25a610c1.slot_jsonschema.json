@@ -60,7 +60,7 @@
         "length": {
             "title": "Length",
             "title*": {
-                "de": "L\u00e4nge",
+                "de": "Länge",
                 "en": "Length"
             },
             "type": "number"

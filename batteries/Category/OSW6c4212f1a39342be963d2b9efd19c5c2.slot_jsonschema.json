@@ -9,7 +9,7 @@
             "title": "Building",
             "title*": {
                 "en": "Building",
-                "de": "Geb\u00e4ude"
+                "de": "Gebäude"
             },
             "type": "array",
             "format": "table",
