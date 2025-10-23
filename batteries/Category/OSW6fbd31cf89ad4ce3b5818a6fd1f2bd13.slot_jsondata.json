@@ -1,0 +1,33 @@
+{
+    "type": [
+        "Category:OSW182916df3eee472e88e7c8d114a7fe27"
+    ],
+    "subclass_of": [
+        "Category:OSWc02165dc24544a10a2046b54506dedac"
+    ],
+    "uuid": "6fbd31cf-89ad-4ce3-b581-8a6fd1f2bd13",
+    "label": [
+        {
+            "text": "Separator",
+            "lang": "en"
+        },
+        {
+            "text": "Separator",
+            "lang": "de"
+        }
+    ],
+    "name": "Separator",
+    "exact_ontology_match": [
+        "https://w3id.org/emmo/domain/electrochemistry#electrochemistry_331e6cca_f260_4bf8_af55_35304fe1bbe0"
+    ],
+    "meta": {
+        "uuid": "02c105ee-7ca6-4d57-853f-39d3642f5c57",
+        "wiki_page": {
+            "title": "OSW6fbd31cf89ad4ce3b5818a6fd1f2bd13",
+            "namespace": "Category"
+        },
+        "change_id": [
+            "f9c3f8d4-8640-44f6-9106-8d05ef86d6ab"
+        ]
+    }
+}

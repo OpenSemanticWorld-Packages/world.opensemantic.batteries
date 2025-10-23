@@ -1,36 +1,29 @@
 {
     "@context": [
-        "/wiki/Category:OSW6110d42bba33448b9a6348a3cd28b921?action=raw&slot=jsonschema"
+        "/wiki/Category:OSWd5791d13ae43423ebb97ceb942c62d10?action=raw&slot=jsonschema"
     ],
     "allOf": [
         {
-            "$ref": "/wiki/Category:OSW6110d42bba33448b9a6348a3cd28b921?action=raw&slot=jsonschema"
+            "$ref": "/wiki/Category:OSWd5791d13ae43423ebb97ceb942c62d10?action=raw&slot=jsonschema"
         }
     ],
     "type": "object",
     "uuid": "1cee2d62-621f-4d2f-8477-e9b336fa3262",
     "title": "LNO",
     "title*": {
-        "en": "LIthium nickel oxide"
+        "en": "Lithium nickel oxide",
+        "de": "Lithium-Nickel-Oxid"
     },
     "description": "",
     "description*": {},
     "required": [
-        "type",
-        "uuid"
+        "type"
     ],
     "properties": {
         "type": {
             "default": [
                 "Category:OSW1cee2d62621f4d2f8477e9b336fa3262"
             ]
-        },
-        "uuid": {
-            "type": "string",
-            "format": "uuid",
-            "options": {
-                "hidden": true
-            }
         }
     }
 }

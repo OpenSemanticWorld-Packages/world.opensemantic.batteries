@@ -1,0 +1,30 @@
+{
+    "type": [
+        "Category:OSWdd31fe7aeeee4565a7c16254b9948874"
+    ],
+    "active_material": [
+        "Category:OSW418d1402b35e4e099dd02a52a782bd47"
+    ],
+    "current_collector": [],
+    "binder": [],
+    "conductive_additive": [],
+    "ordering_categories": [
+        "Category:OSW95f2c45c7e0142e7a1b558d2a84b686f"
+    ],
+    "subclass_of": [
+        "Category:OSW7024409a760948c6a104753d90e43c39"
+    ],
+    "uuid": "5c1c253b-8f0e-40a6-9183-fb4dcfc4a90e",
+    "label": [
+        {
+            "text": "NMC811 electrode",
+            "lang": "en"
+        },
+        {
+            "text": "NMC811-Electrode",
+            "lang": "de"
+        }
+    ],
+    "description": [],
+    "name": "Nmc811Electrode"
+}

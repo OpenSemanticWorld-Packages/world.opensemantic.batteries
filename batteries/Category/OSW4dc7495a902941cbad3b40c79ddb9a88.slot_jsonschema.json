@@ -1,0 +1,29 @@
+{
+    "@context": [
+        "/wiki/Category:OSW97c67a6938cd401a8eadcc03bbce9ef1?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW97c67a6938cd401a8eadcc03bbce9ef1?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "4dc7495a-9029-41cb-ad3b-40c79ddb9a88",
+    "title": "LithiumMetalElectrode",
+    "title*": {
+        "en": "Lithium metal electrode",
+        "de": "Lithium-Metall-Elektrode"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW4dc7495a902941cbad3b40c79ddb9a88"
+            ]
+        }
+    }
+}

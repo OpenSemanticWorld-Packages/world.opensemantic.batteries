@@ -1,0 +1,30 @@
+{
+    "type": [
+        "Category:OSWdd31fe7aeeee4565a7c16254b9948874"
+    ],
+    "active_material": [
+        "Category:OSW822ee41305984fda91de275886fb1014"
+    ],
+    "current_collector": [],
+    "binder": [],
+    "conductive_additive": [],
+    "ordering_categories": [
+        "Category:OSW95f2c45c7e0142e7a1b558d2a84b686f"
+    ],
+    "subclass_of": [
+        "Category:OSW7024409a760948c6a104753d90e43c39"
+    ],
+    "uuid": "36950be2-111e-42bf-99dd-a148c2b4aded",
+    "label": [
+        {
+            "text": "NMC532 electrode",
+            "lang": "en"
+        },
+        {
+            "text": "NMC532-Electrode",
+            "lang": "de"
+        }
+    ],
+    "description": [],
+    "name": "Ncm532Electrode"
+}

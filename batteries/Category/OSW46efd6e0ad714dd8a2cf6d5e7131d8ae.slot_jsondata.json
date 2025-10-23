@@ -1,0 +1,41 @@
+{
+    "type": [
+        "Category:OSW182916df3eee472e88e7c8d114a7fe27"
+    ],
+    "subclass_of": [
+        "Category:OSWd5791d13ae43423ebb97ceb942c62d10"
+    ],
+    "uuid": "46efd6e0-ad71-4dd8-a2cf-6d5e7131d8ae",
+    "label": [
+        {
+            "text": "Lithium manganese oxide",
+            "lang": "en"
+        },
+        {
+            "text": "LMO",
+            "lang": "en"
+        },
+        {
+            "text": "Lithium-Manganoxid",
+            "lang": "de"
+        },
+        {
+            "text": "LMO",
+            "lang": "de"
+        }
+    ],
+    "name": "LithiumManganeseOxide",
+    "exact_ontology_match": [
+        "https://w3id.org/emmo/domain/chemical-substance#substance_e8fafdc8_6cd3_4dd0_9630_10ca8e3f1827"
+    ],
+    "meta": {
+        "uuid": "ccebd5a2-f465-4e70-9927-c22a7eefe4c6",
+        "wiki_page": {
+            "title": "OSW46efd6e0ad714dd8a2cf6d5e7131d8ae",
+            "namespace": "Category"
+        },
+        "change_id": [
+            "f9c3f8d4-8640-44f6-9106-8d05ef86d6ab"
+        ]
+    }
+}

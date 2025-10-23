@@ -1,0 +1,30 @@
+{
+    "type": [
+        "Category:OSWdd31fe7aeeee4565a7c16254b9948874"
+    ],
+    "active_material": [
+        "Category:OSWd0bea08c395c4ba4a269abbb994cb0b5"
+    ],
+    "current_collector": [],
+    "binder": [],
+    "conductive_additive": [],
+    "ordering_categories": [
+        "Category:OSW95f2c45c7e0142e7a1b558d2a84b686f"
+    ],
+    "subclass_of": [
+        "Category:OSW7024409a760948c6a104753d90e43c39"
+    ],
+    "uuid": "bdc9f799-6dfc-4e51-8f46-8e1ed01a570c",
+    "label": [
+        {
+            "text": "NMC622 Electrode",
+            "lang": "en"
+        },
+        {
+            "text": "NMC622-Elektrode",
+            "lang": "de"
+        }
+    ],
+    "description": [],
+    "name": "Nmc622Electrode"
+}

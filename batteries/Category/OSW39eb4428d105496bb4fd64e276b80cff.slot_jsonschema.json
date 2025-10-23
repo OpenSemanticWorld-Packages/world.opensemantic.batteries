@@ -1,17 +1,18 @@
 {
     "@context": [
-        "/wiki/Category:OSW1ee1f5ccdb564f4e829b76b76028aa77?action=raw&slot=jsonschema"
+        "/wiki/Category:OSWd5791d13ae43423ebb97ceb942c62d10?action=raw&slot=jsonschema"
     ],
     "allOf": [
         {
-            "$ref": "/wiki/Category:OSW1ee1f5ccdb564f4e829b76b76028aa77?action=raw&slot=jsonschema"
+            "$ref": "/wiki/Category:OSWd5791d13ae43423ebb97ceb942c62d10?action=raw&slot=jsonschema"
         }
     ],
     "type": "object",
     "uuid": "39eb4428-d105-496b-b4fd-64e276b80cff",
     "title": "Silicon",
     "title*": {
-        "en": "Silicon"
+        "en": "Silicon",
+        "de": "Silizium"
     },
     "description": "",
     "description*": {},

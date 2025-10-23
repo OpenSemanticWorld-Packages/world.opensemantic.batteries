@@ -1,0 +1,33 @@
+{
+    "type": [
+        "Category:OSW6cc7d1cc87dc4fa8935d5b3d2a9b55c5"
+    ],
+    "device_under_test": [],
+    "tester": [],
+    "test_procedure": [],
+    "subclass_of": [
+        "Category:OSWfa914762adaa4665a63b6a77c3ea6eed"
+    ],
+    "uuid": "9d5fc755-409c-433b-822c-f5c8feecdb32",
+    "label": [
+        {
+            "text": "Mechanical test",
+            "lang": "en"
+        },
+        {
+            "text": "Mechanischer Test ",
+            "lang": "de"
+        }
+    ],
+    "description": [
+        {
+            "text": "Mechanical test of a sample.",
+            "lang": "en"
+        },
+        {
+            "text": "Ein Prüfling wird einem mechanischen Test unterzogen.",
+            "lang": "de"
+        }
+    ],
+    "name": "MechanicalTest"
+}

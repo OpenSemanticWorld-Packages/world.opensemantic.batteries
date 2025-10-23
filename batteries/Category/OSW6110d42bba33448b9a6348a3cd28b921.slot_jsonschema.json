@@ -13,8 +13,11 @@
     "title*": {
         "en": "Positive active material"
     },
-    "description": "",
-    "description*": {},
+    "description": "A classification category for battery active materials",
+    "description*": {
+        "en": "A classification category for battery active materials",
+        "de": "Eine Ordnungskategorie für BatterieAktivmaterialien"
+    },
     "required": [
         "type",
         "uuid"

@@ -1,0 +1,29 @@
+{
+    "@context": [
+        "/wiki/Category:OSW8cb1fd1ec61449df88299dc5a8687020?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW8cb1fd1ec61449df88299dc5a8687020?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "4b9c1857-12e8-4208-83ae-5cdc1b1bd55a",
+    "title": "PEISTestProcedure",
+    "title*": {
+        "en": "Potentiostatic Electrochemical Impedance Spectroscopy Test Procedure",
+        "de": "Testprozedur für potentiostatische elektrochemische Impedanzspektroskopie"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW4b9c185712e8420883ae5cdc1b1bd55a"
+            ]
+        }
+    }
+}

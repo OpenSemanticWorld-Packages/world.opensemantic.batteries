@@ -1,10 +1,14 @@
 {
     "@context": [
-        "/wiki/Category:OSW1ee1f5ccdb564f4e829b76b76028aa77?action=raw&slot=jsonschema"
+        "/wiki/Category:OSW1ee1f5ccdb564f4e829b76b76028aa77?action=raw&slot=jsonschema",
+        "/wiki/Category:OSWd5791d13ae43423ebb97ceb942c62d10?action=raw&slot=jsonschema"
     ],
     "allOf": [
         {
             "$ref": "/wiki/Category:OSW1ee1f5ccdb564f4e829b76b76028aa77?action=raw&slot=jsonschema"
+        },
+        {
+            "$ref": "/wiki/Category:OSWd5791d13ae43423ebb97ceb942c62d10?action=raw&slot=jsonschema"
         }
     ],
     "type": "object",
@@ -16,21 +20,13 @@
     "description": "",
     "description*": {},
     "required": [
-        "type",
-        "uuid"
+        "type"
     ],
     "properties": {
         "type": {
             "default": [
                 "Category:OSW2cfa957f5e824cf38da52d547cebe73d"
             ]
-        },
-        "uuid": {
-            "type": "string",
-            "format": "uuid",
-            "options": {
-                "hidden": true
-            }
         }
     }
 }

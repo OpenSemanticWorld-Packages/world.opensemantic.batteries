@@ -1,0 +1,29 @@
+{
+    "@context": [
+        "/wiki/Category:OSW8cb1fd1ec61449df88299dc5a8687020?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW8cb1fd1ec61449df88299dc5a8687020?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "926ceee7-f801-48b5-b906-514ffd4a0e7b",
+    "title": "GEISTestprocedure",
+    "title*": {
+        "en": "Galvanostatic Electrochemical Impedance Spectroscopy Test Procedure",
+        "de": "Testprozedur für galvanostatische elektrochemische Impedanzspektroskopie"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW926ceee7f80148b5b906514ffd4a0e7b"
+            ]
+        }
+    }
+}

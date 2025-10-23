@@ -12,5 +12,18 @@
             "lang": "en"
         }
     ],
-    "name": "ConductiveAdditive"
+    "name": "ConductiveAdditive",
+    "exact_ontology_match": [
+        "https://w3id.org/emmo/domain/electrochemistry#electrochemistry_82fef384_8eec_4765_b707_5397054df594"
+    ],
+    "meta": {
+        "uuid": "879f1cf1-d572-4cb5-b0aa-add273d1533c",
+        "wiki_page": {
+            "title": "OSWb869e525b25a4a9d8880a30075eb7d21",
+            "namespace": "Category"
+        },
+        "change_id": [
+            "f9c3f8d4-8640-44f6-9106-8d05ef86d6ab"
+        ]
+    }
 }

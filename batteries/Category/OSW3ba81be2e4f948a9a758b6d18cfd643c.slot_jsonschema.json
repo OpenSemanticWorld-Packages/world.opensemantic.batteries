@@ -1,0 +1,32 @@
+{
+    "@context": [
+        "/wiki/Category:OSWc02165dc24544a10a2046b54506dedac?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSWc02165dc24544a10a2046b54506dedac?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "3ba81be2-e4f9-48a9-a758-b6d18cfd643c",
+    "title": "BatteryElectrolyteMaterial",
+    "title*": {
+        "en": "Battery electrolyte material",
+        "de": "Batterieelektrolytmaterial"
+    },
+    "description": "Material used to compose a battery electrolyte",
+    "description*": {
+        "en": "Material used to compose a battery electrolyte",
+        "de": "Material, aus dem ein Batterieelektrolyt besteht"
+    },
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW3ba81be2e4f948a9a758b6d18cfd643c"
+            ]
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "type": [
+        "Category:OSWc8108cfc369241aba154c4c306497c30"
+    ],
+    "uuid": "630dae48-7c49-49d8-8540-2cffcfe1e15b",
+    "label": [
+        {
+            "text": "Coin cell",
+            "lang": "en"
+        },
+        {
+            "text": "Knopfzelle",
+            "lang": "de"
+        }
+    ],
+    "description": [],
+    "name": "CoinCellFormFactor"
+}

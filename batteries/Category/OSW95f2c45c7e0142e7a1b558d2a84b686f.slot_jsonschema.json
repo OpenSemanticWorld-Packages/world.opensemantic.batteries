@@ -1,0 +1,29 @@
+{
+    "@context": [
+        "/wiki/Category:OSW97c67a6938cd401a8eadcc03bbce9ef1?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW97c67a6938cd401a8eadcc03bbce9ef1?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "95f2c45c-7e01-42e7-a1b5-58d2a84b686f",
+    "title": "PositiveElectrode",
+    "title*": {
+        "en": "Positive Electrode",
+        "de": "Positive Elektrode"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW95f2c45c7e0142e7a1b558d2a84b686f"
+            ]
+        }
+    }
+}

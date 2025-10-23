@@ -3,7 +3,7 @@
         "Category:OSW182916df3eee472e88e7c8d114a7fe27"
     ],
     "subclass_of": [
-        "Category:OSW6110d42bba33448b9a6348a3cd28b921"
+        "Category:OSWd5791d13ae43423ebb97ceb942c62d10"
     ],
     "uuid": "863e8970-4c02-43a6-8749-f747eaa9f3b6",
     "label": [
@@ -14,7 +14,31 @@
         {
             "text": "Lithium nickel cobalt aluminium oxide",
             "lang": "en"
+        },
+        {
+            "text": "NCA",
+            "lang": "de"
+        },
+        {
+            "text": "Lithium-Nickel-Cobalt-Aluminium-Oxid",
+            "lang": "de"
         }
     ],
-    "name": "NCA"
+    "name": "LithiumNickelCobaltAluminiumOxide",
+    "ordering_categories": [
+        "Category:OSW6110d42bba33448b9a6348a3cd28b921"
+    ],
+    "exact_ontology_match": [
+        "https://w3id.org/emmo/domain/chemical-substance#substance_cd17ca33_ae3d_4738_8930_547673bf6c1f"
+    ],
+    "meta": {
+        "uuid": "529ca116-a517-4d3e-a876-2cb0dbe41ab4",
+        "wiki_page": {
+            "title": "OSW863e89704c0243a68749f747eaa9f3b6",
+            "namespace": "Category"
+        },
+        "change_id": [
+            "f9c3f8d4-8640-44f6-9106-8d05ef86d6ab"
+        ]
+    }
 }

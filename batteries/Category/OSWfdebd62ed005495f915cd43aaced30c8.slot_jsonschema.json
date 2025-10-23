@@ -23,6 +23,9 @@
             "default": [
                 "Category:OSWfdebd62ed005495f915cd43aaced30c8"
             ]
+        },
+        "battery_cell_form_factor": {
+            "default": "Item:OSW630dae487c4949d885402cffcfe1e15b"
         }
     }
 }

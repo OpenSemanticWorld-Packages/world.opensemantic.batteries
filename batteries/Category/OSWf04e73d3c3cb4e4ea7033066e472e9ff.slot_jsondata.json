@@ -16,5 +16,8 @@
             "lang": "de"
         }
     ],
-    "name": "BatteryCellFormat"
+    "name": "BatteryCellFormat",
+    "metaclass": [
+        "Category:OSW3892aac6eaa14005968ac59299314e38"
+    ]
 }

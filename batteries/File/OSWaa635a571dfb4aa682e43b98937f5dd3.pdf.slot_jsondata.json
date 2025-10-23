@@ -1,0 +1,29 @@
+{
+    "type": [
+        "Category:OSW11a53cdfbdc24524bf8ac435cbf65d9d"
+    ],
+    "creator": [
+        "User:Lukas Gold"
+    ],
+    "editor": [
+        "User:Lukas Gold"
+    ],
+    "creation_context": [
+        "Item:OSW12bcacfa5ba9462e9edabe711ec6f27a"
+    ],
+    "editing_context": [
+        "Item:OSW12bcacfa5ba9462e9edabe711ec6f27a"
+    ],
+    "uuid": "aa635a57-1dfb-4aa6-82e4-3b98937f5dd3",
+    "name": "HazardAssessmentOpeningAgedPrismaticOrPouchCell",
+    "label": [
+        {
+            "text": "Hazard assessment of opening aged prismatic or pouch lithium-ion battery cells",
+            "lang": "en"
+        },
+        {
+            "text": "Gefährdungsbeurteilung der Öffnung gealterter prismatischer oder Pouch Lithium-Ionen-Batteriezellen",
+            "lang": "de"
+        }
+    ]
+}

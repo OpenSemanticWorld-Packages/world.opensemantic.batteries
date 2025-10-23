@@ -1,0 +1,44 @@
+{
+    "type": [
+        "Category:OSW182916df3eee472e88e7c8d114a7fe27"
+    ],
+    "subclass_of": [
+        "Category:OSWd5791d13ae43423ebb97ceb942c62d10"
+    ],
+    "uuid": "70b37e4e-6d01-4343-a00b-a532edce45f1",
+    "label": [
+        {
+            "text": "Lithium cobalt oxide",
+            "lang": "en"
+        },
+        {
+            "text": "LCO",
+            "lang": "en"
+        },
+        {
+            "text": "Lithium-Kobaltoxid",
+            "lang": "de"
+        },
+        {
+            "text": "LCO",
+            "lang": "de"
+        }
+    ],
+    "ordering_categories": [
+        "Category:OSW6110d42bba33448b9a6348a3cd28b921"
+    ],
+    "name": "LithiumCobaltOxide",
+    "exact_ontology_match": [
+        "https://w3id.org/emmo/domain/chemical-substance#substance_4c62d334_a124_40b3_9fd1_fe713d01a6af"
+    ],
+    "meta": {
+        "uuid": "bcc9581d-1047-4dc4-97ab-5b03f0d69736",
+        "wiki_page": {
+            "title": "OSW70b37e4e6d014343a00ba532edce45f1",
+            "namespace": "Category"
+        },
+        "change_id": [
+            "f9c3f8d4-8640-44f6-9106-8d05ef86d6ab"
+        ]
+    }
+}

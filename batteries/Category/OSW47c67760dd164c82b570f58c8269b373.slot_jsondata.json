@@ -6,15 +6,14 @@
         "Category:OSWfa914762adaa4665a63b6a77c3ea6eed"
     ],
     "uuid": "47c67760-dd16-4c82-b570-f58c8269b373",
-    "name": "PostMortemExperiment",
     "label": [
         {
-            "text": "Post Mortem Experiment",
-            "lang": "de"
+            "text": "Post-Mortem Experiment",
+            "lang": "en"
         },
         {
-            "text": "Postortem-Experiment",
-            "lang": "en"
+            "text": "Post-Mortem-Experiment",
+            "lang": "de"
         }
     ],
     "description": [
@@ -25,6 +24,20 @@
         {
             "text": "Ein zerstörendes Experiment an einer elektrochemischen Batteriezellea",
             "lang": "de"
+        }
+    ],
+    "name": "PostMortemExperiment",
+    "utf8_icon": [
+        "🪦",
+        "🔋",
+        "🔎"
+    ],
+    "statements": [],
+    "output": [
+        {
+            "uuid": "ca35b2d9-3a81-4799-a3cc-592080feb71c",
+            "output_type": "Category:OSW11a53cdfbdc24524bf8ac435cbf65d9d",
+            "output_default": ""
         }
     ]
 }

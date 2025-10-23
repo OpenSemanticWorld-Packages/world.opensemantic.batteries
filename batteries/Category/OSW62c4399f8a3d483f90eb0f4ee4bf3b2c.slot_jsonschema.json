@@ -1,0 +1,29 @@
+{
+    "@context": [
+        "/wiki/Category:OSWdda41d4a4ec0421babe0295c6edcb5df?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSWdda41d4a4ec0421babe0295c6edcb5df?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "62c4399f-8a3d-483f-90eb-0f4ee4bf3b2c",
+    "title": "BatteryTestProcedure",
+    "title*": {
+        "en": "Battery test procedure",
+        "de": "Batterietestprozedur"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW62c4399f8a3d483f90eb0f4ee4bf3b2c"
+            ]
+        }
+    }
+}

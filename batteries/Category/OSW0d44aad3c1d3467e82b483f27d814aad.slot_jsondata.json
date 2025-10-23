@@ -8,13 +8,34 @@
     "uuid": "0d44aad3-c1d3-467e-82b4-83f27d814aad",
     "label": [
         {
+            "text": "PVDF",
+            "lang": "en"
+        },
+        {
             "text": "Polyvinylidene difluoride",
             "lang": "en"
         },
         {
             "text": "PVDF",
-            "lang": "en"
+            "lang": "de"
+        },
+        {
+            "text": "Polyvinylidendifluorid",
+            "lang": "de"
         }
     ],
-    "name": "PolyvinylideneDifluoride"
+    "name": "PolyvinylideneFluoride",
+    "exact_ontology_match": [
+        "https://w3id.org/emmo/domain/chemical-substance#substance_f2e48e9e_f774_4f42_939f_1fe522efb7c8"
+    ],
+    "meta": {
+        "uuid": "e5100687-9fe2-440d-8d1c-d728b75cb94d",
+        "wiki_page": {
+            "title": "OSW0d44aad3c1d3467e82b483f27d814aad",
+            "namespace": "Category"
+        },
+        "change_id": [
+            "f9c3f8d4-8640-44f6-9106-8d05ef86d6ab"
+        ]
+    }
 }

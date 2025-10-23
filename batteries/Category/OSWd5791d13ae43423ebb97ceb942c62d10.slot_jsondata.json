@@ -12,5 +12,18 @@
             "lang": "en"
         }
     ],
-    "name": "ActiveMaterial"
+    "name": "ActiveMaterial",
+    "exact_ontology_match": [
+        "https://w3id.org/emmo/domain/electrochemistry#electrochemistry_79d1b273_58cd_4be6_a250_434817f7c261"
+    ],
+    "meta": {
+        "uuid": "cbc35e81-1820-4ad1-89d5-ce17c1fbffc6",
+        "wiki_page": {
+            "title": "OSWd5791d13ae43423ebb97ceb942c62d10",
+            "namespace": "Category"
+        },
+        "change_id": [
+            "f9c3f8d4-8640-44f6-9106-8d05ef86d6ab"
+        ]
+    }
 }

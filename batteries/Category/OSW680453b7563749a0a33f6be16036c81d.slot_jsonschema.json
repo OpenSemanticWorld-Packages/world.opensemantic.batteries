@@ -1,63 +1,63 @@
 {
     "@context": [
         {
-            "electrolyte_supplied": {
+            "electrolyte": {
                 "@type": "@id",
                 "@id": "Property:HasPart"
             },
-            "electrolyte_supplied*": {
+            "electrolyte*": {
                 "@type": "@id",
                 "@id": "Property:HasElectrolyte"
             },
-            "negative_electrode_supplied": {
+            "negative_electrode": {
                 "@type": "@id",
                 "@id": "Property:HasPart"
             },
-            "negative_electrode_supplied*": {
+            "negative_electrode*": {
                 "@type": "@id",
                 "@id": "Property:HasNegativeElectrode"
             },
-            "positive_electrode_supplied": {
+            "positive_electrode": {
                 "@type": "@id",
                 "@id": "Property:HasPart"
             },
-            "positive_electrode_supplied*": {
+            "positive_electrode*": {
                 "@type": "@id",
                 "@id": "Property:HasPositiveElectrode"
             },
-            "reference_electrode_supplied": {
+            "reference_electrode": {
                 "@type": "@id",
                 "@id": "Property:HasPart"
             },
-            "reference_electrode_supplied*": {
+            "reference_electrode*": {
                 "@type": "@id",
                 "@id": "Property:HasReferenceElectrode"
             },
-            "separator_supplied": {
+            "separator": {
                 "@type": "@id",
                 "@id": "Property:HasPart"
             },
-            "separator_supplied*": {
+            "separator*": {
                 "@type": "@id",
                 "@id": "Property:HasSeparator"
             },
-            "electrolyte_supplied**": {
+            "electrolyte**": {
                 "@type": "@id",
                 "@id": "BattINFO:electrochemistry#EMMO_fb0d9eef_92af_4628_8814_e065ca255d59"
             },
-            "negative_electrode_supplied**": {
+            "negative_electrode**": {
                 "@type": "@id",
                 "@id": "BattINFO:electrochemistry#EMMO_c94c041b_8ea6_43e7_85cc_d2bce7785b4c"
             },
-            "positive_electrode_supplied**": {
+            "positive_electrode**": {
                 "@type": "@id",
                 "@id": "BattINFO:electrochemistry#EMMO_aff732a9_238a_4734_977c_b2ba202af126"
             },
-            "reference_electrode_supplied**": {
+            "reference_electrode**": {
                 "@type": "@id",
                 "@id": "BattINFO:electrochemistry#EMMO_7729c34e_1ae9_403d_b933_1765885e7f29"
             },
-            "separator_supplied**": {
+            "separator**": {
                 "@id": "BattINFO:electrochemistry#EMMO_331e6cca_f260_4bf8_af55_35304fe1bbe0",
                 "@type": "@id"
             }
@@ -78,16 +78,14 @@
     "description": "",
     "description*": {},
     "required": [
-        "type",
-        "uuid"
+        "type"
     ],
     "defaultProperties": [
-        "cell_format",
+        "electrolyte",
+        "negative_electrode",
+        "positive_electrode",
         "reference_electrode",
-        "positive_electrode_supplied",
-        "negative_electrode_supplied",
-        "electrolyte_supplied",
-        "separator_supplied"
+        "separator"
     ],
     "properties": {
         "type": {
@@ -95,140 +93,47 @@
                 "Category:OSW680453b7563749a0a33f6be16036c81d"
             ]
         },
-        "uuid": {
-            "type": "string",
-            "format": "uuid",
-            "options": {
-                "hidden": true
-            }
-        },
         "reference_electrode": {
             "title": "Reference electrode",
             "type": "string",
             "format": "autocomplete",
-            "range": "Category:OSWd5791d13ae43423ebb97ceb942c62d10"
+            "range": "Category:OSW97c67a6938cd401a8eadcc03bbce9ef1"
         },
-        "positive_electrode_supplied": {
-            "@context": [
-                {
-                    "positive_active_material": {
-                        "@id": "Property:HasPositiveActiveMaterial",
-                        "@type": "@id"
-                    }
-                }
-            ],
-            "title": "Positive electrode (supplied)",
-            "type": "object",
-            "required": [
-                "positive_active_material"
-            ],
-            "defaultProperties": [
-                "positive_active_material",
-                "positive_electrode_loading",
-                "positive_electrode_mass"
-            ],
-            "properties": {
-                "positive_active_material": {
-                    "title": "Active material",
-                    "type": "string",
-                    "format": "autocomplete",
-                    "range": "Category:OSW6110d42bba33448b9a6348a3cd28b921"
-                },
-                "positive_electrode_loading": {
-                    "title": "Active material loading [mg/cm²]",
-                    "type": "number",
-                    "description": "Weight of active material in an electrode per unit electrode area."
-                },
-                "positive_electrode_mass": {
-                    "title": "Overall Mass [mg]",
-                    "type": "number"
-                }
-            }
+        "positive_electrode": {
+            "title": "Positive electrode",
+            "title*": {
+                "de": "Positive Elektrode"
+            },
+            "type": "string",
+            "format": "autocomplete",
+            "range": "Category:OSW97c67a6938cd401a8eadcc03bbce9ef1"
         },
-        "negative_electrode_supplied": {
-            "title": "Negative electrode (supplied)",
-            "type": "object",
-            "required": [
-                "negative_active_material"
-            ],
-            "defaultProperties": [
-                "negative_active_material",
-                "negative_electrode_loading",
-                "negative_electrode_mass"
-            ],
-            "properties": {
-                "negative_active_material": {
-                    "title": "Active material",
-                    "type": "string",
-                    "format": "autocomplete",
-                    "range": "Category:OSW1ee1f5ccdb564f4e829b76b76028aa77"
-                },
-                "negative_electrode_loading": {
-                    "title": "Active material loading [mg/cm²]",
-                    "type": "number",
-                    "description": "Weight of active material in an electrode per unit electrode area."
-                },
-                "negative_electrode_mass": {
-                    "title": "Overall Mass [mg]",
-                    "type": "number"
-                }
-            }
+        "negative_electrode": {
+            "title": "Negative electrode",
+            "title*": {
+                "de": "Negative Elektrode"
+            },
+            "type": "string",
+            "format": "autocomplete",
+            "range": "Category:OSW97c67a6938cd401a8eadcc03bbce9ef1"
         },
-        "electrolyte_supplied": {
-            "title": "Electrolyte (supplied)",
-            "type": "object",
-            "required": [
-                "electrolyte_selection"
-            ],
-            "defaultProperties": [
-                "electrolyte_selection",
-                "electrolyte_mass",
-                "electrolyte_volume"
-            ],
-            "properties": {
-                "electrolyte_selection": {
-                    "title": "Electrolyte",
-                    "type": "string",
-                    "format": "autocomplete",
-                    "range": "Category:OSW7d5c3e78685249f29b8bbed364e8373e"
-                },
-                "electrolyte_mass": {
-                    "title": "Overall Mass [mg]",
-                    "type": "number"
-                },
-                "electrolyte_volume": {
-                    "title": "Overall Volume [µL]",
-                    "type": "number"
-                }
-            }
+        "electrolyte": {
+            "title": "Electrolyte",
+            "title*": {
+                "de": "Elektrolyt"
+            },
+            "type": "string",
+            "format": "autocomplete",
+            "range": "Category:OSW458c6a07945c4d7fa9ae1314260fcc58"
         },
-        "separator_supplied": {
-            "title": "Separator (supplied)",
-            "type": "object",
-            "required": [
-                "separator_selection"
-            ],
-            "defaultProperties": [
-                "separator_selection",
-                "separator_count",
-                "separator_mass"
-            ],
-            "properties": {
-                "separator_selection": {
-                    "title": "Separator",
-                    "type": "string",
-                    "format": "autocomplete",
-                    "range": "Category:OSWc07fc11ed51b4b2a9d62eec3127cd577"
-                },
-                "separator_count": {
-                    "title": "Number of layers",
-                    "type": "number"
-                },
-                "separator_mass": {
-                    "title": "Overall Mass [mg]",
-                    "type": "number"
-                }
-            }
+        "separator": {
+            "title": "Separator",
+            "title*": {
+                "de": "Separator"
+            },
+            "type": "string",
+            "format": "autocomplete",
+            "range": "Category:OSW6fbd31cf89ad4ce3b5818a6fd1f2bd13"
         }
     }
 }

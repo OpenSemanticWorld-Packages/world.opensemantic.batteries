@@ -3,7 +3,7 @@
         "Category:OSWf04e73d3c3cb4e4ea7033066e472e9ff"
     ],
     "type": [
-        "Category:Category"
+        "Category:OSW3892aac6eaa14005968ac59299314e38"
     ],
     "uuid": "7a05349c-dec8-4330-9927-991d1163e5fd",
     "label": [
@@ -12,5 +12,6 @@
             "lang": "en"
         }
     ],
-    "name": "PouchCellFormat"
+    "name": "PouchCellFormat",
+    "battery_cell_form_factor": "Item:OSW2f87bcee578345458e6d7067853a5b34"
 }

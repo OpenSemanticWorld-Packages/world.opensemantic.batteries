@@ -1,17 +1,18 @@
 {
     "@context": [
-        "/wiki/Category:OSW6110d42bba33448b9a6348a3cd28b921?action=raw&slot=jsonschema"
+        "/wiki/Category:OSWd5791d13ae43423ebb97ceb942c62d10?action=raw&slot=jsonschema"
     ],
     "allOf": [
         {
-            "$ref": "/wiki/Category:OSW6110d42bba33448b9a6348a3cd28b921?action=raw&slot=jsonschema"
+            "$ref": "/wiki/Category:OSWd5791d13ae43423ebb97ceb942c62d10?action=raw&slot=jsonschema"
         }
     ],
     "type": "object",
     "uuid": "670c84f7-f7e6-4533-a370-81e6349bb008",
     "title": "NMC",
     "title*": {
-        "en": "NMC"
+        "en": "Lithium nickel cobalt manganese oxide",
+        "de": "Lithium-Nickel-Cobalt-Mangan-Oxid"
     },
     "description": "",
     "description*": {},

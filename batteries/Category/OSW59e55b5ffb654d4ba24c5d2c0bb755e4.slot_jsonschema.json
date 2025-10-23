@@ -1,0 +1,35 @@
+{
+    "@context": [
+        "/wiki/Category:OSW90ff02fb27dc4a1ca0c09c8ddc739589?action=raw&slot=jsonschema",
+        "/wiki/Category:OSW156137fa74914572ad2998f7f6594bca?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW90ff02fb27dc4a1ca0c09c8ddc739589?action=raw&slot=jsonschema"
+        },
+        {
+            "$ref": "/wiki/Category:OSW156137fa74914572ad2998f7f6594bca?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "59e55b5f-fb65-4d4b-a24c-5d2c0bb755e4",
+    "title": "BatteryModuleWithSensors",
+    "title*": {
+        "en": "Battery module with sensors",
+        "de": "Batteriemodul mit sensoren"
+    },
+    "description": "Sensors should be added as components or slot occupants",
+    "description*": {
+        "de": "Sensoren sollten als Komponenten oder Slot-Besitzer hinzugefügt werden"
+    },
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW59e55b5ffb654d4ba24c5d2c0bb755e4"
+            ]
+        }
+    }
+}

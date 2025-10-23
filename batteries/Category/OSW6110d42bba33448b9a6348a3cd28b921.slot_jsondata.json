@@ -12,5 +12,19 @@
             "lang": "en"
         }
     ],
-    "name": "PositiveActiveMaterial"
+    "name": "PositiveActiveMaterial",
+    "description": [
+        {
+            "text": "A classification category for battery active materials",
+            "lang": "en"
+        },
+        {
+            "text": "Eine Ordnungskategorie für BatterieAktivmaterialien",
+            "lang": "de"
+        }
+    ],
+    "ordering_categories": [],
+    "keywords": [
+        "Item:OSW452ec0273916478099c4716395e1bc18"
+    ]
 }

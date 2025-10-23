@@ -1,12 +1,15 @@
 {
     "@context": [
+        "/wiki/Category:OSW37a57741ae2e4dd4b29b1172b6848be8?action=raw&slot=jsonschema",
         {
             "part_of": {
-                "@id": "IsPartOf",
+                "@id": "Property:IsPartOf",
                 "@type": "@id"
+            },
+            "weight": {
+                "@id": "Property:HasWeight"
             }
-        },
-        "/wiki/Category:OSW37a57741ae2e4dd4b29b1172b6848be8?action=raw&slot=jsonschema"
+        }
     ],
     "allOf": [
         {
@@ -25,9 +28,6 @@
         "type",
         "uuid"
     ],
-    "defaultProperties": [
-        "part_of"
-    ],
     "properties": {
         "type": {
             "default": [
@@ -40,6 +40,15 @@
             "options": {
                 "hidden": true
             }
+        },
+        "weight": {
+            "$coment": "to be reworked with characteristics in place",
+            "title": "Weight (kg)",
+            "title*": {
+                "de": "Gewicht (kg)"
+            },
+            "type": "number",
+            "format": "number"
         },
         "part_of": {
             "title": "Part of (EESD)",

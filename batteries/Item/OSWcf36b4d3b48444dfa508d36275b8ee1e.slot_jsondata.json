@@ -1,0 +1,29 @@
+{
+    "type": [
+        "Category:OSWfdebd62ed005495f915cd43aaced30c8"
+    ],
+    "uuid": "cf36b4d3-b484-44df-a508-d36275b8ee1e",
+    "label": [
+        {
+            "text": "CR2016",
+            "lang": "en"
+        },
+        {
+            "text": "CR2016",
+            "lang": "de"
+        }
+    ],
+    "description": [
+        {
+            "text": "A coin cell format with a nominal diameter of 20.0 mm and a height of 1.6 mm",
+            "lang": "en"
+        },
+        {
+            "text": "Ein Münzzellenformat mit einem Nenndurchmesser von 20,0 mm und einer Höhe von 1,6 mm",
+            "lang": "de"
+        }
+    ],
+    "rdf_type": [],
+    "name": "CR2016",
+    "exact_ontology_match": []
+}

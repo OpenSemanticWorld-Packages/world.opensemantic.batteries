@@ -12,5 +12,18 @@
             "lang": "en"
         }
     ],
-    "name": "CurrentCollector"
+    "name": "CurrentCollector",
+    "exact_ontology_match": [
+        "https://w3id.org/emmo/domain/electrochemistry#electrochemistry_212af058_3bbb_419f_a9c6_90ba9ebb3706"
+    ],
+    "meta": {
+        "uuid": "f2e21703-f4bb-4b6f-9e84-a8b90ccf346f",
+        "wiki_page": {
+            "title": "OSWa1a377f297f54ecabe558b46fb43ad02",
+            "namespace": "Category"
+        },
+        "change_id": [
+            "f9c3f8d4-8640-44f6-9106-8d05ef86d6ab"
+        ]
+    }
 }

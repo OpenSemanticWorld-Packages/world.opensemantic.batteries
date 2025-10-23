@@ -1,0 +1,29 @@
+{
+    "@context": [
+        "/wiki/Category:OSW7024409a760948c6a104753d90e43c39?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW7024409a760948c6a104753d90e43c39?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "7b457ac5-9840-4be9-8e67-2964808c44c3",
+    "title": "Nmc111Electrode",
+    "title*": {
+        "en": "NMC111 electrode",
+        "de": "NMC111-Elektrode"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW7b457ac598404be98e672964808c44c3"
+            ]
+        }
+    }
+}

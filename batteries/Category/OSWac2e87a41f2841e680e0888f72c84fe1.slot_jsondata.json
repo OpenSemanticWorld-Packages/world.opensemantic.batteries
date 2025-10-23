@@ -1,0 +1,34 @@
+{
+    "subclass_of": [
+        "Category:OSW62c4399f8a3d483f90eb0f4ee4bf3b2c"
+    ],
+    "type": [
+        "Category:Category"
+    ],
+    "uuid": "ac2e87a4-1f28-41e6-80e0-888f72c84fe1",
+    "label": [
+        {
+            "text": "Battery state preparation test procedure",
+            "lang": "en"
+        },
+        {
+            "text": "Testprozedur zur Präparation eines Batteriezustandes",
+            "lang": "de"
+        }
+    ],
+    "description": [
+        {
+            "text": "Test procedure to prepare a certain battery state, e.g. fully discharged",
+            "lang": "en"
+        },
+        {
+            "text": "Testverfahren zur Vorbereitung eines bestimmten Batteriezustands, z. B. vollständig entladen",
+            "lang": "de"
+        }
+    ],
+    "ordering_categories": [],
+    "keywords": [
+        "Item:OSW452ec0273916478099c4716395e1bc18"
+    ],
+    "name": "BatteryStatePreparationTestProcedure"
+}

@@ -1,0 +1,47 @@
+{
+    "type": [
+        "Category:OSWdd31fe7aeeee4565a7c16254b9948874"
+    ],
+    "active_material": [
+        "Category:OSW36082c03d48543aca08bfe4ea3afe8cb"
+    ],
+    "ordering_categories": [
+        "Category:OSW95f2c45c7e0142e7a1b558d2a84b686f"
+    ],
+    "subclass_of": [
+        "Category:OSW97c67a6938cd401a8eadcc03bbce9ef1"
+    ],
+    "uuid": "6dbd9ac5-4d23-4e05-8dee-f9a239bd8633",
+    "label": [
+        {
+            "text": "Lithium iron phosphate electrode",
+            "lang": "en"
+        },
+        {
+            "text": "Lithium-Eisenphosphat-Elektrode",
+            "lang": "de"
+        },
+        {
+            "text": "LFP electrode",
+            "lang": "en"
+        },
+        {
+            "text": "LFP-Elektrode",
+            "lang": "de"
+        }
+    ],
+    "name": "LithiumIronPhosphateElectrode",
+    "exact_ontology_match": [
+        "https://w3id.org/emmo/domain/electrochemistry#electrochemistry_1d0f15cb_d6b5_4c27_89ca_fe78adc1ce5b"
+    ],
+    "meta": {
+        "uuid": "4c8fd25f-bad0-4c26-aeec-f9eb123df754",
+        "wiki_page": {
+            "title": "OSW6dbd9ac54d234e058deef9a239bd8633",
+            "namespace": "Category"
+        },
+        "change_id": [
+            "f9c3f8d4-8640-44f6-9106-8d05ef86d6ab"
+        ]
+    }
+}

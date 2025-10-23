@@ -3,14 +3,34 @@
         "Category:OSW182916df3eee472e88e7c8d114a7fe27"
     ],
     "subclass_of": [
-        "Category:OSW1ee1f5ccdb564f4e829b76b76028aa77"
+        "Category:OSWd5791d13ae43423ebb97ceb942c62d10"
     ],
     "uuid": "d82bda46-1d47-4a5d-bf27-4c8bd6f1cfcd",
     "label": [
         {
             "text": "Lithium metal",
             "lang": "en"
+        },
+        {
+            "text": "Lithium-Metall",
+            "lang": "de"
         }
     ],
-    "name": "LithiumMetal"
+    "name": "Lithium",
+    "ordering_categories": [
+        "Category:OSW1ee1f5ccdb564f4e829b76b76028aa77"
+    ],
+    "exact_ontology_match": [
+        "https://w3id.org/emmo/domain/chemical-substance#substance_c109ca45_08c7_4436_a818_a9c575785e2f"
+    ],
+    "meta": {
+        "uuid": "f6e41895-9d50-483f-9ef1-a5f5645e6577",
+        "wiki_page": {
+            "title": "OSWd82bda461d474a5dbf274c8bd6f1cfcd",
+            "namespace": "Category"
+        },
+        "change_id": [
+            "f9c3f8d4-8640-44f6-9106-8d05ef86d6ab"
+        ]
+    }
 }

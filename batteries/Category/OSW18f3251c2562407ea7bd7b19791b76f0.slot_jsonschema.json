@@ -1,0 +1,29 @@
+{
+    "@context": [
+        "/wiki/Category:OSWdda41d4a4ec0421babe0295c6edcb5df?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSWdda41d4a4ec0421babe0295c6edcb5df?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "18f3251c-2562-407e-a7bd-7b19791b76f0",
+    "title": "BioLogicTestProcedure",
+    "title*": {
+        "en": "BioLogic test procedure",
+        "de": "BioLogic-Testprozedur"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW18f3251c2562407ea7bd7b19791b76f0"
+            ]
+        }
+    }
+}

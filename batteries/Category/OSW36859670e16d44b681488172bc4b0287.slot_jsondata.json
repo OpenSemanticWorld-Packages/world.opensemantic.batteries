@@ -1,0 +1,33 @@
+{
+    "subclass_of": [
+        "Category:OSWd4bff0a542404ed5b70fcd79e4815b2b"
+    ],
+    "type": [
+        "Category:Category"
+    ],
+    "uuid": "36859670-e16d-44b6-8148-8172bc4b0287",
+    "label": [
+        {
+            "text": "Formation test procedure",
+            "lang": "en"
+        },
+        {
+            "text": "Formierungs-Testprozedur",
+            "lang": "de"
+        }
+    ],
+    "description": [
+        {
+            "text": "Usually a sequence of charging and discharging cycles with a rather low C-rate to ensure uniform solid electrolyte interface build-up",
+            "lang": "en"
+        },
+        {
+            "text": "In der Regel eine Abfolge von Lade- und Entladezyklen mit einer eher niedrigen C-Rate, um einen gleichmäßigen Aufbau der Festelektrolyt-Grenzfläche zu gewährleisten",
+            "lang": "de"
+        }
+    ],
+    "name": "FormationTestProcedure",
+    "keywords": [
+        "Item:OSW452ec0273916478099c4716395e1bc18"
+    ]
+}

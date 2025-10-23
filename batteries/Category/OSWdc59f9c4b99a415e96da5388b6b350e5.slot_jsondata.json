@@ -3,14 +3,21 @@
         "Category:OSW182916df3eee472e88e7c8d114a7fe27"
     ],
     "subclass_of": [
-        "Category:OSW1ee1f5ccdb564f4e829b76b76028aa77"
+        "Category:OSWd5791d13ae43423ebb97ceb942c62d10"
     ],
     "uuid": "dc59f9c4-b99a-415e-96da-5388b6b350e5",
     "label": [
         {
-            "text": "Graphite silicon mixture",
+            "text": "Graphite silicon composite",
             "lang": "en"
+        },
+        {
+            "text": "Graphit-Silizium-Komposit",
+            "lang": "de"
         }
     ],
-    "name": "GraphiteSiliconMixture"
+    "name": "GraphiteSiliconComposite",
+    "ordering_categories": [
+        "Category:OSW1ee1f5ccdb564f4e829b76b76028aa77"
+    ]
 }

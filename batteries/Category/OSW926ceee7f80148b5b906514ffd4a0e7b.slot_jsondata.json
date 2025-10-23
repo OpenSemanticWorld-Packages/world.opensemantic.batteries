@@ -1,0 +1,32 @@
+{
+    "subclass_of": [
+        "Category:OSW8cb1fd1ec61449df88299dc5a8687020"
+    ],
+    "type": [
+        "Category:Category"
+    ],
+    "uuid": "926ceee7-f801-48b5-b906-514ffd4a0e7b",
+    "label": [
+        {
+            "text": "GEIS test procedure",
+            "lang": "en"
+        },
+        {
+            "text": "GEIS-Testprozedur",
+            "lang": "de"
+        },
+        {
+            "text": "Galvanostatic Electrochemical Impedance Spectroscopy Test Procedure",
+            "lang": "en"
+        },
+        {
+            "text": "Testprozedur für galvanostatische elektrochemische Impedanzspektroskopie",
+            "lang": "de"
+        }
+    ],
+    "description": [],
+    "keywords": [
+        "Item:OSW452ec0273916478099c4716395e1bc18"
+    ],
+    "name": "GEISTestProcedure"
+}

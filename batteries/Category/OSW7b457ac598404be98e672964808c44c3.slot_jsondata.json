@@ -1,0 +1,30 @@
+{
+    "type": [
+        "Category:OSWdd31fe7aeeee4565a7c16254b9948874"
+    ],
+    "active_material": [
+        "Category:OSWb1428c1d948849eaa7bb50543a140a27"
+    ],
+    "current_collector": [],
+    "binder": [],
+    "conductive_additive": [],
+    "ordering_categories": [
+        "Category:OSW95f2c45c7e0142e7a1b558d2a84b686f"
+    ],
+    "subclass_of": [
+        "Category:OSW7024409a760948c6a104753d90e43c39"
+    ],
+    "uuid": "7b457ac5-9840-4be9-8e67-2964808c44c3",
+    "label": [
+        {
+            "text": "NMC111 electrode",
+            "lang": "en"
+        },
+        {
+            "text": "NMC111-Elektrode",
+            "lang": "de"
+        }
+    ],
+    "description": [],
+    "name": "Nmc111Electrode"
+}

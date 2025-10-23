@@ -1,0 +1,32 @@
+{
+    "@context": [
+        "/wiki/Category:OSWdda41d4a4ec0421babe0295c6edcb5df?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSWdda41d4a4ec0421babe0295c6edcb5df?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "8cb1fd1e-c614-49df-8829-9dc5a8687020",
+    "title": "EisTestProcedure",
+    "title*": {
+        "en": "Electrochemical impedance spectroscopy test procedure",
+        "de": "Testprozedur für elektrochemischen Impedanzspektroskopie"
+    },
+    "description": "EIS  is a method used to analyze the electrical properties of materials and interfaces in electrochemical systems. It involves applying a small alternating current (AC) voltage over a range of frequencies to an electrochemical cell and measuring the resulting current response. The impedance data collected helps characterize processes such as charge transfer, diffusion, and double-layer capacitance, making EIS valuable in fields like battery research, corrosion studies, and sensor development.",
+    "description*": {
+        "en": "EIS  is a method used to analyze the electrical properties of materials and interfaces in electrochemical systems. It involves applying a small alternating current (AC) voltage over a range of frequencies to an electrochemical cell and measuring the resulting current response. The impedance data collected helps characterize processes such as charge transfer, diffusion, and double-layer capacitance, making EIS valuable in fields like battery research, corrosion studies, and sensor development.",
+        "de": "EIS ist eine Methode zur Analyse der elektrischen Eigenschaften von Materialien und Grenzflächen in elektrochemischen Systemen. Dabei wird eine geringe Wechselspannung über einen Frequenzbereich an eine elektrochemische Zelle angelegt und die resultierende Stromantwort gemessen. Die erfassten Impedanzdaten helfen bei der Charakterisierung von Prozessen wie Ladungstransfer, Diffusion und Doppelschichtkapazität, was EIS in Bereichen wie Batterieforschung, Korrosionsstudien und Sensorentwicklung wertvoll macht."
+    },
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW8cb1fd1ec61449df88299dc5a8687020"
+            ]
+        }
+    }
+}

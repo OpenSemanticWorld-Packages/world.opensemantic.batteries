@@ -1,0 +1,18 @@
+{
+    "type": [
+        "Category:OSWc8108cfc369241aba154c4c306497c30"
+    ],
+    "uuid": "7f80aa41-e595-47b6-9dbe-612c1d3d3833",
+    "label": [
+        {
+            "text": "Swagelock",
+            "lang": "en"
+        },
+        {
+            "text": "Swagelock",
+            "lang": "de"
+        }
+    ],
+    "description": [],
+    "name": "SwagelockCellFormFactor"
+}

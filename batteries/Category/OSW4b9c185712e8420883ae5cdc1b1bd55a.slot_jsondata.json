@@ -1,0 +1,32 @@
+{
+    "subclass_of": [
+        "Category:OSW8cb1fd1ec61449df88299dc5a8687020"
+    ],
+    "type": [
+        "Category:Category"
+    ],
+    "uuid": "4b9c1857-12e8-4208-83ae-5cdc1b1bd55a",
+    "label": [
+        {
+            "text": "PEIS",
+            "lang": "en"
+        },
+        {
+            "text": "PEIS",
+            "lang": "de"
+        },
+        {
+            "text": "Potentiostatic Electrochemical Impedance Spectroscopy Test Procedure",
+            "lang": "en"
+        },
+        {
+            "text": "Testprozedur für Potentiostatische elektrochemische Impedanzspektroskopie",
+            "lang": "de"
+        }
+    ],
+    "description": [],
+    "name": "PEISTestProcedure",
+    "keywords": [
+        "Item:OSW452ec0273916478099c4716395e1bc18"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "@context": [
+        "/wiki/Category:OSW97c67a6938cd401a8eadcc03bbce9ef1?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW97c67a6938cd401a8eadcc03bbce9ef1?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "89eb5866-0644-42f7-a63b-e78928c6011c",
+    "title": "GraphiteSiliconCompositeElectrode",
+    "title*": {
+        "en": "Graphite-Silizium-Komposit-Elektrode"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW89eb5866064442f7a63be78928c6011c"
+            ]
+        }
+    }
+}

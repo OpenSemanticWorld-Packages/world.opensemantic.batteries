@@ -1,0 +1,39 @@
+{
+    "type": [
+        "Category:OSWdd31fe7aeeee4565a7c16254b9948874"
+    ],
+    "active_material": [
+        "Category:OSWdc59f9c4b99a415e96da5388b6b350e5"
+    ],
+    "ordering_categories": [
+        "Category:OSWe38172164e4c423f9b56385bc9cd0a3c"
+    ],
+    "subclass_of": [
+        "Category:OSW97c67a6938cd401a8eadcc03bbce9ef1"
+    ],
+    "uuid": "89eb5866-0644-42f7-a63b-e78928c6011c",
+    "label": [
+        {
+            "text": "Graphite silicon composite electrode",
+            "lang": "en"
+        },
+        {
+            "text": "Graphite-Silizium-Komposit-Elektrode",
+            "lang": "De"
+        }
+    ],
+    "name": "SiliconGraphiteElectrode",
+    "exact_ontology_match": [
+        "https://w3id.org/emmo/domain/electrochemistry#electrochemistry_e8c39ecc_29d1_4172_996e_d5b05dc88015"
+    ],
+    "meta": {
+        "uuid": "137aaff8-f4eb-498a-bd5f-48c02238bc55",
+        "wiki_page": {
+            "title": "OSW89eb5866064442f7a63be78928c6011c",
+            "namespace": "Category"
+        },
+        "change_id": [
+            "f9c3f8d4-8640-44f6-9106-8d05ef86d6ab"
+        ]
+    }
+}

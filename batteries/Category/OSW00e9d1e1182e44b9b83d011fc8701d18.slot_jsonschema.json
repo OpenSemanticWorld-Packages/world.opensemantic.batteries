@@ -1,0 +1,36 @@
+{
+    "@context": [
+        "/wiki/Category:OSW97c67a6938cd401a8eadcc03bbce9ef1?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW97c67a6938cd401a8eadcc03bbce9ef1?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "00e9d1e1-182e-44b9-b83d-011fc8701d18",
+    "title": "LithiumCobaltOxideElectrode",
+    "title*": {
+        "en": "LCO electrode",
+        "de": "LCO-Elektrode"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW00e9d1e1182e44b9b83d011fc8701d18"
+            ]
+        },
+        "active_material": {
+            "range": "Category:OSW70b37e4e6d014343a00ba532edce45f1"
+        }
+    },
+    "defaultProperties": [
+        "label",
+        "active_material"
+    ]
+}

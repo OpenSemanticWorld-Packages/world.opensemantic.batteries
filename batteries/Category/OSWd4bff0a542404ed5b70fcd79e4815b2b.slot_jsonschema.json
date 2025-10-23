@@ -1,0 +1,32 @@
+{
+    "@context": [
+        "/wiki/Category:OSWdda41d4a4ec0421babe0295c6edcb5df?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSWdda41d4a4ec0421babe0295c6edcb5df?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "d4bff0a5-4240-4ed5-b70f-cd79e4815b2b",
+    "title": "CyclingProcedure",
+    "title*": {
+        "en": "Cycling test procedure",
+        "de": "Zyklisierungs-Testprozedur"
+    },
+    "description": "Electrochemical test procedure that involves repeated charging and discharging",
+    "description*": {
+        "en": "Electrochemical test procedure that involves repeated charging and discharging",
+        "de": "Elektrochemische Testprozedur, die das wiederholtes Laden und Entladen beinhaltet"
+    },
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSWd4bff0a542404ed5b70fcd79e4815b2b"
+            ]
+        }
+    }
+}

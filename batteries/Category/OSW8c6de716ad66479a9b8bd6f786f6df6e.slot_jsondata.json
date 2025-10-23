@@ -8,9 +8,13 @@
     "uuid": "8c6de716-ad66-479a-9b8b-d6f786f6df6e",
     "label": [
         {
-            "text": "MetaBatteryCategory",
+            "text": "Battery cell type",
             "lang": "en"
+        },
+        {
+            "text": "Batteriezelltyp",
+            "lang": "de"
         }
     ],
-    "name": "MetaBatteryCategory"
+    "name": "BatteryCellType"
 }

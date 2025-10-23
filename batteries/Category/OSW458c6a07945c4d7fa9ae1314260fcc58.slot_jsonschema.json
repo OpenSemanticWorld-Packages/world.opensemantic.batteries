@@ -1,0 +1,29 @@
+{
+    "@context": [
+        "/wiki/Category:OSWc02165dc24544a10a2046b54506dedac?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSWc02165dc24544a10a2046b54506dedac?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "458c6a07-945c-4d7f-a9ae-1314260fcc58",
+    "title": "Electrolyte",
+    "title*": {
+        "en": "Electrolyte",
+        "de": "Elektrolyt"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW458c6a07945c4d7fa9ae1314260fcc58"
+            ]
+        }
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "type": [
+        "Category:OSWdd31fe7aeeee4565a7c16254b9948874"
+    ],
+    "active_material": [
+        "Category:OSW2cfa957f5e824cf38da52d547cebe73d"
+    ],
+    "subclass_of": [
+        "Category:OSW97c67a6938cd401a8eadcc03bbce9ef1"
+    ],
+    "uuid": "006c2239-c71d-486a-8c3c-d8753abefe97",
+    "label": [
+        {
+            "text": "Graphite electrode",
+            "lang": "en"
+        },
+        {
+            "text": "Graphitelektrode",
+            "lang": "de"
+        }
+    ],
+    "name": "GraphiteElectrode",
+    "ordering_categories": [
+        "Category:OSWe38172164e4c423f9b56385bc9cd0a3c"
+    ],
+    "exact_ontology_match": [
+        "https://w3id.org/emmo/domain/electrochemistry#electrochemistry_c831d963_629a_41ab_850f_97fb6841b739"
+    ],
+    "meta": {
+        "uuid": "69bfc030-8b4a-4214-adfb-ef2832d1af98",
+        "wiki_page": {
+            "title": "OSW006c2239c71d486a8c3cd8753abefe97",
+            "namespace": "Category"
+        },
+        "change_id": [
+            "f9c3f8d4-8640-44f6-9106-8d05ef86d6ab"
+        ]
+    }
+}

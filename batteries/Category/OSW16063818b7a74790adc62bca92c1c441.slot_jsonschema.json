@@ -1,0 +1,29 @@
+{
+    "@context": [
+        "/wiki/Category:OSW97c67a6938cd401a8eadcc03bbce9ef1?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW97c67a6938cd401a8eadcc03bbce9ef1?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "16063818-b7a7-4790-adc6-2bca92c1c441",
+    "title": "LtoElectrode",
+    "title*": {
+        "en": "LTO electrode",
+        "de": "LTO-Elektrode"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW16063818b7a74790adc62bca92c1c441"
+            ]
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "type": [
+        "Category:OSWdd31fe7aeeee4565a7c16254b9948874"
+    ],
+    "active_material": [
+        "Category:OSW46efd6e0ad714dd8a2cf6d5e7131d8ae"
+    ],
+    "subclass_of": [
+        "Category:OSW97c67a6938cd401a8eadcc03bbce9ef1"
+    ],
+    "uuid": "fa1c14b3-5c2f-49f4-bee4-04bc8fba667e",
+    "label": [
+        {
+            "text": "Lithium manganese oxide electrode",
+            "lang": "en"
+        },
+        {
+            "text": "LMO electrode",
+            "lang": "en"
+        },
+        {
+            "text": "Lithium-Manganoxid-Elektrode",
+            "lang": "de"
+        },
+        {
+            "text": "LMO-Elektrode",
+            "lang": "de"
+        }
+    ],
+    "name": "LithiumManganeseOxideElectrode",
+    "exact_ontology_match": [
+        "https://w3id.org/emmo/domain/electrochemistry#electrochemistry_c231227b_f318_4e59_ad90_6e91072903ed"
+    ],
+    "meta": {
+        "uuid": "51143229-2087-4ac8-9bf3-4cbdfd0b23f2",
+        "wiki_page": {
+            "title": "OSWfa1c14b35c2f49f4bee404bc8fba667e",
+            "namespace": "Category"
+        },
+        "change_id": [
+            "f9c3f8d4-8640-44f6-9106-8d05ef86d6ab"
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "@context": [
+        "/wiki/Category:OSW7024409a760948c6a104753d90e43c39?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW7024409a760948c6a104753d90e43c39?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "5c1c253b-8f0e-40a6-9183-fb4dcfc4a90e",
+    "title": "Nmc811Electrode",
+    "title*": {
+        "en": "NMC811 electrode",
+        "de": "NMC811-Electrode"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW5c1c253b8f0e40a69183fb4dcfc4a90e"
+            ]
+        }
+    }
+}

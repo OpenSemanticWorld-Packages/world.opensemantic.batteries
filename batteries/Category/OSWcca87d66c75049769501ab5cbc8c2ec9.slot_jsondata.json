@@ -1,0 +1,33 @@
+{
+    "type": [
+        "Category:OSW182916df3eee472e88e7c8d114a7fe27"
+    ],
+    "subclass_of": [
+        "Category:OSW3ba81be2e4f948a9a758b6d18cfd643c"
+    ],
+    "uuid": "cca87d66-c750-4976-9501-ab5cbc8c2ec9",
+    "label": [
+        {
+            "text": "Electrolyte additive",
+            "lang": "en"
+        },
+        {
+            "text": "Elektrolytadditiv",
+            "lang": "de"
+        }
+    ],
+    "name": "ElectrolyteAdditive",
+    "exact_ontology_match": [
+        "https://w3id.org/emmo/domain/electrochemistry#electrochemistry_554286d4_1f46_44c0_bebc_4ddae00dbce1"
+    ],
+    "meta": {
+        "uuid": "6fffba0c-3ee4-48fa-b5a7-832223af3de8",
+        "wiki_page": {
+            "title": "OSWcca87d66c75049769501ab5cbc8c2ec9",
+            "namespace": "Category"
+        },
+        "change_id": [
+            "f9c3f8d4-8640-44f6-9106-8d05ef86d6ab"
+        ]
+    }
+}

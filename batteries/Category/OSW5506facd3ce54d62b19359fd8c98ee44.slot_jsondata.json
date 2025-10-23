@@ -1,0 +1,47 @@
+{
+    "type": [
+        "Category:OSWdd31fe7aeeee4565a7c16254b9948874"
+    ],
+    "active_material": [
+        "Category:OSW863e89704c0243a68749f747eaa9f3b6"
+    ],
+    "ordering_categories": [
+        "Category:OSW95f2c45c7e0142e7a1b558d2a84b686f"
+    ],
+    "subclass_of": [
+        "Category:OSW97c67a6938cd401a8eadcc03bbce9ef1"
+    ],
+    "uuid": "5506facd-3ce5-4d62-b193-59fd8c98ee44",
+    "label": [
+        {
+            "text": "NCA electrode",
+            "lang": "en"
+        },
+        {
+            "text": "Lithium Nickel Cobalt Aluminum Oxide Electrode",
+            "lang": "en"
+        },
+        {
+            "text": "NCA-Elektrode",
+            "lang": "de"
+        },
+        {
+            "text": "Lithium-Nickel-Cobalt-Aluminiumoxid-Elektrode",
+            "lang": "de"
+        }
+    ],
+    "name": "LithiumNickelCobaltAluminumOxideElectrode",
+    "exact_ontology_match": [
+        "https://w3id.org/emmo/domain/electrochemistry#electrochemistry_f19d3b4f_d59b_4a92_a547_54a6f59cc9b4"
+    ],
+    "meta": {
+        "uuid": "868d244e-3a52-4e13-aa55-328275a90dc5",
+        "wiki_page": {
+            "title": "OSW5506facd3ce54d62b19359fd8c98ee44",
+            "namespace": "Category"
+        },
+        "change_id": [
+            "f9c3f8d4-8640-44f6-9106-8d05ef86d6ab"
+        ]
+    }
+}

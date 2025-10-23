@@ -1,0 +1,22 @@
+{
+    "type": [
+        "Category:OSWca99a9bb9ad24386b222d18a73c2af5e"
+    ],
+    "subclass_of": [
+        "Category:OSW90ff02fb27dc4a1ca0c09c8ddc739589",
+        "Category:OSW156137fa74914572ad2998f7f6594bca"
+    ],
+    "uuid": "59e55b5f-fb65-4d4b-a24c-5d2c0bb755e4",
+    "label": [
+        {
+            "text": "Battery module with sensors",
+            "lang": "en"
+        },
+        {
+            "text": "Batterie modul mit Sensoren",
+            "lang": "de"
+        }
+    ],
+    "description": [],
+    "name": "BatteryModuleWithSensors"
+}

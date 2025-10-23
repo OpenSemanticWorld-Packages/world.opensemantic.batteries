@@ -1,0 +1,36 @@
+{
+    "@context": [
+        "/wiki/Category:OSW97c67a6938cd401a8eadcc03bbce9ef1?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW97c67a6938cd401a8eadcc03bbce9ef1?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "fa1c14b3-5c2f-49f4-bee4-04bc8fba667e",
+    "title": "LithiumManganeseOxideElectrode",
+    "title*": {
+        "en": "LMO electrode",
+        "de": "LMO-Elektrode"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSWfa1c14b35c2f49f4bee404bc8fba667e"
+            ]
+        },
+        "active_material": {
+            "range": "Category:OSW46efd6e0ad714dd8a2cf6d5e7131d8ae"
+        }
+    },
+    "defaultProperties": [
+        "label",
+        "active_material"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "type": [
+        "Category:OSWd845b96813a344458f140e48c4d063fd"
+    ],
+    "subclass_of": [
+        "Category:OSW69729530f3ca4addaf8dd95ea3781607"
+    ],
+    "uuid": "f036fa25-41c5-4bd4-bc40-95167b4af60c",
+    "label": [
+        {
+            "text": "Battery cycler",
+            "lang": "en"
+        },
+        {
+            "text": "Batterietester",
+            "lang": "de"
+        }
+    ],
+    "name": "BatteryCycler",
+    "exact_ontology_match": [
+        "https://w3id.org/emmo/domain/battery#battery_23e6170d_a70b_4de9_a4db_458e24a327ac"
+    ],
+    "meta": {
+        "uuid": "c28b6634-82dc-44f5-beed-d785a03ec73f",
+        "wiki_page": {
+            "title": "OSWf036fa2541c54bd4bc4095167b4af60c",
+            "namespace": "Category"
+        },
+        "change_id": [
+            "f9c3f8d4-8640-44f6-9106-8d05ef86d6ab"
+        ]
+    }
+}

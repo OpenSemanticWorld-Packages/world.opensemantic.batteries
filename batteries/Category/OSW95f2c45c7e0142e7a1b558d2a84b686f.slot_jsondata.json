@@ -1,0 +1,36 @@
+{
+    "type": [
+        "Category:OSW182916df3eee472e88e7c8d114a7fe27"
+    ],
+    "subclass_of": [
+        "Category:OSW97c67a6938cd401a8eadcc03bbce9ef1"
+    ],
+    "uuid": "95f2c45c-7e01-42e7-a1b5-58d2a84b686f",
+    "label": [
+        {
+            "text": "Positive Electrode",
+            "lang": "en"
+        },
+        {
+            "text": "Positive Elektrode",
+            "lang": "de"
+        }
+    ],
+    "keywords": [
+        "Item:OSW452ec0273916478099c4716395e1bc18"
+    ],
+    "name": "PositiveElectrode",
+    "exact_ontology_match": [
+        "https://w3id.org/emmo/domain/electrochemistry#electrochemistry_aff732a9_238a_4734_977c_b2ba202af126"
+    ],
+    "meta": {
+        "uuid": "cb46f9c7-0512-45ab-a610-14ccde863745",
+        "wiki_page": {
+            "title": "OSW95f2c45c7e0142e7a1b558d2a84b686f",
+            "namespace": "Category"
+        },
+        "change_id": [
+            "f9c3f8d4-8640-44f6-9106-8d05ef86d6ab"
+        ]
+    }
+}

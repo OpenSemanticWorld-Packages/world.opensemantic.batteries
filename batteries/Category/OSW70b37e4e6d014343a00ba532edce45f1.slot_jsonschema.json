@@ -1,0 +1,29 @@
+{
+    "@context": [
+        "/wiki/Category:OSWd5791d13ae43423ebb97ceb942c62d10?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSWd5791d13ae43423ebb97ceb942c62d10?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "70b37e4e-6d01-4343-a00b-a532edce45f1",
+    "title": "LithiumCobaltOxide",
+    "title*": {
+        "en": "LCO",
+        "de": "LCO"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW70b37e4e6d014343a00ba532edce45f1"
+            ]
+        }
+    }
+}

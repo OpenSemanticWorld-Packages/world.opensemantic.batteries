@@ -3,14 +3,34 @@
         "Category:OSW182916df3eee472e88e7c8d114a7fe27"
     ],
     "subclass_of": [
-        "Category:OSW1ee1f5ccdb564f4e829b76b76028aa77"
+        "Category:OSWd5791d13ae43423ebb97ceb942c62d10"
     ],
     "uuid": "39eb4428-d105-496b-b4fd-64e276b80cff",
     "label": [
         {
             "text": "Silicon",
             "lang": "en"
+        },
+        {
+            "text": "Silizium",
+            "lang": "de"
         }
     ],
-    "name": "Silicon"
+    "name": "Silicon",
+    "ordering_categories": [
+        "Category:OSW1ee1f5ccdb564f4e829b76b76028aa77"
+    ],
+    "exact_ontology_match": [
+        "https://w3id.org/emmo/domain/chemical-substance#substance_68c0876b_cb62_41cd_846d_95cc9d9a8733"
+    ],
+    "meta": {
+        "uuid": "bfcfcfeb-13f4-427a-b88a-9c96880276f3",
+        "wiki_page": {
+            "title": "OSW39eb4428d105496bb4fd64e276b80cff",
+            "namespace": "Category"
+        },
+        "change_id": [
+            "f9c3f8d4-8640-44f6-9106-8d05ef86d6ab"
+        ]
+    }
 }

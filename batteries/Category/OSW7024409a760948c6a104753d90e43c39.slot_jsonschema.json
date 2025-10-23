@@ -1,0 +1,29 @@
+{
+    "@context": [
+        "/wiki/Category:OSW97c67a6938cd401a8eadcc03bbce9ef1?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW97c67a6938cd401a8eadcc03bbce9ef1?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "7024409a-7609-48c6-a104-753d90e43c39",
+    "title": "NmcElectrode",
+    "title*": {
+        "en": "Lithium nickel cobalt manganese oxide electrode",
+        "de": "Lithium-Nickel-Kobalt-Mangan-Oxid-Elektrode"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW7024409a760948c6a104753d90e43c39"
+            ]
+        }
+    }
+}

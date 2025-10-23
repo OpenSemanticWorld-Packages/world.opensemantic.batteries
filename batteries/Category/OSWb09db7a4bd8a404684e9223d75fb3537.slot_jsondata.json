@@ -16,5 +16,18 @@
             "lang": "en"
         }
     ],
-    "name": "StyreneButadieneRubber"
+    "name": "StyreneButadiene",
+    "exact_ontology_match": [
+        "https://w3id.org/emmo/domain/chemical-substance#substance_210edf30_ad63_438c_97db_f817942db49b"
+    ],
+    "meta": {
+        "uuid": "fd098ee2-90ee-450b-be90-94c28d535796",
+        "wiki_page": {
+            "title": "OSWb09db7a4bd8a404684e9223d75fb3537",
+            "namespace": "Category"
+        },
+        "change_id": [
+            "f9c3f8d4-8640-44f6-9106-8d05ef86d6ab"
+        ]
+    }
 }

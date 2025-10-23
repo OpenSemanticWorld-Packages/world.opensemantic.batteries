@@ -1,0 +1,36 @@
+{
+    "type": [
+        "Category:OSW182916df3eee472e88e7c8d114a7fe27"
+    ],
+    "subclass_of": [
+        "Category:OSWc02165dc24544a10a2046b54506dedac"
+    ],
+    "uuid": "97c67a69-38cd-401a-8ead-cc03bbce9ef1",
+    "label": [
+        {
+            "text": "Electrode",
+            "lang": "en"
+        },
+        {
+            "text": "Elektrode",
+            "lang": "de"
+        }
+    ],
+    "description": [
+        {
+            "text": "Electric conductor at which electric charge enters or leave a battery to be exchanged with ions within the electrolyte the electrodes are submerged in",
+            "lang": "en"
+        },
+        {
+            "text": "Elektrischer Leiter, an dem elektrische Ladung in eine Batterie eintritt oder sie verlässt, um mit Ionen im Elektrolyten ausgetauscht zu werden, in den die Elektroden eingetaucht sind",
+            "lang": "de"
+        }
+    ],
+    "rdf_type": [
+        "https://bvco.ontology.link/BVCO_38ce2e41_8b62_4851_a5ac_47d77a6ffa3c"
+    ],
+    "name": "Electrode",
+    "metaclass": [
+        "Category:OSWdd31fe7aeeee4565a7c16254b9948874"
+    ]
+}

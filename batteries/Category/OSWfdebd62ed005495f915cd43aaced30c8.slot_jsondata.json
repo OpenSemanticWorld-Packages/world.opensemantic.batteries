@@ -3,7 +3,7 @@
         "Category:OSWf04e73d3c3cb4e4ea7033066e472e9ff"
     ],
     "type": [
-        "Category:Category"
+        "Category:OSW3892aac6eaa14005968ac59299314e38"
     ],
     "uuid": "fdebd62e-d005-495f-915c-d43aaced30c8",
     "label": [
@@ -12,5 +12,6 @@
             "lang": "en"
         }
     ],
-    "name": "CoinCellFormat"
+    "name": "CoinCellFormat",
+    "battery_cell_form_factor": "Item:OSW630dae487c4949d885402cffcfe1e15b"
 }

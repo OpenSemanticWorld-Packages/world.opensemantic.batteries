@@ -11,8 +11,8 @@
     "uuid": "47c67760-dd16-4c82-b570-f58c8269b373",
     "title": "PostMortemExperiment",
     "title*": {
-        "en": "Postortem-Experiment",
-        "de": "Post Mortem Experiment"
+        "en": "Post-Mortem Experiment",
+        "de": "Post-Mortem-Experiment"
     },
     "description": "A destructive experiment performed on an electrochemical battery cell",
     "description*": {
@@ -26,6 +26,18 @@
         "type": {
             "default": [
                 "Category:OSW47c67760dd164c82b570f58c8269b373"
+            ]
+        },
+        "output": {
+            "items": {
+                "options": {
+                    "autocomplete": {
+                        "query": "[[Category:OSW11a53cdfbdc24524bf8ac435cbf65d9d]]"
+                    }
+                }
+            },
+            "default": [
+                ""
             ]
         }
     }

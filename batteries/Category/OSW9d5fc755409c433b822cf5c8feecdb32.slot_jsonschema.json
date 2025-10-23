@@ -1,0 +1,30 @@
+{
+    "@context": [
+        "/wiki/Category:OSWfa914762adaa4665a63b6a77c3ea6eed?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSWfa914762adaa4665a63b6a77c3ea6eed?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "9d5fc755-409c-433b-822c-f5c8feecdb32",
+    "title": "MechanischerTest",
+    "title*": {
+        "de": "Mechanischer Test "
+    },
+    "description": "Ein Prüfling wird einem mechanischen Test unterzogen.",
+    "description*": {
+        "de": "Ein Prüfling wird einem mechanischen Test unterzogen."
+    },
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW9d5fc755409c433b822cf5c8feecdb32"
+            ]
+        }
+    }
+}

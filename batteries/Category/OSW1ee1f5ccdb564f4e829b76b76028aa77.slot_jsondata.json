@@ -12,5 +12,18 @@
             "lang": "en"
         }
     ],
-    "name": "NegativeActiveMaterial"
+    "name": "NegativeActiveMaterial",
+    "description": [
+        {
+            "text": "A classification category for battery active materials",
+            "lang": "en"
+        },
+        {
+            "text": "Eine Ordnungskategorie für BatterieAktivmaterialien",
+            "lang": "de"
+        }
+    ],
+    "keywords": [
+        "Item:OSW452ec0273916478099c4716395e1bc18"
+    ]
 }

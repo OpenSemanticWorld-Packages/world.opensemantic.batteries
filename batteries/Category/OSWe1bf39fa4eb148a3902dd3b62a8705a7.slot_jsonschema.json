@@ -1,0 +1,29 @@
+{
+    "@context": [
+        "/wiki/Category:OSW97c67a6938cd401a8eadcc03bbce9ef1?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW97c67a6938cd401a8eadcc03bbce9ef1?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "e1bf39fa-4eb1-48a3-902d-d3b62a8705a7",
+    "title": "LnoElectrode",
+    "title*": {
+        "en": "LNO electrode",
+        "de": "LNO-ELektrod"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSWe1bf39fa4eb148a3902dd3b62a8705a7"
+            ]
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "@context": [
+        "/wiki/Category:OSW97c67a6938cd401a8eadcc03bbce9ef1?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW97c67a6938cd401a8eadcc03bbce9ef1?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "709911dd-6f9f-428e-8d8b-99efdabd705e",
+    "title": "LnmoElectrode",
+    "title*": {
+        "en": "LNMO electrode",
+        "de": "LNMO-Elektrode"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW709911dd6f9f428e8d8b99efdabd705e"
+            ]
+        }
+    }
+}

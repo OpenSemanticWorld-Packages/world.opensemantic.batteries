@@ -1,0 +1,30 @@
+{
+    "subclass_of": [
+        "Category:Category"
+    ],
+    "type": [
+        "Category:Category"
+    ],
+    "uuid": "3892aac6-eaa1-4005-968a-c59299314e38",
+    "label": [
+        {
+            "text": "Battery cell format type",
+            "lang": "en"
+        },
+        {
+            "text": "Batteriezellformat-Typ",
+            "lang": "de"
+        }
+    ],
+    "description": [
+        {
+            "text": "Type of a battery cell format. Used primarily to specify the form factor",
+            "lang": "en"
+        },
+        {
+            "text": "Typ des Formats einer Batteriezelle. Wird hauptsächlich zur Angabe des Formfaktors verwendet",
+            "lang": "de"
+        }
+    ],
+    "name": "BatteryCellFormatType"
+}

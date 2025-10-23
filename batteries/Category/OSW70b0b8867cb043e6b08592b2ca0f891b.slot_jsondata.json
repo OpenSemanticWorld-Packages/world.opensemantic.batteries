@@ -1,0 +1,39 @@
+{
+    "type": [
+        "Category:OSWdd31fe7aeeee4565a7c16254b9948874"
+    ],
+    "active_material": [
+        "Category:OSW39eb4428d105496bb4fd64e276b80cff"
+    ],
+    "ordering_categories": [
+        "Category:OSWe38172164e4c423f9b56385bc9cd0a3c"
+    ],
+    "subclass_of": [
+        "Category:OSW97c67a6938cd401a8eadcc03bbce9ef1"
+    ],
+    "uuid": "70b0b886-7cb0-43e6-b085-92b2ca0f891b",
+    "label": [
+        {
+            "text": "Silicon based electrode",
+            "lang": "en"
+        },
+        {
+            "text": "Silizium-basierte Elektrode",
+            "lang": "de"
+        }
+    ],
+    "name": "SiliconBasedElectrode",
+    "exact_ontology_match": [
+        "https://w3id.org/emmo/domain/electrochemistry#electrochemistry_79e12290_d1e5_4c41_916c_18f1e4d7fb51"
+    ],
+    "meta": {
+        "uuid": "408045da-2020-4cb6-be5e-117e82871649",
+        "wiki_page": {
+            "title": "OSW70b0b8867cb043e6b08592b2ca0f891b",
+            "namespace": "Category"
+        },
+        "change_id": [
+            "f9c3f8d4-8640-44f6-9106-8d05ef86d6ab"
+        ]
+    }
+}

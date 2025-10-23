@@ -3,7 +3,7 @@
         "Category:OSW182916df3eee472e88e7c8d114a7fe27"
     ],
     "subclass_of": [
-        "Category:OSW1ee1f5ccdb564f4e829b76b76028aa77"
+        "Category:OSWd5791d13ae43423ebb97ceb942c62d10"
     ],
     "uuid": "2cfa957f-5e82-4cf3-8da5-2d547cebe73d",
     "label": [
@@ -12,5 +12,21 @@
             "lang": "en"
         }
     ],
-    "name": "Graphite"
+    "name": "Graphite",
+    "ordering_categories": [
+        "Category:OSW1ee1f5ccdb564f4e829b76b76028aa77"
+    ],
+    "exact_ontology_match": [
+        "https://w3id.org/emmo/domain/chemical-substance#substance_d53259a7_0d9c_48b9_a6c1_4418169df303"
+    ],
+    "meta": {
+        "uuid": "f913e20f-662f-422d-a305-6f73caae5446",
+        "wiki_page": {
+            "title": "OSW2cfa957f5e824cf38da52d547cebe73d",
+            "namespace": "Category"
+        },
+        "change_id": [
+            "f9c3f8d4-8640-44f6-9106-8d05ef86d6ab"
+        ]
+    }
 }

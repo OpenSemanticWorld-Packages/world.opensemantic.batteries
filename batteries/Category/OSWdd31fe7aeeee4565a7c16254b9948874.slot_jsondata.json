@@ -1,0 +1,30 @@
+{
+    "subclass_of": [
+        "Category:OSWca99a9bb9ad24386b222d18a73c2af5e"
+    ],
+    "type": [
+        "Category:Category"
+    ],
+    "uuid": "dd31fe7a-eeee-4565-a7c1-6254b9948874",
+    "label": [
+        {
+            "text": "Battery electrode type",
+            "lang": "en"
+        },
+        {
+            "text": "Batterielektroden-Typ",
+            "lang": "de"
+        }
+    ],
+    "description": [
+        {
+            "text": "Helps with the creation of subcategories of the category battery electrodes",
+            "lang": "en"
+        },
+        {
+            "text": "Hilft bei der Erzeugung von Subkategorien der Kategorie Batterieelektrode",
+            "lang": "de"
+        }
+    ],
+    "name": "BatteryElectrodeType"
+}

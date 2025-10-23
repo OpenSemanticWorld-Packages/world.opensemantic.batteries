@@ -1,0 +1,39 @@
+{
+    "type": [
+        "Category:OSWdd31fe7aeeee4565a7c16254b9948874"
+    ],
+    "active_material": [
+        "Category:OSW54f5810625574f23ba20936ecad99f7e"
+    ],
+    "ordering_categories": [
+        "Category:OSW95f2c45c7e0142e7a1b558d2a84b686f"
+    ],
+    "subclass_of": [
+        "Category:OSW97c67a6938cd401a8eadcc03bbce9ef1"
+    ],
+    "uuid": "709911dd-6f9f-428e-8d8b-99efdabd705e",
+    "label": [
+        {
+            "text": "LNMO electrode",
+            "lang": "en"
+        },
+        {
+            "text": "LNMO-Elektrode",
+            "lang": "de"
+        }
+    ],
+    "name": "LithiumNickelManganeseOxideElectrode",
+    "exact_ontology_match": [
+        "https://w3id.org/emmo/domain/electrochemistry#electrochemistry_41ddf723_245f_4ce8_b9b1_7d9b3b9eea7d"
+    ],
+    "meta": {
+        "uuid": "76006454-0c8f-457d-a55e-f496816b0b39",
+        "wiki_page": {
+            "title": "OSW709911dd6f9f428e8d8b99efdabd705e",
+            "namespace": "Category"
+        },
+        "change_id": [
+            "f9c3f8d4-8640-44f6-9106-8d05ef86d6ab"
+        ]
+    }
+}

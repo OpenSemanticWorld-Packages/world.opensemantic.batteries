@@ -3,7 +3,7 @@
         "Category:OSWf04e73d3c3cb4e4ea7033066e472e9ff"
     ],
     "type": [
-        "Category:Category"
+        "Category:OSW3892aac6eaa14005968ac59299314e38"
     ],
     "uuid": "204337a8-32bf-43c4-9590-5b3958e17223",
     "label": [
@@ -12,5 +12,6 @@
             "lang": "en"
         }
     ],
-    "name": "PrismaticCellFormat"
+    "name": "PrismaticCellFormat",
+    "battery_cell_form_factor": "Item:OSW70207c817f7440fc947b2debc9f62fc9"
 }

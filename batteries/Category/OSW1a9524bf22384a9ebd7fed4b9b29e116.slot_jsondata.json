@@ -10,7 +10,24 @@
         {
             "text": "Binder",
             "lang": "en"
+        },
+        {
+            "text": "Binder",
+            "lang": "de"
         }
     ],
-    "name": "Binder"
+    "name": "Binder",
+    "exact_ontology_match": [
+        "https://w3id.org/emmo/domain/electrochemistry#electrochemistry_68eb5e35_5bd8_47b1_9b7f_f67224fa291e"
+    ],
+    "meta": {
+        "uuid": "6878fae9-952c-4716-a5ce-8418ac3de8c1",
+        "wiki_page": {
+            "title": "OSW1a9524bf22384a9ebd7fed4b9b29e116",
+            "namespace": "Category"
+        },
+        "change_id": [
+            "f9c3f8d4-8640-44f6-9106-8d05ef86d6ab"
+        ]
+    }
 }

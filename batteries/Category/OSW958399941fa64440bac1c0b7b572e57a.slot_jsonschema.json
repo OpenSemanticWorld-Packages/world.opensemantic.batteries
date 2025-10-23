@@ -1,17 +1,18 @@
 {
     "@context": [
-        "/wiki/Category:OSW1ee1f5ccdb564f4e829b76b76028aa77?action=raw&slot=jsonschema"
+        "/wiki/Category:OSWd5791d13ae43423ebb97ceb942c62d10?action=raw&slot=jsonschema"
     ],
     "allOf": [
         {
-            "$ref": "/wiki/Category:OSW1ee1f5ccdb564f4e829b76b76028aa77?action=raw&slot=jsonschema"
+            "$ref": "/wiki/Category:OSWd5791d13ae43423ebb97ceb942c62d10?action=raw&slot=jsonschema"
         }
     ],
     "type": "object",
     "uuid": "95839994-1fa6-4440-bac1-c0b7b572e57a",
     "title": "LTO",
     "title*": {
-        "en": "Lithium titanate"
+        "en": "Lithium titanate",
+        "de": "Lithium-Titanat"
     },
     "description": "",
     "description*": {},

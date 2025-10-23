@@ -1,6 +1,6 @@
 {
     "type": [
-        "Category:OSW8c6de716ad66479a9b8bd6f786f6df6e"
+        "Category:Category"
     ],
     "subclass_of": [
         "Category:OSW4744375e811943b2a21e922cded383fc"
@@ -25,5 +25,18 @@
     ],
     "instance_rdf_type": [
         "BattINFO:BattINFO#EMMO_68ed592a_7924_45d0_a108_94d6275d57f0"
-    ]
+    ],
+    "exact_ontology_match": [
+        "https://w3id.org/emmo/domain/battery#battery_68ed592a_7924_45d0_a108_94d6275d57f0"
+    ],
+    "meta": {
+        "uuid": "5be29795-ba7b-4d90-89cb-87a978546b2d",
+        "wiki_page": {
+            "title": "OSW680453b7563749a0a33f6be16036c81d",
+            "namespace": "Category"
+        },
+        "change_id": [
+            "f9c3f8d4-8640-44f6-9106-8d05ef86d6ab"
+        ]
+    }
 }

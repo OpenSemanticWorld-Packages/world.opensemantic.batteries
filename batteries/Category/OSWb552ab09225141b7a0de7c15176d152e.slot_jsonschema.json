@@ -1,0 +1,29 @@
+{
+    "@context": [
+        "/wiki/Category:OSWc02165dc24544a10a2046b54506dedac?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSWc02165dc24544a10a2046b54506dedac?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "b552ab09-2251-41b7-a0de-7c15176d152e",
+    "title": "BatteryElectrodeMaterial",
+    "title*": {
+        "en": "Battery electrode material",
+        "de": "Batterieelektroden-Material"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSWb552ab09225141b7a0de7c15176d152e"
+            ]
+        }
+    }
+}

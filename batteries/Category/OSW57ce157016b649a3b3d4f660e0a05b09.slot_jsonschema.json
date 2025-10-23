@@ -1,0 +1,32 @@
+{
+    "@context": [
+        "/wiki/Category:OSWd4bff0a542404ed5b70fcd79e4815b2b?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSWd4bff0a542404ed5b70fcd79e4815b2b?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "57ce1570-16b6-49a3-b3d4-f660e0a05b09",
+    "title": "ReferencePerformanceTestProcedure",
+    "title*": {
+        "en": "Reference performance test procedure",
+        "de": "Referenzleistungstestprozedur"
+    },
+    "description": "The RPT typically involves a series of charge and discharge cycles under controlled conditions. Measurements are taken at regular intervals to track changes in performance metrics such as capacity and internal resistance. ",
+    "description*": {
+        "en": "The RPT typically involves a series of charge and discharge cycles under controlled conditions. Measurements are taken at regular intervals to track changes in performance metrics such as capacity and internal resistance. ",
+        "de": "Das RPT umfasst in der Regel eine Reihe von Lade- und Entladezyklen unter kontrollierten Bedingungen. In regelmäßigen Abständen werden Messungen vorgenommen, um Veränderungen der Leistungskennzahlen wie Kapazität und Innenwiderstand zu verfolgen. "
+    },
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW57ce157016b649a3b3d4f660e0a05b09"
+            ]
+        }
+    }
+}

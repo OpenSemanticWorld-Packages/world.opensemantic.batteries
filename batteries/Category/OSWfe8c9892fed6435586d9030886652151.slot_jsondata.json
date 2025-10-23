@@ -16,5 +16,18 @@
             "lang": "en"
         }
     ],
-    "name": "CarboxymethylCellulose"
+    "name": "CarboxymethylCellulose",
+    "exact_ontology_match": [
+        "https://w3id.org/emmo/domain/chemical-substance#substance_d36fbe2f_6b0a_4178_b6ca_7373bdefcb51"
+    ],
+    "meta": {
+        "uuid": "7d510d1c-d5ad-4ad1-8501-938a9c116050",
+        "wiki_page": {
+            "title": "OSWfe8c9892fed6435586d9030886652151",
+            "namespace": "Category"
+        },
+        "change_id": [
+            "f9c3f8d4-8640-44f6-9106-8d05ef86d6ab"
+        ]
+    }
 }

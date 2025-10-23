@@ -1,0 +1,30 @@
+{
+    "type": [
+        "Category:OSW182916df3eee472e88e7c8d114a7fe27"
+    ],
+    "subclass_of": [
+        "Category:OSWc02165dc24544a10a2046b54506dedac"
+    ],
+    "uuid": "3ba81be2-e4f9-48a9-a758-b6d18cfd643c",
+    "label": [
+        {
+            "text": "Battery electrolyte material",
+            "lang": "en"
+        },
+        {
+            "text": "Batterieelektrolytmaterial",
+            "lang": "de"
+        }
+    ],
+    "description": [
+        {
+            "text": "Material used to compose a battery electrolyte",
+            "lang": "en"
+        },
+        {
+            "text": "Material, aus dem ein Batterieelektrolyt besteht",
+            "lang": "de"
+        }
+    ],
+    "name": "BatteryElectrolyteMaterial"
+}

@@ -1,0 +1,29 @@
+{
+    "@context": [
+        "/wiki/Category:OSW97c67a6938cd401a8eadcc03bbce9ef1?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW97c67a6938cd401a8eadcc03bbce9ef1?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "006c2239-c71d-486a-8c3c-d8753abefe97",
+    "title": "GraphiteElectrode",
+    "title*": {
+        "en": "Graphite electrode",
+        "de": "Graphitelektrode"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW006c2239c71d486a8c3cd8753abefe97"
+            ]
+        }
+    }
+}

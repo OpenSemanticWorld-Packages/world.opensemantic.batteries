@@ -1,0 +1,39 @@
+{
+    "type": [
+        "Category:OSWdd31fe7aeeee4565a7c16254b9948874"
+    ],
+    "active_material": [
+        "Category:OSWd82bda461d474a5dbf274c8bd6f1cfcd"
+    ],
+    "ordering_categories": [
+        "Category:OSWe38172164e4c423f9b56385bc9cd0a3c"
+    ],
+    "subclass_of": [
+        "Category:OSW97c67a6938cd401a8eadcc03bbce9ef1"
+    ],
+    "uuid": "4dc7495a-9029-41cb-ad3b-40c79ddb9a88",
+    "label": [
+        {
+            "text": "Lithium metal electrode",
+            "lang": "en"
+        },
+        {
+            "text": "Lithium-Metall-Elektrode",
+            "lang": "de"
+        }
+    ],
+    "name": "LithiumElectrode",
+    "exact_ontology_match": [
+        "https://w3id.org/emmo/domain/electrochemistry#electrochemistry_55775b50_b9d9_4d68_8cb5_38fcd7b9b54d"
+    ],
+    "meta": {
+        "uuid": "3e274feb-8436-46a3-ba40-dd082795882f",
+        "wiki_page": {
+            "title": "OSW4dc7495a902941cbad3b40c79ddb9a88",
+            "namespace": "Category"
+        },
+        "change_id": [
+            "f9c3f8d4-8640-44f6-9106-8d05ef86d6ab"
+        ]
+    }
+}

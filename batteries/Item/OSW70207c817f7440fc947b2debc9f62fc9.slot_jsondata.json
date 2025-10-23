@@ -1,0 +1,18 @@
+{
+    "type": [
+        "Category:OSWc8108cfc369241aba154c4c306497c30"
+    ],
+    "uuid": "70207c81-7f74-40fc-947b-2debc9f62fc9",
+    "label": [
+        {
+            "text": "Prismatic",
+            "lang": "en"
+        },
+        {
+            "text": "Prismatisch",
+            "lang": "de"
+        }
+    ],
+    "description": [],
+    "name": "PrismaticCellFormFactor"
+}

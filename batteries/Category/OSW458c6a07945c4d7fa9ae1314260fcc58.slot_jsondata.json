@@ -1,0 +1,33 @@
+{
+    "type": [
+        "Category:OSW182916df3eee472e88e7c8d114a7fe27"
+    ],
+    "subclass_of": [
+        "Category:OSWc02165dc24544a10a2046b54506dedac"
+    ],
+    "uuid": "458c6a07-945c-4d7f-a9ae-1314260fcc58",
+    "label": [
+        {
+            "text": "Electrolyte",
+            "lang": "en"
+        },
+        {
+            "text": "Elektrolyt",
+            "lang": "de"
+        }
+    ],
+    "name": "Electrolyte",
+    "exact_ontology_match": [
+        "https://w3id.org/emmo/domain/electrochemistry#electrochemistry_fb0d9eef_92af_4628_8814_e065ca255d59"
+    ],
+    "meta": {
+        "uuid": "18e55d3e-f6b4-4f7a-a3cc-37602653cd6e",
+        "wiki_page": {
+            "title": "OSW458c6a07945c4d7fa9ae1314260fcc58",
+            "namespace": "Category"
+        },
+        "change_id": [
+            "f9c3f8d4-8640-44f6-9106-8d05ef86d6ab"
+        ]
+    }
+}

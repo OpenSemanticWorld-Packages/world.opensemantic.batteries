@@ -1,0 +1,33 @@
+{
+    "subclass_of": [
+        "Category:OSWdda41d4a4ec0421babe0295c6edcb5df"
+    ],
+    "type": [
+        "Category:Category"
+    ],
+    "uuid": "d4bff0a5-4240-4ed5-b70f-cd79e4815b2b",
+    "label": [
+        {
+            "text": "Cycling test procedure",
+            "lang": "en"
+        },
+        {
+            "text": "Zyklisierungs-Testprozedur",
+            "lang": "de"
+        }
+    ],
+    "description": [
+        {
+            "text": "Electrochemical test procedure that involves repeated charging and discharging",
+            "lang": "en"
+        },
+        {
+            "text": "Elektrochemische Testprozedur, die das wiederholtes Laden und Entladen beinhaltet",
+            "lang": "de"
+        }
+    ],
+    "name": "CyclingTestProcedure",
+    "keywords": [
+        "Item:OSW452ec0273916478099c4716395e1bc18"
+    ]
+}

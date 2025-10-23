@@ -1,0 +1,36 @@
+{
+    "@context": [
+        "/wiki/Category:OSW97c67a6938cd401a8eadcc03bbce9ef1?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW97c67a6938cd401a8eadcc03bbce9ef1?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "70b0b886-7cb0-43e6-b085-92b2ca0f891b",
+    "title": "SiliconElectrode",
+    "title*": {
+        "en": "Silicon based electrode",
+        "de": "Silizium-basierte Elektrode"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW70b0b8867cb043e6b08592b2ca0f891b"
+            ]
+        },
+        "active_material": {
+            "range": "Category:OSW39eb4428d105496bb4fd64e276b80cff"
+        }
+    },
+    "defaultProperties": [
+        "label",
+        "active_material"
+    ]
+}

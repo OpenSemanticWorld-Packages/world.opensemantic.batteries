@@ -1,0 +1,55 @@
+{
+    "@context": [
+        "/wiki/Category:Category?action=raw&slot=jsonschema",
+        {
+            "battery_cell_form_factor": {
+                "@id": "Property:HasFormFactor",
+                "@type": "@id"
+            }
+        }
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:Category?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "3892aac6-eaa1-4005-968a-c59299314e38",
+    "title": "BatteryCellFormatType",
+    "title*": {
+        "en": "Battery cell format type",
+        "de": "Batteriezellformat-Typ"
+    },
+    "description": "Type of a battery cell format. Used primarily to specify the form factor",
+    "description*": {
+        "en": "Type of a battery cell format. Used primarily to specify the form factor",
+        "de": "Typ des Formats einer Batteriezelle. Wird hauptsächlich zur Angabe des Formfaktors verwendet"
+    },
+    "required": [
+        "type",
+        "battery_cell_form_factor"
+    ],
+    "defaultProperties": [
+        "battery_cell_form_factor"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW3892aac6eaa14005968ac59299314e38"
+            ]
+        },
+        "battery_cell_form_factor": {
+            "title": "Form factor",
+            "title*": {
+                "de": "Formfaktor"
+            },
+            "description": "Form factor of the battery cell format",
+            "description*": {
+                "de": "Formfaktor des Batteriezellenformats"
+            },
+            "type": "string",
+            "format": "autocomplete",
+            "range": "Category:OSWc8108cfc369241aba154c4c306497c30"
+        }
+    }
+}

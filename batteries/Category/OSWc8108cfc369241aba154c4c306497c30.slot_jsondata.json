@@ -1,0 +1,30 @@
+{
+    "subclass_of": [
+        "Category:OSW83c7be482a5e4e349f9875194e6f180d"
+    ],
+    "type": [
+        "Category:Category"
+    ],
+    "uuid": "c8108cfc-3692-41ab-a154-c4c306497c30",
+    "label": [
+        {
+            "text": "Battery cell form factor",
+            "lang": "en"
+        },
+        {
+            "text": "Batteriezellformfaktor",
+            "lang": "de"
+        }
+    ],
+    "description": [
+        {
+            "text": "The form factor of an electrochemical battery cell. Not to be confused with battery cell format. A number of cell formats can belong to a certain form factor. E.g. 18650 and 21700 are formats with cylindrical form factor",
+            "lang": "en"
+        },
+        {
+            "text": "Der Formfaktor einer elektrochemischen Batteriezelle. Nicht zu verwechseln mit dem Format einer Batteriezelle. Eine Reihe von Zellenformaten kann zu einem bestimmten Formfaktor gehören. Z.B. 18650 und 21700 sind Formate mit zylindrischem Formfaktor",
+            "lang": "de"
+        }
+    ],
+    "name": "BatteryCellFormFactor"
+}

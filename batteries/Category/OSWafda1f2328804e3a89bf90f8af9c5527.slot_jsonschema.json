@@ -17,8 +17,10 @@
     "description": "",
     "description*": {},
     "required": [
-        "type",
-        "uuid"
+        "type"
+    ],
+    "defaultProperties": [
+        "input"
     ],
     "properties": {
         "type": {
@@ -39,13 +41,6 @@
                 }
             },
             "default": "File:OSWaa635a571dfb4aa682e43b98937f5dd3.pdf"
-        },
-        "uuid": {
-            "type": "string",
-            "format": "uuid",
-            "options": {
-                "hidden": true
-            }
         },
         "input": {
             "items": {

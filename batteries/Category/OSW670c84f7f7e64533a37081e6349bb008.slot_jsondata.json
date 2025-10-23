@@ -3,7 +3,7 @@
         "Category:OSW182916df3eee472e88e7c8d114a7fe27"
     ],
     "subclass_of": [
-        "Category:OSW6110d42bba33448b9a6348a3cd28b921"
+        "Category:OSWd5791d13ae43423ebb97ceb942c62d10"
     ],
     "uuid": "670c84f7-f7e6-4533-a370-81e6349bb008",
     "label": [
@@ -20,9 +20,41 @@
             "lang": "en"
         },
         {
-            "text": "LIthium nickel cobalt manganese oxide",
+            "text": "Lithium nickel cobalt manganese oxide",
             "lang": "en"
+        },
+        {
+            "text": "NMC",
+            "lang": "de"
+        },
+        {
+            "text": "NCM",
+            "lang": "de"
+        },
+        {
+            "text": "Lithium-Nickel-Mangan-Cobalt-Oxid",
+            "lang": "de"
+        },
+        {
+            "text": "Lithium-Nickel-Cobalt-Mangan-Oxid",
+            "lang": "de"
         }
     ],
-    "name": "NMC"
+    "name": "LithiumNickelManganeseCobaltOxide",
+    "ordering_categories": [
+        "Category:OSW6110d42bba33448b9a6348a3cd28b921"
+    ],
+    "exact_ontology_match": [
+        "https://w3id.org/emmo/domain/chemical-substance#substance_3ac62305_acd6_4312_9e31_4f824bd2530d"
+    ],
+    "meta": {
+        "uuid": "9afd3894-e309-4dd6-98c6-5beb1883a0f2",
+        "wiki_page": {
+            "title": "OSW670c84f7f7e64533a37081e6349bb008",
+            "namespace": "Category"
+        },
+        "change_id": [
+            "f9c3f8d4-8640-44f6-9106-8d05ef86d6ab"
+        ]
+    }
 }

@@ -1,0 +1,44 @@
+{
+    "type": [
+        "Category:OSWdd31fe7aeeee4565a7c16254b9948874"
+    ],
+    "active_material": [
+        "Category:OSW70b37e4e6d014343a00ba532edce45f1"
+    ],
+    "subclass_of": [
+        "Category:OSW97c67a6938cd401a8eadcc03bbce9ef1"
+    ],
+    "uuid": "00e9d1e1-182e-44b9-b83d-011fc8701d18",
+    "label": [
+        {
+            "text": "Lithium cobalt oxide electrode",
+            "lang": "en"
+        },
+        {
+            "text": "LCO electrode",
+            "lang": "en"
+        },
+        {
+            "text": "Lithium-Kobaltoxid-Elektrode",
+            "lang": "de"
+        },
+        {
+            "text": "LCO-Elektrode",
+            "lang": "de"
+        }
+    ],
+    "name": "LithiumCobaltOxideElectrode",
+    "exact_ontology_match": [
+        "https://w3id.org/emmo/domain/electrochemistry#electrochemistry_fd7caf39_0a43_4fbf_958e_a62067aa9007"
+    ],
+    "meta": {
+        "uuid": "70d57845-c94c-40fc-b6b3-84006a45513c",
+        "wiki_page": {
+            "title": "OSW00e9d1e1182e44b9b83d011fc8701d18",
+            "namespace": "Category"
+        },
+        "change_id": [
+            "f9c3f8d4-8640-44f6-9106-8d05ef86d6ab"
+        ]
+    }
+}

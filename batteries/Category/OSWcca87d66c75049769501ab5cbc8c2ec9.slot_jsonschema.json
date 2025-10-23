@@ -1,0 +1,29 @@
+{
+    "@context": [
+        "/wiki/Category:OSW3ba81be2e4f948a9a758b6d18cfd643c?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW3ba81be2e4f948a9a758b6d18cfd643c?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "cca87d66-c750-4976-9501-ab5cbc8c2ec9",
+    "title": "ElectrolyteAdditive",
+    "title*": {
+        "en": "Electrolyte additive",
+        "de": "Elektrolytadditiv"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSWcca87d66c75049769501ab5cbc8c2ec9"
+            ]
+        }
+    }
+}

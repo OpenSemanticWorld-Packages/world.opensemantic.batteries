@@ -3,7 +3,7 @@
         "Category:OSW182916df3eee472e88e7c8d114a7fe27"
     ],
     "subclass_of": [
-        "Category:OSW1ee1f5ccdb564f4e829b76b76028aa77"
+        "Category:OSWd5791d13ae43423ebb97ceb942c62d10"
     ],
     "uuid": "95839994-1fa6-4440-bac1-c0b7b572e57a",
     "label": [
@@ -14,7 +14,31 @@
         {
             "text": "Lithium titanate",
             "lang": "en"
+        },
+        {
+            "text": "LTO",
+            "lang": "de"
+        },
+        {
+            "text": "Lithium-Titanat",
+            "lang": "de"
         }
     ],
-    "name": "LTO"
+    "name": "LithiumTitanate",
+    "ordering_categories": [
+        "Category:OSW1ee1f5ccdb564f4e829b76b76028aa77"
+    ],
+    "exact_ontology_match": [
+        "https://w3id.org/emmo/domain/chemical-substance#substance_acdb232f_8041_4e11_8a11_5db2d2baae4d"
+    ],
+    "meta": {
+        "uuid": "1ed95c1f-9cf5-4ea7-85ee-3b01c5279c1c",
+        "wiki_page": {
+            "title": "OSW958399941fa64440bac1c0b7b572e57a",
+            "namespace": "Category"
+        },
+        "change_id": [
+            "f9c3f8d4-8640-44f6-9106-8d05ef86d6ab"
+        ]
+    }
 }

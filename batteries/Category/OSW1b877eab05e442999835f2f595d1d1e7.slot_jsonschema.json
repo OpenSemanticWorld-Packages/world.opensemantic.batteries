@@ -1,0 +1,32 @@
+{
+    "@context": [
+        "/wiki/Category:OSWd4bff0a542404ed5b70fcd79e4815b2b?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSWd4bff0a542404ed5b70fcd79e4815b2b?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "1b877eab-05e4-4299-9835-f2f595d1d1e7",
+    "title": "AgingTestProcedure",
+    "title*": {
+        "en": "Aging test procedure",
+        "de": "Alterungs-Testprozedur"
+    },
+    "description": "A series of charging and discharging cycles to intentionally degrade a battery's state of health",
+    "description*": {
+        "en": "A series of charging and discharging cycles to intentionally degrade a battery's state of health",
+        "de": "Eine Reihe von Lade- und Entladezyklen zur absichtlichen Verschlechterung des Gesundheitszustands einer Batterie"
+    },
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW1b877eab05e442999835f2f595d1d1e7"
+            ]
+        }
+    }
+}

@@ -1,0 +1,141 @@
+{
+    "@context": [
+        "/wiki/Category:OSWca99a9bb9ad24386b222d18a73c2af5e?action=raw&slot=jsonschema",
+        {
+            "active_material": {
+                "@id": "Property:HasPart",
+                "@type": "@id"
+            },
+            "active_material*": {
+                "@id": "Property:HasActiveMaterial",
+                "@type": "@id"
+            },
+            "binder": {
+                "@id": "Property:HasPart",
+                "@type": "@id"
+            },
+            "binder*": {
+                "@id": "Property:HasBinder",
+                "@type": "@id"
+            },
+            "conductive_additive": {
+                "@id": "Property:HasPart",
+                "@type": "@id"
+            },
+            "conductive_additive*": {
+                "@id": "Property:HasConductiveAdditive",
+                "@type": "@id"
+            },
+            "current_collector": {
+                "@id": "Property:HasPart",
+                "@type": "@id"
+            },
+            "current_collector*": {
+                "@id": "Property:HasCurrentCollector",
+                "@type": "@id"
+            }
+        }
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSWca99a9bb9ad24386b222d18a73c2af5e?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "dd31fe7a-eeee-4565-a7c1-6254b9948874",
+    "title": "BatteryElectrodeType",
+    "title*": {
+        "en": "Battery electrode type",
+        "de": "Batterielektroden-Typ"
+    },
+    "description": "Helps with the creation of subcategories of the category battery electrodes",
+    "description*": {
+        "en": "Helps with the creation of subcategories of the category battery electrodes",
+        "de": "Hilft bei der Erzeugung von Subkategorien der Kategorie Batterieelektrode"
+    },
+    "required": [
+        "type",
+        "active_material"
+    ],
+    "defaultProperties": [
+        "binder",
+        "conductive_additive",
+        "current_collector",
+        "ordering_categories"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSWdd31fe7aeeee4565a7c16254b9948874"
+            ]
+        },
+        "active_material": {
+            "title": "Active material(s)",
+            "title*": {
+                "de": "Aktivmaterial(ien)"
+            },
+            "type": "array",
+            "format": "table",
+            "items": {
+                "title": "Active material",
+                "title*": {
+                    "de": "Aktivmaterial"
+                },
+                "type": "string",
+                "format": "autocomplete",
+                "subclassof_range": "Category:OSWd5791d13ae43423ebb97ceb942c62d10"
+            }
+        },
+        "current_collector": {
+            "title": "Current collector(s)",
+            "title*": {
+                "de": "Stromableiter"
+            },
+            "type": "array",
+            "format": "table",
+            "items": {
+                "title": "Current collector",
+                "title*": {
+                    "de": "Stromableiter"
+                },
+                "type": "string",
+                "format": "autocomplete",
+                "subclassof_range": "Category:OSWa1a377f297f54ecabe558b46fb43ad02"
+            }
+        },
+        "binder": {
+            "title": "Binder(s)",
+            "title*": {
+                "de": "Binder"
+            },
+            "type": "array",
+            "format": "table",
+            "items": {
+                "title": "Binder",
+                "title*": {
+                    "de": "Binder"
+                },
+                "type": "string",
+                "format": "autocomplete",
+                "subclassof_range": "Category:OSW1a9524bf22384a9ebd7fed4b9b29e116"
+            }
+        },
+        "conductive_additive": {
+            "title": "Conductive additive(s)",
+            "title*": {
+                "de": "Leitmittelzusätze"
+            },
+            "type": "array",
+            "format": "table",
+            "items": {
+                "title": "Conductive additive",
+                "title*": {
+                    "de": "Leitmittelzusatz"
+                },
+                "type": "string",
+                "format": "autocomplete",
+                "subclassof_range": "Category:OSWb869e525b25a4a9d8880a30075eb7d21"
+            }
+        }
+    }
+}

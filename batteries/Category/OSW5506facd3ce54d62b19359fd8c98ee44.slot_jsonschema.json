@@ -1,0 +1,29 @@
+{
+    "@context": [
+        "/wiki/Category:OSW97c67a6938cd401a8eadcc03bbce9ef1?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW97c67a6938cd401a8eadcc03bbce9ef1?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "5506facd-3ce5-4d62-b193-59fd8c98ee44",
+    "title": "NcaElectrode",
+    "title*": {
+        "en": "NCA electrode",
+        "de": "NCA-Elektrode"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW5506facd3ce54d62b19359fd8c98ee44"
+            ]
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "@context": [
+        "/wiki/Category:OSWd5791d13ae43423ebb97ceb942c62d10?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSWd5791d13ae43423ebb97ceb942c62d10?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "46efd6e0-ad71-4dd8-a2cf-6d5e7131d8ae",
+    "title": "LithiumManganeseOxide",
+    "title*": {
+        "en": "LMO",
+        "de": "LMO"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW46efd6e0ad714dd8a2cf6d5e7131d8ae"
+            ]
+        }
+    }
+}

@@ -1,10 +1,10 @@
 {
     "@context": [
-        "/wiki/Category:OSWe2d16d21532a40cfa0abe577629d5c37?action=raw&slot=jsonschema"
+        "/wiki/Category:OSWe21775c8dd604739885dfc24c32cc548?action=raw&slot=jsonschema"
     ],
     "allOf": [
         {
-            "$ref": "/wiki/Category:OSWe2d16d21532a40cfa0abe577629d5c37?action=raw&slot=jsonschema"
+            "$ref": "/wiki/Category:OSWe21775c8dd604739885dfc24c32cc548?action=raw&slot=jsonschema"
         }
     ],
     "type": "object",
@@ -19,32 +19,11 @@
     "required": [
         "type"
     ],
-    "defaultProperties": [
-        "attachments"
-    ],
     "properties": {
         "type": {
             "default": [
                 "Category:OSWdda41d4a4ec0421babe0295c6edcb5df"
             ]
-        },
-        "prepended_procedures": {
-            "items": {
-                "options": {
-                    "autocomplete": {
-                        "category": "Category:OSWdda41d4a4ec0421babe0295c6edcb5df"
-                    }
-                }
-            }
-        },
-        "appended_procedures": {
-            "items": {
-                "options": {
-                    "autocomplete": {
-                        "category": "Category:OSWdda41d4a4ec0421babe0295c6edcb5df"
-                    }
-                }
-            }
         }
     }
 }

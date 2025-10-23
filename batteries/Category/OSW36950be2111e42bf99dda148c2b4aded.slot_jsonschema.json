@@ -1,0 +1,29 @@
+{
+    "@context": [
+        "/wiki/Category:OSW7024409a760948c6a104753d90e43c39?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW7024409a760948c6a104753d90e43c39?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "36950be2-111e-42bf-99dd-a148c2b4aded",
+    "title": "Ncm532Electrode",
+    "title*": {
+        "en": "NMC532 electrode",
+        "de": "NMC532-Electrode"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW36950be2111e42bf99dda148c2b4aded"
+            ]
+        }
+    }
+}

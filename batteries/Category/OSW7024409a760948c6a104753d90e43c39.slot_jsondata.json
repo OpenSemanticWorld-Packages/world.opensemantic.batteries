@@ -1,0 +1,63 @@
+{
+    "type": [
+        "Category:OSWdd31fe7aeeee4565a7c16254b9948874"
+    ],
+    "active_material": [
+        "Category:OSW670c84f7f7e64533a37081e6349bb008"
+    ],
+    "ordering_categories": [
+        "Category:OSW95f2c45c7e0142e7a1b558d2a84b686f"
+    ],
+    "subclass_of": [
+        "Category:OSW97c67a6938cd401a8eadcc03bbce9ef1"
+    ],
+    "uuid": "7024409a-7609-48c6-a104-753d90e43c39",
+    "label": [
+        {
+            "text": "NMC electrode",
+            "lang": "en"
+        },
+        {
+            "text": "NCM electrode",
+            "lang": "en"
+        },
+        {
+            "text": "Lithium nickel manganese cobalt oxide electrode",
+            "lang": "en"
+        },
+        {
+            "text": "Lithium nickel cobalt manganese oxide electrode",
+            "lang": "en"
+        },
+        {
+            "text": "NMC-Elektrode",
+            "lang": "de"
+        },
+        {
+            "text": "NCM-Elektrode",
+            "lang": "de"
+        },
+        {
+            "text": "Lithium-Nickel-Mangan-Kobalt-Oxid-Elektrode",
+            "lang": "de"
+        },
+        {
+            "text": "Lithium-Nickel-Kobalt-Mangan-Oxid-Elektrode",
+            "lang": "de"
+        }
+    ],
+    "name": "LithiumNickelManganeseCobaltOxideElectrode",
+    "exact_ontology_match": [
+        "https://w3id.org/emmo/domain/electrochemistry#electrochemistry_b3eb8c65_5644_45e3_9e17_0be6277c7962"
+    ],
+    "meta": {
+        "uuid": "1f23b2a8-1816-451a-a2d6-234983929da9",
+        "wiki_page": {
+            "title": "OSW7024409a760948c6a104753d90e43c39",
+            "namespace": "Category"
+        },
+        "change_id": [
+            "f9c3f8d4-8640-44f6-9106-8d05ef86d6ab"
+        ]
+    }
+}

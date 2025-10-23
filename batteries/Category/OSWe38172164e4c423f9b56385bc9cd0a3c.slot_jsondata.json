@@ -1,0 +1,36 @@
+{
+    "type": [
+        "Category:OSW182916df3eee472e88e7c8d114a7fe27"
+    ],
+    "subclass_of": [
+        "Category:OSW97c67a6938cd401a8eadcc03bbce9ef1"
+    ],
+    "uuid": "e3817216-4e4c-423f-9b56-385bc9cd0a3c",
+    "label": [
+        {
+            "text": "Negative electrode",
+            "lang": "en"
+        },
+        {
+            "text": "Negative Elektrode",
+            "lang": "de"
+        }
+    ],
+    "keywords": [
+        "Item:OSW452ec0273916478099c4716395e1bc18"
+    ],
+    "name": "NegativeElectrode",
+    "exact_ontology_match": [
+        "https://w3id.org/emmo/domain/electrochemistry#electrochemistry_c94c041b_8ea6_43e7_85cc_d2bce7785b4c"
+    ],
+    "meta": {
+        "uuid": "4fb0752d-5d44-4d3a-bb5b-9ee068ee17ff",
+        "wiki_page": {
+            "title": "OSWe38172164e4c423f9b56385bc9cd0a3c",
+            "namespace": "Category"
+        },
+        "change_id": [
+            "f9c3f8d4-8640-44f6-9106-8d05ef86d6ab"
+        ]
+    }
+}

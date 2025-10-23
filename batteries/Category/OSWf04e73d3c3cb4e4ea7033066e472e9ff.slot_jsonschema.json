@@ -1,6 +1,28 @@
 {
     "@context": [
-        "/wiki/Category:OSWa211cf52e86e47929768a769235f7144?action=raw&slot=jsonschema"
+        "/wiki/Category:OSWa211cf52e86e47929768a769235f7144?action=raw&slot=jsonschema",
+        {
+            "height": {
+                "@id": "Property:HasHeight",
+                "@type": "number"
+            },
+            "diameter": {
+                "@id": "Property:HasDiameter",
+                "@type": "number"
+            },
+            "width": {
+                "@id": "Property:HasWidth",
+                "@type": "number"
+            },
+            "depth": {
+                "@id": "Property:HasDepth",
+                "@type": "number"
+            },
+            "battery_cell_form_factor": {
+                "@id": "Property:HasFormFactor",
+                "@type": "@id"
+            }
+        }
     ],
     "allOf": [
         {
@@ -19,11 +41,86 @@
     "required": [
         "type"
     ],
+    "defaultProperties": [
+        "battery_cell_form_factor",
+        "depth",
+        "diameter",
+        "height",
+        "width"
+    ],
     "properties": {
         "type": {
             "default": [
                 "Category:OSWf04e73d3c3cb4e4ea7033066e472e9ff"
             ]
+        },
+        "battery_cell_form_factor": {
+            "title": "Form factor",
+            "title*": {
+                "de": "Formfaktor"
+            },
+            "description": "Form factor of the battery cell format. Should best be stated in the Battery cell format subclass, this item is an instance of, to avoid redundancy.",
+            "description*": {
+                "de": "Formfaktor des Batteriezellenformats. Sollte am besten in der Batteriezellformat-Subklasse angegeben werden, von der dieses Item eine Instanz ist, um Redundanz zu vermeiden."
+            },
+            "type": "string",
+            "format": "autocomplete",
+            "range": "Category:OSWc8108cfc369241aba154c4c306497c30",
+            "eval_template": [
+                {
+                    "type": "mustache-wikitext",
+                    "mode": "render",
+                    "value": "{{=<% %>=}}{{#if: <%battery_cell_form_factor%> | [[<%battery_cell_form_factor%>]] | {{#ask: [[Category:OSWc8108cfc369241aba154c4c306497c30]][[-HasFormFactor.-HasSchema::{{FULLPAGENAME}}]]|format=plain}}}}"
+                }
+            ]
+        },
+        "height": {
+            "type": "number",
+            "title": "Height (mm)",
+            "title*": {
+                "de": "Höhe (mm)"
+            },
+            "description": "Height in millimeters",
+            "description*": {
+                "de": "Höhe in Millimetern"
+            },
+            "$comment": "Redo with characteristics"
+        },
+        "diameter": {
+            "type": "number",
+            "title": "Diameter (mm)",
+            "title*": {
+                "de": "Durchmesser (mm)"
+            },
+            "description": "Diameter in millimeters. Either specify diameter or width and depth.",
+            "description*": {
+                "de": "Durchmesser in Millimetern. Entweder Durchmesser oder Breite und Tiefe angeben."
+            },
+            "$comment": "Redo with characteristics"
+        },
+        "width": {
+            "type": "number",
+            "title": "Width (mm)",
+            "title*": {
+                "de": "Breite (mm)"
+            },
+            "description": "Width in millimeters. Either specify diameter or width and depth.",
+            "description*": {
+                "de": "Breite in Millimetern. Entweder Durchmesser oder Breite und Tiefe angeben."
+            },
+            "$comment": "Redo with characteristics"
+        },
+        "depth": {
+            "type": "number",
+            "title": "Depth (mm)",
+            "title*": {
+                "de": "Tiefe (mm)"
+            },
+            "description": "Depth in millimeters. Either specify diameter or width and depth.",
+            "description*": {
+                "de": "Tiefe in Millimetern. Entweder Durchmesser oder Breite und Tiefe angeben."
+            },
+            "$comment": "Redo with characteristics"
         }
     }
 }

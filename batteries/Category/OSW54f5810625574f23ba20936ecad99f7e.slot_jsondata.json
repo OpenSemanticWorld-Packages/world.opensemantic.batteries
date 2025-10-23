@@ -3,7 +3,7 @@
         "Category:OSW182916df3eee472e88e7c8d114a7fe27"
     ],
     "subclass_of": [
-        "Category:OSW6110d42bba33448b9a6348a3cd28b921"
+        "Category:OSWd5791d13ae43423ebb97ceb942c62d10"
     ],
     "uuid": "54f58106-2557-4f23-ba20-936ecad99f7e",
     "label": [
@@ -14,7 +14,31 @@
         {
             "text": "Lithium nickel manganese oxide",
             "lang": "en"
+        },
+        {
+            "text": "LNMO",
+            "lang": "de"
+        },
+        {
+            "text": "Lithium-Nickel-Mangan-Oxid",
+            "lang": "de"
         }
     ],
-    "name": "LNMO"
+    "name": "LithiumNickelManganeseOxide",
+    "ordering_categories": [
+        "Category:OSW6110d42bba33448b9a6348a3cd28b921"
+    ],
+    "exact_ontology_match": [
+        "https://w3id.org/emmo/domain/chemical-substance#substance_f3e7979a_e3ef_450a_8762_7d8778afe478"
+    ],
+    "meta": {
+        "uuid": "156c7e08-6978-4219-9d54-56a4fd68f958",
+        "wiki_page": {
+            "title": "OSW54f5810625574f23ba20936ecad99f7e",
+            "namespace": "Category"
+        },
+        "change_id": [
+            "f9c3f8d4-8640-44f6-9106-8d05ef86d6ab"
+        ]
+    }
 }

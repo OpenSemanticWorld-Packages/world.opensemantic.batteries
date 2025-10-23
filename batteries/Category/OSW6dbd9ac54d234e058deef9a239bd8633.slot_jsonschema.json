@@ -1,0 +1,36 @@
+{
+    "@context": [
+        "/wiki/Category:OSW97c67a6938cd401a8eadcc03bbce9ef1?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW97c67a6938cd401a8eadcc03bbce9ef1?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "6dbd9ac5-4d23-4e05-8dee-f9a239bd8633",
+    "title": "LithiumIronPhosphateElectrode",
+    "title*": {
+        "en": "LFP electrode",
+        "de": "LFP-Elektrode"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW6dbd9ac54d234e058deef9a239bd8633"
+            ]
+        },
+        "active_material": {
+            "range": "Category:OSW36082c03d48543aca08bfe4ea3afe8cb"
+        }
+    },
+    "defaultProperties": [
+        "label",
+        "active_material"
+    ]
+}

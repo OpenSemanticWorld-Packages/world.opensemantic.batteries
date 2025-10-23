@@ -1,0 +1,31 @@
+{
+    "@context": [
+        "/wiki/Category:OSWdda41d4a4ec0421babe0295c6edcb5df?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSWdda41d4a4ec0421babe0295c6edcb5df?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "bdb8b449-342e-4090-b44b-4f80c5ae9d92",
+    "title": "MaccorTestProcedure",
+    "title*": {
+        "en": "Maccor test procedure",
+        "de": "Maccor-Testprozedur"
+    },
+    "description": "A test procedure used to define an electrochemial test to be run with a Maccor battery tester. Usually the file ending is .000 for general test procedures, .999 for test procedures containing a syntax error and .5xx for a test procedure that was started at a channel with number xx.",
+    "description*": {
+        "de": "Ein Prüfverfahren, das zur Definition eines elektrochemischen Tests verwendet wird, der mit einem Maccor-Batterietester durchgeführt werden soll. Normalerweise ist die Dateiendung .000 für allgemeine Prüfverfahren, .999 für Prüfverfahren, die einen Syntaxfehler enthalten, und .5xx für ein Prüfverfahren, das an einem Kanal mit der Nummer xx gestartet wurde."
+    },
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSWbdb8b449342e4090b44b4f80c5ae9d92"
+            ]
+        }
+    }
+}

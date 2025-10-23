@@ -20,5 +20,18 @@
     "utf8_icon": [
         "📥",
         "🔋"
-    ]
+    ],
+    "exact_ontology_match": [
+        "https://w3id.org/emmo/domain/battery#battery_be3b35a7_75a3_4be0_9265_beb178ea7b00"
+    ],
+    "meta": {
+        "uuid": "09eab51b-f8da-4e2a-900d-383c62d12b0c",
+        "wiki_page": {
+            "title": "OSW531dd85d3f8e46d5817a2c628dd0b346",
+            "namespace": "Category"
+        },
+        "change_id": [
+            "f9c3f8d4-8640-44f6-9106-8d05ef86d6ab"
+        ]
+    }
 }

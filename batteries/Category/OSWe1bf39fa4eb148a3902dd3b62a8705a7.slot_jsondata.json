@@ -1,0 +1,30 @@
+{
+    "type": [
+        "Category:OSWdd31fe7aeeee4565a7c16254b9948874"
+    ],
+    "active_material": [
+        "Category:OSW1cee2d62621f4d2f8477e9b336fa3262"
+    ],
+    "current_collector": [],
+    "binder": [],
+    "conductive_additive": [],
+    "ordering_categories": [
+        "Category:OSW95f2c45c7e0142e7a1b558d2a84b686f"
+    ],
+    "subclass_of": [
+        "Category:OSW97c67a6938cd401a8eadcc03bbce9ef1"
+    ],
+    "uuid": "e1bf39fa-4eb1-48a3-902d-d3b62a8705a7",
+    "label": [
+        {
+            "text": "LNO electrode",
+            "lang": "en"
+        },
+        {
+            "text": "LNO-Elektrode",
+            "lang": "de"
+        }
+    ],
+    "description": [],
+    "name": "LnoElectrode"
+}

@@ -1,17 +1,18 @@
 {
     "@context": [
-        "/wiki/Category:OSW1ee1f5ccdb564f4e829b76b76028aa77?action=raw&slot=jsonschema"
+        "/wiki/Category:OSWd5791d13ae43423ebb97ceb942c62d10?action=raw&slot=jsonschema"
     ],
     "allOf": [
         {
-            "$ref": "/wiki/Category:OSW1ee1f5ccdb564f4e829b76b76028aa77?action=raw&slot=jsonschema"
+            "$ref": "/wiki/Category:OSWd5791d13ae43423ebb97ceb942c62d10?action=raw&slot=jsonschema"
         }
     ],
     "type": "object",
     "uuid": "dc59f9c4-b99a-415e-96da-5388b6b350e5",
-    "title": "GraphiteSiliconMixture",
+    "title": "GraphiteSiliconComposite",
     "title*": {
-        "en": "Graphite silicon mixture"
+        "en": "Graphite silicon composite",
+        "de": "Graphit-Silizium-Komposit"
     },
     "description": "",
     "description*": {},

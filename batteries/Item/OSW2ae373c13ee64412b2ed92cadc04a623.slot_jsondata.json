@@ -1,0 +1,18 @@
+{
+    "type": [
+        "Category:OSWc8108cfc369241aba154c4c306497c30"
+    ],
+    "uuid": "2ae373c1-3ee6-4412-b2ed-92cadc04a623",
+    "label": [
+        {
+            "text": "Cylindrical",
+            "lang": "en"
+        },
+        {
+            "text": "Zylindrisch",
+            "lang": "de"
+        }
+    ],
+    "description": [],
+    "name": "CylindricalCellFormFactor"
+}

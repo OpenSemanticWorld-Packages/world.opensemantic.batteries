@@ -1,3 +1,0 @@
-== Attribute Candidates ==
-
-* Licence, populate e. g. from https://opensource.org/licenses/, https://en.wikipedia.org/wiki/List_of_free-content_licences

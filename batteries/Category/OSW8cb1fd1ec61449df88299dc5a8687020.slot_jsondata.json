@@ -1,0 +1,42 @@
+{
+    "subclass_of": [
+        "Category:OSWdda41d4a4ec0421babe0295c6edcb5df"
+    ],
+    "type": [
+        "Category:Category"
+    ],
+    "uuid": "8cb1fd1e-c614-49df-8829-9dc5a8687020",
+    "label": [
+        {
+            "text": "EIS test procedure",
+            "lang": "en"
+        },
+        {
+            "text": "EIS-Testprozedur",
+            "lang": "de"
+        },
+        {
+            "text": "Electrochemical impedance spectroscopy test procedure",
+            "lang": "en"
+        },
+        {
+            "text": "Testprozedur für elektrochemischen Impedanzspektroskopie",
+            "lang": "de"
+        }
+    ],
+    "description": [
+        {
+            "text": "EIS  is a method used to analyze the electrical properties of materials and interfaces in electrochemical systems. It involves applying a small alternating current (AC) voltage over a range of frequencies to an electrochemical cell and measuring the resulting current response. The impedance data collected helps characterize processes such as charge transfer, diffusion, and double-layer capacitance, making EIS valuable in fields like battery research, corrosion studies, and sensor development.",
+            "lang": "en"
+        },
+        {
+            "text": "EIS ist eine Methode zur Analyse der elektrischen Eigenschaften von Materialien und Grenzflächen in elektrochemischen Systemen. Dabei wird eine geringe Wechselspannung über einen Frequenzbereich an eine elektrochemische Zelle angelegt und die resultierende Stromantwort gemessen. Die erfassten Impedanzdaten helfen bei der Charakterisierung von Prozessen wie Ladungstransfer, Diffusion und Doppelschichtkapazität, was EIS in Bereichen wie Batterieforschung, Korrosionsstudien und Sensorentwicklung wertvoll macht.",
+            "lang": "de"
+        }
+    ],
+    "keywords": [
+        "Item:OSW452ec0273916478099c4716395e1bc18"
+    ],
+    "name": "EisTestProcedure",
+    "ordering_categories": []
+}

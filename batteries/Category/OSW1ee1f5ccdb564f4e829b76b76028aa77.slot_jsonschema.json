@@ -13,24 +13,19 @@
     "title*": {
         "en": "Negative active material"
     },
-    "description": "",
-    "description*": {},
+    "description": "A classification category for battery active materials",
+    "description*": {
+        "en": "A classification category for battery active materials",
+        "de": "Eine Ordnungskategorie für BatterieAktivmaterialien"
+    },
     "required": [
-        "type",
-        "uuid"
+        "type"
     ],
     "properties": {
         "type": {
             "default": [
                 "Category:OSW1ee1f5ccdb564f4e829b76b76028aa77"
             ]
-        },
-        "uuid": {
-            "type": "string",
-            "format": "uuid",
-            "options": {
-                "hidden": true
-            }
         }
     }
 }

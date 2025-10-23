@@ -1,0 +1,29 @@
+{
+    "@context": [
+        "/wiki/Category:OSW7024409a760948c6a104753d90e43c39?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW7024409a760948c6a104753d90e43c39?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "bdc9f799-6dfc-4e51-8f46-8e1ed01a570c",
+    "title": "Nmc622Electrode",
+    "title*": {
+        "en": "NMC622 Electrode",
+        "de": "NMC622-Elektrode"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSWbdc9f7996dfc4e518f468e1ed01a570c"
+            ]
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "@context": [
+        "/wiki/Category:OSW69729530f3ca4addaf8dd95ea3781607?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW69729530f3ca4addaf8dd95ea3781607?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "f036fa25-41c5-4bd4-bc40-95167b4af60c",
+    "title": "BatteryCycler",
+    "title*": {
+        "en": "Battery cycler",
+        "de": "Batterietester"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSWf036fa2541c54bd4bc4095167b4af60c"
+            ]
+        }
+    }
+}
