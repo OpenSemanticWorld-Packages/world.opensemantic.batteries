@@ -12,7 +12,7 @@
             "globalID": "world.opensemantic.batteries",
             "label": "OSW Batteries",
             "description": "Provides battery specific items like ElectrochemicalTest, BatteryCell, etc.",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "requiredPackages": [
                 "world.opensemantic.base",
                 "world.opensemantic.lab"
@@ -1064,7 +1064,7 @@
                 },
                 {
                     "name": "OSW9d5fc755409c433b822cf5c8feecdb32",
-                    "label": "MechanischerTest",
+                    "label": "MechanicalTest",
                     "namespace": "NS_CATEGORY",
                     "urlPath": "Category/OSW9d5fc755409c433b822cf5c8feecdb32.slot_main.wikitext",
                     "slots": {
