@@ -1,0 +1,21 @@
+{
+    "subclass_of": [
+        "Category:OSWd02741381aaa4709ae0753a0edc341ce"
+    ],
+    "type": [
+        "Category:Category"
+    ],
+    "uuid": "83c7be48-2a5e-4e34-9f98-75194e6f180d",
+    "label": [
+        {
+            "text": "Form factor",
+            "lang": "en"
+        },
+        {
+            "text": "Formfaktor",
+            "lang": "de"
+        }
+    ],
+    "description": [],
+    "name": "FormFactor"
+}

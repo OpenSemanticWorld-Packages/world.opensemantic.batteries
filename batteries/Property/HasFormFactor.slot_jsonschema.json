@@ -1,0 +1,12 @@
+{
+    "uuid": "98043cb8-e2d2-45ea-833b-992477e9fe8c",
+    "title": "HasFormFactor",
+    "title*": {
+        "en": "HasFormFactor"
+    },
+    "description": "",
+    "description*": {},
+    "type": "string",
+    "format": "autocomplete",
+    "range": "Category:OSW83c7be482a5e4e349f9875194e6f180d"
+}

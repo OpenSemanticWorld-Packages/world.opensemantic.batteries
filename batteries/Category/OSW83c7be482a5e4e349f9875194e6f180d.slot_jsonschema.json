@@ -1,0 +1,29 @@
+{
+    "@context": [
+        "/wiki/Category:OSWd02741381aaa4709ae0753a0edc341ce?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSWd02741381aaa4709ae0753a0edc341ce?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "83c7be48-2a5e-4e34-9f98-75194e6f180d",
+    "title": "FormFactor",
+    "title*": {
+        "en": "Form factor",
+        "de": "Formfaktor"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW83c7be482a5e4e349f9875194e6f180d"
+            ]
+        }
+    }
+}

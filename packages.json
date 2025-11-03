@@ -12,7 +12,7 @@
             "globalID": "world.opensemantic.batteries",
             "label": "OSW Batteries",
             "description": "Provides battery specific items like ElectrochemicalTest, BatteryCell, etc.",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "requiredPackages": [
                 "world.opensemantic.base",
                 "world.opensemantic.lab"
@@ -2038,6 +2038,135 @@
                         },
                         "jsondata": {
                             "urlPath": "Item/OSW85a6474fad594a2daa99f62ee734e973.slot_jsondata.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSW28d9dcd7ba6f48d988bfba619e1b4b1b",
+                    "label": "EESDType",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSW28d9dcd7ba6f48d988bfba619e1b4b1b.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSW28d9dcd7ba6f48d988bfba619e1b4b1b.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSW28d9dcd7ba6f48d988bfba619e1b4b1b.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSW28d9dcd7ba6f48d988bfba619e1b4b1b.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSW28d9dcd7ba6f48d988bfba619e1b4b1b.slot_jsonschema.json"
+                        },
+                        "schema_template": {
+                            "urlPath": "Category/OSW28d9dcd7ba6f48d988bfba619e1b4b1b.slot_schema_template.text"
+                        }
+                    }
+                },
+                {
+                    "name": "OSW50c8314e8b2c416db73ce935f1dd8d22",
+                    "label": "ChemicalSystem",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSW50c8314e8b2c416db73ce935f1dd8d22.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSW50c8314e8b2c416db73ce935f1dd8d22.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSW50c8314e8b2c416db73ce935f1dd8d22.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSW50c8314e8b2c416db73ce935f1dd8d22.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSW50c8314e8b2c416db73ce935f1dd8d22.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSWb3b9ec5cb50d401c9b996ce3009b5c54",
+                    "label": "EnvironmentalTestChamber",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSWb3b9ec5cb50d401c9b996ce3009b5c54.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSWb3b9ec5cb50d401c9b996ce3009b5c54.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSWb3b9ec5cb50d401c9b996ce3009b5c54.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSWb3b9ec5cb50d401c9b996ce3009b5c54.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSWb3b9ec5cb50d401c9b996ce3009b5c54.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSW83c7be482a5e4e349f9875194e6f180d",
+                    "label": "FormFactor",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSW83c7be482a5e4e349f9875194e6f180d.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSW83c7be482a5e4e349f9875194e6f180d.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSW83c7be482a5e4e349f9875194e6f180d.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSW83c7be482a5e4e349f9875194e6f180d.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSW83c7be482a5e4e349f9875194e6f180d.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSWa211cf52e86e47929768a769235f7144",
+                    "label": "Format",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSWa211cf52e86e47929768a769235f7144.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSWa211cf52e86e47929768a769235f7144.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSWa211cf52e86e47929768a769235f7144.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSWa211cf52e86e47929768a769235f7144.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSWa211cf52e86e47929768a769235f7144.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "HasFormat",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/HasFormat.slot_main.wikitext",
+                    "slots": {}
+                },
+                {
+                    "name": "HasFormFactor",
+                    "label": "HasFormFactor",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "urlPath": "Property/HasFormFactor.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Property/HasFormFactor.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Property/HasFormFactor.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Property/HasFormFactor.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Property/HasFormFactor.slot_jsonschema.json"
                         }
                     }
                 }

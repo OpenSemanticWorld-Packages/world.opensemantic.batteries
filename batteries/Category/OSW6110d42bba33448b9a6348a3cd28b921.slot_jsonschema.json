@@ -19,21 +19,13 @@
         "de": "Eine Ordnungskategorie für BatterieAktivmaterialien"
     },
     "required": [
-        "type",
-        "uuid"
+        "type"
     ],
     "properties": {
         "type": {
             "default": [
                 "Category:OSW6110d42bba33448b9a6348a3cd28b921"
             ]
-        },
-        "uuid": {
-            "type": "string",
-            "format": "uuid",
-            "options": {
-                "hidden": true
-            }
         }
     }
 }

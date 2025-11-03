@@ -1,0 +1,18 @@
+{
+    "type": [
+        "Category:ObjectProperty"
+    ],
+    "range": [
+        "Category:OSW83c7be482a5e4e349f9875194e6f180d"
+    ],
+    "name": "HasFormFactor",
+    "property_type": "Page",
+    "uuid": "98043cb8-e2d2-45ea-833b-992477e9fe8c",
+    "label": [
+        {
+            "text": "HasFormFactor",
+            "lang": "en"
+        }
+    ],
+    "description": []
+}

@@ -1,0 +1,30 @@
+{
+    "subclass_of": [
+        "Category:OSWca99a9bb9ad24386b222d18a73c2af5e"
+    ],
+    "type": [
+        "Category:Category"
+    ],
+    "uuid": "28d9dcd7-ba6f-48d9-88bf-ba619e1b4b1b",
+    "label": [
+        {
+            "text": "EESD Type",
+            "lang": "en"
+        },
+        {
+            "text": "EESD-Typ",
+            "lang": "de"
+        }
+    ],
+    "description": [
+        {
+            "text": "Type of Electrochemical Energy Storage Device",
+            "lang": "en"
+        },
+        {
+            "text": "Typ eines elektrochemischen Energiespeichers",
+            "lang": "de"
+        }
+    ],
+    "name": "EESDType"
+}

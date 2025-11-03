@@ -1,0 +1,119 @@
+{
+    "@context": [
+        {
+            "part_of": {
+                "@id": "Property:HasStatement",
+                "@context": {
+                    "part_of_type": {
+                        "@id": "IsPartOfType",
+                        "@type": "@id"
+                    },
+                    "part_of_default": {
+                        "@id": "IsPartOf",
+                        "@type": "@id"
+                    }
+                }
+            }
+        },
+        "/wiki/Category:OSWca99a9bb9ad24386b222d18a73c2af5e?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSWca99a9bb9ad24386b222d18a73c2af5e?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "28d9dcd7-ba6f-48d9-88bf-ba619e1b4b1b",
+    "title": "EESDType",
+    "title*": {
+        "en": "EESD Type",
+        "de": "EESD-Typ"
+    },
+    "description": "Type of Electrochemical Energy Storage Device",
+    "description*": {
+        "en": "Type of Electrochemical Energy Storage Device",
+        "de": "Typ eines elektrochemischen Energiespeichers"
+    },
+    "required": [
+        "type"
+    ],
+    "defaultProperties": [
+        "part_of"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW28d9dcd7ba6f48d988bfba619e1b4b1b"
+            ]
+        },
+        "part_of": {
+            "title": "Part of (EESD)",
+            "title*": {
+                "de": "Teil von (EES)"
+            },
+            "description": "The electrochemical energy storage device that this electrochemical energy storage device is or was part of.",
+            "description*": {
+                "de": "Der elektrochemische Energiespeicher, von dem dieser elektrochemische Energiespeicher ein Teil ist oder war."
+            },
+            "type": "array",
+            "format": "table",
+            "items": {
+                "title": "EESD",
+                "title*": {
+                    "de": "EES"
+                },
+                "type": "object",
+                "id": "part_of_",
+                "required": [
+                    "part_of_type",
+                    "uuid"
+                ],
+                "defaultProperties": [
+                    "part_of_type",
+                    "part_of_default"
+                ],
+                "properties": {
+                    "uuid": {
+                        "type": "string",
+                        "format": "uuid",
+                        "options": {
+                            "hidden": true
+                        }
+                    },
+                    "part_of_type": {
+                        "title": "Type",
+                        "title*": {
+                            "de": "Typ"
+                        },
+                        "type": "string",
+                        "format": "autocomplete",
+                        "options": {
+                            "autocomplete": {
+                                "query": "[[SubClassOf::Category:OSWbeaf0d4e4dfd4fe29b7349751b3bccba]]OR[[SubClassOf.SubClassOf::Category:OSWbeaf0d4e4dfd4fe29b7349751b3bccba]]OR[[SubClassOf.SubClassOf.SubClassOf::Category:OSWbeaf0d4e4dfd4fe29b7349751b3bccba]]OR[[SubClassOf.SubClassOf.SubClassOf.SubClassOf::Category:OSWbeaf0d4e4dfd4fe29b7349751b3bccba]]OR[[SubClassOf.SubClassOf.SubClassOf.SubClassOf.SubClassOf::Category:OSWbeaf0d4e4dfd4fe29b7349751b3bccba]]"
+                            }
+                        }
+                    },
+                    "part_of_default": {
+                        "title": "Default",
+                        "title*": {
+                            "de": "Standardwert"
+                        },
+                        "type": "string",
+                        "format": "autocomplete",
+                        "watch": {
+                            "part_of_type_w": "part_of_.part_of_type"
+                        },
+                        "range": "$(part_of_type_w)"
+                    }
+                },
+                "eval_template": [
+                    {
+                        "type": "wikitext",
+                        "mode": "render",
+                        "value": "{{#switch:{{USERLANGUAGECODE}}|en=Type|de=Typ|#default=Type}}: [[:{{{part_of_type}}}]] {{#if: {{{part_of_default}}} | ({{#switch:{{USERLANGUAGECODE}}|en=default|de=Default|#default=default}}: [[{{{part_of_default}}}]]) | ({{#switch:{{USERLANGUAGECODE}}|en=no default|de=Kein Default|#default=no default}})}} "
+                    }
+                ]
+            }
+        }
+    }
+}

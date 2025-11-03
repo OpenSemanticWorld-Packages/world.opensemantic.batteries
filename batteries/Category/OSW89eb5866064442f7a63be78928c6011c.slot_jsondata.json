@@ -5,7 +5,7 @@
     "active_material": [
         "Category:OSWdc59f9c4b99a415e96da5388b6b350e5"
     ],
-    "ordering_categories": [
+    "classification_categories": [
         "Category:OSWe38172164e4c423f9b56385bc9cd0a3c"
     ],
     "subclass_of": [
@@ -19,7 +19,7 @@
         },
         {
             "text": "Graphite-Silizium-Komposit-Elektrode",
-            "lang": "De"
+            "lang": "de"
         }
     ],
     "name": "SiliconGraphiteElectrode",
