@@ -3,7 +3,8 @@
     "publisherURL": "https://github.com/OpenSemanticWorld-Packages/world.opensemantic.batteries",
     "author": [
         "Simon Stier",
-        "Lukas Gold"
+        "Lukas Gold",
+        "Simon Feiler"
     ],
     "language": "en",
     "licenseName": "CC BY-NC 4.0",
@@ -12,7 +13,7 @@
             "globalID": "world.opensemantic.batteries",
             "label": "OSW Batteries",
             "description": "Provides battery specific items like ElectrochemicalTest, BatteryCell, etc.",
-            "version": "1.1.1",
+            "version": "1.1.2",
             "requiredPackages": [
                 "world.opensemantic.base",
                 "world.opensemantic.lab"

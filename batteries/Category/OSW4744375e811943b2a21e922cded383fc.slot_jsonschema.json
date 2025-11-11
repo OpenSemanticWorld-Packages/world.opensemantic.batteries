@@ -20,21 +20,13 @@
         "de": "Eine elektrochemische Zelle ist ein Gerät, das aus chemischen Reaktionen elektrische Energie erzeugt. Elektrische Energie kann auch an diese Zellen angelegt werden, um chemische Reaktionen auszulösen."
     },
     "required": [
-        "type",
-        "uuid"
+        "type"
     ],
     "properties": {
         "type": {
             "default": [
                 "Category:OSW4744375e811943b2a21e922cded383fc"
             ]
-        },
-        "uuid": {
-            "type": "string",
-            "format": "uuid",
-            "options": {
-                "hidden": true
-            }
         }
     }
 }

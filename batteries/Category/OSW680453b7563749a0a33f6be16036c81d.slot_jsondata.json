@@ -1,6 +1,6 @@
 {
     "type": [
-        "Category:Category"
+        "Category:OSW28d9dcd7ba6f48d988bfba619e1b4b1b"
     ],
     "subclass_of": [
         "Category:OSW4744375e811943b2a21e922cded383fc"
@@ -23,8 +23,8 @@
     "utf8_icon": [
         "🔋"
     ],
-    "instance_rdf_type": [
-        "BattINFO:BattINFO#EMMO_68ed592a_7924_45d0_a108_94d6275d57f0"
+    "rdf_type": [
+        "https://w3id.org/emmo/domain/battery#battery_68ed592a_7924_45d0_a108_94d6275d57f0"
     ],
     "exact_ontology_match": [
         "https://w3id.org/emmo/domain/battery#battery_68ed592a_7924_45d0_a108_94d6275d57f0"

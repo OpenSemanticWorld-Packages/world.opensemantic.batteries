@@ -1,5 +1,6 @@
 {
     "@context": [
+        "/wiki/Category:OSW4744375e811943b2a21e922cded383fc?action=raw&slot=jsonschema",
         {
             "electrolyte": {
                 "@type": "@id",
@@ -43,26 +44,25 @@
             },
             "electrolyte**": {
                 "@type": "@id",
-                "@id": "BattINFO:electrochemistry#EMMO_fb0d9eef_92af_4628_8814_e065ca255d59"
+                "@id": "https://w3id.org/emmo/domain/electrochemistry#EMMO_fb0d9eef_92af_4628_8814_e065ca255d59"
             },
             "negative_electrode**": {
                 "@type": "@id",
-                "@id": "BattINFO:electrochemistry#EMMO_c94c041b_8ea6_43e7_85cc_d2bce7785b4c"
+                "@id": "https://w3id.org/emmo/domain/electrochemistry#EMMO_c94c041b_8ea6_43e7_85cc_d2bce7785b4c"
             },
             "positive_electrode**": {
                 "@type": "@id",
-                "@id": "BattINFO:electrochemistry#EMMO_aff732a9_238a_4734_977c_b2ba202af126"
+                "@id": "https://w3id.org/emmo/domain/electrochemistry#EMMO_aff732a9_238a_4734_977c_b2ba202af126"
             },
             "reference_electrode**": {
                 "@type": "@id",
-                "@id": "BattINFO:electrochemistry#EMMO_7729c34e_1ae9_403d_b933_1765885e7f29"
+                "@id": "https://w3id.org/emmo/domain/electrochemistry#EMMO_7729c34e_1ae9_403d_b933_1765885e7f29"
             },
             "separator**": {
-                "@id": "BattINFO:electrochemistry#EMMO_331e6cca_f260_4bf8_af55_35304fe1bbe0",
+                "@id": "https://w3id.org/emmo/domain/electrochemistry#EMMO_331e6cca_f260_4bf8_af55_35304fe1bbe0",
                 "@type": "@id"
             }
-        },
-        "/wiki/Category:OSW4744375e811943b2a21e922cded383fc?action=raw&slot=jsonschema"
+        }
     ],
     "allOf": [
         {

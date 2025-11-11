@@ -1,5 +1,6 @@
 {
     "@context": [
+        "/wiki/Category:OSWca99a9bb9ad24386b222d18a73c2af5e?action=raw&slot=jsonschema",
         {
             "part_of": {
                 "@id": "Property:HasStatement",
@@ -14,8 +15,7 @@
                     }
                 }
             }
-        },
-        "/wiki/Category:OSWca99a9bb9ad24386b222d18a73c2af5e?action=raw&slot=jsonschema"
+        }
     ],
     "allOf": [
         {
@@ -74,6 +74,7 @@
                 ],
                 "properties": {
                     "uuid": {
+                        "title": "UUID",
                         "type": "string",
                         "format": "uuid",
                         "options": {

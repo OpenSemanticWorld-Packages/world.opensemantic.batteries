@@ -20,26 +20,19 @@
     "uuid": "beaf0d4e-4dfd-4fe2-9b73-49751b3bccba",
     "title": "ElectrochemicalEnergyStorageDevice",
     "title*": {
-        "en": "Electrochemical energy storage device"
+        "en": "Electrochemical energy storage device",
+        "de": "Elektrochemischer Energiespeicher"
     },
     "description": "",
     "description*": {},
     "required": [
-        "type",
-        "uuid"
+        "type"
     ],
     "properties": {
         "type": {
             "default": [
                 "Category:OSWbeaf0d4e4dfd4fe29b7349751b3bccba"
             ]
-        },
-        "uuid": {
-            "type": "string",
-            "format": "uuid",
-            "options": {
-                "hidden": true
-            }
         },
         "weight": {
             "$coment": "to be reworked with characteristics in place",
