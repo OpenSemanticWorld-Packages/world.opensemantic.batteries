@@ -16,21 +16,13 @@
     "description": "",
     "description*": {},
     "required": [
-        "type",
-        "uuid"
+        "type"
     ],
     "properties": {
         "type": {
             "default": [
                 "Category:OSW1a9524bf22384a9ebd7fed4b9b29e116"
             ]
-        },
-        "uuid": {
-            "type": "string",
-            "format": "uuid",
-            "options": {
-                "hidden": true
-            }
         }
     }
 }

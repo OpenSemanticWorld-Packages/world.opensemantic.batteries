@@ -1055,6 +1055,9 @@
                         "header": {
                             "urlPath": "Category/OSW6f39d77241e24a33ab6d036dfac03ace.slot_header.wikitext"
                         },
+                        "header_template": {
+                            "urlPath": "Category/OSW6f39d77241e24a33ab6d036dfac03ace.slot_header_template.wikitext"
+                        },
                         "jsondata": {
                             "urlPath": "Category/OSW6f39d77241e24a33ab6d036dfac03ace.slot_jsondata.json"
                         },

@@ -1,38 +1,26 @@
 { 
-    "title": "{{{name}}}",
-    "defaultProperties": [
-        "label"{{#if positive_electrode}}, 
-        "positive_electrode"{{/if}}{{#if negative_electrode}}, 
-        "negative_electrode"{{/if}}{{#if reference_electrode}}, 
-        "reference_electrode"{{/if}}{{#if separator}}, 
-        "separator"{{/if}}{{#if electrolyte}}, 
-        "electrolyte"{{/if}}
+    "defaultProperties": [{{#replace "^[\s]*,+|,+[\s]*$" "" "g"}}{{!-- Trim leading and trailing whitespace + comma --}}{{#if positive_electrode}}
+        "positive_electrode",{{/if}}{{#if negative_electrode}} 
+        "negative_electrode",{{/if}}{{#if reference_electrode}}
+        "reference_electrode",{{/if}}{{#if separator}}
+        "separator",{{/if}}{{#if electrolyte}}
+        "electrolyte",{{/if}}{{/replace}}
     ],
-    "required": [
-        "uuid"
-    ],
-    "properties": { 
-        "uuid": {
-          "type": "string",
-          "format": "uuid",
-          "options": {
-            "hidden": true
-          }
-        } {{#if reference_electrode}},
+    "properties": { {{#replace "^[\s]*,+|,+[\s]*$" "" "g"}}{{!-- Trim leading and trailing whitespace + comma --}} {{#if reference_electrode}}
         "reference_electrode": {
             "range": "{{{reference_electrode}}}"
-        } {{/if}} {{#if positive_electrode}},
+        }, {{/if}} {{#if positive_electrode}}
         "positive_electrode": {
             "range": "{{{positive_electrode}}}"
-        } {{/if}} {{#if negative_electrode}},
+        }, {{/if}} {{#if negative_electrode}}
         "negative_electrode": {
             "range": "{{{negative_electrode}}}"
-        } {{/if}} {{#if electrolyte}},
+        }, {{/if}} {{#if electrolyte}}
         "electrolyte": {
             "range": "{{{electrolyte}}}"
-        } {{/if}} {{#if separator}},
+        }, {{/if}} {{#if separator}}
         "separator": {
             "range": "{{{separator}}}"
-        } {{/if}}
+        }, {{/if}} {{/replace}}
     } 
 }

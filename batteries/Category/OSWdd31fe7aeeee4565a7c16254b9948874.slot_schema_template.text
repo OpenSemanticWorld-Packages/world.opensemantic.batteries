@@ -1,34 +1,26 @@
 { 
     "title": "{{{name}}}",
-    "defaultProperties": [
-        "label"{{#if active_material}}, 
-        "active_material"{{/if}}{{#if binder}}, 
-        "binder"{{/if}}{{#if conductive_additive}}, 
-        "conductive_additive"{{/if}}{{#if current_collector}}, 
-        "current_collector"{{/if}}
+    "defaultProperties": [{{#replace "^[\s]*,+|,+[\s]*$" "" "g"}}{{!-- Trim leading and trailing whitespace + comma --}}{{#if active_material}}
+        "active_material",{{/if}}{{#if binder}}
+        "binder",{{/if}}{{#if conductive_additive}}
+        "conductive_additive",{{/if}}{{#if current_collector}}
+        "current_collector",{{/if}}{{/replace}}
     ],
     "required": [
         "uuid"
     ],
-    "properties": { 
-        "uuid": {
-          "type": "string",
-          "format": "uuid",
-          "options": {
-            "hidden": true
-          }
-        } {{#if active_material}},
+    "properties": { {{#replace "^[\s]*,+|,+[\s]*$" "" "g"}}{{!-- Trim leading and trailing whitespace + comma --}} {{#if active_material}}
         "active_material": {
             "range": "{{{active_material}}}"
-        } {{/if}} {{#if current_collector}},
+        }, {{/if}} {{#if current_collector}}
         "current_collector": {
             "range": "{{{current_collector}}}"
-        } {{/if}} {{#if binder}},
+        }, {{/if}} {{#if binder}}
         "binder": {
             "range": "{{{binder}}}"
-        } {{/if}} {{#if conductive_additive}},
+        }, {{/if}} {{#if conductive_additive}}
         "conductive_additive": {
             "range": "{{{conductive_additive}}}"
-        } {{/if}}
+        }, {{/if}} {{/replace}}
     } 
 }

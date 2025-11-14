@@ -5,18 +5,10 @@
         "battery_cell_form_factor"{{/if}}
     ],
     "required": [
-        "uuid"{{#if battery_cell_form_factor}}, 
-        "battery_cell_form_factor"{{/if}}
+        {{#if battery_cell_form_factor}}"battery_cell_form_factor"{{/if}}
     ],
     "properties": { 
-        "uuid": {
-          "type": "string",
-          "format": "uuid",
-          "options": {
-            "hidden": true
-          }
-        } {{#if battery_cell_form_factor}},
-        battery_cell_form_factor": {
+        {{#if battery_cell_form_factor}}battery_cell_form_factor": {
             "default": "{{{battery_cell_form_factor}}}"
         } {{/if}}
     } 
