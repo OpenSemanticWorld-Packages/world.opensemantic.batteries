@@ -1,0 +1,9 @@
+<h2 class="section-collapsible-initial-collapsed section-heading--collapsed">{{#switch:{{USERLANGUAGECODE}}|en=Data Viewer|de=Data-Viewer}}</h2>
+[http://localhost:20201/main?electrochemical_test_instance={{FULLPAGENAMEE}} Open in Data-Viewer]
+
+
+{{#tag:iframe
+|
+| key=localhost:20201
+| path=main?electrochemical_test_instance={{FULLPAGENAMEE}}
+}}
