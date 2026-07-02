@@ -9,7 +9,7 @@
     ],
     "type": "object",
     "uuid": "a211cf52-e86e-4792-9768-a769235f7144",
-    "title": "Format",
+    "title": "BatteryFormat",
     "title*": {
         "en": "Format",
         "de": "Format"

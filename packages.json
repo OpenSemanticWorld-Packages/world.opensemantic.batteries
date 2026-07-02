@@ -13,7 +13,7 @@
             "globalID": "world.opensemantic.batteries",
             "label": "OSW Batteries",
             "description": "Provides battery specific items like ElectrochemicalTest, BatteryCell, etc.",
-            "version": "1.2.1",
+            "version": "1.2.2",
             "requiredPackages": [
                 "world.opensemantic.base",
                 "world.opensemantic.lab"
