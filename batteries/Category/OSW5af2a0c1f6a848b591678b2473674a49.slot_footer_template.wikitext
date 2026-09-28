@@ -1,0 +1,11 @@
+== Dataset Graph ==
+{{Template:Editor/Graph
+| file_name = Electrochemical Cycling Dataset graph-01
+| page_name = Category:OSW5af2a0c1f6a848b591678b2473674a49
+| root = {{FULLPAGENAME}}
+| uuid = 82e66fbd-a01f-45f7-9d3d-0000ccea230e
+| properties = HasCharacteristic; HasQuantity; HasUnit; HasValue; HasType <!--;Equivalent_URI; HasCloseOntologyMatch-->
+| depth = 2
+| full_width = 0
+| edit = 0
+}}

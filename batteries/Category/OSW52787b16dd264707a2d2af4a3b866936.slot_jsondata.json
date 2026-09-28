@@ -1,0 +1,191 @@
+{
+    "type": [
+        "Category:OSWffe74f291d354037b318c422591c5023"
+    ],
+    "subclass_of": [
+        "Category:OSW93ccae36243542ceac6c951450a81d47"
+    ],
+    "label": [
+        {
+            "text": "CyclingDataRow",
+            "lang": "en"
+        }
+    ],
+    "properties": [
+        {
+            "type": "object",
+            "characteristic": "Category:OSW389cb87d31be515aa5d2f12e2b66e938",
+            "uuid": "33a08a32-e4c1-4ad8-916e-914d9af7b050",
+            "name": "test_time",
+            "rdf_property": "Property:HasCharacteristic",
+            "label": [
+                {
+                    "text": "Test Time",
+                    "lang": "en"
+                }
+            ],
+            "description": [
+                {
+                    "text": "Time elapsed since test start",
+                    "lang": "de"
+                }
+            ],
+            "required": true,
+            "recommended": true,
+            "array": false
+        },
+        {
+            "type": "object",
+            "characteristic": "Category:OSW19bdaead0e9852b68da79f45423f2b58",
+            "uuid": "e75f4279-5670-4dfb-92ac-d25ebb8b35a2",
+            "name": "voltage",
+            "rdf_property": "Property:HasCharacteristic",
+            "label": [
+                {
+                    "text": "Voltage",
+                    "lang": "de"
+                }
+            ],
+            "required": true,
+            "recommended": true,
+            "array": false
+        },
+        {
+            "type": "object",
+            "characteristic": "Category:OSW7c210ed3aad85519ae7330073a9d6f9f",
+            "uuid": "ddb19133-bc3a-483f-93f7-b363baa6f6df",
+            "name": "current",
+            "rdf_property": "Property:HasCharacteristic",
+            "label": [
+                {
+                    "text": "Current",
+                    "lang": "en"
+                }
+            ],
+            "required": true,
+            "recommended": true,
+            "array": false
+        },
+        {
+            "type": "object",
+            "characteristic": "Category:OSWb0250d3677f6592f9d4329c8b9d5f8d1",
+            "uuid": "f3a37894-fdf7-40c2-9247-30b7878abaf8",
+            "name": "cycle_count",
+            "rdf_property": "Property:HasCharacteristic",
+            "label": [
+                {
+                    "text": "Cycle Count",
+                    "lang": "en"
+                }
+            ],
+            "description": [
+                {
+                    "text": "Monotonically increasing cycle index",
+                    "lang": "en"
+                }
+            ],
+            "required": false,
+            "recommended": true,
+            "array": false
+        },
+        {
+            "type": "object",
+            "characteristic": "Category:OSWb0250d3677f6592f9d4329c8b9d5f8d1",
+            "uuid": "036309b6-eba8-4aa0-afee-7a926454c0b1",
+            "name": "step_count",
+            "rdf_property": "Property:HasCharacteristic",
+            "label": [
+                {
+                    "text": "Step Count",
+                    "lang": "en"
+                }
+            ],
+            "description": [
+                {
+                    "text": "Step index within program",
+                    "lang": "en"
+                }
+            ],
+            "required": false,
+            "recommended": true,
+            "array": false
+        },
+        {
+            "type": "object",
+            "characteristic": "Category:OSW389cb87d31be515aa5d2f12e2b66e938",
+            "uuid": "8cb46320-a93f-4246-b831-033297d27a5d",
+            "name": "step_time",
+            "rdf_property": "Property:HasCharacteristic",
+            "label": [
+                {
+                    "text": "Step Time",
+                    "lang": "en"
+                }
+            ],
+            "description": [
+                {
+                    "text": "Elapsed time since step start",
+                    "lang": "en"
+                }
+            ],
+            "required": false,
+            "recommended": true,
+            "array": false
+        },
+        {
+            "type": "object",
+            "characteristic": "Category:OSWb7248b1f04455ec99e6ff6e6b472d8de",
+            "uuid": "4c6fd9f0-5d20-43e8-a5f4-5185077f1716",
+            "name": "capacity",
+            "rdf_property": "Property:HasCharacteristic",
+            "label": [
+                {
+                    "text": "Capacity",
+                    "lang": "en"
+                }
+            ],
+            "description": [
+                {
+                    "text": "Accumulated Capacity since step start",
+                    "lang": "en"
+                }
+            ],
+            "required": false,
+            "recommended": true,
+            "array": false
+        },
+        {
+            "type": "object",
+            "characteristic": "Category:OSWc87ddd4a7d1159f0a75b686a61ef4e8e",
+            "uuid": "57d494a5-1d8a-432e-b814-b65f1f0f2aa2",
+            "name": "energy",
+            "rdf_property": "Property:HasCharacteristic",
+            "label": [
+                {
+                    "text": "Energy",
+                    "lang": "en"
+                }
+            ],
+            "description": [
+                {
+                    "text": "Accumulated Energy since step beginn",
+                    "lang": "en"
+                }
+            ],
+            "required": false,
+            "recommended": true,
+            "array": false
+        }
+    ],
+    "uuid": "52787b16-dd26-4707-a2d2-af4a3b866936",
+    "description": [
+        {
+            "text": "Required and some selected optional field names use the common battery-data semantics with the unit suffix stripped (the unit lives in the typed value). test_time, voltage and current are the core columns; the cycle/step counters, step time, capacity and energy are present in all common cycler exports.",
+            "lang": "en"
+        }
+    ],
+    "based_on": [
+        "Category:OSWb47db83a86fc43399f11aa10efff24a1"
+    ],
+    "name": "CyclingDataRow"
+}

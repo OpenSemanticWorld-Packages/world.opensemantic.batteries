@@ -13,13 +13,30 @@
             "globalID": "world.opensemantic.batteries",
             "label": "OSW Batteries",
             "description": "Provides battery specific items like ElectrochemicalTest, BatteryCell, etc.",
-            "version": "1.2.2",
+            "version": "1.3.0",
             "requiredPackages": [
                 "world.opensemantic.base",
                 "world.opensemantic.lab"
             ],
             "baseURL": "https://raw.githubusercontent.com/OpenSemanticWorld-Packages/world.opensemantic.batteries/main/batteries/",
             "pages": [
+                {
+                    "name": "OSW00b28106183c5ab3bbbbe8327930c825",
+                    "label": "WorldOpensemanticBatteries",
+                    "namespace": "NS_ITEM",
+                    "urlPath": "Item/OSW00b28106183c5ab3bbbbe8327930c825.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Item/OSW00b28106183c5ab3bbbbe8327930c825.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Item/OSW00b28106183c5ab3bbbbe8327930c825.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Item/OSW00b28106183c5ab3bbbbe8327930c825.slot_jsondata.json"
+                        }
+                    }
+                },
                 {
                     "name": "OSWc02165dc24544a10a2046b54506dedac",
                     "label": "BatteryCellMaterial",
@@ -1040,6 +1057,49 @@
                         },
                         "schema_template": {
                             "urlPath": "Category/OSWdd31fe7aeeee4565a7c16254b9948874.slot_schema_template.text"
+                        }
+                    }
+                },
+                {
+                    "name": "OSW5af2a0c1f6a848b591678b2473674a49",
+                    "label": "ElectrochemicalCyclingDataset",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSW5af2a0c1f6a848b591678b2473674a49.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSW5af2a0c1f6a848b591678b2473674a49.slot_footer.wikitext"
+                        },
+                        "footer_template": {
+                            "urlPath": "Category/OSW5af2a0c1f6a848b591678b2473674a49.slot_footer_template.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSW5af2a0c1f6a848b591678b2473674a49.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSW5af2a0c1f6a848b591678b2473674a49.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSW5af2a0c1f6a848b591678b2473674a49.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSW52787b16dd264707a2d2af4a3b866936",
+                    "label": "CyclingDataRow",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSW52787b16dd264707a2d2af4a3b866936.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSW52787b16dd264707a2d2af4a3b866936.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSW52787b16dd264707a2d2af4a3b866936.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSW52787b16dd264707a2d2af4a3b866936.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSW52787b16dd264707a2d2af4a3b866936.slot_jsonschema.json"
                         }
                     }
                 },
@@ -2130,7 +2190,7 @@
                 },
                 {
                     "name": "OSWa211cf52e86e47929768a769235f7144",
-                    "label": "Format",
+                    "label": "BatteryFormat",
                     "namespace": "NS_CATEGORY",
                     "urlPath": "Category/OSWa211cf52e86e47929768a769235f7144.slot_main.wikitext",
                     "slots": {

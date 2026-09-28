@@ -1,0 +1,46 @@
+{
+    "type": [
+        "Category:OSWffe74f291d354037b318c422591c5023"
+    ],
+    "subclass_of": [
+        "Category:OSWfe72974590fd4e8ba94cd4e8366375e8"
+    ],
+    "label": [
+        {
+            "text": "Electrochemical Cycling Dataset",
+            "lang": "en"
+        }
+    ],
+    "properties": [
+        {
+            "type": "object",
+            "characteristic": "Category:OSW52787b16dd264707a2d2af4a3b866936",
+            "uuid": "f6ce478a-8b79-4009-ad11-7fb6f210c619",
+            "name": "data",
+            "rdf_property": "Property:HasCharacteristic",
+            "label": [
+                {
+                    "text": "HasCharacteristic",
+                    "lang": "de"
+                }
+            ],
+            "description": [
+                {
+                    "text": "Links an entity to attribute objects",
+                    "lang": "de"
+                }
+            ],
+            "required": false,
+            "recommended": true,
+            "array": true
+        }
+    ],
+    "uuid": "5af2a0c1-f6a8-48b5-9167-8b2473674a49",
+    "description": [
+        {
+            "text": "Documents the metadata for an battery cycling dataset",
+            "lang": "en"
+        }
+    ],
+    "name": "ElectrochemicalCyclingDataset"
+}
