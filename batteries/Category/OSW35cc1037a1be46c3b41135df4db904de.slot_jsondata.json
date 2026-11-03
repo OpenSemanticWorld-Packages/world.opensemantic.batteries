@@ -1,0 +1,46 @@
+{
+    "type": [
+        "Category:OSWffe74f291d354037b318c422591c5023"
+    ],
+    "subclass_of": [
+        "Category:OSWfe72974590fd4e8ba94cd4e8366375e8"
+    ],
+    "label": [
+        {
+            "text": "Cycle Summary Dataset",
+            "lang": "en"
+        }
+    ],
+    "properties": [
+        {
+            "type": "object",
+            "characteristic": "Category:OSW24e6fc10a77f43b1ac481e0c102ade64",
+            "uuid": "4e9da994-dc7c-4049-aaa9-6a32897c75dd",
+            "name": "data",
+            "rdf_property": "Property:HasCharacteristic",
+            "label": [
+                {
+                    "text": "Data",
+                    "lang": "en"
+                }
+            ],
+            "description": [
+                {
+                    "text": "Rows of the summary, one per cycle.",
+                    "lang": "en"
+                }
+            ],
+            "required": false,
+            "recommended": true,
+            "array": true
+        }
+    ],
+    "uuid": "35cc1037-a1be-46c3-b411-35df4db904de",
+    "description": [
+        {
+            "text": "Per-cycle summary of a battery cycling dataset, one row per cycle.",
+            "lang": "en"
+        }
+    ],
+    "name": "CycleSummaryDataset"
+}

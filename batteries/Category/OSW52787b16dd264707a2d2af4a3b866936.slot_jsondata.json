@@ -175,6 +175,26 @@
             "required": false,
             "recommended": true,
             "array": false
+        },
+        {
+            "type": "string",
+            "uuid": "b6fb7a82-ff25-4081-9a2f-d7851961aa46",
+            "name": "step_type",
+            "label": [
+                {
+                    "text": "Step Type",
+                    "lang": "en"
+                }
+            ],
+            "description": [
+                {
+                    "text": "Operational mode of the current test step, as reported by the cycler software.",
+                    "lang": "en"
+                }
+            ],
+            "required": false,
+            "recommended": true,
+            "array": false
         }
     ],
     "uuid": "52787b16-dd26-4707-a2d2-af4a3b866936",

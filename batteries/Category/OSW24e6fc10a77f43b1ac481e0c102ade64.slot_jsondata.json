@@ -1,0 +1,134 @@
+{
+    "type": [
+        "Category:OSWffe74f291d354037b318c422591c5023"
+    ],
+    "subclass_of": [
+        "Category:OSW93ccae36243542ceac6c951450a81d47"
+    ],
+    "label": [
+        {
+            "text": "CycleDataRow",
+            "lang": "en"
+        }
+    ],
+    "properties": [
+        {
+            "type": "object",
+            "characteristic": "Category:OSWb0250d3677f6592f9d4329c8b9d5f8d1",
+            "uuid": "ec8fa74a-9cf2-4ef4-9183-454a6417a3c4",
+            "name": "cycle_count",
+            "rdf_property": "Property:HasCharacteristic",
+            "label": [
+                {
+                    "text": "Cycle Count",
+                    "lang": "en"
+                }
+            ],
+            "description": [
+                {
+                    "text": "Cycle number.",
+                    "lang": "en"
+                }
+            ],
+            "required": true,
+            "recommended": true,
+            "array": false
+        },
+        {
+            "type": "object",
+            "characteristic": "Category:OSWb7248b1f04455ec99e6ff6e6b472d8de",
+            "uuid": "fcfe7aae-87bc-4a25-97aa-f5704d596252",
+            "name": "charge_capacity",
+            "rdf_property": "Property:HasCharacteristic",
+            "label": [
+                {
+                    "text": "Charge Capacity",
+                    "lang": "en"
+                }
+            ],
+            "description": [
+                {
+                    "text": "Charge capacity of the cycle.",
+                    "lang": "en"
+                }
+            ],
+            "required": false,
+            "recommended": true,
+            "array": false
+        },
+        {
+            "type": "object",
+            "characteristic": "Category:OSWb7248b1f04455ec99e6ff6e6b472d8de",
+            "uuid": "98d20a69-b53c-47f1-a59a-e27f0a0c735b",
+            "name": "discharge_capacity",
+            "rdf_property": "Property:HasCharacteristic",
+            "label": [
+                {
+                    "text": "Discharge Capacity",
+                    "lang": "en"
+                }
+            ],
+            "description": [
+                {
+                    "text": "Discharge capacity of the cycle.",
+                    "lang": "en"
+                }
+            ],
+            "required": false,
+            "recommended": true,
+            "array": false
+        },
+        {
+            "type": "object",
+            "characteristic": "Category:OSW8cccae8a45095dcd89a769a33373731a",
+            "uuid": "c5e97f26-024c-4b25-bc25-bcd0e57ae8b1",
+            "name": "charge_coulomb_efficiency",
+            "rdf_property": "Property:HasCharacteristic",
+            "label": [
+                {
+                    "text": "Charge Coulomb Efficiency",
+                    "lang": "en"
+                }
+            ],
+            "description": [
+                {
+                    "text": "Charge capacity divided by discharge capacity, as a dimensionless ratio.",
+                    "lang": "en"
+                }
+            ],
+            "required": false,
+            "recommended": true,
+            "array": false
+        },
+        {
+            "type": "object",
+            "characteristic": "Category:OSW8cccae8a45095dcd89a769a33373731a",
+            "uuid": "dba1e0a3-7738-4189-be00-8030e54917b3",
+            "name": "discharge_coulomb_efficiency",
+            "rdf_property": "Property:HasCharacteristic",
+            "label": [
+                {
+                    "text": "Discharge Coulomb Efficiency",
+                    "lang": "en"
+                }
+            ],
+            "description": [
+                {
+                    "text": "Discharge capacity divided by charge capacity, as a dimensionless ratio.",
+                    "lang": "en"
+                }
+            ],
+            "required": false,
+            "recommended": true,
+            "array": false
+        }
+    ],
+    "uuid": "24e6fc10-a77f-43b1-ac48-1e0c102ade64",
+    "description": [
+        {
+            "text": "One row of a cycle summary: the charge and discharge capacity of a cycle and the two coulomb efficiencies derived from them. One row per cycle (wide form).",
+            "lang": "en"
+        }
+    ],
+    "name": "CycleDataRow"
+}

@@ -105,6 +105,30 @@
                                 "query": "[[:Category:OSWdda41d4a4ec0421babe0295c6edcb5df]]OR[[SubClassOf::Category:OSWdda41d4a4ec0421babe0295c6edcb5df]]OR[[SubClassOf.SubClassOf::Category:OSWdda41d4a4ec0421babe0295c6edcb5df]]OR[[SubClassOf.SubClassOf.SubClassOf::Category:OSWdda41d4a4ec0421babe0295c6edcb5df]]OR[[SubClassOf.SubClassOf.SubClassOf.SubClassOf::Category:OSWdda41d4a4ec0421babe0295c6edcb5df]]OR[[SubClassOf.SubClassOf.SubClassOf.SubClassOf.SubClassOf::Category:OSWdda41d4a4ec0421babe0295c6edcb5df]]"
                             }
                         }
+                    },
+                    "test_procedure_instance": {
+                        "title": "Instance",
+                        "description": "Select or create an appropiate test procedure.",
+                        "description*": {
+                            "de": "Wählen oder erstellen Sie ein geeignetes Prüfverfahren."
+                        },
+                        "type": "string",
+                        "format": "autocomplete",
+                        "watch": {
+                            "subcategory_select": "test_procedure.test_procedure_subcategory"
+                        },
+                        "options": {
+                            "autocomplete": {
+                                "query": "[[$(subcategory_select)]]"
+                            }
+                        }
+                    },
+                    "test_procedure_instance_property": {
+                        "type": "string",
+                        "default": "Property:HasProcedure",
+                        "options": {
+                            "hidden": true
+                        }
                     }
                 }
             }
