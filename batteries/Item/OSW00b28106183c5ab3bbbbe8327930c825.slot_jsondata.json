@@ -17,14 +17,14 @@
         }
     ],
     "meta": {
-        "uuid": "d3935acf-ed29-4979-b37b-2c988568bfb7",
+        "uuid": "f06f8f33-7a92-49d5-a38f-c5c3dabc1509",
         "wiki_page": null,
         "change_id": [
-            "8a812837-457e-4f91-bc4b-5e65302c45d7"
+            "93a8a83c-4bf2-42de-a695-a5c11b9d0e6a"
         ]
     },
     "global_id": "world.opensemantic.batteries",
-    "version": "1.4.0",
+    "version": "1.5.0",
     "url": [
         "https://github.com/OpenSemanticWorld-Packages/world.opensemantic.batteries"
     ],
@@ -83,6 +83,8 @@
         "Category:OSWdd31fe7aeeee4565a7c16254b9948874",
         "Category:OSW5af2a0c1f6a848b591678b2473674a49",
         "Category:OSW52787b16dd264707a2d2af4a3b866936",
+        "Category:OSW35cc1037a1be46c3b41135df4db904de",
+        "Category:OSW24e6fc10a77f43b1ac481e0c102ade64",
         "Category:OSW6f39d77241e24a33ab6d036dfac03ace",
         "Category:OSW9d5fc755409c433b822cf5c8feecdb32",
         "Category:OSW47c67760dd164c82b570f58c8269b373",

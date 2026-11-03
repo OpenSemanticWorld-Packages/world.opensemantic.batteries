@@ -129,6 +129,17 @@
                     },
                     "$ref": "/wiki/Category:OSWc87ddd4a7d1159f0a75b686a61ef4e8e?action=raw&slot=jsonschema",
                     "type": "object"
+                },
+                "step_type": {
+                    "title": "step_type",
+                    "title*": {
+                        "en": "Step Type"
+                    },
+                    "description": "Operational mode of the current test step, as reported by the cycler software.",
+                    "description*": {
+                        "en": "Operational mode of the current test step, as reported by the cycler software."
+                    },
+                    "type": "string"
                 }
             },
             "defaultProperties": [
@@ -140,7 +151,8 @@
                 "step_count",
                 "step_time",
                 "capacity",
-                "energy"
+                "energy",
+                "step_type"
             ]
         }
     },
@@ -149,6 +161,27 @@
             "$ref": "#/$defs/generated"
         }
     ],
+    "properties": {
+        "step_type": {
+            "title": "StepType",
+            "title*": {
+                "en": "Step Type"
+            },
+            "type": "string",
+            "enum": [
+                "CC_CHG",
+                "CC_DCH",
+                "CV_CHG",
+                "CV_DCH",
+                "CCCV_CHG",
+                "CCCV_DCH",
+                "REST",
+                "OCV",
+                "EIS",
+                "OTHER"
+            ]
+        }
+    },
     "title": "CyclingDataRow",
     "title*": {
         "en": "CyclingDataRow"
