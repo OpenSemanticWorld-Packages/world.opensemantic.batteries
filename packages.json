@@ -1105,7 +1105,7 @@
                 },
                 {
                     "name": "OSW35cc1037a1be46c3b41135df4db904de",
-                    "label": "Cycle Summary Dataset",
+                    "label": "CycleSummaryDataset",
                     "namespace": "NS_CATEGORY",
                     "urlPath": "Category/OSW35cc1037a1be46c3b41135df4db904de.slot_main.wikitext",
                     "slots": {
